@@ -1,0 +1,61 @@
+name: Publish Daily Empirical Gazette
+
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Research, fact-check, validate, and publish
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GAZETTE_MODEL: gpt-5.6-luna
+        run: python scripts/generate_daily.py
+
+      - name: Verify data
+        run: |
+          test -s site-data.js
+          python - <<'PY'
+          import re
+          import json
+          from pathlib import Path
+
+          t = Path("site-data.js").read_text()
+          m = re.search(
+              r"window\.GAZETTE_DATA\s*=\s*(\{.*\})\s*;\s*$",
+              t,
+              re.S
+          )
+
+          assert m
+          d = json.loads(m.group(1))
+          assert d.get("updated") and d.get("dispatches")
+          print("Gazette data validated.")
+          PY
+
+      - name: Publish changes
+        run: |
+          git config user.name "Empirical Gazette Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add site-data.js
+
+          git diff --cached --quiet || \
+            git commit -m "Publish daily science dispatch"
+
+          git push

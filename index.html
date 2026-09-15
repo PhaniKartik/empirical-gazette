@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Empirical Gazette — a daily, research-grounded newspaper of science history." />
+  <meta name="theme-color" content="#f2ede4" />
+  <script src="site-config.js"></script>
+  <title>The Empirical Gazette — Daily Homage to Science & Invention</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --newsprint-bg: #f6f3eb;
+      --newsprint-card: #faf8f3;
+      --ink: #11100e;
+      --rule-color: #2b2824;
+      --faint-rule: #d5d0c3;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--newsprint-bg);
+      color: var(--ink);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 19px;
+      line-height: 1.5;
+      padding: 24px 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .broadsheet-wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      border: 3px double var(--rule-color);
+      padding: 20px 28px;
+      background: var(--newsprint-card);
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Masthead */
+    header {
+      text-align: center;
+      border-bottom: 2px solid var(--rule-color);
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+    }
+
+    .sub-banner {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--rule-color);
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+    }
+
+    .masthead-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2.4rem, 6.2vw, 4.6rem);
+      font-weight: 900;
+      letter-spacing: -1.5px;
+      text-transform: uppercase;
+      line-height: 1;
+      margin: 6px 0;
+    }
+
+    .masthead-tagline {
+      font-style: italic;
+      font-size: 17px;
+      color: #38342f;
+      margin-bottom: 10px;
+    }
+
+    .edition-bar {
+      border-top: 1px solid var(--rule-color);
+      border-bottom: 2px solid var(--rule-color);
+      padding: 6px 4px;
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-transform: uppercase;
+    }
+
+    .edition-controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .gazette-btn {
+      background: transparent;
+      border: 1px solid var(--ink);
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      padding: 3px 10px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all 0.15s ease-in-out;
+    }
+
+    .gazette-btn:hover {
+      background: var(--ink);
+      color: var(--newsprint-bg);
+    }
+
+    /* Headline & Lead */
+    .lead-headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2.2rem, 4vw, 3.4rem);
+      font-weight: 900;
+      line-height: 1.06;
+      text-align: center;
+      margin: 22px 0 10px 0;
+      letter-spacing: -0.5px;
+    }
+
+    .deck-subhead {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 21px;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto 22px auto;
+      border-bottom: 1px dashed var(--rule-color);
+      padding-bottom: 14px;
+      line-height: 1.35;
+    }
+
+    /* Newspaper Grid */
+    .gazette-body-grid {
+      display: grid;
+      grid-template-columns: 2.1fr 1fr;
+      gap: 32px;
+      border-bottom: 2px solid var(--rule-color);
+      padding-bottom: 26px;
+    }
+
+    @media (max-width: 900px) {
+      .gazette-body-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Multi-Column Article */
+    .editorial-columns {
+      column-count: 2;
+      column-gap: 26px;
+      column-rule: 1px solid var(--faint-rule);
+      text-align: left;
+      text-justify: auto;
+      hyphens: none;
+      word-spacing: normal;
+      letter-spacing: normal;
+    }
+
+    @media (max-width: 600px) {
+      .editorial-columns {
+        column-count: 1;
+      }
+    }
+
+    .dateline {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      display: inline;
+    }
+
+    p {
+      margin-bottom: 16px;
+      line-height: 1.48;
+    }
+
+    .drop-cap {
+      float: left;
+      font-family: 'Playfair Display', serif;
+      font-size: 68px;
+      line-height: 52px;
+      padding-top: 6px;
+      padding-right: 8px;
+      font-weight: 900;
+    }
+
+    .pull-quote {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 22px;
+      line-height: 1.3;
+      border-top: 1px solid var(--rule-color);
+      border-bottom: 1px solid var(--rule-color);
+      padding: 14px 8px;
+      margin: 20px 0;
+      text-align: center;
+      break-inside: avoid;
+    }
+
+    /* Plate Frame & Portrait */
+    .side-dispatch {
+      border-left: 1px solid var(--rule-color);
+      padding-left: 24px;
+    }
+
+    @media (max-width: 900px) {
+      .side-dispatch {
+        border-left: none;
+        border-top: 1px solid var(--rule-color);
+        padding-left: 0;
+        padding-top: 24px;
+      }
+    }
+
+    .engraving-frame {
+      border: 1px solid var(--ink);
+      padding: 6px;
+      background: #ffffff;
+      box-shadow: 2px 3px 0 rgba(0,0,0,0.1);
+      margin-bottom: 10px;
+    }
+
+    .image-viewport {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 380px;
+      background-color: #eee;
+      border: 1px solid #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* High-contrast broadsheet rendering */
+    .scientist-portrait {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+      filter: grayscale(100%) contrast(115%) brightness(98%);
+      filter: grayscale(100%) contrast(140%) brightness(95%);
+      display: block;
+      background: #f2ede4;
+    }
+
+    .image-viewport img:not([src]) {
+      visibility: hidden;
+    }
+
+    .image-viewport.image-load-error::before {
+      content: "HISTORICAL PORTRAIT COULD NOT BE LOADED";
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+      font-family: 'Space Mono', monospace;
+      font-size: 12px;
+    }
+
+    /* Newspaper dot halftone filter */
+    .image-viewport::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(#000000 18%, transparent 19%);
+      background-size: 3px 3px;
+      opacity: 0.16;
+      pointer-events: none;
+    }
+
+    .portrait-caption {
+      font-size: 13px;
+      font-style: italic;
+      line-height: 1.35;
+      border-bottom: 1px solid var(--rule-color);
+      padding-bottom: 8px;
+      margin-bottom: 18px;
+    }
+
+    .lore-box {
+      border: 1px solid var(--rule-color);
+      padding: 14px;
+      background: #eeeae0;
+      border-left: 4px solid var(--ink);
+    }
+
+    .lore-tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      border-bottom: 1px solid var(--rule-color);
+      padding-bottom: 4px;
+      margin-bottom: 8px;
+    }
+
+    .lore-content {
+      font-size: 14.5px;
+      line-height: 1.45;
+    }
+
+    /* Archive Ticker */
+    .archive-banner {
+      margin-top: 20px;
+    }
+
+    .archive-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 12px;
+      list-style: none;
+    }
+
+    .archive-card {
+      border: 1px solid var(--rule-color);
+      padding: 10px 12px;
+      cursor: pointer;
+      background: #f1eee4;
+      transition: background 0.15s ease;
+    }
+
+    .archive-card:hover {
+      background: var(--ink);
+      color: var(--newsprint-bg);
+    }
+
+    .archive-card-date {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .archive-card-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 15.5px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+
+    .daily-strip {
+      border-top: 1px solid var(--rule-color);
+      border-bottom: 1px solid var(--rule-color);
+      margin: 18px 0 20px;
+      padding: 10px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .daily-feature {
+      padding: 8px 12px;
+      background: #f1eee4;
+      border-left: 3px solid var(--ink);
+    }
+    .daily-feature-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      font-weight: 700;
+    }
+    .daily-feature-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+    .daily-feature-copy {
+      font-size: 14px;
+      line-height: 1.35;
+      margin-top: 4px;
+    }
+    .evidence-box {
+      border: 1px solid var(--rule-color);
+      padding: 12px 14px;
+      margin: 20px 0;
+      background: #f5f1e8;
+      break-inside: avoid;
+    }
+    .evidence-box strong {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .timeline {
+      margin-top: 20px;
+      border-top: 2px solid var(--rule-color);
+      padding-top: 10px;
+    }
+    .timeline-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      list-style: none;
+    }
+    .timeline-item {
+      border: 1px solid var(--rule-color);
+      padding: 6px 9px;
+      background: #f1eee4;
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+    }
+    @media (max-width: 700px) {
+      .daily-strip { grid-template-columns: 1fr; }
+    }
+
+    footer {
+      margin-top: 24px;
+      text-align: center;
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      border-top: 1px solid var(--rule-color);
+      padding-top: 14px;
+    }
+  
+    .audience-bar { margin: 18px 0 24px; padding: 14px 18px; border: 1px solid #222; background: #eee7db; display:flex; gap:16px; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+    .audience-bar strong { font-family: Georgia, serif; font-size: 1.05rem; }
+    .audience-actions { display:flex; gap:10px; flex-wrap:wrap; }
+    .gazette-btn { display:inline-block; border:1px solid #222; padding:8px 12px; color:#111; background:#f8f6f0; text-decoration:none; font-family: Georgia, serif; font-weight:bold; cursor:pointer; }
+    .gazette-btn:hover { background:#fff; }
+    .edition-note { font-size:.78rem; letter-spacing:.04em; text-transform:uppercase; }
+
+</style>
+</head>
+<body>
+
+  <div class="broadsheet-wrapper">
+    <header>
+      <div class="sub-banner">
+        <span>Dedicated to the Scientific Method &amp; Human Discovery</span>
+        <span>Vol. I — No. 01</span>
+        <span>Empirical Findings &amp; Field Reports</span>
+      </div>
+      <h1 class="masthead-title">The Empirical Gazette</h1>
+      <p class="masthead-tagline">Chronicling the discoveries, street-lore, and curious circumstances behind humanity's triumphs</p>
+      
+      <div class="edition-bar">
+        <span id="masthead-date">Historical Date &amp; Location</span>
+        <div class="edition-controls">
+          <button class="gazette-btn" onclick="cycleStory(-1)">◀ Previous Dispatch</button>
+          <button class="gazette-btn" onclick="cycleStory(1)">Next Dispatch ▶</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2 class="lead-headline" id="main-headline">Loading Dispatch...</h2>
+      <p class="deck-subhead" id="main-deck">Retrieving monograph notes from the field archives.</p>
+
+      <div class="daily-strip">
+        <div class="daily-feature">
+          <div class="daily-feature-label">On This Day in Science</div>
+          <div class="daily-feature-title" id="on-this-day-title">Loading…</div>
+          <div class="daily-feature-copy" id="on-this-day-copy"></div>
+        </div>
+        <div class="daily-feature">
+          <div class="daily-feature-label">Scientific Instrument</div>
+          <div class="daily-feature-title" id="instrument-title">Loading…</div>
+          <div class="daily-feature-copy" id="instrument-copy"></div>
+        </div>
+      </div>
+
+      <div class="gazette-body-grid">
+        <article class="editorial-columns" id="main-content">
+          <!-- Text loaded by JavaScript -->
+        </article>
+
+        <aside class="side-dispatch">
+          <div class="engraving-frame">
+            <div class="image-viewport">
+              <img id="scientist-img" 
+                   class="scientist-portrait" 
+                   src="" 
+                   alt="Historical portrait" 
+                   loading="eager" />
+            </div>
+          </div>
+          <figcaption class="portrait-caption" id="portrait-caption">Engraving reproduction from laboratory records.</figcaption>
+
+          <div class="lore-box">
+            <div class="lore-tag">Street-Level Lore &amp; Curiosities</div>
+            <div class="lore-content" id="lore-body">
+              <!-- Lore loaded by JavaScript -->
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section class="archive-banner">
+        <div class="archive-label">Select From Historical Dispatches:</div>
+        <ul class="archive-grid" id="archive-deck">
+          <!-- Archive links -->
+        </ul>
+      </section>
+    </main>
+
+    <footer id="daily-quote">
+      <!-- Daily science quote loaded by JavaScript -->
+    </footer>
+  </div>
+
+  <script>
+    // Bulletproof SVG Engravings generated directly in pure code (no network failure possible)
+    function generateNewspaperEngraving(name, subtext, iconType) {
+      let icon = '';
+      if(iconType === 'microscope') {
+        icon = `
+          <rect x="180" y="70" width="40" height="130" rx="8" fill="#111" stroke="#fff" stroke-width="4" transform="rotate(25 200 135)"/>
+          <rect x="220" y="190" width="30" height="20" fill="#222" stroke="#fff" stroke-width="2"/>
+          <circle cx="200" cy="220" r="18" fill="#333"/>
+          <path d="M 190 238 C 170 260 170 300 190 320 L 210 320" stroke="#111" stroke-width="14" fill="none" stroke-linecap="round"/>
+          <rect x="130" y="320" width="140" height="18" fill="#111" rx="4"/>
+          <line x1="140" y1="260" x2="210" y2="260" stroke="#111" stroke-width="6"/>
+        `;
+      } else if(iconType === 'plant') {
+        icon = `
+          <path d="M 200 320 Q 195 220 200 110" stroke="#111" stroke-width="8" fill="none" stroke-linecap="round"/>
+          <path d="M 200 240 Q 140 220 130 170 Q 170 170 200 220" fill="#222" stroke="#fff" stroke-width="2"/>
+          <path d="M 200 180 Q 260 160 270 110 Q 230 110 200 160" fill="#222" stroke="#fff" stroke-width="2"/>
+          <path d="M 200 130 Q 160 110 160 70 Q 190 80 200 115" fill="#333" stroke="#fff" stroke-width="2"/>
+          <rect x="140" y="320" width="120" height="16" fill="#111" rx="3"/>
+        `;
+      } else {
+        icon = `
+          <path d="M 185 100 L 215 100 L 215 150 L 260 280 A 15 15 0 0 1 245 300 L 155 300 A 15 15 0 0 1 140 280 L 185 150 Z" fill="#222" stroke="#111" stroke-width="8"/>
+          <ellipse cx="200" cy="270" rx="35" ry="12" fill="#fff" opacity="0.8"/>
+          <path d="M 190 70 L 210 70 L 210 100 L 190 100 Z" fill="#111"/>
+        `;
+      }
+
+      const svg = `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+        <defs>
+          <pattern id="hatch" width="6" height="6" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+            <line x1="0" y1="0" x2="0" y2="6" stroke="#2b2824" stroke-width="1.8" />
+          </pattern>
+        </defs>
+        <rect width="400" height="500" fill="#f2ede4"/>
+        <rect x="16" y="16" width="368" height="468" fill="none" stroke="#222" stroke-width="2"/>
+        <rect x="24" y="24" width="352" height="452" fill="none" stroke="#222" stroke-width="1" stroke-dasharray="3,3"/>
+        
+        <circle cx="200" cy="210" r="140" fill="url(#hatch)" stroke="#111" stroke-width="3"/>
+        <circle cx="200" cy="210" r="130" fill="#f8f6f0" stroke="#111" stroke-width="2"/>
+        
+        ${icon}
+        
+        <rect x="40" y="380" width="320" height="70" fill="#f8f6f0" stroke="#111" stroke-width="2"/>
+        <text x="200" y="412" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#111" text-anchor="middle">${name}</text>
+        <text x="200" y="434" font-family="monospace" font-size="11" letter-spacing="1.5" fill="#444" text-anchor="middle">${subtext}</text>
+      </svg>`;
+      return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    }
+
+    // Daily content is generated automatically by scripts/generate_daily.py.
+    // It is loaded from site-data.js so the page remains a single deployable HTML file.
+    const dispatches = window.GAZETTE_DATA.dispatches || [];
+    const dailyQuote = window.GAZETTE_DATA.dailyQuote || {
+      text: "Somewhere, something incredible is waiting to be known.",
+      author: "Carl Sagan"
+    };
+
+    let currentIndex = 0;
+
+    function renderDailyQuote() {
+      const quote = dailyQuote;
+      document.getElementById('daily-quote').innerHTML =
+        `“${quote.text}” — ${quote.author}`;
+    }
+
+    function renderDisplay(index) {
+      const item = dispatches[index];
+      
+      document.getElementById('masthead-date').textContent = item.exactHistoricalDate;
+      document.getElementById('main-headline').textContent = item.headline;
+      document.getElementById('main-deck').textContent = item.deck;
+      document.getElementById('main-content').innerHTML = item.body;
+      
+      const img = document.getElementById('scientist-img');
+      
+      // Load the verified Wikimedia Commons portrait for this person.
+      // Never replace a real historical portrait with a generated illustration.
+      img.onerror = function() {
+        this.onerror = null;
+        this.removeAttribute('src');
+        this.alt = `Historical portrait unavailable: ${item.scientist}`;
+        this.parentElement.classList.add('image-load-error');
+      };
+
+      img.src = item.wikiImage;
+      img.alt = item.scientist;
+      img.title = `${item.scientist} — Wikimedia Commons`;
+
+      document.getElementById('portrait-caption').textContent = item.caption;
+      document.getElementById('lore-body').innerHTML = item.lore;
+    }
+
+    function populateArchive() {
+      const container = document.getElementById('archive-deck');
+      container.innerHTML = '';
+      dispatches.forEach((item, i) => {
+        const card = document.createElement('li');
+        card.className = 'archive-card';
+        card.innerHTML = `
+          <span class="archive-card-date">${item.exactHistoricalDate}</span>
+          <span class="archive-card-name">${item.scientist}</span>
+        `;
+        card.onclick = () => {
+          currentIndex = i;
+          renderDisplay(currentIndex);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+        container.appendChild(card);
+      });
+    }
+
+    function cycleStory(direction) {
+      currentIndex = (currentIndex + direction + dispatches.length) % dispatches.length;
+      renderDisplay(currentIndex);
+    }
+
+    function renderAudienceBar() {
+      const cfg = window.GAZETTE_CONFIG || {};
+      const actions = document.getElementById('audience-actions');
+      if (!actions) return;
+      actions.innerHTML = '';
+      const newsletter = cfg.newsletter || {};
+      if (newsletter.enabled && newsletter.signupUrl) {
+        const a = document.createElement('a');
+        a.className = 'gazette-btn'; a.href = newsletter.signupUrl; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = newsletter.label || 'Get the Gazette by email'; actions.appendChild(a);
+      }
+      const mon = cfg.monetization || {};
+      if (mon.supportEnabled && mon.supportUrl) {
+        const a = document.createElement('a');
+        a.className = 'gazette-btn'; a.href = mon.supportUrl; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = 'Support the Gazette'; actions.appendChild(a);
+      }
+      if (mon.premiumEnabled && mon.premiumUrl) {
+        const a = document.createElement('a');
+        a.className = 'gazette-btn'; a.href = mon.premiumUrl; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = 'Collector’s Edition'; actions.appendChild(a);
+      }
+      if (!actions.children.length) {
+        const span = document.createElement('span'); span.className='edition-note';
+        span.textContent='Daily editions remain free. Email delivery will be added as the audience grows.'; actions.appendChild(span);
+      }
+    }
+
+    function loadAnalytics() {
+      const a = (window.GAZETTE_CONFIG || {}).analytics || {};
+      if (!a.enabled || !a.scriptUrl) return;
+      const script=document.createElement('script'); script.defer=true; script.src=a.scriptUrl; document.head.appendChild(script);
+    }
+
+    // Run immediately
+    if (dispatches.length) {
+      renderDisplay(currentIndex);
+      populateArchive();
+    }
+    renderDailyQuote();
+    renderAudienceBar();
+    loadAnalytics();
+  </script>
+</body>
+</html>

@@ -2,6 +2,7 @@ import json, os, re
 from datetime import date
 from pathlib import Path
 import requests
+import time
 from openai import OpenAI
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -23,8 +24,18 @@ def commons(q):
     p={"action":"query","generator":"search","gsrsearch":q,"gsrnamespace":6,
        "gsrlimit":10,"prop":"imageinfo","iiprop":"url|extmetadata",
        "iiurlwidth":1000,"format":"json"}
-    r=requests.get("https://commons.wikimedia.org/w/api.php",params=p,timeout=30)
-    r.raise_for_status()
+    headers={
+        "User-Agent":"EmpiricalGazetteBot/1.0 (https://github.com/PhaniKartik/empirical-gazette) Python-requests",
+        "Api-User-Agent":"EmpiricalGazetteBot/1.0 (https://github.com/PhaniKartik/empirical-gazette)"
+    }
+    for attempt in range(3):
+        r=requests.get("https://commons.wikimedia.org/w/api.php",params=p,headers=headers,timeout=30)
+        if r.status_code in (429,500,502,503,504) and attempt < 2:
+            delay=int(r.headers.get("Retry-After","2")) if r.headers.get("Retry-After","2").isdigit() else 2
+            time.sleep(min(delay,10))
+            continue
+        r.raise_for_status()
+        break
     for x in r.json().get("query",{}).get("pages",{}).values():
         i=(x.get("imageinfo") or [{}])[0]; u=i.get("thumburl") or i.get("url")
         t=x.get("title",""); low=(t+" "+(u or "")).lower()

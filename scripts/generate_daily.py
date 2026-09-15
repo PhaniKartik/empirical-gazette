@@ -53,14 +53,14 @@ def main():
     archive="\n".join(f"- {x.get('headline','')}" for x in old[-100:]) or "(none)"
     c=OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
-    research=ask(c,f"""Research ONE documented historical science story for {TODAY}.
+    research=ask(c,f"""Research ONE documented historical event in science for {TODAY}. Prefer topics in physics, astronomy, mathematics, chemistry, earth science, computing, scientific instruments, or the history of scientific institutions. Medical or biological history is allowed only as high-level historical/biographical context. Do not provide experimental protocols, recipes, procedures, quantities, operational steps, or other actionable technical detail.
 Avoid these previous headlines:
 {archive}
 Return JSON with event,people,date,location,why_significant,key_facts,
 prevailing_belief,evidence,primary_sources,image_subject,search_queries,
 quote_candidate,quote_attribution,on_this_day_title,on_this_day_copy,
 instrument_title,instrument_copy.
-Use reliable sources. Never invent facts or quotations.""")
+Use reliable sources. Never invent facts or quotations. Keep all evidence descriptions non-procedural and suitable for a general historical newspaper.""")
 
     article=ask(c,f"""Write one Empirical Gazette dispatch using ONLY this dossier:
 {json.dumps(research,ensure_ascii=False)}
@@ -68,7 +68,7 @@ Return JSON with scientist,exactHistoricalDate,headline,deck,caption,lore,
 body_html,wrongBelief,evidence,primarySource,imageSearchQuery,quote,quoteAuthor,
 onThisDayTitle,onThisDayCopy,instrumentTitle,instrumentCopy.
 Use 3-5 <p> paragraphs, at most one pull quote, no Markdown, and no facts/quotes
-not supported by the dossier.""")
+not supported by the dossier. Keep medical/biological material historical and non-procedural; do not add instructions, protocols, recipes, quantities, or operational technical detail.""")
 
     image=None
     for q in research.get("search_queries",[])[:5]:
@@ -77,10 +77,11 @@ not supported by the dossier.""")
     if not image: image=commons(article.get("imageSearchQuery",article["scientist"]))
     if not image: raise RuntimeError("No historical image; publication aborted.")
 
-    check=ask(c,f"""Final fact-check. Compare DOSSIER and ARTICLE and IMAGE.
+    check=ask(c,f"""Final editorial fact-check. Compare DOSSIER, ARTICLE, and IMAGE for historical accuracy only.
 DOSSIER:{json.dumps(research,ensure_ascii=False)}
 ARTICLE:{json.dumps(article,ensure_ascii=False)}
 IMAGE:{json.dumps(image,ensure_ascii=False)}
+Do not expand or introduce procedural medical or biological information.
 Return JSON with pass,score,errors,warnings,verified_claims,image_ok,quote_ok,
 primary_source_ok. Fail for any material unsupported/contradicted claim,
 wrong date/person/location, unsupported quote/source, or unrelated image.""")

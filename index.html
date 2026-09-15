@@ -1,45 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>The Empirical Gazette — Historical Science, Daily</title>
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>
+    The Empirical Gazette — Historical Science, Daily
+  </title>
+
   <meta
     name="description"
     content="The Empirical Gazette — a daily historical science newspaper built from primary sources, research, and independent fact-checking."
   />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
 
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=UnifrakturCook:wght@700&display=swap"
     rel="stylesheet"
   />
 
+
   <style>
+
     :root {
+
       --paper: #efe4c8;
+
       --paper-dark: #e4d5b2;
+
       --ink: #1e1a14;
+
       --muted: #625847;
+
       --rule: #3d3428;
+
       --accent: #6e1f18;
+
       --accent-dark: #48130f;
+
       --white: #f7f0dc;
+
     }
+
 
     * {
       box-sizing: border-box;
     }
 
+
     html {
       scroll-behavior: smooth;
     }
 
+
     body {
+
       margin: 0;
+
       background:
         radial-gradient(
           circle at 20% 10%,
@@ -52,17 +85,31 @@
           transparent 30%
         ),
         var(--paper);
+
       color: var(--ink);
-      font-family: "Libre Baskerville", Georgia, serif;
+
+      font-family:
+        "Libre Baskerville",
+        Georgia,
+        serif;
+
       line-height: 1.65;
+
     }
 
+
     body::before {
+
       content: "";
+
       position: fixed;
+
       inset: 0;
+
       pointer-events: none;
+
       opacity: 0.08;
+
       background-image:
         repeating-linear-gradient(
           0deg,
@@ -71,688 +118,1416 @@
           transparent 1px,
           transparent 4px
         );
+
       mix-blend-mode: multiply;
+
       z-index: 9999;
+
     }
+
 
     a {
       color: inherit;
     }
 
+
     .gazette-shell {
+
       max-width: 1380px;
+
       margin: 0 auto;
-      padding: 22px 28px 60px;
+
+      padding:
+        22px
+        28px
+        60px;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        MASTHEAD
-       ========================= */
+       ===================================================== */
 
     .masthead {
-      border-top: 5px double var(--rule);
-      border-bottom: 5px double var(--rule);
-      padding: 18px 0 14px;
+
+      border-top:
+        5px double var(--rule);
+
+      border-bottom:
+        5px double var(--rule);
+
+      padding:
+        18px
+        0
+        14px;
+
       text-align: center;
+
     }
+
 
     .masthead-kicker {
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 0.95rem;
+
       font-weight: 700;
+
       letter-spacing: 0.22em;
+
       text-transform: uppercase;
+
     }
+
 
     .masthead-title {
-      margin: 2px 0 0;
-      font-family: "UnifrakturCook", "Old English Text MT", serif;
-      font-size: clamp(3.4rem, 8vw, 7rem);
+
+      margin:
+        2px
+        0
+        0;
+
+      font-family:
+        "UnifrakturCook",
+        "Old English Text MT",
+        serif;
+
+      font-size:
+        clamp(
+          3.4rem,
+          8vw,
+          7rem
+        );
+
       line-height: 0.95;
+
       font-weight: 700;
+
     }
+
 
     .masthead-subtitle {
-      margin: 8px 0 0;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      margin:
+        8px
+        0
+        0;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1.15rem;
+
       font-style: italic;
+
     }
+
 
     .masthead-meta {
+
       display: flex;
+
       justify-content: center;
+
       flex-wrap: wrap;
-      gap: 14px 28px;
+
+      gap:
+        14px
+        28px;
+
       margin-top: 12px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 0.95rem;
+
       font-weight: 600;
+
       letter-spacing: 0.08em;
+
       text-transform: uppercase;
+
     }
 
-    /* =========================
-       TOP NAV
-       ========================= */
+
+    /* =====================================================
+       NAVIGATION
+       ===================================================== */
 
     .gazette-nav {
+
       display: flex;
+
       justify-content: center;
+
       flex-wrap: wrap;
+
       gap: 18px;
-      padding: 11px 0;
-      border-bottom: 1px solid var(--rule);
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      padding:
+        11px
+        0;
+
+      border-bottom:
+        1px solid var(--rule);
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1rem;
+
       font-weight: 700;
+
       letter-spacing: 0.08em;
+
       text-transform: uppercase;
+
     }
+
 
     .gazette-nav a {
+
       text-decoration: none;
+
     }
+
 
     .gazette-nav a:hover {
+
       color: var(--accent);
+
       text-decoration: underline;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        MAIN GRID
-       ========================= */
+       ===================================================== */
 
     .gazette-body-grid {
+
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 315px;
+
+      grid-template-columns:
+        minmax(0, 1fr)
+        315px;
+
       gap: 28px;
+
       align-items: start;
+
       margin-top: 28px;
+
     }
+
 
     .main-dispatch {
+
       min-width: 0;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        EDITION HEADER
-       ========================= */
+       ===================================================== */
 
     .edition-header {
-      border-bottom: 3px solid var(--rule);
+
+      border-bottom:
+        3px solid var(--rule);
+
       padding-bottom: 13px;
+
       margin-bottom: 22px;
+
     }
+
 
     .edition-line {
+
       display: flex;
+
       justify-content: space-between;
+
       align-items: baseline;
+
       gap: 16px;
+
       flex-wrap: wrap;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-weight: 700;
+
       text-transform: uppercase;
+
       letter-spacing: 0.08em;
+
     }
+
 
     .dispatch-number {
+
       color: var(--accent);
+
     }
+
 
     .edition-date {
+
       color: var(--muted);
+
     }
+
 
     .location-badge {
+
       display: inline-block;
+
       margin-top: 10px;
-      padding: 3px 10px;
-      border: 1px solid var(--rule);
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      padding:
+        3px
+        10px;
+
+      border:
+        1px solid var(--rule);
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 0.9rem;
+
       font-weight: 700;
+
       letter-spacing: 0.08em;
+
       text-transform: uppercase;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        HEADLINE
-       ========================= */
+       ===================================================== */
 
     .headline {
+
       margin: 0;
-      font-family: "Cormorant Garamond", Georgia, serif;
-      font-size: clamp(2.8rem, 5vw, 5.4rem);
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+      font-size:
+        clamp(
+          2.8rem,
+          5vw,
+          5.4rem
+        );
+
       line-height: 0.94;
+
       font-weight: 700;
+
       letter-spacing: -0.025em;
+
     }
+
 
     .dek {
+
       max-width: 900px;
-      margin: 12px 0 0;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      margin:
+        12px
+        0
+        0;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1.35rem;
+
       line-height: 1.35;
+
       font-style: italic;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        ARTICLE
-       ========================= */
+       ===================================================== */
 
     .article {
+
       margin-top: 24px;
+
     }
+
 
     .article::after {
+
       content: "";
+
       display: table;
+
       clear: both;
+
     }
+
 
     .article-body {
-      columns: 2 360px;
+
+      columns:
+        2
+        360px;
+
       column-gap: 34px;
-      column-rule: 1px solid rgba(61,52,40,0.35);
+
+      column-rule:
+        1px solid
+        rgba(61,52,40,0.35);
+
       font-size: 0.98rem;
+
       line-height: 1.75;
+
       text-align: left;
+
       text-justify: auto;
+
       hyphens: none;
+
       word-spacing: normal;
+
       letter-spacing: normal;
+
     }
+
 
     .article-body p {
-      margin: 0 0 1.15em;
+
+      margin:
+        0
+        0
+        1.15em;
+
       break-inside: avoid;
+
     }
+
 
     .article-body p:first-child::first-letter {
+
       float: left;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 4.2rem;
+
       line-height: 0.78;
+
       font-weight: 700;
+
       padding-right: 7px;
+
       color: var(--accent);
+
     }
+
 
     .article-body strong {
+
       font-weight: 700;
+
     }
 
-    /* =========================
+
+    .article-body em {
+
+      font-style: italic;
+
+    }
+
+
+    .article-body .drop-cap {
+
+      float: left;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+      font-size: 4.2rem;
+
+      line-height: 0.78;
+
+      font-weight: 700;
+
+      padding-right: 7px;
+
+      color: var(--accent);
+
+    }
+
+
+    /* =====================================================
        EDITORIAL BOXES
-       ========================= */
+       ===================================================== */
 
     .editorial-grid {
+
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+
+      grid-template-columns:
+        repeat(
+          2,
+          minmax(0, 1fr)
+        );
+
       gap: 18px;
+
       margin-top: 28px;
+
     }
+
 
     .editorial-box {
-      border-top: 3px solid var(--rule);
-      border-bottom: 1px solid var(--rule);
-      padding: 13px 14px 15px;
+
+      border-top:
+        3px solid var(--rule);
+
+      border-bottom:
+        1px solid var(--rule);
+
+      padding:
+        13px
+        14px
+        15px;
+
       break-inside: avoid;
+
     }
+
 
     .editorial-label {
+
       margin-bottom: 7px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 0.92rem;
+
       font-weight: 700;
+
       letter-spacing: 0.12em;
+
       text-transform: uppercase;
+
       color: var(--accent);
+
     }
+
 
     .editorial-content {
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1.08rem;
+
       line-height: 1.45;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        PRIMARY SOURCE
-       ========================= */
+       ===================================================== */
 
     .primary-source {
+
       margin-top: 28px;
+
       padding: 18px;
-      border: 1px solid var(--rule);
-      background: rgba(255,255,255,0.12);
+
+      border:
+        1px solid var(--rule);
+
+      background:
+        rgba(255,255,255,0.12);
+
     }
+
 
     .primary-source-title {
-      margin: 0 0 8px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      margin:
+        0
+        0
+        8px;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1.45rem;
+
       font-weight: 700;
+
     }
+
 
     .primary-source-meta {
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 0.98rem;
+
       line-height: 1.5;
+
     }
+
 
     .primary-source-meta a {
+
       color: var(--accent);
+
       font-weight: 700;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        TIMELINE
-       ========================= */
+       ===================================================== */
 
     .timeline-section {
+
       margin-top: 30px;
-      border-top: 3px double var(--rule);
+
+      border-top:
+        3px double var(--rule);
+
       padding-top: 18px;
+
     }
+
 
     .section-heading {
-      margin: 0 0 12px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      margin:
+        0
+        0
+        12px;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1.8rem;
+
       font-weight: 700;
+
     }
+
 
     .timeline {
+
       display: grid;
+
       gap: 10px;
+
     }
+
 
     .timeline-item {
+
       display: grid;
-      grid-template-columns: 90px 1fr;
+
+      grid-template-columns:
+        90px
+        1fr;
+
       gap: 15px;
-      border-bottom: 1px dotted rgba(61,52,40,0.6);
+
+      border-bottom:
+        1px dotted
+        rgba(61,52,40,0.6);
+
       padding-bottom: 9px;
+
     }
+
 
     .timeline-year {
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-weight: 700;
+
       color: var(--accent);
+
     }
+
 
     .timeline-event {
+
       font-size: 0.94rem;
+
     }
 
-    /* =========================
-       SIDEBAR
-       ========================= */
+
+    /* =====================================================
+       IMAGE SIDEBAR
+       
+       IMAGES ARE DISABLED FOR NOW.
+       The sidebar is hidden.
+       ===================================================== */
 
     .side-dispatch {
-      border-left: 1px solid var(--rule);
-      padding-left: 20px;
+
+      display: none !important;
+
     }
+
 
     .engraving-frame {
-      border: 1px solid var(--rule);
+
+      border:
+        1px solid var(--rule);
+
       padding: 8px;
+
       background: var(--paper-dark);
+
     }
+
 
     .image-viewport {
+
       overflow: hidden;
+
       aspect-ratio: 4 / 5;
+
       background: #d8c9a8;
+
     }
+
 
     .scientist-portrait {
+
       display: block;
+
       width: 100%;
+
       height: 100%;
+
       object-fit: cover;
-      filter: grayscale(100%) contrast(1.05) sepia(15%);
+
+      filter:
+        grayscale(100%)
+        contrast(1.05)
+        sepia(15%);
+
     }
+
 
     .portrait-caption {
+
       margin-top: 7px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 0.88rem;
+
       font-style: italic;
+
       line-height: 1.3;
+
     }
+
 
     .lore-box {
+
       margin-top: 22px;
+
       padding: 14px;
-      border-top: 3px solid var(--rule);
-      border-bottom: 1px solid var(--rule);
+
+      border-top:
+        3px solid var(--rule);
+
+      border-bottom:
+        1px solid var(--rule);
+
     }
+
 
     .lore-tag {
+
       margin-bottom: 8px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 0.9rem;
+
       font-weight: 700;
+
       color: var(--accent);
+
       text-transform: uppercase;
+
       letter-spacing: 0.1em;
+
     }
+
 
     .lore-content {
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1.05rem;
+
       line-height: 1.45;
+
     }
 
-    /* =========================
-       ON THIS DAY / INSTRUMENT
-       ========================= */
+
+    /* =====================================================
+       DAILY SCIENCE
+       ===================================================== */
 
     .daily-section {
+
       margin-top: 32px;
+
       padding-top: 18px;
-      border-top: 3px double var(--rule);
+
+      border-top:
+        3px double var(--rule);
+
     }
+
 
     .daily-grid {
+
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+
+      grid-template-columns:
+        repeat(
+          2,
+          minmax(0, 1fr)
+        );
+
       gap: 20px;
+
     }
+
 
     .daily-card {
+
       padding: 16px;
-      border: 1px solid var(--rule);
-      background: rgba(255,255,255,0.08);
+
+      border:
+        1px solid var(--rule);
+
+      background:
+        rgba(255,255,255,0.08);
+
     }
+
 
     .daily-card-label {
+
       margin-bottom: 7px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 0.9rem;
+
       font-weight: 700;
+
       letter-spacing: 0.1em;
+
       text-transform: uppercase;
+
       color: var(--accent);
+
     }
+
 
     .daily-card-title {
-      margin: 0 0 7px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      margin:
+        0
+        0
+        7px;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1.45rem;
+
       font-weight: 700;
+
     }
+
 
     .daily-card-body {
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1.02rem;
+
       line-height: 1.5;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        QUOTE
-       ========================= */
+       ===================================================== */
 
     .quote-section {
+
       margin-top: 32px;
-      padding: 20px 24px;
-      border-top: 5px double var(--rule);
-      border-bottom: 5px double var(--rule);
+
+      padding:
+        20px
+        24px;
+
+      border-top:
+        5px double var(--rule);
+
+      border-bottom:
+        5px double var(--rule);
+
       text-align: center;
+
     }
+
 
     .quote-mark {
-      font-family: Georgia, serif;
+
+      font-family:
+        Georgia,
+        serif;
+
       font-size: 3rem;
+
       line-height: 0.5;
+
       color: var(--accent);
+
     }
+
 
     .quote-text {
-      margin: 10px auto 6px;
+
+      margin:
+        10px
+        auto
+        6px;
+
       max-width: 850px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1.55rem;
+
       line-height: 1.35;
+
       font-style: italic;
+
     }
+
 
     .quote-attribution {
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 0.95rem;
+
       font-weight: 700;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        EDITOR'S NOTE
-       ========================= */
+       ===================================================== */
 
     .editors-note {
+
       margin-top: 28px;
-      padding: 16px 18px;
-      border-left: 4px solid var(--accent);
-      background: rgba(110,31,24,0.055);
+
+      padding:
+        16px
+        18px;
+
+      border-left:
+        4px solid var(--accent);
+
+      background:
+        rgba(110,31,24,0.055);
+
     }
+
 
     .editors-note-title {
-      margin: 0 0 5px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      margin:
+        0
+        0
+        5px;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1.35rem;
+
       font-weight: 700;
+
     }
+
 
     .editors-note-body {
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 1rem;
+
       line-height: 1.5;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        ARCHIVE
-       ========================= */
+       ===================================================== */
 
     .archive-section {
+
       margin-top: 35px;
+
       padding-top: 18px;
-      border-top: 3px double var(--rule);
+
+      border-top:
+        3px double var(--rule);
+
     }
+
 
     .archive-list {
+
       display: grid;
+
       gap: 8px;
+
     }
+
 
     .archive-item {
+
       display: flex;
+
       justify-content: space-between;
+
       gap: 15px;
-      padding: 8px 0;
-      border-bottom: 1px dotted rgba(61,52,40,0.55);
+
+      padding:
+        8px
+        0;
+
+      border-bottom:
+        1px dotted
+        rgba(61,52,40,0.55);
+
     }
+
 
     .archive-item a {
+
       text-decoration: none;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-weight: 700;
+
+      cursor: pointer;
+
     }
+
 
     .archive-item a:hover {
+
       color: var(--accent);
+
       text-decoration: underline;
+
     }
+
 
     .archive-date {
+
       white-space: nowrap;
+
       color: var(--muted);
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 0.9rem;
+
     }
 
-    /* =========================
+
+    /* =====================================================
        NEWSLETTER
-       ========================= */
+       ===================================================== */
 
     .newsletter {
+
       margin-top: 35px;
+
       padding: 22px;
-      border: 2px solid var(--rule);
+
+      border:
+        2px solid var(--rule);
+
       text-align: center;
+
     }
+
 
     .newsletter h2 {
-      margin: 0 0 7px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      margin:
+        0
+        0
+        7px;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-size: 2rem;
+
     }
+
 
     .newsletter p {
-      margin: 0 auto 14px;
+
+      margin:
+        0
+        auto
+        14px;
+
       max-width: 700px;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
     }
+
 
     .newsletter-form {
+
       display: flex;
+
       justify-content: center;
+
       gap: 8px;
+
       max-width: 650px;
+
       margin: 0 auto;
+
     }
+
 
     .newsletter-form input {
+
       min-width: 0;
+
       flex: 1;
-      padding: 11px 12px;
-      border: 1px solid var(--rule);
+
+      padding:
+        11px
+        12px;
+
+      border:
+        1px solid var(--rule);
+
       background: var(--white);
+
       color: var(--ink);
+
       font-family: inherit;
+
     }
+
 
     .newsletter-form button {
-      padding: 11px 17px;
-      border: 1px solid var(--rule);
+
+      padding:
+        11px
+        17px;
+
+      border:
+        1px solid var(--rule);
+
       background: var(--ink);
+
       color: var(--white);
+
       cursor: pointer;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
       font-weight: 700;
+
     }
+
 
     .newsletter-form button:hover {
+
       background: var(--accent);
+
     }
 
-    /* =========================
+
+    /* =====================================================
        FOOTER
-       ========================= */
+       ===================================================== */
 
     footer {
+
       margin-top: 42px;
+
       padding-top: 18px;
-      border-top: 5px double var(--rule);
+
+      border-top:
+        5px double var(--rule);
+
       text-align: center;
-      font-family: "Cormorant Garamond", Georgia, serif;
+
+      font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
     }
+
 
     .footer-quote {
+
       margin-bottom: 12px;
+
       font-size: 1.15rem;
+
       font-style: italic;
+
     }
+
 
     .footer-meta {
+
       font-size: 0.9rem;
+
       color: var(--muted);
+
     }
 
-    /* =========================
-       IMAGE ERROR
-       ========================= */
 
-    .image-load-error {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 240px;
-      padding: 20px;
-      text-align: center;
-      background: var(--paper-dark);
-      color: var(--muted);
-      font-family: "Cormorant Garamond", Georgia, serif;
-    }
-
-    /* =========================
+    /* =====================================================
        RESPONSIVE
-       ========================= */
+       ===================================================== */
 
     @media (max-width: 950px) {
+
       .gazette-body-grid {
+
         grid-template-columns: 1fr;
+
       }
 
-      .side-dispatch {
-        border-left: 0;
-        border-top: 1px solid var(--rule);
-        padding-left: 0;
-        padding-top: 22px;
-      }
-
-      .article-body {
-        columns: 2 300px;
-      }
     }
 
+
     @media (max-width: 680px) {
+
       .gazette-shell {
-        padding: 14px 15px 40px;
+
+        padding:
+          14px
+          15px
+          40px;
+
       }
+
 
       .masthead-title {
+
         font-size: 3.5rem;
+
       }
+
 
       .masthead-meta {
-        gap: 7px 15px;
+
+        gap:
+          7px
+          15px;
+
       }
 
+
       .article-body {
+
         columns: 1;
+
         column-rule: none;
+
       }
+
 
       .editorial-grid,
       .daily-grid {
+
         grid-template-columns: 1fr;
+
       }
 
+
       .newsletter-form {
+
         flex-direction: column;
+
       }
+
 
       .newsletter-form input,
       .newsletter-form button {
+
         width: 100%;
+
       }
 
+
       .timeline-item {
-        grid-template-columns: 70px 1fr;
+
+        grid-template-columns:
+          70px
+          1fr;
+
       }
+
+
+      .archive-item {
+
+        flex-direction: column;
+
+        gap: 3px;
+
+      }
+
     }
+
   </style>
+
 </head>
+
 
 <body>
 
+
   <div class="gazette-shell">
 
-    <!-- =========================
+
+    <!-- ===================================================
          MASTHEAD
-         ========================= -->
+         =================================================== -->
 
     <header class="masthead">
 
@@ -760,102 +1535,167 @@
         A Chronicle of Discovery
       </div>
 
+
       <h1 class="masthead-title">
         The Empirical Gazette
       </h1>
+
 
       <div class="masthead-subtitle">
         Historical Science, Reported with Evidence
       </div>
 
+
       <div class="masthead-meta">
-        <span id="masthead-date">Daily Edition</span>
+
+        <span id="masthead-date">
+          Daily Edition
+        </span>
+
         <span>•</span>
-        <span id="masthead-location">International Scientific Dispatch</span>
+
+        <span id="masthead-location">
+          International Scientific Dispatch
+        </span>
+
       </div>
 
     </header>
 
-    <!-- =========================
+
+    <!-- ===================================================
          NAVIGATION
-         ========================= -->
+         =================================================== -->
 
     <nav class="gazette-nav">
-      <a href="#dispatch">Dispatch</a>
-      <a href="#evidence">Evidence</a>
-      <a href="#timeline">Timeline</a>
-      <a href="#daily">On This Day</a>
-      <a href="#archive">Archive</a>
-      <a href="#newsletter">Subscribe</a>
+
+      <a href="#dispatch">
+        Dispatch
+      </a>
+
+      <a href="#evidence">
+        Evidence
+      </a>
+
+      <a href="#timeline">
+        Timeline
+      </a>
+
+      <a href="#daily">
+        On This Day
+      </a>
+
+      <a href="#archive">
+        Archive
+      </a>
+
+      <a href="#newsletter">
+        Subscribe
+      </a>
+
     </nav>
 
 
-    <!-- =========================
+    <!-- ===================================================
          MAIN BODY
-         ========================= -->
+         =================================================== -->
 
     <main class="gazette-body-grid">
 
-      <!-- =========================
-           MAIN DISPATCH
-           ========================= -->
 
-      <article class="main-dispatch" id="dispatch">
+      <!-- =================================================
+           MAIN DISPATCH
+           ================================================= -->
+
+      <article
+        class="main-dispatch"
+        id="dispatch"
+      >
+
 
         <header class="edition-header">
 
           <div class="edition-line">
 
-            <span class="dispatch-number" id="dispatch-number">
+            <span
+              class="dispatch-number"
+              id="dispatch-number"
+            >
               Dispatch No. 000
             </span>
 
-            <span class="edition-date" id="edition-date">
+
+            <span
+              class="edition-date"
+              id="edition-date"
+            >
               Daily Edition
             </span>
 
           </div>
 
-          <div class="location-badge" id="location-badge">
+
+          <div
+            class="location-badge"
+            id="location-badge"
+          >
             Historical Science Dispatch
           </div>
 
         </header>
 
 
-        <!-- =========================
+        <!-- =================================================
              HEADLINE
-             ========================= -->
+             ================================================= -->
 
-        <h2 class="headline" id="headline">
+        <h2
+          class="headline"
+          id="headline"
+        >
           Loading today's dispatch…
         </h2>
 
-        <p class="dek" id="dek">
-          The Empirical Gazette is preparing today's historical science report.
+
+        <p
+          class="dek"
+          id="dek"
+        >
+          The Empirical Gazette is preparing today's historical
+          science report.
         </p>
 
 
-        <!-- =========================
+        <!-- =================================================
              ARTICLE
-             ========================= -->
+             ================================================= -->
 
         <section class="article">
 
-          <div class="article-body" id="article-body">
+          <div
+            class="article-body"
+            id="article-body"
+          >
+
             <p>
-              The day's dispatch is being prepared from historical sources.
+              The day's dispatch is being prepared from historical
+              sources.
             </p>
+
           </div>
 
         </section>
 
 
-        <!-- =========================
+        <!-- =================================================
              EDITORIAL FACT CHECK
-             ========================= -->
+             ================================================= -->
 
-        <section class="editorial-grid" id="evidence">
+        <section
+          class="editorial-grid"
+          id="evidence"
+        >
+
 
           <div class="editorial-box">
 
@@ -863,7 +1703,11 @@
               What They Got Wrong
             </div>
 
-            <div class="editorial-content" id="wrong-belief">
+
+            <div
+              class="editorial-content"
+              id="wrong-belief"
+            >
               Loading…
             </div>
 
@@ -876,18 +1720,23 @@
               What Evidence Showed
             </div>
 
-            <div class="editorial-content" id="evidence-showed">
+
+            <div
+              class="editorial-content"
+              id="evidence-showed"
+            >
               Loading…
             </div>
 
           </div>
 
+
         </section>
 
 
-        <!-- =========================
+        <!-- =================================================
              PRIMARY SOURCE
-             ========================= -->
+             ================================================= -->
 
         <section class="primary-source">
 
@@ -895,42 +1744,66 @@
             Primary Source
           </h3>
 
-          <div class="primary-source-meta" id="primary-source">
+
+          <div
+            class="primary-source-meta"
+            id="primary-source"
+          >
             Loading primary source information…
           </div>
 
         </section>
 
 
-        <!-- =========================
+        <!-- =================================================
              DISCOVERY TIMELINE
-             ========================= -->
+             ================================================= -->
 
-        <section class="timeline-section" id="timeline">
+        <section
+          class="timeline-section"
+          id="timeline"
+        >
 
           <h3 class="section-heading">
             Discovery Timeline
           </h3>
 
-          <div class="timeline" id="timeline-list">
+
+          <div
+            class="timeline"
+            id="timeline-list"
+          >
+
             <div class="timeline-item">
-              <div class="timeline-year">—</div>
+
+              <div class="timeline-year">
+                —
+              </div>
+
+
               <div class="timeline-event">
                 Timeline loading…
               </div>
+
             </div>
+
           </div>
 
         </section>
 
 
-        <!-- =========================
+        <!-- =================================================
              DAILY SCIENCE
-             ========================= -->
+             ================================================= -->
 
-        <section class="daily-section" id="daily">
+        <section
+          class="daily-section"
+          id="daily"
+        >
+
 
           <div class="daily-grid">
+
 
             <div class="daily-card">
 
@@ -938,11 +1811,19 @@
                 On This Day in Science
               </div>
 
-              <h3 class="daily-card-title" id="on-this-day-title">
+
+              <h3
+                class="daily-card-title"
+                id="on-this-day-title"
+              >
                 Loading…
               </h3>
 
-              <div class="daily-card-body" id="on-this-day-body">
+
+              <div
+                class="daily-card-body"
+                id="on-this-day-body"
+              >
                 Loading…
               </div>
 
@@ -955,24 +1836,33 @@
                 Scientific Instrument of the Day
               </div>
 
-              <h3 class="daily-card-title" id="instrument-title">
+
+              <h3
+                class="daily-card-title"
+                id="instrument-title"
+              >
                 Loading…
               </h3>
 
-              <div class="daily-card-body" id="instrument-body">
+
+              <div
+                class="daily-card-body"
+                id="instrument-body"
+              >
                 Loading…
               </div>
 
             </div>
+
 
           </div>
 
         </section>
 
 
-        <!-- =========================
+        <!-- =================================================
              EDITOR'S NOTE
-             ========================= -->
+             ================================================= -->
 
         <section class="editors-note">
 
@@ -980,16 +1870,20 @@
             Editor's Note
           </h3>
 
-          <div class="editors-note-body" id="editors-note">
+
+          <div
+            class="editors-note-body"
+            id="editors-note"
+          >
             The Gazette's editorial note will appear here.
           </div>
 
         </section>
 
 
-        <!-- =========================
+        <!-- =================================================
              DAILY QUOTE
-             ========================= -->
+             ================================================= -->
 
         <section class="quote-section">
 
@@ -997,26 +1891,34 @@
             “
           </div>
 
-          <div class="quote-text" id="daily-quote">
+
+          <div
+            class="quote-text"
+            id="daily-quote"
+          >
             Loading today's quotation…
           </div>
 
-          <div class="quote-attribution" id="daily-quote-attribution">
+
+          <div
+            class="quote-attribution"
+            id="daily-quote-attribution"
+          >
             —
           </div>
 
         </section>
 
+
       </article>
 
 
-      <!-- =====================================================
-           SIDEBAR / HISTORICAL IMAGE
-
-           IMPORTANT:
-           This entire sidebar is automatically hidden when
-           item.wikiImage is null.
-           ===================================================== -->
+      <!-- =================================================
+           IMAGE SIDEBAR
+           
+           Intentionally retained in HTML for future use,
+           but hidden by CSS and JavaScript for now.
+           ================================================= -->
 
       <aside class="side-dispatch">
 
@@ -1028,7 +1930,7 @@
               id="scientist-img"
               class="scientist-portrait"
               src=""
-              alt="Historical portrait"
+              alt=""
               loading="eager"
             />
 
@@ -1041,7 +1943,7 @@
           class="portrait-caption"
           id="portrait-caption"
         >
-          Engraving reproduction from historical records.
+          Historical image.
         </figcaption>
 
 
@@ -1050,6 +1952,7 @@
           <div class="lore-tag">
             Street-Level Lore &amp; Curiosities
           </div>
+
 
           <div
             class="lore-content"
@@ -1062,36 +1965,45 @@
 
       </aside>
 
+
     </main>
 
 
-    <!-- =========================
+    <!-- ===================================================
          ARCHIVE
-         ========================= -->
+         =================================================== -->
 
-    <section class="archive-section" id="archive">
+    <section
+      class="archive-section"
+      id="archive"
+    >
 
       <h2 class="section-heading">
         Gazette Archive
       </h2>
 
+
       <div
         class="archive-list"
         id="archive-list"
       >
+
         <div class="archive-item">
+
           <span>
             Archive loading…
           </span>
+
         </div>
+
       </div>
 
     </section>
 
 
-    <!-- =========================
+    <!-- ===================================================
          NEWSLETTER
-         ========================= -->
+         =================================================== -->
 
     <section
       class="newsletter"
@@ -1102,10 +2014,12 @@
         Receive the Daily Gazette
       </h2>
 
+
       <p>
-        One historical science dispatch, researched and fact-checked,
-        delivered to your inbox.
+        One historical science dispatch, researched and
+        fact-checked, delivered to your inbox.
       </p>
+
 
       <form
         class="newsletter-form"
@@ -1120,11 +2034,13 @@
           autocomplete="email"
         />
 
+
         <button type="submit">
           Subscribe
         </button>
 
       </form>
+
 
       <div
         id="newsletter-message"
@@ -1138,21 +2054,26 @@
     </section>
 
 
-    <!-- =========================
+    <!-- ===================================================
          FOOTER
-         ========================= -->
+         =================================================== -->
 
     <footer>
 
-      <div class="footer-quote" id="footer-quote">
+      <div
+        class="footer-quote"
+        id="footer-quote"
+      >
         “The important thing is not to stop questioning.”
       </div>
+
 
       <div class="footer-meta">
         The Empirical Gazette · Historical Science · Evidence Before Legend
       </div>
 
     </footer>
+
 
   </div>
 
@@ -1177,1095 +2098,1717 @@
 
   <script>
 
-    document.addEventListener("DOMContentLoaded", function () {
-
-      /*
-       * -------------------------------------------------------
-       * SAFETY CHECK
-       * -------------------------------------------------------
-       */
-
-      if (!window.GAZETTE_DATA) {
-
-        console.error(
-          "GAZETTE_DATA was not found."
-        );
-
-        return;
-      }
+    document.addEventListener(
+      "DOMContentLoaded",
+      function () {
 
 
-      const data = window.GAZETTE_DATA;
+        /* =================================================
+           SAFETY CHECK
+           ================================================= */
 
-      /*
-       * -------------------------------------------------------
-       * CURRENT DISPATCH
-       * -------------------------------------------------------
-       */
+        if (!window.GAZETTE_DATA) {
 
-      const dispatches = Array.isArray(data.dispatches)
-        ? data.dispatches
-        : [];
+          console.error(
+            "GAZETTE_DATA was not found."
+          );
 
-      if (!dispatches.length) {
-
-        console.error(
-          "No dispatches were found in GAZETTE_DATA."
-        );
-
-        return;
-      }
-
-
-      const item = dispatches[0];
-
-
-      /*
-       * -------------------------------------------------------
-       * HELPER FUNCTIONS
-       * -------------------------------------------------------
-       */
-
-      function escapeHTML(value) {
-
-        if (value === null || value === undefined) {
-          return "";
-        }
-
-        return String(value)
-          .replace(/&/g, "&amp;")
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;")
-          .replace(/"/g, "&quot;")
-          .replace(/'/g, "&#039;");
-      }
-
-
-      function formatDate(value) {
-
-        if (!value) {
-          return "";
-        }
-
-        const date = new Date(value);
-
-        if (Number.isNaN(date.getTime())) {
-          return value;
-        }
-
-        return date.toLocaleDateString(
-          "en-US",
-          {
-            year: "numeric",
-            month: "long",
-            day: "numeric"
-          }
-        );
-      }
-
-
-      function setText(id, value) {
-
-        const element = document.getElementById(id);
-
-        if (!element) {
           return;
+
         }
 
-        element.textContent =
-          value === null ||
-          value === undefined
-            ? ""
-            : value;
-      }
+
+        const data =
+          window.GAZETTE_DATA;
 
 
-      function setHTML(id, value) {
+        const dispatches =
+          Array.isArray(data.dispatches)
+            ? data.dispatches
+            : [];
 
-        const element = document.getElementById(id);
 
-        if (!element) {
+        if (!dispatches.length) {
+
+          console.error(
+            "No dispatches were found in GAZETTE_DATA."
+          );
+
           return;
-        }
-
-        element.innerHTML =
-          value === null ||
-          value === undefined
-            ? ""
-            : value;
-      }
-
-
-      /*
-       * -------------------------------------------------------
-       * MASTHEAD
-       * -------------------------------------------------------
-       */
-
-      setText(
-        "masthead-date",
-        formatDate(
-          item.publicationDate ||
-          item.date ||
-          data.updated
-        )
-      );
-
-
-      setText(
-        "masthead-location",
-        item.location ||
-        "International Scientific Dispatch"
-      );
-
-
-      /*
-       * -------------------------------------------------------
-       * DISPATCH HEADER
-       * -------------------------------------------------------
-       */
-
-      setText(
-        "dispatch-number",
-        item.dispatchNumber
-          ? `Dispatch No. ${String(item.dispatchNumber).padStart(3, "0")}`
-          : "Daily Dispatch"
-      );
-
-
-      setText(
-        "edition-date",
-        formatDate(
-          item.date ||
-          item.publicationDate
-        )
-      );
-
-
-      setText(
-        "location-badge",
-        item.location ||
-        "Historical Science Dispatch"
-      );
-
-
-      /*
-       * -------------------------------------------------------
-       * HEADLINE
-       * -------------------------------------------------------
-       */
-
-      setText(
-        "headline",
-        item.headline ||
-        "Historical Science Dispatch"
-      );
-
-
-      setText(
-        "dek",
-        item.dek ||
-        item.subheadline ||
-        ""
-      );
-
-
-      /*
-       * -------------------------------------------------------
-       * ARTICLE BODY
-       *
-       * Supports either:
-       *
-       * article:
-       *   "paragraph 1..."
-       *
-       * OR
-       *
-       * article:
-       *   [
-       *      "paragraph 1...",
-       *      "paragraph 2..."
-       *   ]
-       * -------------------------------------------------------
-       */
-
-      const articleBody =
-        document.getElementById("article-body");
-
-
-      if (articleBody) {
-
-        articleBody.innerHTML = "";
-
-        let paragraphs = [];
-
-
-        if (Array.isArray(item.article)) {
-
-          paragraphs = item.article;
-
-        } else if (Array.isArray(item.body)) {
-
-          paragraphs = item.body;
-
-        } else if (typeof item.article === "string") {
-
-          paragraphs = item.article
-            .split(/\n\s*\n/)
-            .map(function (paragraph) {
-              return paragraph.trim();
-            })
-            .filter(Boolean);
-
-        } else if (typeof item.body === "string") {
-
-          paragraphs = item.body
-            .split(/\n\s*\n/)
-            .map(function (paragraph) {
-              return paragraph.trim();
-            })
-            .filter(Boolean);
 
         }
 
 
-        if (!paragraphs.length) {
+        /* =================================================
+           HELPERS
+           ================================================= */
 
-          paragraphs = [
-            "No article text was supplied for this dispatch."
-          ];
+        function formatDate(value) {
 
-        }
-
-
-        paragraphs.forEach(function (paragraph) {
-
-          const p =
-            document.createElement("p");
-
-          p.textContent = paragraph;
-
-          articleBody.appendChild(p);
-
-        });
-
-      }
-
-
-      /*
-       * -------------------------------------------------------
-       * WHAT THEY GOT WRONG
-       * -------------------------------------------------------
-       */
-
-      setText(
-        "wrong-belief",
-        item.wrongBelief ||
-        item.wrong_belief ||
-        "No specific documented misconception was supplied."
-      );
-
-
-      /*
-       * -------------------------------------------------------
-       * WHAT EVIDENCE SHOWED
-       * -------------------------------------------------------
-       */
-
-      setText(
-        "evidence-showed",
-        item.evidence ||
-        item.whatEvidenceShowed ||
-        item.evidenceShowed ||
-        "No evidence summary was supplied."
-      );
-
-
-      /*
-       * -------------------------------------------------------
-       * PRIMARY SOURCE
-       * -------------------------------------------------------
-       */
-
-      const primarySource =
-        document.getElementById(
-          "primary-source"
-        );
-
-
-      if (primarySource) {
-
-        primarySource.innerHTML = "";
-
-
-        const sourceTitle =
-          item.primarySourceTitle ||
-          item.primary_source_title ||
-          item.primarySource ||
-          "Historical primary source";
-
-
-        const sourceDescription =
-          item.primarySourceDescription ||
-          item.primary_source_description ||
-          "";
-
-
-        const sourceUrl =
-          item.primarySourceUrl ||
-          item.primary_source_url ||
-          "";
-
-
-        const titleElement =
-          document.createElement("strong");
-
-        titleElement.textContent =
-          sourceTitle;
-
-
-        primarySource.appendChild(
-          titleElement
-        );
-
-
-        if (sourceDescription) {
-
-          const description =
-            document.createElement("span");
-
-          description.textContent =
-            " — " + sourceDescription;
-
-          primarySource.appendChild(
-            description
-          );
-
-        }
-
-
-        if (sourceUrl) {
-
-          const lineBreak =
-            document.createElement("br");
-
-          primarySource.appendChild(
-            lineBreak
-          );
-
-
-          const link =
-            document.createElement("a");
-
-          link.href = sourceUrl;
-
-          link.target = "_blank";
-
-          link.rel = "noopener noreferrer";
-
-          link.textContent =
-            "View source";
-
-          primarySource.appendChild(
-            link
-          );
-
-        }
-
-      }
-
-
-      /*
-       * -------------------------------------------------------
-       * DISCOVERY TIMELINE
-       * -------------------------------------------------------
-       */
-
-      const timelineList =
-        document.getElementById(
-          "timeline-list"
-        );
-
-
-      if (timelineList) {
-
-        timelineList.innerHTML = "";
-
-
-        const timeline =
-          item.timeline ||
-          item.discoveryTimeline ||
-          [];
-
-
-        if (Array.isArray(timeline) &&
-            timeline.length) {
-
-
-          timeline.forEach(function (event) {
-
-            const row =
-              document.createElement("div");
-
-            row.className =
-              "timeline-item";
-
-
-            const year =
-              document.createElement("div");
-
-            year.className =
-              "timeline-year";
-
-
-            year.textContent =
-              event.year ||
-              event.date ||
-              "";
-
-
-            const description =
-              document.createElement("div");
-
-            description.className =
-              "timeline-event";
-
-
-            description.textContent =
-              event.event ||
-              event.description ||
-              event.text ||
-              "";
-
-
-            row.appendChild(year);
-
-            row.appendChild(description);
-
-            timelineList.appendChild(row);
-
-          });
-
-
-        } else {
-
-          const row =
-            document.createElement("div");
-
-          row.className =
-            "timeline-item";
-
-
-          const year =
-            document.createElement("div");
-
-          year.className =
-            "timeline-year";
-
-          year.textContent =
-            "—";
-
-
-          const description =
-            document.createElement("div");
-
-          description.className =
-            "timeline-event";
-
-          description.textContent =
-            "No timeline was supplied for this dispatch.";
-
-
-          row.appendChild(year);
-
-          row.appendChild(description);
-
-          timelineList.appendChild(row);
-
-        }
-
-      }
-
-
-      /*
-       * -------------------------------------------------------
-       * ON THIS DAY
-       * -------------------------------------------------------
-       */
-
-      const onThisDay =
-        item.onThisDay ||
-        data.onThisDay ||
-        {};
-
-
-      setText(
-        "on-this-day-title",
-        onThisDay.title ||
-        onThisDay.headline ||
-        "On This Day in Science"
-      );
-
-
-      setText(
-        "on-this-day-body",
-        onThisDay.body ||
-        onThisDay.description ||
-        "No On This Day entry was supplied."
-      );
-
-
-      /*
-       * -------------------------------------------------------
-       * SCIENTIFIC INSTRUMENT
-       * -------------------------------------------------------
-       */
-
-      const instrument =
-        item.instrument ||
-        data.instrumentOfTheDay ||
-        data.scientificInstrument ||
-        {};
-
-
-      setText(
-        "instrument-title",
-        instrument.title ||
-        instrument.name ||
-        "Scientific Instrument"
-      );
-
-
-      setText(
-        "instrument-body",
-        instrument.body ||
-        instrument.description ||
-        "No instrument entry was supplied."
-      );
-
-
-      /*
-       * -------------------------------------------------------
-       * EDITOR'S NOTE
-       * -------------------------------------------------------
-       */
-
-      setText(
-        "editors-note",
-        item.editorsNote ||
-        item.editorNote ||
-        item.editorialNote ||
-        "The Empirical Gazette's editorial note accompanies today's dispatch."
-      );
-
-
-      /*
-       * -------------------------------------------------------
-       * STREET-LEVEL LORE
-       * -------------------------------------------------------
-       */
-
-      setText(
-        "lore-body",
-        item.lore ||
-        item.curiosity ||
-        item.streetLevelLore ||
-        "No additional curiosity was supplied for this edition."
-      );
-
-
-      /*
-       * -------------------------------------------------------
-       * DAILY QUOTE
-       * -------------------------------------------------------
-       */
-
-      const quote =
-        item.dailyQuote ||
-        data.dailyQuote ||
-        data.quote ||
-        {};
-
-
-      if (typeof quote === "string") {
-
-        setText(
-          "daily-quote",
-          quote
-        );
-
-        setText(
-          "daily-quote-attribution",
-          ""
-        );
-
-      } else {
-
-        setText(
-          "daily-quote",
-          quote.text ||
-          quote.quote ||
-          "The important thing is not to stop questioning."
-        );
-
-        setText(
-          "daily-quote-attribution",
-          quote.author
-            ? `— ${quote.author}`
-            : ""
-        );
-
-      }
-
-
-      /*
-       * -------------------------------------------------------
-       * FOOTER QUOTE
-       * -------------------------------------------------------
-       */
-
-      const footerQuote =
-        document.getElementById(
-          "footer-quote"
-        );
-
-
-      if (footerQuote) {
-
-        footerQuote.textContent =
-          quote.text ||
-          quote.quote ||
-          "The important thing is not to stop questioning.";
-
-      }
-
-
-      /*
-       * =======================================================
-       * IMAGE HANDLING
-       *
-       * THIS IS THE IMPORTANT PART.
-       *
-       * If wikiImage is null / empty:
-       *
-       *   1. Remove image source.
-       *   2. Hide image frame.
-       *   3. Hide caption.
-       *   4. Hide entire sidebar.
-       *
-       * This means image-free editions become a clean,
-       * full-width newspaper article instead of leaving
-       * an empty portrait column.
-       * =======================================================
-       */
-
-      const img =
-        document.getElementById(
-          "scientist-img"
-        );
-
-
-      if (img) {
-
-        const imageFrame =
-          img.parentElement;
-
-
-        const sideDispatch =
-          imageFrame
-            ? imageFrame.parentElement
-            : null;
-
-
-        const portraitCaption =
-          document.getElementById(
-            "portrait-caption"
-          );
-
-
-        /*
-         * Images are intentionally disabled
-         * when wikiImage is missing.
-         */
-
-        if (!item.wikiImage) {
-
-          /*
-           * Remove all image attributes.
-           */
-
-          img.removeAttribute(
-            "src"
-          );
-
-          img.alt = "";
-
-          img.removeAttribute(
-            "title"
-          );
-
-
-          /*
-           * Hide the image itself.
-           */
-
-          if (imageFrame) {
-
-            imageFrame.style.display =
-              "none";
-
-          }
-
-
-          /*
-           * Hide the caption.
-           */
-
-          if (portraitCaption) {
-
-            portraitCaption.style.display =
-              "none";
-
-          }
-
-
-          /*
-           * Hide the ENTIRE sidebar.
-           *
-           * This is the key fix.
-           */
-
-          if (sideDispatch) {
-
-            sideDispatch.style.display =
-              "none";
-
-          }
-
-
-        } else {
-
-          /*
-           * An image exists, so restore the
-           * sidebar and image elements.
-           */
-
-          if (sideDispatch) {
-
-            sideDispatch.style.display =
-              "";
-
-          }
-
-
-          if (imageFrame) {
-
-            imageFrame.style.display =
-              "";
-
-          }
-
-
-          if (portraitCaption) {
-
-            portraitCaption.style.display =
-              "";
-
-          }
-
-
-          /*
-           * Handle broken image URLs gracefully.
-           */
-
-          img.onerror = function () {
-
-            this.onerror = null;
-
-            this.removeAttribute(
-              "src"
-            );
-
-            this.alt =
-              `Historical portrait unavailable: ${item.scientist || "historical figure"}`;
-
-            this.parentElement.classList.add(
-              "image-load-error"
-            );
-
-          };
-
-
-          /*
-           * Load image.
-           */
-
-          img.src =
-            item.wikiImage;
-
-
-          img.alt =
-            item.scientist ||
-            item.subject ||
-            "Historical figure";
-
-
-          img.title =
-            `${item.scientist || item.subject || "Historical figure"} — Historical image`;
-
-        }
-
-      }
-
-
-      /*
-       * -------------------------------------------------------
-       * ARCHIVE
-       * -------------------------------------------------------
-       */
-
-      const archiveList =
-        document.getElementById(
-          "archive-list"
-        );
-
-
-      if (archiveList) {
-
-        archiveList.innerHTML = "";
-
-
-        const archive =
-          data.dispatches || [];
-
-
-        archive.forEach(function (
-          dispatch,
-          index
-        ) {
-
-          const row =
-            document.createElement("div");
-
-          row.className =
-            "archive-item";
-
-
-          const link =
-            document.createElement("a");
-
-
-          const number =
-            dispatch.dispatchNumber ||
-            archive.length - index;
-
-
-          link.textContent =
-            `Dispatch No. ${String(number).padStart(3, "0")} — ${dispatch.headline || dispatch.scientist || "Historical Science Dispatch"}`;
-
-
-          /*
-           * If the project eventually stores
-           * individual archive URLs, this can
-           * automatically use them.
-           */
-
-          if (dispatch.url) {
-
-            link.href =
-              dispatch.url;
-
-          } else {
-
-            link.href =
-              "#dispatch";
-
+          if (!value) {
+            return "";
           }
 
 
           const date =
-            document.createElement("span");
+            new Date(value);
 
 
-          date.className =
-            "archive-date";
+          if (
+            Number.isNaN(
+              date.getTime()
+            )
+          ) {
+
+            return String(value);
+
+          }
 
 
-          date.textContent =
-            formatDate(
-              dispatch.date ||
-              dispatch.publicationDate
+          return date.toLocaleDateString(
+            "en-US",
+            {
+              year: "numeric",
+              month: "long",
+              day: "numeric"
+            }
+          );
+
+        }
+
+
+        function setText(
+          id,
+          value
+        ) {
+
+          const element =
+            document.getElementById(id);
+
+
+          if (!element) {
+            return;
+          }
+
+
+          element.textContent =
+            value === null ||
+            value === undefined
+              ? ""
+              : String(value);
+
+        }
+
+
+        /*
+         * Safely render a limited set of historical
+         * article formatting.
+         *
+         * Allowed:
+         *
+         *   p
+         *   br
+         *   strong
+         *   em
+         *   span.drop-cap
+         *
+         * Everything else becomes plain text.
+         */
+
+        function sanitizeArticleHTML(
+          html
+        ) {
+
+          if (
+            html === null ||
+            html === undefined
+          ) {
+
+            return "";
+
+          }
+
+
+          const parser =
+            new DOMParser();
+
+
+          const parsed =
+            parser.parseFromString(
+              String(html),
+              "text/html"
             );
 
 
-          row.appendChild(link);
-
-          row.appendChild(date);
-
-          archiveList.appendChild(row);
-
-        });
+          const output =
+            document.createElement(
+              "div"
+            );
 
 
-      }
+          function cleanNode(
+            node,
+            parent
+          ) {
 
+            if (
+              node.nodeType ===
+              Node.TEXT_NODE
+            ) {
 
-      /*
-       * -------------------------------------------------------
-       * NEWSLETTER
-       * -------------------------------------------------------
-       *
-       * Provider-neutral.
-       *
-       * If site-config.js later supplies a real
-       * newsletter endpoint, this form can submit
-       * there.
-       * -------------------------------------------------------
-       */
+              parent.appendChild(
+                document.createTextNode(
+                  node.nodeValue
+                )
+              );
 
-      const newsletterForm =
-        document.getElementById(
-          "newsletter-form"
-        );
-
-
-      const newsletterMessage =
-        document.getElementById(
-          "newsletter-message"
-        );
-
-
-      if (newsletterForm) {
-
-        newsletterForm.addEventListener(
-          "submit",
-          function (event) {
-
-            event.preventDefault();
-
-
-            const email =
-              document.getElementById(
-                "newsletter-email"
-              ).value.trim();
-
-
-            if (!email) {
               return;
+
+            }
+
+
+            if (
+              node.nodeType !==
+              Node.ELEMENT_NODE
+            ) {
+
+              return;
+
+            }
+
+
+            const tag =
+              node.tagName.toLowerCase();
+
+
+            if (tag === "p") {
+
+              const p =
+                document.createElement(
+                  "p"
+                );
+
+
+              Array.from(
+                node.childNodes
+              ).forEach(
+                function (child) {
+
+                  cleanNode(
+                    child,
+                    p
+                  );
+
+                }
+              );
+
+
+              parent.appendChild(p);
+
+              return;
+
+            }
+
+
+            if (tag === "br") {
+
+              parent.appendChild(
+                document.createElement(
+                  "br"
+                )
+              );
+
+              return;
+
+            }
+
+
+            if (tag === "strong" ||
+                tag === "b") {
+
+              const strong =
+                document.createElement(
+                  "strong"
+                );
+
+
+              Array.from(
+                node.childNodes
+              ).forEach(
+                function (child) {
+
+                  cleanNode(
+                    child,
+                    strong
+                  );
+
+                }
+              );
+
+
+              parent.appendChild(
+                strong
+              );
+
+              return;
+
+            }
+
+
+            if (tag === "em" ||
+                tag === "i") {
+
+              const em =
+                document.createElement(
+                  "em"
+                );
+
+
+              Array.from(
+                node.childNodes
+              ).forEach(
+                function (child) {
+
+                  cleanNode(
+                    child,
+                    em
+                  );
+
+                }
+              );
+
+
+              parent.appendChild(
+                em
+              );
+
+              return;
+
+            }
+
+
+            if (tag === "span") {
+
+              const className =
+                node
+                  .getAttribute(
+                    "class"
+                  );
+
+
+              if (
+                className &&
+                className
+                  .split(/\s+/)
+                  .includes(
+                    "drop-cap"
+                  )
+              ) {
+
+                const span =
+                  document.createElement(
+                    "span"
+                  );
+
+
+                span.className =
+                  "drop-cap";
+
+
+                Array.from(
+                  node.childNodes
+                ).forEach(
+                  function (child) {
+
+                    cleanNode(
+                      child,
+                      span
+                    );
+
+                  }
+                );
+
+
+                parent.appendChild(
+                  span
+                );
+
+                return;
+
+              }
+
             }
 
 
             /*
-             * Check optional site configuration.
+             * For unsupported HTML elements,
+             * preserve their textual content
+             * without preserving the tag.
              */
 
-            const newsletterConfig =
-              window.GAZETTE_CONFIG &&
-              window.GAZETTE_CONFIG.newsletter
-                ? window.GAZETTE_CONFIG.newsletter
-                : null;
+            Array.from(
+              node.childNodes
+            ).forEach(
+              function (child) {
+
+                cleanNode(
+                  child,
+                  parent
+                );
+
+              }
+            );
+
+          }
+
+
+          Array.from(
+            parsed.body.childNodes
+          ).forEach(
+            function (node) {
+
+              cleanNode(
+                node,
+                output
+              );
+
+            }
+          );
+
+
+          return output.innerHTML;
+
+        }
+
+
+        /*
+         * Render article text when the generator
+         * supplied plain text or HTML.
+         */
+
+        function renderArticle(
+          articleValue
+        ) {
+
+          const articleBody =
+            document.getElementById(
+              "article-body"
+            );
+
+
+          if (!articleBody) {
+            return;
+          }
+
+
+          articleBody.innerHTML =
+            "";
+
+
+          let paragraphs =
+            [];
+
+
+          /*
+           * Array of article paragraphs.
+           */
+
+          if (
+            Array.isArray(
+              articleValue
+            )
+          ) {
+
+            paragraphs =
+              articleValue;
+
+          }
+
+
+          /*
+           * Single string.
+           */
+
+          else if (
+            typeof articleValue ===
+            "string"
+          ) {
+
+            const value =
+              articleValue.trim();
+
+
+            /*
+             * If the generated article contains
+             * paragraph tags, render the HTML safely.
+             */
+
+            if (
+              /<p[\s>]/i.test(
+                value
+              )
+            ) {
+
+              const safeHTML =
+                sanitizeArticleHTML(
+                  value
+                );
+
+
+              articleBody.innerHTML =
+                safeHTML;
+
+
+              /*
+               * Make sure a plain string that
+               * contains no paragraphs still
+               * displays.
+               */
+
+              if (
+                !articleBody.children.length &&
+                articleBody.textContent.trim()
+              ) {
+
+                const p =
+                  document.createElement(
+                    "p"
+                  );
+
+
+                p.textContent =
+                  articleBody.textContent;
+
+
+                articleBody.innerHTML =
+                  "";
+
+
+                articleBody.appendChild(
+                  p
+                );
+
+              }
+
+
+              return;
+
+            }
+
+
+            /*
+             * Plain text paragraphs separated
+             * by blank lines.
+             */
+
+            paragraphs =
+              value
+                .split(
+                  /\n\s*\n/
+                )
+                .map(
+                  function (paragraph) {
+
+                    return paragraph.trim();
+
+                  }
+                )
+                .filter(Boolean);
+
+          }
+
+
+          if (!paragraphs.length) {
+
+            const p =
+              document.createElement(
+                "p"
+              );
+
+
+            p.textContent =
+              "No article text was supplied for this dispatch.";
+
+
+            articleBody.appendChild(
+              p
+            );
+
+
+            return;
+
+          }
+
+
+          paragraphs.forEach(
+            function (paragraph) {
+
+              const p =
+                document.createElement(
+                  "p"
+                );
+
+
+              /*
+               * If an individual array element
+               * contains HTML, sanitize it.
+               */
+
+              if (
+                typeof paragraph ===
+                "string" &&
+                /<[^>]+>/.test(
+                  paragraph
+                )
+              ) {
+
+                p.innerHTML =
+                  sanitizeArticleHTML(
+                    paragraph
+                  );
+
+              } else {
+
+                p.textContent =
+                  paragraph;
+
+              }
+
+
+              articleBody.appendChild(
+                p
+              );
+
+            }
+          );
+
+        }
+
+
+        /* =================================================
+           FIND DISPATCH FROM URL
+           ================================================= */
+
+        function getDispatchNumberFromHash() {
+
+          const hash =
+            window.location.hash ||
+            "";
+
+
+          const match =
+            hash.match(
+              /^#dispatch-(\d+)$/i
+            );
+
+
+          if (!match) {
+
+            return null;
+
+          }
+
+
+          const number =
+            Number(
+              match[1]
+            );
+
+
+          if (
+            !Number.isFinite(
+              number
+            )
+          ) {
+
+            return null;
+
+          }
+
+
+          return number;
+
+        }
+
+
+        function findDispatch(
+          dispatchNumber
+        ) {
+
+          if (
+            dispatchNumber === null
+          ) {
+
+            /*
+             * No archive selection:
+             * newest dispatch.
+             */
+
+            return dispatches[0];
+
+          }
+
+
+          const found =
+            dispatches.find(
+              function (dispatch) {
+
+                return Number(
+                  dispatch.dispatchNumber
+                ) === dispatchNumber;
+
+              }
+            );
+
+
+          /*
+           * If somebody enters a nonexistent
+           * dispatch number, safely return the
+           * newest dispatch.
+           */
+
+          return found ||
+            dispatches[0];
+
+        }
+
+
+        /* =================================================
+           RENDER ONE DISPATCH
+           ================================================= */
+
+        function renderDispatch(
+          item
+        ) {
+
+          if (!item) {
+
+            console.error(
+              "Cannot render empty dispatch."
+            );
+
+            return;
+
+          }
+
+
+          /*
+           * -----------------------------------------------
+           * MASTHEAD
+           * -----------------------------------------------
+           */
+
+          setText(
+            "masthead-date",
+            formatDate(
+              item.publicationDate ||
+              item.date ||
+              data.updated
+            )
+          );
+
+
+          setText(
+            "masthead-location",
+            item.location ||
+            "International Scientific Dispatch"
+          );
+
+
+          /*
+           * -----------------------------------------------
+           * DISPATCH HEADER
+           * -----------------------------------------------
+           */
+
+          const dispatchNumber =
+            Number(
+              item.dispatchNumber
+            );
+
+
+          setText(
+            "dispatch-number",
+            Number.isFinite(
+              dispatchNumber
+            )
+              ? `Dispatch No. ${String(dispatchNumber).padStart(3, "0")}`
+              : "Daily Dispatch"
+          );
+
+
+          setText(
+            "edition-date",
+            formatDate(
+              item.date ||
+              item.publicationDate
+            )
+          );
+
+
+          setText(
+            "location-badge",
+            item.location ||
+            "Historical Science Dispatch"
+          );
+
+
+          /*
+           * -----------------------------------------------
+           * HEADLINE
+           * -----------------------------------------------
+           */
+
+          setText(
+            "headline",
+            item.headline ||
+            "Historical Science Dispatch"
+          );
+
+
+          setText(
+            "dek",
+            item.dek ||
+            item.subheadline ||
+            ""
+          );
+
+
+          /*
+           * -----------------------------------------------
+           * ARTICLE
+           * -----------------------------------------------
+           */
+
+          renderArticle(
+            item.article ||
+            item.body ||
+            ""
+          );
+
+
+          /*
+           * -----------------------------------------------
+           * FACT CHECK
+           * -----------------------------------------------
+           */
+
+          setText(
+            "wrong-belief",
+            item.wrongBelief ||
+            item.wrong_belief ||
+            "No specific documented misconception was supplied."
+          );
+
+
+          setText(
+            "evidence-showed",
+            item.evidence ||
+            item.whatEvidenceShowed ||
+            item.evidenceShowed ||
+            "No evidence summary was supplied."
+          );
+
+
+          /*
+           * -----------------------------------------------
+           * PRIMARY SOURCE
+           * -----------------------------------------------
+           */
+
+          const primarySource =
+            document.getElementById(
+              "primary-source"
+            );
+
+
+          if (primarySource) {
+
+            primarySource.innerHTML =
+              "";
+
+
+            const sourceTitle =
+              item.primarySourceTitle ||
+              item.primary_source_title ||
+              item.primarySource ||
+              "Historical primary source";
+
+
+            const sourceDescription =
+              item.primarySourceDescription ||
+              item.primary_source_description ||
+              "";
+
+
+            const sourceUrl =
+              item.primarySourceUrl ||
+              item.primary_source_url ||
+              "";
+
+
+            const titleElement =
+              document.createElement(
+                "strong"
+              );
+
+
+            titleElement.textContent =
+              sourceTitle;
+
+
+            primarySource.appendChild(
+              titleElement
+            );
 
 
             if (
-              newsletterConfig &&
-              newsletterConfig.endpoint
+              sourceDescription
             ) {
 
-              fetch(
-                newsletterConfig.endpoint,
-                {
-                  method: "POST",
-                  headers: {
-                    "Content-Type":
-                      "application/json"
-                  },
-                  body: JSON.stringify({
-                    email: email
-                  })
+              const description =
+                document.createElement(
+                  "span"
+                );
+
+
+              description.textContent =
+                " — " +
+                sourceDescription;
+
+
+              primarySource.appendChild(
+                description
+              );
+
+            }
+
+
+            if (
+              sourceUrl
+            ) {
+
+              primarySource.appendChild(
+                document.createElement(
+                  "br"
+                )
+              );
+
+
+              const link =
+                document.createElement(
+                  "a"
+                );
+
+
+              link.href =
+                sourceUrl;
+
+
+              link.target =
+                "_blank";
+
+
+              link.rel =
+                "noopener noreferrer";
+
+
+              link.textContent =
+                "View source";
+
+
+              primarySource.appendChild(
+                link
+              );
+
+            }
+
+          }
+
+
+          /*
+           * -----------------------------------------------
+           * TIMELINE
+           * -----------------------------------------------
+           */
+
+          const timelineList =
+            document.getElementById(
+              "timeline-list"
+            );
+
+
+          if (timelineList) {
+
+            timelineList.innerHTML =
+              "";
+
+
+            const timeline =
+              item.timeline ||
+              item.discoveryTimeline ||
+              [];
+
+
+            if (
+              Array.isArray(timeline) &&
+              timeline.length
+            ) {
+
+
+              timeline.forEach(
+                function (event) {
+
+                  const row =
+                    document.createElement(
+                      "div"
+                    );
+
+
+                  row.className =
+                    "timeline-item";
+
+
+                  const year =
+                    document.createElement(
+                      "div"
+                    );
+
+
+                  year.className =
+                    "timeline-year";
+
+
+                  year.textContent =
+                    event.year ||
+                    event.date ||
+                    "";
+
+
+                  const description =
+                    document.createElement(
+                      "div"
+                    );
+
+
+                  description.className =
+                    "timeline-event";
+
+
+                  description.textContent =
+                    event.event ||
+                    event.description ||
+                    event.text ||
+                    "";
+
+
+                  row.appendChild(
+                    year
+                  );
+
+
+                  row.appendChild(
+                    description
+                  );
+
+
+                  timelineList.appendChild(
+                    row
+                  );
+
                 }
-              )
-              .then(function () {
-
-                newsletterMessage.textContent =
-                  "Thank you. Your subscription request has been received.";
-
-                newsletterForm.reset();
-
-              })
-              .catch(function () {
-
-                newsletterMessage.textContent =
-                  "Subscription could not be completed right now. Please try again shortly.";
-
-              });
+              );
 
 
             } else {
 
+
+              const row =
+                document.createElement(
+                  "div"
+                );
+
+
+              row.className =
+                "timeline-item";
+
+
+              const year =
+                document.createElement(
+                  "div"
+                );
+
+
+              year.className =
+                "timeline-year";
+
+
+              year.textContent =
+                "—";
+
+
+              const description =
+                document.createElement(
+                  "div"
+                );
+
+
+              description.className =
+                "timeline-event";
+
+
+              description.textContent =
+                "No timeline was supplied for this dispatch.";
+
+
+              row.appendChild(
+                year
+              );
+
+
+              row.appendChild(
+                description
+              );
+
+
+              timelineList.appendChild(
+                row
+              );
+
+            }
+
+          }
+
+
+          /*
+           * -----------------------------------------------
+           * ON THIS DAY
+           * -----------------------------------------------
+           */
+
+          const onThisDay =
+            item.onThisDay ||
+            data.onThisDay ||
+            {};
+
+
+          setText(
+            "on-this-day-title",
+            onThisDay.title ||
+            onThisDay.headline ||
+            "On This Day in Science"
+          );
+
+
+          setText(
+            "on-this-day-body",
+            onThisDay.body ||
+            onThisDay.description ||
+            "No On This Day entry was supplied."
+          );
+
+
+          /*
+           * -----------------------------------------------
+           * SCIENTIFIC INSTRUMENT
+           * -----------------------------------------------
+           */
+
+          const instrument =
+            item.instrument ||
+            data.instrumentOfTheDay ||
+            data.scientificInstrument ||
+            {};
+
+
+          setText(
+            "instrument-title",
+            instrument.title ||
+            instrument.name ||
+            "Scientific Instrument"
+          );
+
+
+          setText(
+            "instrument-body",
+            instrument.body ||
+            instrument.description ||
+            "No instrument entry was supplied."
+          );
+
+
+          /*
+           * -----------------------------------------------
+           * EDITOR'S NOTE
+           * -----------------------------------------------
+           */
+
+          setText(
+            "editors-note",
+            item.editorsNote ||
+            item.editorNote ||
+            item.editorialNote ||
+            "The Empirical Gazette's editorial note accompanies today's dispatch."
+          );
+
+
+          /*
+           * -----------------------------------------------
+           * LORE
+           * -----------------------------------------------
+           */
+
+          setText(
+            "lore-body",
+            item.lore ||
+            item.curiosity ||
+            item.streetLevelLore ||
+            "No additional curiosity was supplied for this edition."
+          );
+
+
+          /*
+           * -----------------------------------------------
+           * DAILY QUOTE
+           * -----------------------------------------------
+           */
+
+          const quote =
+            item.dailyQuote ||
+            data.dailyQuote ||
+            data.quote ||
+            {};
+
+
+          if (
+            typeof quote ===
+            "string"
+          ) {
+
+            setText(
+              "daily-quote",
+              quote
+            );
+
+
+            setText(
+              "daily-quote-attribution",
+              ""
+            );
+
+          } else {
+
+            setText(
+              "daily-quote",
+              quote.text ||
+              quote.quote ||
+              "The important thing is not to stop questioning."
+            );
+
+
+            setText(
+              "daily-quote-attribution",
+              quote.author
+                ? `— ${quote.author}`
+                : ""
+            );
+
+          }
+
+
+          /*
+           * -----------------------------------------------
+           * FOOTER QUOTE
+           * -----------------------------------------------
+           */
+
+          setText(
+            "footer-quote",
+            quote.text ||
+            quote.quote ||
+            "The important thing is not to stop questioning."
+          );
+
+
+          /*
+           * -----------------------------------------------
+           * IMAGES DISABLED
+           *
+           * IMPORTANT:
+           * Even if an old dispatch still contains
+           * wikiImage, we deliberately do not show it.
+           * -----------------------------------------------
+           */
+
+          const img =
+            document.getElementById(
+              "scientist-img"
+            );
+
+
+          const sideDispatch =
+            document.querySelector(
+              ".side-dispatch"
+            );
+
+
+          if (img) {
+
+            img.removeAttribute(
+              "src"
+            );
+
+
+            img.removeAttribute(
+              "title"
+            );
+
+
+            img.alt =
+              "";
+
+          }
+
+
+          if (sideDispatch) {
+
+            sideDispatch.style.display =
+              "none";
+
+          }
+
+
+          /*
+           * -----------------------------------------------
+           * BROWSER TITLE
+           * -----------------------------------------------
+           */
+
+          document.title =
+            item.headline
+              ? `${item.headline} — The Empirical Gazette`
+              : "The Empirical Gazette — Historical Science";
+
+
+          /*
+           * -----------------------------------------------
+           * DEBUG
+           * -----------------------------------------------
+           */
+
+          console.log(
+            "Gazette dispatch rendered:",
+            {
+              dispatch:
+                item.dispatchNumber,
+
+              headline:
+                item.headline,
+
+              imageEnabled:
+                false
+            }
+          );
+
+        }
+
+
+        /* =================================================
+           BUILD ARCHIVE
+           ================================================= */
+
+        function renderArchive() {
+
+          const archiveList =
+            document.getElementById(
+              "archive-list"
+            );
+
+
+          if (!archiveList) {
+            return;
+          }
+
+
+          archiveList.innerHTML =
+            "";
+
+
+          dispatches.forEach(
+            function (
+              dispatch,
+              index
+            ) {
+
+
+              const row =
+                document.createElement(
+                  "div"
+                );
+
+
+              row.className =
+                "archive-item";
+
+
+              const link =
+                document.createElement(
+                  "a"
+                );
+
+
+              const parsedNumber =
+                Number(
+                  dispatch.dispatchNumber
+                );
+
+
+              const safeNumber =
+                Number.isFinite(
+                  parsedNumber
+                )
+                  ? parsedNumber
+                  : dispatches.length - index;
+
+
+              const paddedNumber =
+                String(
+                  safeNumber
+                ).padStart(
+                  3,
+                  "0"
+                );
+
+
               /*
-               * No newsletter provider has been
-               * configured yet.
+               * IMPORTANT:
                *
-               * Do NOT pretend the email was saved.
+               * This is now a real archive route.
                */
 
-              newsletterMessage.textContent =
-                "Newsletter signup is being prepared. Please check back soon.";
+              link.href =
+                `#dispatch-${paddedNumber}`;
+
+
+              link.textContent =
+                `Dispatch No. ${paddedNumber} — ${dispatch.headline || dispatch.scientist || "Historical Science Dispatch"}`;
+
+
+              /*
+               * The click handler is intentionally
+               * lightweight. It changes the URL hash.
+               *
+               * The hashchange listener below then
+               * renders the requested dispatch.
+               */
+
+              link.addEventListener(
+                "click",
+                function () {
+
+                  /*
+                   * On mobile and desktop, move the
+                   * reader back to the beginning of
+                   * the selected article.
+                   */
+
+                  window.setTimeout(
+                    function () {
+
+                      const dispatchSection =
+                        document.getElementById(
+                          "dispatch"
+                        );
+
+
+                      if (
+                        dispatchSection
+                      ) {
+
+                        dispatchSection.scrollIntoView(
+                          {
+                            behavior:
+                              "smooth",
+                            block:
+                              "start"
+                          }
+                        );
+
+                      }
+
+                    },
+                    50
+                  );
+
+                }
+              );
+
+
+              const date =
+                document.createElement(
+                  "span"
+                );
+
+
+              date.className =
+                "archive-date";
+
+
+              date.textContent =
+                formatDate(
+                  dispatch.date ||
+                  dispatch.publicationDate
+                );
+
+
+              row.appendChild(
+                link
+              );
+
+
+              row.appendChild(
+                date
+              );
+
+
+              archiveList.appendChild(
+                row
+              );
+
+            }
+          );
+
+        }
+
+
+        /* =================================================
+           ROUTER
+           ================================================= */
+
+        function renderFromURL() {
+
+          const requestedNumber =
+            getDispatchNumberFromHash();
+
+
+          const selectedDispatch =
+            findDispatch(
+              requestedNumber
+            );
+
+
+          renderDispatch(
+            selectedDispatch
+          );
+
+        }
+
+
+        /* =================================================
+           HASH ROUTING
+           ================================================= */
+
+        window.addEventListener(
+          "hashchange",
+          function () {
+
+            /*
+             * Only re-render when the hash
+             * represents a dispatch.
+             *
+             * This prevents clicking
+             * #archive, #timeline, etc.
+             * from unexpectedly changing
+             * the article.
+             */
+
+            if (
+              /^#dispatch-\d+$/i.test(
+                window.location.hash
+              )
+            ) {
+
+              renderFromURL();
 
             }
 
           }
         );
 
-      }
+
+        /* =================================================
+           NEWSLETTER
+           ================================================= */
+
+        const newsletterForm =
+          document.getElementById(
+            "newsletter-form"
+          );
 
 
-      /*
-       * -------------------------------------------------------
-       * OPTIONAL BUSINESS CONFIG
-       * -------------------------------------------------------
-       */
-
-      if (
-        window.GAZETTE_CONFIG &&
-        window.GAZETTE_CONFIG.title
-      ) {
-
-        document.title =
-          window.GAZETTE_CONFIG.title;
-
-      }
+        const newsletterMessage =
+          document.getElementById(
+            "newsletter-message"
+          );
 
 
-      /*
-       * -------------------------------------------------------
-       * DEBUG INFORMATION
-       * -------------------------------------------------------
-       */
+        if (newsletterForm) {
 
-      console.log(
-        "Empirical Gazette loaded.",
-        {
-          dispatch:
-            item.dispatchNumber,
+          newsletterForm.addEventListener(
+            "submit",
+            function (event) {
 
-          headline:
-            item.headline,
+              event.preventDefault();
 
-          scientist:
-            item.scientist,
 
-          imageEnabled:
-            Boolean(item.wikiImage),
+              const email =
+                document.getElementById(
+                  "newsletter-email"
+                ).value.trim();
 
-          updated:
-            data.updated
+
+              if (!email) {
+                return;
+              }
+
+
+              const newsletterConfig =
+                window.GAZETTE_CONFIG &&
+                window.GAZETTE_CONFIG.newsletter
+                  ? window.GAZETTE_CONFIG.newsletter
+                  : null;
+
+
+              if (
+                newsletterConfig &&
+                newsletterConfig.endpoint
+              ) {
+
+
+                fetch(
+                  newsletterConfig.endpoint,
+                  {
+                    method: "POST",
+
+                    headers: {
+                      "Content-Type":
+                        "application/json"
+                    },
+
+                    body:
+                      JSON.stringify({
+                        email:
+                          email
+                      })
+
+                  }
+                )
+                .then(
+                  function () {
+
+                    newsletterMessage.textContent =
+                      "Thank you. Your subscription request has been received.";
+
+
+                    newsletterForm.reset();
+
+                  }
+                )
+                .catch(
+                  function () {
+
+                    newsletterMessage.textContent =
+                      "Subscription could not be completed right now. Please try again shortly.";
+
+                  }
+                );
+
+
+              } else {
+
+
+                newsletterMessage.textContent =
+                  "Newsletter signup is being prepared. Please check back soon.";
+
+              }
+
+            }
+          );
+
         }
-      );
 
-    });
+
+        /* =================================================
+           INITIALIZE
+           ================================================= */
+
+        renderArchive();
+
+        renderFromURL();
+
+
+        /*
+         * If somebody opens the website with:
+         *
+         *   #dispatch-003
+         *
+         * render Dispatch 003.
+         *
+         * If somebody opens:
+         *
+         *   #archive
+         *
+         * render the newest dispatch and allow
+         * the browser to show the archive section.
+         *
+         * If there is no hash, render newest dispatch.
+         */
+
+        if (
+          window.location.hash ===
+          "#archive"
+        ) {
+
+          window.setTimeout(
+            function () {
+
+              const archive =
+                document.getElementById(
+                  "archive"
+                );
+
+
+              if (archive) {
+
+                archive.scrollIntoView(
+                  {
+                    behavior:
+                      "smooth",
+                    block:
+                      "start"
+                  }
+                );
+
+              }
+
+            },
+            100
+          );
+
+        }
+
+
+        console.log(
+          "The Empirical Gazette is ready."
+        );
+
+
+      }
+    );
 
   </script>
 
+
 </body>
+
 </html>

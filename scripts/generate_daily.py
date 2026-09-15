@@ -354,10 +354,12 @@ def main():
     research = ask(
         c,
         f"""Research ONE documented historical event in science for {TODAY}.
+
 Prefer topics in physics, astronomy, mathematics, chemistry, earth science,
 computing, scientific instruments, or the history of scientific institutions.
-Medical or biological history is allowed only as high-level
-historical/biographical context.
+
+Medical or biological history is allowed only as high-level historical or
+biographical context.
 
 Do not provide experimental protocols, recipes, procedures, quantities,
 operational steps, or other actionable technical detail.
@@ -365,13 +367,37 @@ operational steps, or other actionable technical detail.
 Avoid these previous headlines:
 {archive}
 
-Return JSON with event,people,date,location,why_significant,key_facts,
-prevailing_belief,evidence,primary_sources,image_subject,search_queries,
-quote_candidate,quote_attribution,on_this_day_title,on_this_day_copy,
-instrument_title,instrument_copy.
+Return JSON with:
+event,
+people,
+date,
+location,
+why_significant,
+key_facts,
+prevailing_belief,
+evidence,
+primary_sources,
+image_subject,
+search_queries,
+quote_candidate,
+quote_attribution,
+on_this_day_title,
+on_this_day_copy,
+instrument_title,
+instrument_copy.
 
-Use reliable sources. Never invent facts or quotations. Keep all evidence
-descriptions non-procedural and suitable for a general historical newspaper."""
+Use reliable sources. Never invent facts or quotations.
+
+For prevailing_belief, identify only a specific historical belief,
+expectation, uncertainty, or assumption that is explicitly documented by
+the sources. Do not infer a broad scientific or engineering consensus.
+
+For evidence, explain only what the documented evidence actually showed.
+Clearly distinguish between what an event demonstrated and what it did not
+demonstrate.
+
+Keep all evidence descriptions non-procedural and suitable for a general
+historical newspaper."""
     )
 
     article = ask(
@@ -380,12 +406,41 @@ descriptions non-procedural and suitable for a general historical newspaper."""
 
 {json.dumps(research, ensure_ascii=False)}
 
-Return JSON with scientist,exactHistoricalDate,headline,deck,caption,lore,
-body_html,wrongBelief,evidence,primarySource,imageSearchQuery,quote,
-quoteAuthor,onThisDayTitle,onThisDayCopy,instrumentTitle,instrumentCopy.
+Return JSON with:
+scientist,
+exactHistoricalDate,
+headline,
+deck,
+caption,
+lore,
+body_html,
+wrongBelief,
+evidence,
+primarySource,
+imageSearchQuery,
+quote,
+quoteAuthor,
+onThisDayTitle,
+onThisDayCopy,
+instrumentTitle,
+instrumentCopy.
 
 Use 3-5 <p> paragraphs, at most one pull quote, no Markdown, and no
 facts/quotes not supported by the dossier.
+
+For wrongBelief, state only a specific belief, expectation, or uncertainty
+that the dossier explicitly documents. Do not infer or invent a broad
+"prevailing belief," "engineering consensus," or "scientific consensus."
+
+For evidence, distinguish clearly between what the event demonstrated and
+what it did not demonstrate. Do not describe an uncrewed test as proof of
+crewed capability unless the dossier explicitly supports that conclusion.
+
+When describing historical significance, prefer cautious wording such as
+"demonstrated," "tested," "provided evidence for," or "helped influence"
+rather than claiming that an event definitively caused a later decision.
+
+Do not turn historical uncertainty into certainty.
 
 Keep medical/biological material historical and non-procedural; do not add
 instructions, protocols, recipes, quantities, or operational technical detail."""
@@ -447,11 +502,25 @@ IMAGE:
 
 Do not expand or introduce procedural medical or biological information.
 
-Return JSON with pass,score,errors,warnings,verified_claims,image_ok,
-quote_ok,primary_source_ok.
+Return JSON with:
+pass,
+score,
+errors,
+warnings,
+verified_claims,
+image_ok,
+quote_ok,
+primary_source_ok.
 
-Fail for any material unsupported/contradicted claim, wrong date/person/
-location, unsupported quote/source, or unrelated image."""
+Use a score from 0 to 1, where 1.0 means fully supported and 0.90 is the
+minimum acceptable publication threshold.
+
+Fail for any material unsupported or contradicted claim, wrong date,
+wrong person, wrong location, unsupported quotation or source, or unrelated
+image.
+
+Also fail when the article presents an inference, consensus, causal claim,
+or capability claim more strongly than the supplied evidence supports."""
     )
 
     # Accept either a 0-1 score (e.g. 0.96) or a 0-100 score (e.g. 96).

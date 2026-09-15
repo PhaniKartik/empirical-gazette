@@ -322,8 +322,7 @@
       display: grid;
 
       grid-template-columns:
-        minmax(0, 1fr)
-        315px;
+        minmax(0, 1fr);
 
       gap: 28px;
 
@@ -2233,9 +2232,18 @@
             new DOMParser();
 
 
+          const decoder =
+            document.createElement("textarea");
+
+          decoder.innerHTML =
+            String(html);
+
+          const decodedHTML =
+            decoder.value;
+
           const parsed =
             parser.parseFromString(
-              String(html),
+              decodedHTML,
               "text/html"
             );
 
@@ -2731,6 +2739,14 @@
         }
 
 
+        function getArchiveNumber(dispatch, index) {
+          const explicit = Number(dispatch && dispatch.dispatchNumber);
+          return Number.isFinite(explicit)
+            ? explicit
+            : dispatches.length - index;
+        }
+
+
         function findDispatch(
           dispatchNumber
         ) {
@@ -2738,37 +2754,22 @@
           if (
             dispatchNumber === null
           ) {
-
-            /*
-             * No archive selection:
-             * newest dispatch.
-             */
-
             return dispatches[0];
-
           }
 
-
-          const found =
-            dispatches.find(
-              function (dispatch) {
-
-                return Number(
-                  dispatch.dispatchNumber
+          const foundIndex =
+            dispatches.findIndex(
+              function (dispatch, index) {
+                return getArchiveNumber(
+                  dispatch,
+                  index
                 ) === dispatchNumber;
-
               }
             );
 
-
-          /*
-           * If somebody enters a nonexistent
-           * dispatch number, safely return the
-           * newest dispatch.
-           */
-
-          return found ||
-            dispatches[0];
+          return foundIndex >= 0
+            ? dispatches[foundIndex]
+            : dispatches[0];
 
         }
 
@@ -2821,19 +2822,20 @@
            * -----------------------------------------------
            */
 
-          const dispatchNumber =
-            Number(
-              item.dispatchNumber
-            );
+          const currentIndex =
+            dispatches.indexOf(item);
 
+          const dispatchNumber =
+            getArchiveNumber(
+              item,
+              currentIndex >= 0
+                ? currentIndex
+                : 0
+            );
 
           setText(
             "dispatch-number",
-            Number.isFinite(
-              dispatchNumber
-            )
-              ? `Dispatch No. ${String(dispatchNumber).padStart(3, "0")}`
-              : "Daily Dispatch"
+            `Dispatch No. ${String(dispatchNumber).padStart(3, "0")}`
           );
 
 
@@ -3263,7 +3265,9 @@
             item.lore ||
             item.curiosity ||
             item.streetLevelLore ||
-            "No additional curiosity was supplied for this edition."
+            item.funFact ||
+            item.fun_fact ||
+            "No additional curiosity was supplied for this edition." 
           );
 
 
@@ -3608,207 +3612,26 @@
            HASH ROUTING
            ================================================= */
 
+        function routeDispatch() {
+
+          const requested =
+            getDispatchNumberFromHash();
+
+          const item =
+            findDispatch(requested);
+
+          renderDispatch(item);
+          renderArchive();
+
+        }
+
+
         window.addEventListener(
           "hashchange",
-          function () {
-
-            /*
-             * Only re-render when the hash
-             * represents a dispatch.
-             *
-             * This prevents clicking
-             * #archive, #timeline, etc.
-             * from unexpectedly changing
-             * the article.
-             */
-
-            if (
-              /^#dispatch-\d+$/i.test(
-                window.location.hash
-              )
-            ) {
-
-              renderFromURL();
-
-            }
-
-          }
+          routeDispatch
         );
 
 
-        /* =================================================
-           NEWSLETTER
-           ================================================= */
+        routeDispatch();
 
-        const newsletterForm =
-          document.getElementById(
-            "newsletter-form"
-          );
-
-
-        const newsletterMessage =
-          document.getElementById(
-            "newsletter-message"
-          );
-
-
-        if (newsletterForm) {
-
-          newsletterForm.addEventListener(
-            "submit",
-            function (event) {
-
-              event.preventDefault();
-
-
-              const email =
-                document.getElementById(
-                  "newsletter-email"
-                ).value.trim();
-
-
-              if (!email) {
-                return;
-              }
-
-
-              const newsletterConfig =
-                window.GAZETTE_CONFIG &&
-                window.GAZETTE_CONFIG.newsletter
-                  ? window.GAZETTE_CONFIG.newsletter
-                  : null;
-
-
-              if (
-                newsletterConfig &&
-                newsletterConfig.endpoint
-              ) {
-
-
-                fetch(
-                  newsletterConfig.endpoint,
-                  {
-                    method: "POST",
-
-                    headers: {
-                      "Content-Type":
-                        "application/json"
-                    },
-
-                    body:
-                      JSON.stringify({
-                        email:
-                          email
-                      })
-
-                  }
-                )
-                .then(
-                  function () {
-
-                    newsletterMessage.textContent =
-                      "Thank you. Your subscription request has been received.";
-
-
-                    newsletterForm.reset();
-
-                  }
-                )
-                .catch(
-                  function () {
-
-                    newsletterMessage.textContent =
-                      "Subscription could not be completed right now. Please try again shortly.";
-
-                  }
-                );
-
-
-              } else {
-
-
-                newsletterMessage.textContent =
-                  "Newsletter signup is being prepared. Please check back soon.";
-
-              }
-
-            }
-          );
-
-        }
-
-
-        /* =================================================
-           INITIALIZE
-           ================================================= */
-
-        renderArchive();
-
-        renderFromURL();
-
-
-        /*
-         * If somebody opens the website with:
-         *
-         *   #dispatch-003
-         *
-         * render Dispatch 003.
-         *
-         * If somebody opens:
-         *
-         *   #archive
-         *
-         * render the newest dispatch and allow
-         * the browser to show the archive section.
-         *
-         * If there is no hash, render newest dispatch.
-         */
-
-        if (
-          window.location.hash ===
-          "#archive"
-        ) {
-
-          window.setTimeout(
-            function () {
-
-              const archive =
-                document.getElementById(
-                  "archive"
-                );
-
-
-              if (archive) {
-
-                archive.scrollIntoView(
-                  {
-                    behavior:
-                      "smooth",
-                    block:
-                      "start"
-                  }
-                );
-
-              }
-
-            },
-            100
-          );
-
-        }
-
-
-        console.log(
-          "The Empirical Gazette is ready."
-        );
-
-
-      }
-    );
-
-  </script>
-
-
-</body>
-
-</html>
+>

@@ -21,26 +21,84 @@ def ask(client,prompt):
     return json.loads(re.sub(r"^```json\s*|\s*```$","",r.output_text.strip(),flags=re.I))
 
 def commons(q):
-    p={"action":"query","generator":"search","gsrsearch":q,"gsrnamespace":6,
-       "gsrlimit":10,"prop":"imageinfo","iiprop":"url|extmetadata",
-       "iiurlwidth":1000,"format":"json"}
+    """Find a real historical image on Wikimedia Commons.
+
+    Search progressively broader terms. Wikimedia requires an identifying
+    User-Agent for automated API clients.
+    """
     headers={
-        "User-Agent":"EmpiricalGazetteBot/1.0 (https://github.com/PhaniKartik/empirical-gazette) Python-requests",
-        "Api-User-Agent":"EmpiricalGazetteBot/1.0 (https://github.com/PhaniKartik/empirical-gazette)"
+        "User-Agent":"EmpiricalGazetteBot/1.1 (https://github.com/PhaniKartik/empirical-gazette) Python-requests",
+        "Api-User-Agent":"EmpiricalGazetteBot/1.1 (https://github.com/PhaniKartik/empirical-gazette)"
     }
-    for attempt in range(3):
-        r=requests.get("https://commons.wikimedia.org/w/api.php",params=p,headers=headers,timeout=30)
-        if r.status_code in (429,500,502,503,504) and attempt < 2:
-            delay=int(r.headers.get("Retry-After","2")) if r.headers.get("Retry-After","2").isdigit() else 2
-            time.sleep(min(delay,10))
+    raw=str(q or "").strip()
+    terms=[]
+    candidates=[raw]
+    candidates.append(re.sub(r"\b(?:19|20)\d{2}\b","",raw))
+    candidates.append(re.sub(r"\b(?:19|20)\d{2}\b.*$","",raw))
+    for candidate in candidates:
+        candidate=re.sub(r"\s+"," ",candidate).strip(" ,.-")
+        if candidate and candidate not in terms:
+            terms.append(candidate)
+
+    session=requests.Session()
+    session.headers.update(headers)
+
+    for term in terms:
+        search_params={
+            "action":"query","list":"search","srsearch":term,
+            "srnamespace":6,"srlimit":20,"format":"json"
+        }
+        for attempt in range(3):
+            r=session.get("https://commons.wikimedia.org/w/api.php",
+                          params=search_params,timeout=30)
+            if r.status_code in (429,500,502,503,504) and attempt < 2:
+                raw_delay=r.headers.get("Retry-After","2")
+                delay=int(raw_delay) if str(raw_delay).isdigit() else 2
+                time.sleep(min(delay,10))
+                continue
+            r.raise_for_status()
+            break
+
+        titles=[x.get("title") for x in r.json().get("query",{}).get("search",[])
+                if x.get("title")]
+        if not titles:
             continue
-        r.raise_for_status()
-        break
-    for x in r.json().get("query",{}).get("pages",{}).values():
-        i=(x.get("imageinfo") or [{}])[0]; u=i.get("thumburl") or i.get("url")
-        t=x.get("title",""); low=(t+" "+(u or "")).lower()
-        if u and not any(v in low for v in [".svg","logo","map","diagram","chart"]):
-            return {"title":t,"url":u}
+
+        info_params={
+            "action":"query","titles":"|".join(titles[:20]),
+            "prop":"imageinfo","iiprop":"url|extmetadata",
+            "iiurlwidth":1000,"format":"json"
+        }
+        for attempt in range(3):
+            r=session.get("https://commons.wikimedia.org/w/api.php",
+                          params=info_params,timeout=30)
+            if r.status_code in (429,500,502,503,504) and attempt < 2:
+                raw_delay=r.headers.get("Retry-After","2")
+                delay=int(raw_delay) if str(raw_delay).isdigit() else 2
+                time.sleep(min(delay,10))
+                continue
+            r.raise_for_status()
+            break
+
+        found=[]
+        for x in r.json().get("query",{}).get("pages",{}).values():
+            i=(x.get("imageinfo") or [{}])[0]
+            u=i.get("thumburl") or i.get("url")
+            title=x.get("title","")
+            low=(title+" "+(u or "")).lower()
+            if not u or any(v in low for v in [".svg","logo","map","diagram","chart"]):
+                continue
+            score=0
+            if "portrait" in low or "photo" in low:
+                score += 2
+            if any(ext in low for ext in [".jpg",".jpeg",".png"]):
+                score += 1
+            found.append((score,title,u))
+        if found:
+            found.sort(reverse=True)
+            _,title,u=found[0]
+            return {"title":title,"url":u}
+
     return None
 
 
@@ -85,7 +143,10 @@ not supported by the dossier. Keep medical/biological material historical and no
     for q in research.get("search_queries",[])[:5]:
         image=commons(q)
         if image: break
-    if not image: image=commons(article.get("imageSearchQuery",article["scientist"]))
+    if not image:
+        image=commons(article.get("imageSearchQuery",article["scientist"]))
+    if not image:
+        image=commons(article.get("scientist",""))
     if not image: raise RuntimeError("No historical image; publication aborted.")
 
     check=ask(c,f"""Final editorial fact-check. Compare DOSSIER, ARTICLE, and IMAGE for historical accuracy only.

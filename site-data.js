@@ -128,19 +128,57 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "William Cranch Bond and George Phillips Bond",
+      "exactHistoricalDate": "September 16, 1848",
+      "headline": "The Faint Point Beside Saturn",
+      "deck": "At Harvard College Observatory, the Bonds recorded a dim object near Saturn’s rings—an observation that later helped identify the moon Hyperion.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "The object later known as Hyperion was discovered independently by the Bonds in Massachusetts and William Lassell in England. Lassell later supplied the name Hyperion, following John Herschel’s mythological naming scheme for Saturn’s satellites.",
+      "body": "<p>On September 16, 1848, William Cranch Bond and his son, George Phillips Bond, were observing Saturn at Harvard College Observatory in Cambridge, Massachusetts, when George noticed a faint point of light near the plane of Saturn’s rings, between Titan and Iapetus.</p><p>At first, the observers could not be certain that the point was a previously unknown satellite. As William Cranch Bond later reported, “On the evening of September 16th, we noticed a small star situated nearly in the plane of Saturn’s ring.”</p><p>The observation established that a faint object appeared near Saturn and that its position was worth recording, but it did not by itself establish that the object was a moon. Observations on September 19 showed that the object shared Saturn’s apparent retrograde motion, providing evidence that it belonged to Saturn’s satellite system.</p><p>William Lassell independently observed the same body from Liverpool shortly afterward. The Bonds and Lassell are jointly credited with its discovery, and the object became known as Hyperion, Saturn’s eighth recognized satellite.</p>",
+      "wrongBelief": "The observers initially judged that the September 16 point of light might be accidental rather than a previously unknown satellite.",
+      "evidence": "The September 16 observation demonstrated that a faint object appeared near Saturn’s ring plane and warranted further positional observations. It did not establish the object’s nature as a moon. The Bonds’ later observations on September 19 showed motion consistent with Saturn’s satellite system, while Lassell’s independent observation strengthened the identification.",
+      "primarySource": "William Cranch Bond, “Discovery of a new Satellite of Saturn,” Monthly Notices of the Royal Astronomical Society, volume 9, 1848, pages 1–2; and the 1848 report of the committee on the discovery and naming of Saturn’s eighth satellite, read before the American Academy of Arts and Sciences on November 8, 1848.",
+      "editorialRecord": {
+        "publishedDate": "2026-09-16",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "The date, people, and location are supported: William Cranch Bond and George Phillips Bond observed the object at Harvard College Observatory in Cambridge on September 16, 1848. ([academic.oup.com](https://academic.oup.com/mnras/article/9/1/1/975575?utm_source=openai))",
+          "George Phillips Bond's initial detection of a faint object near Saturn's ring plane, between Titan and Iapetus, is supported by the historical account reproduced in contemporary astronomy literature. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/f/f5/The_recent_progress_of_astronomy%3B_especially_in_the_United_States_%28IA_recentprogressof00loomrich%29.pdf?utm_source=openai))",
+          "The article correctly distinguishes the initial sighting from confirmation of the object's nature as a satellite. Observations on September 19 established that it shared Saturn's apparent retrograde motion. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/f/f5/The_recent_progress_of_astronomy%3B_especially_in_the_United_States_%28IA_recentprogressof00loomrich%29.pdf?utm_source=openai))",
+          "The account of joint discovery by the Bonds and William Lassell is supported by NASA and the contemporary Monthly Notices record. ([science.nasa.gov](https://science.nasa.gov/saturn/moons/hyperion/?utm_source=openai))",
+          "The statement that Lassell supplied the name Hyperion under John Herschel's mythological naming scheme is supported by NASA. ([science.nasa.gov](https://science.nasa.gov/saturn/moons/hyperion/?utm_source=openai))",
+          "The Great Refractor details are supported: Harvard installed its 15-inch refractor in 1847, with a lens ordered from Merz and Mahler of Munich; Harvard describes it as the largest telescope in the United States and a highly significant American astronomical instrument of its period. ([hco.cfa.harvard.edu](https://hco.cfa.harvard.edu/the-great-refractor/?utm_source=openai))",
+          "The statement that the observers initially regarded the sighting as possibly accidental is directly supported by the historical account. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/f/f5/The_recent_progress_of_astronomy%3B_especially_in_the_United_States_%28IA_recentprogressof00loomrich%29.pdf?utm_source=openai))"
+        ],
+        "warnings": [
+          "The phrase \"shortly afterward\" is acceptable but imprecise: William Lassell's independent observation is generally dated to September 19, 1848, the same night the Bonds confirmed the object's motion as satellite-like. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/0/03/Memorials_of_William_Cranch_Bond%2C_director_of_the_Harvard_College_Observatory%2C_1840-1859%2C_and_of_his_son%2C_George_Phillips_Bond%2C_director_..._1859-1865_%28IA_memorialsofwilli00holdiala%29.pdf?utm_source=openai))",
+          "The article calls Hyperion Saturn's \"eighth recognized satellite,\" which is historically defensible as the eighth satellite discovered, though Hyperion's formal designation is Saturn VII because it is the seventh major satellite outward from Saturn. ([science.nasa.gov](https://science.nasa.gov/saturn/moons/?utm_source=openai))"
+        ],
+        "researchSources": [
+          "William Cranch Bond, “Discovery of a new Satellite of Saturn,” Monthly Notices of the Royal Astronomical Society, volume 9, 1848, pages 1–2. ([academic.oup.com](https://academic.oup.com/mnras/article/9/1/1/975575?utm_source=openai))",
+          "Report of the committee on the discovery and naming of Saturn’s eighth satellite, read before the American Academy of Arts and Sciences on November 8, 1848, reproducing Bond’s account of the observations. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/d/da/Report_on_the_Discovery_and_Name_of_an_Eighth_Satellite_of_Saturn_%28IA_jstor-25058149%29.pdf?utm_source=openai))",
+          "William Lassell, “Discovery of a new Satellite of Saturn,” Monthly Notices of the Royal Astronomical Society, volume 8, 1848, pages 195–197. ([commons.wikimedia.org](https://commons.wikimedia.org/wiki/File%3ADiscovery_of_a_new_Satellite_of_Saturn.%E2%8B%86_%28IA_paper-doi-10_1093_mnras_8_9_195a%29.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "The important thing is not to stop questioning.",
-    "author": "Albert Einstein"
+    "text": "“On the evening of September 16th, we noticed a small star situated nearly in the plane of Saturn’s ring.”",
+    "author": "William Cranch Bond, as reproduced in the 1848 report of the American Academy of Arts and Sciences"
   },
   "onThisDay": {
-    "title": "Science is built from records.",
-    "copy": "The Gazette’s archive is designed to grow one verified historical dispatch at a time."
+    "title": "The Faint Point Beside Saturn",
+    "copy": "On September 16, 1848, William Cranch Bond and his son George recorded a faint point of light near Saturn’s rings at Harvard College Observatory. They did not yet know what it was. Follow-up observations revealed that the speck moved with Saturn, identifying it as a new moon. The object became known as Hyperion, discovered independently by the Bonds in Massachusetts and William Lassell in England."
   },
   "instrument": {
-    "title": "The Crescograph",
-    "copy": "A historical instrument for magnifying and recording tiny movements in plant tissue."
+    "title": "Harvard’s Great Refractor",
+    "copy": "The observation was made with Harvard’s 15-inch Great Refractor, installed in Cambridge in 1847. Built with a lens from the Munich firm Merz and Mahler, it was the largest and most important American astronomical telescope of its era. The instrument helped establish Harvard College Observatory as a major center for nineteenth-century observational astronomy."
   },
-  "updated": "initial-archive"
+  "updated": "2026-09-16"
 };

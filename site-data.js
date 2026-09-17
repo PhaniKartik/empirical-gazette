@@ -166,19 +166,55 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Vesto Melvin Slipher",
+      "exactHistoricalDate": "September 17, 1912",
+      "headline": "The Night Andromeda Revealed Its Motion",
+      "deck": "At Lowell Observatory, Vesto Melvin Slipher exposed the first photographic plate that would yield a measured radial velocity for a spiral nebula.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "",
+      "lore": "The object was then called the Andromeda Nebula. Astronomers now identify it as the Andromeda Galaxy, or M31.",
+      "body": "<p>On September 17, 1912, at Lowell Observatory in Flagstaff, Arizona, Vesto Melvin Slipher exposed a photographic plate of the Andromeda Nebula. The observation was made with the observatory’s 24-inch telescope and a spectrograph.</p><p>The plate showed a consistent displacement of Andromeda’s spectral lines relative to comparison lines. After additional plates were obtained during late 1912, Slipher’s published analysis gave a mean approach velocity of about 300 kilometers per second.</p><p>This became the first measured radial velocity for a spiral nebula, beginning the first successful measurement of a galaxy’s motion along the line of sight. Slipher’s later measurements showed that large velocities were common among the spiral nebulae, data that later became important to the discovery of the expanding universe.</p><blockquote>“I believe we have at present no other interpretation for it.”</blockquote><p>The September 17 plate did not establish that Andromeda was a separate galaxy or demonstrate cosmic expansion. Those broader conclusions depended on later observations, distance measurements, and subsequent interpretation.</p>",
+      "wrongBelief": "The documented uncertainty was whether Andromeda’s apparent spectral displacement was really caused by motion. Slipher wrote that the unusually large result raised the question of whether the displacement might have another cause, although he said he knew of no other interpretation at the time.",
+      "evidence": "The photographic plates showed a consistent displacement of Andromeda’s spectral lines relative to comparison lines, which Slipher interpreted as evidence that the nebula was approaching the Solar System at roughly 300 kilometers per second. The September 17 plate alone did not establish that Andromeda was a separate galaxy or demonstrate cosmic expansion; those broader conclusions depended on later observations, distance measurements, and subsequent interpretation.",
+      "primarySource": "Vesto M. Slipher, “The Radial Velocity of the Andromeda Nebula,” Lowell Observatory Bulletin, No. 58, 1913.",
+      "editorialRecord": {
+        "publishedDate": "2026-09-17",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The date, person, and location are correct: Vesto Melvin Slipher exposed the first relevant plate at Lowell Observatory in Flagstaff, Arizona, on September 17, 1912. ([lowell.edu](https://lowell.edu/mars-hill-quick-report-september-12-18/))",
+          "The 24-inch telescope and spectrographic method are supported by historical accounts and contemporary reporting. ([giss.nasa.gov](https://www.giss.nasa.gov/pubs/abs/wa04400x.html))",
+          "Slipher’s published observations gave a mean approach velocity of approximately 300 kilometers per second, based on observations from September through December 1912. ([www2.lowell.edu](https://www2.lowell.edu/workshops/slipher/Slipher1913LowOB2_56S.pdf?utm_source=openai))",
+          "The account accurately distinguishes the measured spectral displacement and inferred approach from later conclusions about Andromeda’s extragalactic nature and cosmic expansion. ([giss.nasa.gov](https://www.giss.nasa.gov/pubs/abs/wa04400x.html))",
+          "The article’s account of Slipher’s later measurements of spiral nebulae and their importance to the history of the expanding universe is supported, provided it is understood as historical significance rather than a claim that the 1912 observation alone demonstrated cosmic expansion. ([giss.nasa.gov](https://www.giss.nasa.gov/pubs/abs/wa04400x.html))"
+        ],
+        "warnings": [
+          "The phrase \"galaxy’s motion\" is acceptable only as retrospective terminology. In 1912 Slipher measured the radial velocity of an object then classified as the Andromeda Nebula; the observation itself did not establish that it was a separate galaxy. The article explicitly states this limitation, so the wording is not materially misleading.",
+          "The statement that the plate showed a \"consistent displacement\" is broadly supported, but the published mean velocity was derived from four observations made between September and December 1912, not from the September 17 plate alone. The article correctly attributes the approximately 300 km/s mean to the later observations."
+        ],
+        "researchSources": [
+          "Vesto M. Slipher, “The Radial Velocity of the Andromeda Nebula,” Lowell Observatory Bulletin, No. 58, 1913. The surviving primary text records the September 17, 1912 observation, the measured displacement, and Slipher’s stated uncertainty about its interpretation. ([www2.lowell.edu](https://www2.lowell.edu/workshops/slipher/Slipher1913LowOB2_56S.pdf?utm_source=openai))",
+          "Lowell Observatory Archives, historical account of Slipher’s September 17, 1912 plate and later radial-velocity work. ([lowell.edu](https://lowell.edu/mars-hill-quick-report-september-12-18/))",
+          "M. J. Way and D. Hunter, eds., Origins of the Expanding Universe: 1912–1932, Astronomical Society of the Pacific Conference Series 471, summarized by NASA’s Goddard Institute for Space Studies. ([giss.nasa.gov](https://www.giss.nasa.gov/pubs/abs/wa04400x.html))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“On the evening of September 16th, we noticed a small star situated nearly in the plane of Saturn’s ring.”",
-    "author": "William Cranch Bond, as reproduced in the 1848 report of the American Academy of Arts and Sciences"
+    "text": "“I believe we have at present no other interpretation for it.”",
+    "author": "Vesto M. Slipher, “The Radial Velocity of the Andromeda Nebula,” Lowell Observatory Bulletin, No. 58, 1913."
   },
   "onThisDay": {
-    "title": "The Faint Point Beside Saturn",
-    "copy": "On September 16, 1848, William Cranch Bond and his son George recorded a faint point of light near Saturn’s rings at Harvard College Observatory. They did not yet know what it was. Follow-up observations revealed that the speck moved with Saturn, identifying it as a new moon. The object became known as Hyperion, discovered independently by the Bonds in Massachusetts and William Lassell in England."
+    "title": "The Night Andromeda Revealed Its Motion",
+    "copy": "On September 17, 1912, Lowell Observatory astronomer Vesto Melvin Slipher exposed a photographic plate of the Andromeda Nebula. Its spectral lines were later found to be shifted in a way consistent with a striking approach toward the Solar System—the first measured radial velocity for a spiral nebula. The observation opened a new way to study the motions of galaxies and supplied evidence that would later help reshape humanity’s picture of the universe."
   },
   "instrument": {
-    "title": "Harvard’s Great Refractor",
-    "copy": "The observation was made with Harvard’s 15-inch Great Refractor, installed in Cambridge in 1847. Built with a lens from the Munich firm Merz and Mahler, it was the largest and most important American astronomical telescope of its era. The instrument helped establish Harvard College Observatory as a major center for nineteenth-century observational astronomy."
+    "title": "The Spectrograph That Turned Starlight into Speed",
+    "copy": "Slipher’s spectrograph transformed faint celestial light into a record of spectral lines. By comparing the positions of those lines with reference lines, astronomers could infer motion along the line of sight. Mounted for work with Lowell Observatory’s 24-inch telescope, the instrument made Andromeda’s previously invisible motion measurable."
   },
-  "updated": "2026-09-16"
+  "updated": "2026-09-17"
 };

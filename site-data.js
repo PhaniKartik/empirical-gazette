@@ -202,19 +202,60 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Edward C. Stone",
+      "exactHistoricalDate": "September 18, 1977",
+      "headline": "Voyager 1 Frames Earth and Moon Together",
+      "deck": "From 7.25 million miles away, Voyager 1 made the first spacecraft photograph to show Earth and the Moon in a single frame.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "Voyager 1 recorded a crescent Earth and a smaller crescent Moon against space on September 18, 1977. The spacecraft was approximately 7.25 million miles from Earth, above the night side near 25° north latitude and geographically over Mount Everest.",
+      "lore": "Less than two weeks after its September 5, 1977, launch from Cape Canaveral, Voyager 1 looked back toward home and offered a new visual perspective on the Earth-Moon system.",
+      "body": "<p>On September 18, 1977, NASA’s Voyager 1 recorded the first spacecraft photograph showing Earth and the Moon together in a single frame. The spacecraft was approximately 7.25 million miles (11.66 million kilometers) from Earth, above the night side near 25° north latitude and geographically over Mount Everest.</p><p>The image showed a crescent Earth and a smaller crescent Moon against space. Its illuminated portion of Earth included eastern Asia, the western Pacific Ocean, and part of the Arctic. Because Earth was much brighter, the Moon was digitally brightened in the published image, so the photograph is not a simple brightness comparison between the two bodies.</p><blockquote>“This picture of a crescent-shaped Earth and Moon—the first of its kind ever taken by a spacecraft—was recorded Sept. 18, 1977.”</blockquote><p>Earlier, Mariner 10 had photographed Earth and the Moon separately, with technicians combining those photographs into a composite. Voyager 1’s image therefore demonstrated a specific imaging first: both bodies appeared in one original photographic frame. It provided a new way to view the Earth-Moon system, but it did not by itself establish new physical properties of Earth, the Moon, or their orbit.</p>",
+      "wrongBelief": "The dossier does not document a specific contemporary belief that Earth and the Moon could not be photographed together. It documents only the earlier limitation that Mariner 10’s views of Earth and the Moon were separate photographs combined into a composite.",
+      "evidence": "The returned image visibly contained both Earth and the Moon in the same photographic frame, establishing the stated imaging first. It demonstrated a new visual perspective on the Earth-Moon system. It did not, by itself, establish new physical properties of Earth, the Moon, or their orbit. The Moon was digitally brightened in the published image because Earth was much brighter.",
+      "primarySource": "NASA, “Voyager 1 Takes the First Image of the Earth-Moon System in a Single Frame,” dated September 18, 1977; NASA/JPL image record, “Crescent Earth and Moon”; NASA Technical Reports Server contemporaneous image description; NASA Historical Data Book, Voyager mission chronology.",
+      "editorialRecord": {
+        "publishedDate": "2026-09-18",
+        "validationScore": 96.0,
+        "verifiedClaims": [
+          "Voyager 1 recorded the first spacecraft image showing Earth and the Moon together in a single frame on September 18, 1977.",
+          "The spacecraft was approximately 7.25 million miles (11.66 million kilometers) from Earth.",
+          "Voyager 1 was above the night side near 25 degrees north latitude and geographically over Mount Everest.",
+          "The image showed crescent Earth and Moon, with eastern Asia, the western Pacific Ocean, and part of the Arctic visible.",
+          "Voyager 1 launched from Cape Canaveral/Kennedy Space Center on September 5, 1977.",
+          "Mariner 10 previously produced separate Earth and Moon photographs that were combined into a composite.",
+          "The Moon was artificially brightened because Earth was much brighter.",
+          "The article appropriately limits the significance to an imaging and visual-perspective first and does not claim that the image established new physical properties or proved a new scientific theory.",
+          "The quotation is supported by the NASA/JPL image description.",
+          "The Imaging Science Subsystem description is historically supported: Voyager used modified slow-scan vidicon cameras derived from earlier Mariner designs."
+        ],
+        "warnings": [
+          "For maximum technical precision, 'one original photographic frame' could be clarified: the published color image was assembled from three images taken through color filters, although Earth and the Moon were captured together in the same frame/field rather than combined from separate Earth and Moon photographs."
+        ],
+        "researchSources": [
+          "NASA, “Voyager 1 Takes the First Image of the Earth-Moon System in a Single Frame,” dated September 18, 1977. ([nasa.gov](https://www.nasa.gov/image-article/voyager-1-takes-first-image-of-earth-moon-system-single-frame/?utm_source=openai))",
+          "NASA/JPL image record, “Crescent Earth and Moon,” documenting the original Voyager 1 image and its date. ([jpl.nasa.gov](https://www.jpl.nasa.gov/images/pia00013-crescent-earth-and-moon/?utm_source=openai))",
+          "NASA Technical Reports Server, contemporaneous image description of the September 18, 1977 photograph. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19800008743/downloads/19800008743.pdf?utm_source=openai))",
+          "NASA Historical Data Book, Voyager mission chronology. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/sp-4012v7.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“I believe we have at present no other interpretation for it.”",
-    "author": "Vesto M. Slipher, “The Radial Velocity of the Andromeda Nebula,” Lowell Observatory Bulletin, No. 58, 1913."
+    "text": "“This picture of a crescent-shaped Earth and Moon—the first of its kind ever taken by a spacecraft—was recorded Sept. 18, 1977.”",
+    "author": "NASA/JPL image description for “Crescent Earth and Moon.”"
   },
   "onThisDay": {
-    "title": "The Night Andromeda Revealed Its Motion",
-    "copy": "On September 17, 1912, Lowell Observatory astronomer Vesto Melvin Slipher exposed a photographic plate of the Andromeda Nebula. Its spectral lines were later found to be shifted in a way consistent with a striking approach toward the Solar System—the first measured radial velocity for a spiral nebula. The observation opened a new way to study the motions of galaxies and supplied evidence that would later help reshape humanity’s picture of the universe."
+    "title": "Voyager 1 Frames Earth and Moon Together",
+    "copy": "On September 18, 1977, NASA’s Voyager 1 looked back toward home from 7.25 million miles away and recorded Earth and the Moon in a single spacecraft photograph for the first time. The small image offered an unprecedented view of the Earth-Moon system—not as a scene from the ground, but as a pair of worlds seen across space."
   },
   "instrument": {
-    "title": "The Spectrograph That Turned Starlight into Speed",
-    "copy": "Slipher’s spectrograph transformed faint celestial light into a record of spectral lines. By comparing the positions of those lines with reference lines, astronomers could infer motion along the line of sight. Mounted for work with Lowell Observatory’s 24-inch telescope, the instrument made Andromeda’s previously invisible motion measurable."
+    "title": "The Voyager Imaging Science Subsystem",
+    "copy": "Voyager 1’s Imaging Science Subsystem used slow-scan vidicon television cameras adapted from Mariner-era technology. It supplied the visual record that placed Earth and the Moon together in one frame, while later image processing helped make the much dimmer Moon visible beside the brighter Earth."
   },
-  "updated": "2026-09-17"
+  "updated": "2026-09-18"
 };

@@ -243,19 +243,61 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Joseph-Michel Montgolfier and Jacques-Étienne Montgolfier",
+      "exactHistoricalDate": "19 September 1783",
+      "headline": "The First Living Passengers Rise at Versailles",
+      "deck": "A sheep, a duck, and a rooster became the earliest documented living passengers in a balloon, while the safety of human flight remained unresolved.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this dispatch.",
+      "lore": "Before human beings entered a balloon, the Montgolfier brothers tested the possibility with three animal passengers before the French royal family.",
+      "body": "<p>On 19 September 1783, a hot-air balloon designed by Joseph-Michel and Jacques-Étienne Montgolfier rose from the great courtyard of the Château de Versailles before Louis XVI, Marie Antoinette, the royal family, and a large crowd. Its basket carried one sheep, one duck, and one rooster.</p><p>A contemporary description reported that the balloon remained aloft for about eight minutes before descending in the Bois de Vaucresson. The animals were recovered without apparent injury. The demonstration therefore provided evidence that a balloon could lift living passengers and keep them aloft during a brief flight.</p><blockquote>“Le mouton, le coq et le canard n’eprouverent aucune incomodite.”</blockquote><p>The experiment did not itself demonstrate human flight, reliable steering, long-duration travel, or the safety of carrying people. Benjamin Franklin recorded that Jean-François Pilâtre de Rozier had been advised to wait until the handling of such balloons was made more certain and safe. Human balloon flights followed later in 1783.</p>",
+      "wrongBelief": "It remained uncertain whether balloon flight could be made sufficiently safe and controllable for people.",
+      "evidence": "The surviving contemporary description and Paris Musées record document the Versailles launch, the three animals, a flight of about eight minutes, and their recovery without apparent harm. The event demonstrated that a balloon could carry living cargo during a brief ascent. It did not demonstrate that humans could fly safely, that the balloon could be steered reliably, or that longer flights were practical.",
+      "primarySource": [
+        "Contemporary printed account and image catalogued by Paris Musées, describing the 19 September 1783 Versailles flight and stating that the sheep, rooster, and duck suffered no apparent disturbance.",
+        "Contemporary print catalogued by the Bibliothèque nationale de France, describing the Versailles experiment, its royal audience, the animals, and their apparently unharmed recovery.",
+        "Benjamin Franklin’s letter to Joseph Banks, dated 30 August–2 September 1783, recording contemporary uncertainty about the safety and management of balloon flight."
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-09-19",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The date, 19 September 1783, matches the dossier.",
+          "The Montgolfier brothers are correctly identified as the balloon's designers.",
+          "The launch location, the great courtyard of the Château de Versailles, is supported.",
+          "The royal audience, including Louis XVI and Marie Antoinette, is supported.",
+          "The basket's occupants—one sheep, one duck, and one rooster—are correctly stated.",
+          "The approximately eight-minute flight and descent in the Bois de Vaucresson are supported.",
+          "The animals' recovery without apparent injury is accurately qualified.",
+          "The article correctly distinguishes the demonstrated ability to carry living cargo from unproven human safety, steering, endurance, and long-duration travel.",
+          "The statement that human balloon flights followed later in 1783 is supported.",
+          "The article avoids materially exaggerating the experiment's significance."
+        ],
+        "warnings": [],
+        "researchSources": [
+          "Contemporary printed account and image catalogued by Paris Musées, with an inscription describing the 19 September 1783 Versailles flight and stating that the sheep, rooster, and duck suffered no apparent disturbance. ([parismuseescollections.paris.fr](https://www.parismuseescollections.paris.fr/de/node/104629?utm_source=openai))",
+          "Contemporary print catalogued by the Bibliothèque nationale de France describing the Versailles experiment, its royal audience, the animals, and their apparently unharmed recovery. ([catalogue.bnf.fr](https://catalogue.bnf.fr/ark%3A/12148/cb420713515?utm_source=openai))",
+          "Benjamin Franklin’s letter to Joseph Banks, dated 30 August–2 September 1783, recording contemporary uncertainty about the safety and management of balloon flight. ([founders.archives.gov](https://founders.archives.gov/documents/Franklin/01-40-02-0342?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“This picture of a crescent-shaped Earth and Moon—the first of its kind ever taken by a spacecraft—was recorded Sept. 18, 1977.”",
-    "author": "NASA/JPL image description for “Crescent Earth and Moon.”"
+    "text": "Le mouton, le coq et le canard n’eprouverent aucune incomodite.",
+    "author": "Anonymous contemporary inscription on a print of the Versailles experiment, catalogued by the Bibliothèque nationale de France; spelling and punctuation retained from the source record."
   },
   "onThisDay": {
-    "title": "Voyager 1 Frames Earth and Moon Together",
-    "copy": "On September 18, 1977, NASA’s Voyager 1 looked back toward home from 7.25 million miles away and recorded Earth and the Moon in a single spacecraft photograph for the first time. The small image offered an unprecedented view of the Earth-Moon system—not as a scene from the ground, but as a pair of worlds seen across space."
+    "title": "The First Living Passengers Rise at Versailles",
+    "copy": "On 19 September 1783, the Montgolfier brothers sent a sheep, a duck, and a rooster into the sky in a hot-air balloon before the French royal family at Versailles. Their safe return offered the first documented sign that balloon flight could carry living passengers—but the question of human safety remained open."
   },
   "instrument": {
-    "title": "The Voyager Imaging Science Subsystem",
-    "copy": "Voyager 1’s Imaging Science Subsystem used slow-scan vidicon television cameras adapted from Mariner-era technology. It supplied the visual record that placed Earth and the Moon together in one frame, while later image processing helped make the much dimmer Moon visible beside the brighter Earth."
+    "title": "The Montgolfière: A Balloon Becomes an Aeronautical Instrument",
+    "copy": "The Montgolfière transformed the balloon from a spectacular experiment into an instrument for testing whether living passengers could be lifted above the ground. The Versailles flight established the balloon’s ability to carry life briefly through the air; it did not yet establish steering, endurance, or human safety."
   },
-  "updated": "2026-09-18"
+  "updated": "2026-09-19"
 };

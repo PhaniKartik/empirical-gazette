@@ -285,19 +285,63 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "John W. Backus",
+      "exactHistoricalDate": "September 20, 1954",
+      "headline": "The Day FORTRAN First Ran",
+      "deck": "An IBM 704 carried out the first successful FORTRAN program run, providing early evidence that scientific computing could be expressed in a notation closer to mathematics than to machine language.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image in this edition.",
+      "lore": "FORTRAN was named for “FORmula TRANslator.” Its first successful run was an internal technical milestone; the system was not commercially released until 1957.",
+      "body": "<p>On September 20, 1954, Harlan Herrick ran the first successful FORTRAN program on an IBM 704. The work took place within IBM’s programming research operation in New York, although the surviving historical sources do not establish a more precise room or facility for the run.</p><p>Led by John W. Backus, the IBM team sought to reduce the labor and error involved in writing scientific programs directly in machine language. Irving Ziller, Robert A. Nelson, Lois Haibt, and other members contributed to the effort, including work on compiler organization, algebraic expressions, optimization, input and output, and documentation.</p><p>The successful run demonstrated that a scientific program written in a mathematical-style notation could be translated into executable machine code. It tested the practicality of a high-level-language approach for scientific computing and helped establish a model that later influenced scientific and engineering programming.</p><p>The event did not prove that every high-level program would match the performance of hand-written numerical machine code, nor did it mark the completed commercial release of FORTRAN. The system was released commercially in 1957, making the 1954 run an important internal technical milestone rather than a public launch.</p>",
+      "wrongBelief": "Skeptics believed that a program translated from a high-level language could not be as efficient as one written directly in numerical machine code.",
+      "evidence": "The successful execution of a FORTRAN program on an IBM 704, together with surviving design documents, compiler records, program listings, and later historical accounts, demonstrated that the system could translate mathematical-style source into executable machine code. It did not establish that every high-level program would match hand-coded performance, and it did not represent the completed commercial FORTRAN system.",
+      "primarySource": "J. W. Backus and H. Herrick, “IBM 701 Speedcoding and other automatic programming systems,” presented at the Office of Naval Research Symposium in May 1954 and preserved through the Computer History Museum’s FORTRAN archive; J. W. Backus, H. Herrick, and I. Ziller, “Preliminary Report: Specifications for the IBM Mathematical FORmula TRANslating System, FORTRAN,” IBM, November 10, 1954; and John W. Backus, “Programming in America in the 1950s—Some Personal Impressions,” 1980.",
+      "editorialRecord": {
+        "publishedDate": "2026-09-20",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The first successful FORTRAN program run occurred on September 20, 1954.",
+          "Harlan Herrick ran the program on an IBM 704.",
+          "The work took place within IBM's programming research operation in New York, with no unsupported room or facility specified.",
+          "John W. Backus led the IBM FORTRAN effort.",
+          "Irving Ziller, Robert A. Nelson, and Lois Haibt were members of the early FORTRAN team whose contributions are consistent with the dossier.",
+          "FORTRAN was derived from 'FORmula TRANslator.'",
+          "The project aimed to reduce the labor and error associated with programming scientific calculations directly in machine language.",
+          "The run demonstrated that mathematical-style source could be translated into executable machine code.",
+          "The article appropriately limits the claim: the run did not prove that every high-level program would match hand-coded machine-code performance.",
+          "The 1954 run was an internal technical milestone, not the commercial release of FORTRAN; commercial release occurred in 1957.",
+          "The statement about skeptics' beliefs is supported by the dossier.",
+          "The article's evidence summary is consistent with the documented program run, design documents, compiler records, program listings, and later historical accounts."
+        ],
+        "warnings": [
+          "The statement that the work 'helped establish a model that later influenced scientific and engineering programming' is historically reasonable and supported by the dossier, but it is a broad later-impact characterization rather than something demonstrated by the September 20, 1954 run itself."
+        ],
+        "researchSources": [
+          "J. W. Backus and H. Herrick, “IBM 701 Speedcoding and other automatic programming systems,” presented at the Office of Naval Research Symposium, May 1954; preserved through the Computer History Museum's FORTRAN archive. ([softwarepreservation.computerhistory.org](https://softwarepreservation.computerhistory.org/FORTRAN/))",
+          "J. W. Backus, H. Herrick, and I. Ziller, “Preliminary Report: Specifications for the IBM Mathematical FORmula TRANslating System, FORTRAN,” IBM, November 10, 1954; preserved through the Computer History Museum's Software Preservation Group. ([softwarepreservation.computerhistory.org](https://softwarepreservation.computerhistory.org/FORTRAN/))",
+          "John W. Backus, “Programming in America in the 1950s—Some Personal Impressions,” 1980; preserved through the Computer History Museum's FORTRAN archive. ([softwarepreservation.computerhistory.org](https://softwarepreservation.computerhistory.org/FORTRAN/))",
+          "IBM, “Fortran,” historical account of the FORTRAN project and its team. ([ibm.com](https://www.ibm.com/history/fortran))",
+          "Computer History Museum, “September 20: First FORTRAN Program Runs.” ([computerhistory.org](https://www.computerhistory.org/tdih/september/20/))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "Le mouton, le coq et le canard n’eprouverent aucune incomodite.",
-    "author": "Anonymous contemporary inscription on a print of the Versailles experiment, catalogued by the Bibliothèque nationale de France; spelling and punctuation retained from the source record."
+    "text": "“We thought it was a good project, and then everyone told us it couldn’t be done.”",
+    "author": "John W. Backus"
   },
   "onThisDay": {
-    "title": "The First Living Passengers Rise at Versailles",
-    "copy": "On 19 September 1783, the Montgolfier brothers sent a sheep, a duck, and a rooster into the sky in a hot-air balloon before the French royal family at Versailles. Their safe return offered the first documented sign that balloon flight could carry living passengers—but the question of human safety remained open."
+    "title": "The Day FORTRAN First Ran",
+    "copy": "On September 20, 1954, Harlan Herrick ran the first successful FORTRAN program on an IBM 704. Developed by John Backus and his IBM colleagues, FORTRAN let scientists describe calculations in a notation closer to mathematics than to machine language. The run did not yet mark a commercial release, but it supplied an important early proof that high-level scientific programming could be made practical."
   },
   "instrument": {
-    "title": "The Montgolfière: A Balloon Becomes an Aeronautical Instrument",
-    "copy": "The Montgolfière transformed the balloon from a spectacular experiment into an instrument for testing whether living passengers could be lifted above the ground. The Versailles flight established the balloon’s ability to carry life briefly through the air; it did not yet establish steering, endurance, or human safety."
+    "title": "The IBM 704: A Machine Ready for Mathematics",
+    "copy": "The IBM 704 was the scientific computer for which FORTRAN was developed. Its numerical capabilities made it a suitable testbed for the team’s attempt to translate algebraic expressions into executable machine code. The significance of the 1954 event was that the FORTRAN system created a new layer between the scientist’s mathematical description and the computer’s underlying instructions."
   },
-  "updated": "2026-09-19"
+  "updated": "2026-09-20"
 };

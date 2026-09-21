@@ -329,19 +329,57 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Robert A. Millikan",
+      "exactHistoricalDate": "September 21, 1932",
+      "headline": "The Cosmic Rays Take Flight",
+      "deck": "At March Field, Robert A. Millikan completed airborne measurements of cosmic-ray intensity aboard a Condor bomber.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image is included in this edition.",
+      "lore": "On September 21, 1932, high-altitude aviation became a platform for experimental physics as Millikan and U.S. Army Air Corps flight crews recorded penetrating radiation at different elevations.",
+      "body": "<p>On September 21, 1932, Robert A. Millikan completed a series of cosmic-ray measurements at March Field in Riverside, California. The tests used a Condor bomber operated with U.S. Army Air Corps flight crews, extending the study of penetrating radiation from laboratories and mountain sites into the air.</p><p>The aircraft carried a self-recording cosmic-ray electroscope and related recording instruments. These devices allowed researchers to compare radiation measurements made at different elevations while also recording environmental and timing information.</p><p>The work contributed to a growing body of evidence that cosmic-ray intensity changed with altitude. It also formed part of a broader program examining whether the intensity of penetrating radiation varied with elevation, time of day, latitude, or direction.</p><p>Millikan's airborne tests did not identify the ultimate source of cosmic rays or settle the debate over whether they were photons, neutrons, or charged particles. They demonstrated the use of an aircraft as a scientific platform and added measurements to an unresolved investigation into the nature of cosmic radiation.</p>",
+      "wrongBelief": "A contemporary account reported that Millikan had previously believed cosmic-ray intensity remained the same day and night; improved instruments had indicated a higher daytime intensity.",
+      "evidence": "The event demonstrated that cosmic-ray intensity could be measured aboard an aircraft and that its recorded value changed with elevation. It did not, by itself, establish the rays' ultimate source or determine whether cosmic rays were photons, neutrons, or charged particles.",
+      "primarySource": [
+        "Robert A. Millikan, \"Further experiments on the uniformity of distribution of the cosmic radiation,\" Physical Review 39 (1932), pp. 391–396.",
+        "R. A. Millikan and R. M. Otis, \"High Frequency Rays of Cosmic Origin II. Mountain Peak and Airplane Observations,\" Physical Review 27 (1926), pp. 645–658.",
+        "U.S. Army Air Service Newsletter, 1932, account of Millikan's March Field cosmic-ray tests and airborne recording instruments."
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-09-21",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The date, person, location, Condor bomber, and March Field setting match the documented historical account. ([imagine.gsfc.nasa.gov](https://imagine.gsfc.nasa.gov/observatories/history/cosmicray/?utm_source=openai))",
+          "The article accurately describes airborne measurements of cosmic-ray intensity at different altitudes and the use of Army Air Corps crews. ([imagine.gsfc.nasa.gov](https://imagine.gsfc.nasa.gov/observatories/history/cosmicray/?utm_source=openai))",
+          "The self-recording cosmic-ray electroscope and associated recording instruments, including altitude and timing instrumentation, are supported by the contemporary account. ([scribd.com](https://www.scribd.com/document/76928083/Air-Force-News-Jul-Dec-1932?utm_source=openai))",
+          "The article appropriately limits the experiment's significance: it contributed measurements to an unresolved field and did not settle the ultimate source or physical nature of cosmic rays. ([scribd.com](https://www.scribd.com/document/76928083/Air-Force-News-Jul-Dec-1932?utm_source=openai))",
+          "The statement about Millikan's earlier belief regarding equal day-and-night intensity is supported by the contemporary account and is not presented as a universal scientific consensus. ([scribd.com](https://www.scribd.com/document/76928083/Air-Force-News-Jul-Dec-1932?utm_source=openai))",
+          "The quoted statement, “the sun has no direct influence on cosmic-ray intensities,” is accurately attributed to Millikan's 1932 Physical Review paper. ([authors.library.caltech.edu](https://authors.library.caltech.edu/records/mzqp7-3m932?utm_source=openai))"
+        ],
+        "warnings": [],
+        "researchSources": [
+          "Robert A. Millikan, \"Further experiments on the uniformity of distribution of the cosmic radiation,\" Physical Review 39 (1932), pp. 391–396. The paper reported that, within the stated observational uncertainty, the Sun showed no direct influence on cosmic-ray intensities. ([authors.library.caltech.edu](https://authors.library.caltech.edu/records/mzqp7-3m932))",
+          "R. A. Millikan and R. M. Otis, \"High Frequency Rays of Cosmic Origin II. Mountain Peak and Airplane Observations,\" Physical Review 27 (1926), pp. 645–658. The paper documented altitude-dependent variation in penetrating radiation. ([journals.aps.org](https://journals.aps.org/pr/abstract/10.1103/PhysRev.27.645?utm_source=openai))",
+          "U.S. Army Air Service Newsletter, 1932, account of Millikan's March Field cosmic-ray tests and airborne recording instruments. ([scribd.com](https://www.scribd.com/document/76928083/Air-Force-News-Jul-Dec-1932?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“We thought it was a good project, and then everyone told us it couldn’t be done.”",
-    "author": "John W. Backus"
+    "text": "“the sun has no direct influence on cosmic-ray intensities.”",
+    "author": "Robert A. Millikan, \"Further experiments on the uniformity of distribution of the cosmic radiation,\" Physical Review 39 (1932), p. 391."
   },
   "onThisDay": {
-    "title": "The Day FORTRAN First Ran",
-    "copy": "On September 20, 1954, Harlan Herrick ran the first successful FORTRAN program on an IBM 704. Developed by John Backus and his IBM colleagues, FORTRAN let scientists describe calculations in a notation closer to mathematics than to machine language. The run did not yet mark a commercial release, but it supplied an important early proof that high-level scientific programming could be made practical."
+    "title": "The Cosmic Rays Take Flight",
+    "copy": "On September 21, 1932, Robert A. Millikan completed a series of cosmic-ray measurements aboard a Condor bomber operating from March Field in California. The flights extended laboratory physics into the air, where instruments recorded how penetrating radiation changed with altitude. The measurements added evidence to a field still debating whether cosmic rays were photons, particles, or something more complex."
   },
   "instrument": {
-    "title": "The IBM 704: A Machine Ready for Mathematics",
-    "copy": "The IBM 704 was the scientific computer for which FORTRAN was developed. Its numerical capabilities made it a suitable testbed for the team’s attempt to translate algebraic expressions into executable machine code. The significance of the 1954 event was that the FORTRAN system created a new layer between the scientist’s mathematical description and the computer’s underlying instructions."
+    "title": "A Self-Recording Cosmic-Ray Electroscope",
+    "copy": "Millikan's airborne equipment included a self-recording cosmic-ray electroscope, accompanied by instruments that recorded environmental and timing information. Carried aboard the bomber, the apparatus allowed researchers to compare radiation measurements made at different elevations without treating the aircraft itself as the scientific subject."
   },
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 };

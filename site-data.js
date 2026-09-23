@@ -406,19 +406,55 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Johann Gottfried Galle, Heinrich Louis d’Arrest, and Urbain Jean Joseph Le Verrier",
+      "exactHistoricalDate": "September 23–24, 1846",
+      "headline": "The Planet Found by Calculation",
+      "deck": "At the Berlin Observatory, an unfamiliar object near Le Verrier’s predicted position became the first planet identified after its existence was mathematically forecast.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this edition.",
+      "lore": "Neptune entered astronomy through a collaboration between mathematical prediction, telescope observation, and precise star mapping.",
+      "body": "<p>On the morning of September 23, 1846, Johann Gottfried Galle received Urbain Le Verrier’s letter identifying the predicted position of a possible planet beyond Uranus. With permission from observatory director Johann Franz Encke, Galle used the Berlin Observatory’s Fraunhofer refractor, assisted by Heinrich Louis d’Arrest.</p><p>Le Verrier had investigated irregularities in Uranus’s orbit—the difference between its observed motion and the motion expected from the known planets. Galle and d’Arrest searched near the calculated position and found an unfamiliar object on their first night. It lay within about one degree of Le Verrier’s prediction.</p><p>The newly completed Hora XXI star chart by Carl Bremiker helped d’Arrest recognize that the object was absent from the mapped stars. A subsequent observation showed that it had moved against the background stars, supporting the conclusion that it was a planet rather than a fixed star.</p><p>The Berlin observation demonstrated that celestial mechanics could guide observers toward an unseen world and underscored the importance of cooperation between theorists, observers, instruments, and star charts. It did not, by itself, establish every property of Neptune’s orbit, mass, or physical nature.</p>",
+      "wrongBelief": "The documented uncertainty was whether Uranus’s orbital discrepancies resulted from observational error, the Sun’s gravitational influence, or the perturbing gravity of another, undiscovered planet.",
+      "evidence": "The unfamiliar object appeared close to Le Verrier’s calculated position, and a subsequent observation confirmed its apparent motion against the background stars. This supported its identification as a planet and demonstrated the predictive success of Le Verrier’s calculation. The first night’s observation alone did not establish every property of Neptune’s orbit, mass, or physical nature.",
+      "primarySource": "Johann Gottfried Galle’s letter to Urbain Le Verrier dated September 25, 1846; Johann Franz Encke’s September 25, 1846 report and comparison of the predicted position with the Berlin observations; and George Biddell Airy’s 1847 account, “Account of some circumstances historically connected with the discovery of the planet exterior to Uranus.”",
+      "editorialRecord": {
+        "publishedDate": "2026-09-23",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "Galle received Le Verrier’s communication on the morning of September 23, 1846, and the search occurred during the night of September 23–24 at the Berlin Observatory. ([aip.de](https://www.aip.de/en/institute/history/the-history-behind-the-aip-logo/?utm_source=openai))",
+          "Galle observed Neptune with the Berlin Observatory’s Fraunhofer refractor, assisted by Heinrich Louis d’Arrest, near Le Verrier’s predicted position. ([aip.de](https://www.aip.de/en/institute/history/the-history-behind-the-aip-logo/?utm_source=openai))",
+          "The object was found on the first search night and lay approximately one degree from Le Verrier’s prediction. ([nasa.gov](https://www.nasa.gov/history/175-years-ago-astronomers-discover-neptune-the-eighth-planet/?utm_source=openai))",
+          "Hora XXI, prepared by Carl Bremiker, was used to identify an object absent from the mapped stars. ([aip.de](https://www.aip.de/en/institute/history/the-history-behind-the-aip-logo/?utm_source=openai))",
+          "A subsequent observation established the object’s motion relative to the background stars, supporting its identification as a planet; the article appropriately avoids claiming that the first observation established Neptune’s complete physical or orbital properties. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/e/e2/Smithsonian_contributions_to_knowledge_%28IA_smithsoniancontr21851smit%29.pdf?utm_source=openai))",
+          "The article correctly presents Le Verrier’s prediction as the basis for the Berlin search while acknowledging the broader context of John Couch Adams’s independent work. ([nasa.gov](https://www.nasa.gov/history/175-years-ago-astronomers-discover-neptune-the-eighth-planet/?utm_source=openai))"
+        ],
+        "warnings": [
+          "The description of Hora XXI as a “newly completed” chart is imprecise. The chart was completed in 1844 and printed in 1845, although it was newly available to the Berlin Observatory in 1846. This should be revised to “recently completed and printed” or “newly available.” ([aip.de](https://www.aip.de/en/institute/history/the-history-behind-the-aip-logo/?utm_source=openai))"
+        ],
+        "researchSources": [
+          "Johann Gottfried Galle’s letter to Urbain Le Verrier, September 25, 1846, reporting that the planet indicated by Le Verrier’s calculations really existed and that the following night’s observation confirmed its motion; reproduced in the nineteenth-century Smithsonian report on the discovery. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/e/e2/Smithsonian_contributions_to_knowledge_%28IA_smithsoniancontr21851smit%29.pdf?utm_source=openai))",
+          "Johann Franz Encke’s September 25, 1846 report and comparison of Le Verrier’s predicted position with the Berlin observations, reproduced in the same contemporary documentary compilation. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/e/e2/Smithsonian_contributions_to_knowledge_%28IA_smithsoniancontr21851smit%29.pdf?utm_source=openai))",
+          "George Biddell Airy, “Account of some circumstances historically connected with the discovery of the planet exterior to Uranus,” Memoirs of the Royal Astronomical Society 16, 1847, pp. 385–414; listed by the American Physical Society as a primary contemporary account. ([aps.org](https://www.aps.org/apsnews/2020/08/neptunes-existence-confirmed))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“the Panel cannot determine whether or not the light signal that was recorded by one VELA satellite ... was generated by a nuclear explosion.”",
-    "author": "Possible Nuclear Explosion Panel, “Findings and Conclusions,” January 7, 1980"
+    "text": "«La planète, dont vous avez signalé la position, existe réellement.»",
+    "author": "Johann Gottfried Galle to Urbain Le Verrier, September 25, 1846"
   },
   "onThisDay": {
-    "title": "The Flash No One Could Explain: Vela’s South Atlantic Signal",
-    "copy": "On September 22, 1979, the Vela satellite system recorded a brief double flash over the South Atlantic. Its sensors saw a pattern familiar from nuclear-test monitoring, but the evidence stopped short of proving that a nuclear explosion had occurred. The episode became a Cold War case study in the difference between detecting a signal and identifying its cause."
+    "title": "The Planet Found by Calculation",
+    "copy": "On September 23, 1846, Johann Gottfried Galle and Heinrich Louis d’Arrest searched the Berlin sky using coordinates supplied by Urbain Le Verrier. They found an unfamiliar object close to the predicted position of a planet whose existence had been inferred from Uranus’s wayward orbit. A second observation confirmed that the object moved against the background stars: Neptune had entered astronomy not by accident, but by prediction followed by observation."
   },
   "instrument": {
-    "title": "Vela’s Bhangmeter: Watching for Nuclear-Test Flashes",
-    "copy": "The Vela satellites carried optical instruments known as bhangmeters, designed to detect the rapid light signature associated with an atmospheric nuclear explosion. On September 22, 1979, two such sensors aboard Vela 6911 recorded the disputed flash that became the Vela Incident."
+    "title": "The Refractor Behind Neptune’s Discovery",
+    "copy": "Galle made the decisive observations with the Berlin Observatory’s Fraunhofer refracting telescope. The instrument was important, but so was the accompanying Hora XXI star chart: d’Arrest used the chart to recognize that one observed star was absent from the map. The discovery therefore joined optical observation, precise celestial mapping, and mathematical prediction in a single event."
   },
-  "updated": "2026-09-22"
+  "updated": "2026-09-23"
 };

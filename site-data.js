@@ -442,19 +442,60 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "James H. “Jimmy” Doolittle",
+      "exactHistoricalDate": "September 24, 1929",
+      "headline": "The Day the Horizon Disappeared",
+      "deck": "At Mitchel Field, Jimmy Doolittle demonstrated that an aircraft could take off, follow a course, and land without an external visual horizon.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this edition.",
+      "lore": "Doolittle flew beneath a hood that blocked his view of the sky and ground while Benjamin Kelsey remained aboard as a safety observer.",
+      "body": "<p>On September 24, 1929, U.S. Army Air Corps lieutenant and pilot James H. “Jimmy” Doolittle took off from Mitchel Field in Garden City, Long Island, New York, in a specially instrumented Consolidated NY-2 Husky biplane. A hood blocked his outside view, leaving him unable to see the horizon, runway, or ground.</p><p>For about 15 minutes, Doolittle used an artificial horizon, directional gyro, altimeter, radio-range signals, and marker-beacon guidance to take off, fly a set course, and land. The experiment formed part of the Daniel Guggenheim Fund for the Promotion of Aeronautics’ Full Flight Laboratory research into controlling aircraft in fog and poor visibility.</p><blockquote>“So far as I know, this was the first time an airplane had taken off, flown over a set course, and landed by instruments alone.”</blockquote><p>The demonstration provided evidence that aircraft could be controlled when visibility failed and helped establish instrument flying as a practical field of aeronautical engineering. It did not show that the technology was fully mature: a 1930 Bureau of Standards account reported that the altimeter could still be inaccurate by roughly 30 to 40 feet, and later work was needed to improve landing guidance.</p><p>Nor did the flight establish that every instrument flight could safely be conducted without a second pilot. Kelsey remained aboard as a safety observer; the FAA identifies May 9, 1932, as the date of A. F. Hegenberger’s first blind solo flight using instruments only.</p>",
+      "wrongBelief": "Many pilots then believed that flying “by the seat of my pants” was more important than relying on accurate instruments.",
+      "evidence": "The flight demonstrated that one pilot could control an aircraft through takeoff, course-following, and landing without an external visual horizon, using onboard instruments and radio aids. It did not demonstrate that the technology was fully mature, because the altimeter could still be inaccurate by roughly 30 to 40 feet and later work was needed to improve landing guidance. It also did not establish that instrument flight could safely be conducted without a second pilot, since Benjamin Kelsey remained aboard as a safety observer.",
+      "primarySource": [
+        "James H. Doolittle’s first-person account, reproduced in the IEEE Engineering and Technology History Wiki milestone record.",
+        "Daniel Guggenheim Fund for the Promotion of Aeronautics, Equipment Used in Experiments to Solve the Problem of Fog Flying, March 1930.",
+        "H. Diamond and F. G. Kear, “A 12-Course Radio Range for Guiding Aircraft with Tuned Reed Visual Indication,” Bureau of Standards Journal of Research, 1929.",
+        "Contemporary newspaper coverage: “Blind Plane Flies 15 Miles and Lands; Fog Peril Overcome,” The New York Times, September 25, 1929."
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-09-24",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The date, location, person, aircraft, and U.S. Army Air Corps affiliation are supported.",
+          "The account accurately describes Doolittle flying under a hood, using an artificial horizon, directional gyro, altimeter, radio-range guidance, and marker beacons.",
+          "The approximately 15-minute flight, course-following, and landing are supported. ([faa.gov](https://www.faa.gov/sites/faa.gov/files/about/history/pioneers/First_Instrument_Flight_Doolittle.pdf?utm_source=openai))",
+          "Benjamin Kelsey’s presence as a safety or check pilot is accurately disclosed; the article does not incorrectly present the demonstration as an unsupported solo flight. ([faa.gov](https://www.faa.gov/sites/faa.gov/files/about/history/chronolog_history/b-chron.pdf?utm_source=openai))",
+          "The article appropriately distinguishes what the flight demonstrated from what it did not prove: the instrumentation was not fully mature, the altimeter could have an error of roughly 30 to 40 feet, and later improvements to landing guidance were needed. ([nist.gov](https://www.nist.gov/blogs/taking-measure/how-nist-helped-hero-pilot-jimmy-doolittle-fly?utm_source=openai))",
+          "The reference to A. F. Hegenberger’s May 9, 1932, first blind solo flight using instruments only is supported. ([faa.gov](https://www.faa.gov/sites/faa.gov/files/about/history/chronolog_history/b-chron.pdf?utm_source=openai))",
+          "The artificial-horizon description and identification of the Sperry instrument type used in Doolittle’s test are supported by the National Air and Space Museum. ([airandspace.si.edu](https://airandspace.si.edu/collection-objects/artificial-horizon-sperry-possible-doolittle-guggenheim-artifact/nasm_A19711850000?utm_source=openai))"
+        ],
+        "warnings": [],
+        "researchSources": [
+          "James H. Doolittle's first-person account, reproduced in the IEEE Engineering and Technology History Wiki milestone record. ([ethw.org](https://ethw.org/Milestones%3AFirst_Blind_Takeoff%2C_Flight_and_Landing%2C_1929))",
+          "Daniel Guggenheim Fund for the Promotion of Aeronautics, Equipment Used in Experiments to Solve the Problem of Fog Flying, March 1930, cited in the IEEE milestone record. ([ethw.org](https://ethw.org/Milestones%3AFirst_Blind_Takeoff%2C_Flight_and_Landing%2C_1929))",
+          "H. Diamond and F. G. Kear, “A 12-Course Radio Range for Guiding Aircraft with Tuned Reed Visual Indication,” Bureau of Standards Journal of Research, 1929, cited in the IEEE milestone record. ([ethw.org](https://ethw.org/Milestones%3AFirst_Blind_Takeoff%2C_Flight_and_Landing%2C_1929))",
+          "Contemporary newspaper coverage: “Blind Plane Flies 15 Miles and Lands; Fog Peril Overcome,” The New York Times, September 25, 1929, cited in the IEEE milestone record. ([ethw.org](https://ethw.org/Milestones%3AFirst_Blind_Takeoff%2C_Flight_and_Landing%2C_1929))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "«La planète, dont vous avez signalé la position, existe réellement.»",
-    "author": "Johann Gottfried Galle to Urbain Le Verrier, September 25, 1846"
+    "text": "“So far as I know, this was the first time an airplane had taken off, flown over a set course, and landed by instruments alone.”",
+    "author": "James H. Doolittle"
   },
   "onThisDay": {
-    "title": "The Planet Found by Calculation",
-    "copy": "On September 23, 1846, Johann Gottfried Galle and Heinrich Louis d’Arrest searched the Berlin sky using coordinates supplied by Urbain Le Verrier. They found an unfamiliar object close to the predicted position of a planet whose existence had been inferred from Uranus’s wayward orbit. A second observation confirmed that the object moved against the background stars: Neptune had entered astronomy not by accident, but by prediction followed by observation."
+    "title": "The Day the Horizon Disappeared",
+    "copy": "On September 24, 1929, James H. Doolittle took off from Mitchel Field beneath a hood that blocked his view of the sky and ground. Guided by instruments and radio signals, he flew a set course and landed safely. The demonstration did not make instrument flying effortless or fully reliable, but it showed that aircraft could be controlled when visibility failed—a crucial step toward all-weather aviation."
   },
   "instrument": {
-    "title": "The Refractor Behind Neptune’s Discovery",
-    "copy": "Galle made the decisive observations with the Berlin Observatory’s Fraunhofer refracting telescope. The instrument was important, but so was the accompanying Hora XXI star chart: d’Arrest used the chart to recognize that one observed star was absent from the map. The discovery therefore joined optical observation, precise celestial mapping, and mathematical prediction in a single event."
+    "title": "The Artificial Horizon",
+    "copy": "Doolittle’s aircraft carried an early artificial, or gyro, horizon: an instrument that indicated the airplane’s attitude relative to Earth when the natural horizon could not be seen. The National Air and Space Museum identifies its displayed Sperry artificial horizon as the same type used in Doolittle’s historic 1929 blind-flying test."
   },
-  "updated": "2026-09-23"
+  "updated": "2026-09-24"
 };

@@ -483,19 +483,59 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Oliver E. Buckley",
+      "exactHistoricalDate": "September 25, 1956",
+      "headline": "The Atlantic Cable Carries Voices",
+      "deck": "TAT-1 inaugurated the first submarine telephone system to carry ordinary voice calls across the Atlantic.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "TAT-1 used two submarine cables, one for each direction of speech, laid between 1955 and 1956. The system initially provided 36 telephone channels.",
+      "body": "<p>On September 25, 1956, officials in London, New York, and Ottawa inaugurated TAT-1, the first submarine transatlantic telephone cable system. The cable itself ran between Oban, Scotland, and Clarenville, Newfoundland, with a Canadian connection through Sydney Mines, Nova Scotia.</p><p>The opening was a live three-way ceremony. Charles Hill, the United Kingdom Postmaster General, participated from London; Cleo F. Craig, chairman of AT&T, took part from New York; and D. R. Bowie represented the Canadian Overseas Telecommunication Corporation from Ottawa. George C. McConnaughey, chairman of the U.S. Federal Communications Commission, also participated, while Bell Telephone Laboratories, led by president Oliver E. Buckley, contributed research and engineering.</p><p>TAT-1 consisted of two submarine cables, one for each direction of speech, and initially provided 36 telephone channels. Its inauguration demonstrated that ordinary voice communication could be carried reliably across the Atlantic by submarine cable, supplementing existing overseas radiotelephone channels and working with a microwave link connecting the Canadian landing point to the U.S. network.</p><p>The event did not demonstrate that all international telephone traffic had become instantaneous, universal, or independent of other transmission systems. TAT-1 remained in service until 1978, when it was withdrawn after higher-capacity Atlantic cables had been installed.</p>",
+      "wrongBelief": "The documented expectation at the opening was that TAT-1 represented a major advance in telephone communication and would strengthen understanding among the participating countries. The record does not claim that the cable would make distance irrelevant or replace every other form of international communication.",
+      "evidence": "The surviving opening transcript records a successful live exchange among London, New York, and Ottawa and the formal declaration that the cable was open for service. This demonstrated reliable transatlantic voice communication by submarine cable. It did not demonstrate that all international telephone traffic had become instantaneous, universal, or independent of radio, microwave, or other transmission systems.",
+      "primarySource": "Transcript of the September 25, 1956 TAT-1 opening ceremony, preserving the three-way London–New York–Ottawa exchange; AT&T, “Service Through Ocean Cables,” a contemporary 1956 account; the Science Museum Group record for a specimen of the first transatlantic telephone cable; and the IEEE Engineering and Technology History Wiki milestone record.",
+      "editorialRecord": {
+        "publishedDate": "2026-09-25",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The date, September 25, 1956, matches the dossier.",
+          "TAT-1 is accurately described as the first submarine transatlantic telephone cable system carrying ordinary voice calls.",
+          "The London, New York, and Ottawa opening ceremony is accurately described.",
+          "Charles Hill, Cleo F. Craig, D. R. Bowie, George C. McConnaughey, and Oliver E. Buckley are correctly identified in relation to the event.",
+          "The cable route between Oban, Scotland, and Clarenville, Newfoundland, with a Canadian connection through Sydney Mines, Nova Scotia, is supported.",
+          "The description of two submarine cables, one for each direction of speech, and an initial capacity of 36 telephone channels is supported.",
+          "The article correctly limits the historical significance to reliable submarine-cable voice communication and notes that TAT-1 supplemented radio and microwave systems.",
+          "The statement that TAT-1 remained in service until 1978 and was withdrawn after higher-capacity cables were installed is supported.",
+          "The article appropriately distinguishes what the inauguration demonstrated from exaggerated claims about universal or instantaneous international communication.",
+          "The quoted statement and its attribution to George C. McConnaughey speaking to Charles Hill are supported by the dossier.",
+          "The primary-source description is consistent with the dossier's listed sources."
+        ],
+        "warnings": [],
+        "researchSources": [
+          "Transcript of the September 25, 1956 TAT-1 opening ceremony, preserving the three-way London–New York–Ottawa exchange. ([atlantic-cable.co.uk](https://atlantic-cable.co.uk/Cables/1956TAT-1/CFCF.htm?utm_source=openai))",
+          "AT&T, “Service Through Ocean Cables,” a contemporary 1956 account of TAT-1 and its place within the wider communications network. ([telephonearchive.com](https://www.telephonearchive.com/uploads/papers/pdfs/att1956.pdf?utm_source=openai))",
+          "Science Museum Group collection record for a specimen of the first transatlantic telephone cable. ([collection.sciencemuseumgroup.org.uk](https://collection.sciencemuseumgroup.org.uk/objects/co33334/specimen-of-the-first-transatlantic-telephone-cable-1956-cable?utm_source=openai))",
+          "IEEE Engineering and Technology History Wiki milestone record for the first submarine transatlantic telephone cable system. ([ethw.org](https://ethw.org/Milestones%3AThe_First_Submarine_Transatlantic_Telephone_Cable_System_%28TAT-1%29%2C_1956?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“So far as I know, this was the first time an airplane had taken off, flown over a set course, and landed by instruments alone.”",
-    "author": "James H. Doolittle"
+    "text": "“It is no exaggeration to say that you sound as if you’re speaking from somewhere in London.”",
+    "author": "George C. McConnaughey, Chairman of the U.S. Federal Communications Commission, speaking to Charles Hill during the TAT-1 opening ceremony on September 25, 1956."
   },
   "onThisDay": {
-    "title": "The Day the Horizon Disappeared",
-    "copy": "On September 24, 1929, James H. Doolittle took off from Mitchel Field beneath a hood that blocked his view of the sky and ground. Guided by instruments and radio signals, he flew a set course and landed safely. The demonstration did not make instrument flying effortless or fully reliable, but it showed that aircraft could be controlled when visibility failed—a crucial step toward all-weather aviation."
+    "title": "The Atlantic Cable Carries Voices",
+    "copy": "On September 25, 1956, officials in London, New York, and Ottawa inaugurated TAT-1, the first submarine telephone system across the Atlantic. The new cable carried a live three-way conversation and opened a more dependable voice link between Europe and North America."
   },
   "instrument": {
-    "title": "The Artificial Horizon",
-    "copy": "Doolittle’s aircraft carried an early artificial, or gyro, horizon: an instrument that indicated the airplane’s attitude relative to Earth when the natural horizon could not be seen. The National Air and Space Museum identifies its displayed Sperry artificial horizon as the same type used in Doolittle’s historic 1929 blind-flying test."
+    "title": "TAT-1: A Telephone Line Beneath the Atlantic",
+    "copy": "TAT-1 combined insulated submarine conductors with signal-amplifying repeaters designed to remain dependable on the ocean floor. A surviving cable specimen preserves the physical technology behind the first regular transatlantic telephone service."
   },
-  "updated": "2026-09-24"
+  "updated": "2026-09-25"
 };

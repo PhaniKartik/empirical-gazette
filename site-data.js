@@ -523,19 +523,56 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Albert Einstein",
+      "exactHistoricalDate": "September 26, 1905",
+      "headline": "The Day Einstein Made the Ether Unnecessary",
+      "deck": "Annalen der Physik published the paper now recognized as the first formal presentation of special relativity.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "Albert Einstein’s paper appeared in Annalen der Physik, volume 17, pages 891–921. Einstein was living and working in Bern, Switzerland, while the journal was published in Leipzig, Germany.",
+      "lore": "The manuscript was received by Annalen der Physik on June 30, 1905, and published on September 26, 1905. The paper did not use the later title “special relativity”; that terminology became standard afterward.",
+      "body": "<p>On September 26, 1905, Annalen der Physik published Albert Einstein’s “Zur Elektrodynamik bewegter Körper,” or “On the Electrodynamics of Moving Bodies.” The paper established a framework for describing space, time, motion, and electromagnetism in uniformly moving reference frames.</p><p>Einstein’s analysis rested on two principles: the laws of physics should have the same form in uniformly moving frames, and light in empty space should have a definite speed independent of the motion of its source. It argued that a stationary luminiferous ether was unnecessary.</p><p>The paper responded to a problem in contemporary physics. Electrodynamics had often been described relative to a privileged ether, while earlier attempts to detect motion through that medium had produced null results. The Michelson interferometer experiment of 1887 helped make the ether question a central problem, but its null result did not by itself prove special relativity.</p><p>The publication demonstrated that a coherent mathematical account of moving bodies and electromagnetic phenomena could be constructed without a stationary ether. It was theoretical, however, and did not by itself provide experimental proof of relativity or every consequence later associated with special relativity.</p>",
+      "wrongBelief": "A specific contemporary assumption was that electrodynamics could be described relative to a stationary luminiferous ether, a privileged medium or reference structure for light.",
+      "evidence": "The surviving publication record in Annalen der Physik identifies Einstein’s article, title, volume, and pages, while historical bibliographies record its September 26, 1905 publication date. The paper demonstrated that a coherent mathematical account of moving bodies and electromagnetic phenomena could be constructed without a stationary ether. It did not, on its publication date, experimentally demonstrate every consequence later associated with special relativity.",
+      "primarySource": "Albert Einstein, “Zur Elektrodynamik bewegter Körper,” Annalen der Physik, volume 17, 1905, pages 891–921.",
+      "editorialRecord": {
+        "publishedDate": "2026-09-26",
+        "validationScore": 96.0,
+        "verifiedClaims": [
+          "The paper was received on June 30, 1905, and published on September 26, 1905. ([theory.tifr.res.in](https://theory.tifr.res.in/~amol/ed18/lecnotes/On_the_Electrodynamics_of_Moving_Bodies.html?utm_source=openai))",
+          "The article title, journal, volume, and pagination—Annalen der Physik, volume 17, pages 891–921—are accurate. ([onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/10.1002/andp.19053221004?utm_source=openai))",
+          "Einstein's paper presented the two central postulates concerning relativity and the invariant speed of light in empty space. ([theory.tifr.res.in](https://theory.tifr.res.in/~amol/ed18/lecnotes/On_the_Electrodynamics_of_Moving_Bodies.html?utm_source=openai))",
+          "The paper explicitly stated that introducing a luminiferous ether would be superfluous. ([theory.tifr.res.in](https://theory.tifr.res.in/~amol/ed18/lecnotes/On_the_Electrodynamics_of_Moving_Bodies.html?utm_source=openai))",
+          "The article correctly distinguishes the paper's theoretical demonstration from experimental proof of relativity or of every later consequence associated with the theory.",
+          "The description of the Michelson–Morley result as a null result that did not, by itself, prove special relativity is historically cautious and accurate. ([history.aip.org](https://history.aip.org/exhibits/gap/PDF/michelson.pdf?utm_source=openai))",
+          "The statement that 'special relativity' was a later designation rather than the paper's original title is accurate."
+        ],
+        "warnings": [
+          "The characterization of the Michelson–Morley experiment as being 'behind' or a 'key' influence on Einstein's 1905 paper should be read cautiously. The experiment was central to the broader ether controversy, but the extent to which Einstein directly relied on or was influenced by it is historically debated. The article avoids making a strong direct-influence claim, so this is a minor nuance rather than a publication-blocking error. ([history.aip.org](https://history.aip.org/exhibits/einstein/einstein.pdf?utm_source=openai))",
+          "The statement that the paper established the first formal presentation of special relativity is acceptable as a conventional description, but it should not be taken to erase important prior contributions by Lorentz and Poincaré. The article does not otherwise make an exclusive priority claim."
+        ],
+        "researchSources": [
+          "Albert Einstein, “Zur Elektrodynamik bewegter Körper,” Annalen der Physik, volume 17, 1905, pages 891–921. The journal’s own historical index lists the article and pagination. ([onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/page/journal/15213889/homepage/bestofadp.html))",
+          "Albert Einstein, “On the Electrodynamics of Moving Bodies,” translated in The Principle of Relativity: Original Papers by A. Einstein and H. Minkowski, University of Calcutta, 1920. The translation identifies the original paper as received June 30 and published September 26, 1905. ([theory.tifr.res.in](https://theory.tifr.res.in/~amol/ed18/lecnotes/On_the_Electrodynamics_of_Moving_Bodies.html))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“It is no exaggeration to say that you sound as if you’re speaking from somewhere in London.”",
-    "author": "George C. McConnaughey, Chairman of the U.S. Federal Communications Commission, speaking to Charles Hill during the TAT-1 opening ceremony on September 25, 1956."
+    "text": "“The introduction of a ‘luminiferous ether’ will prove to be superfluous.”",
+    "author": "Albert Einstein, “On the Electrodynamics of Moving Bodies,” 1905; English translation of the original paper."
   },
   "onThisDay": {
-    "title": "The Atlantic Cable Carries Voices",
-    "copy": "On September 25, 1956, officials in London, New York, and Ottawa inaugurated TAT-1, the first submarine telephone system across the Atlantic. The new cable carried a live three-way conversation and opened a more dependable voice link between Europe and North America."
+    "title": "The Day Einstein Made the Ether Unnecessary",
+    "copy": "On September 26, 1905, Annalen der Physik published Albert Einstein’s “On the Electrodynamics of Moving Bodies.” The paper recast motion, space, and time around two principles: the laws of physics are the same in uniformly moving frames, and light in empty space has a constant speed. It did not report a new experiment; it offered a new framework for understanding results that classical physics and the ether hypothesis had struggled to reconcile."
   },
   "instrument": {
-    "title": "TAT-1: A Telephone Line Beneath the Atlantic",
-    "copy": "TAT-1 combined insulated submarine conductors with signal-amplifying repeaters designed to remain dependable on the ocean floor. A surviving cable specimen preserves the physical technology behind the first regular transatlantic telephone service."
+    "title": "The Interferometer Behind the Ether Question",
+    "copy": "The Michelson interferometer was the key historical instrument in the background to Einstein’s 1905 paper. Michelson and Morley’s 1887 interferometer experiment found no measurable change associated with Earth’s motion through the proposed ether. That null result did not by itself prove special relativity, but it helped make the ether hypothesis a central problem for early twentieth-century physics."
   },
-  "updated": "2026-09-25"
+  "updated": "2026-09-26"
 };

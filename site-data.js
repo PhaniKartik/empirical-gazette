@@ -560,19 +560,65 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Bernard H. Foing, SMART-1 project scientist",
+      "exactHistoricalDate": "September 27, 2003",
+      "headline": "The Small Probe That Took the Long Way to the Moon",
+      "deck": "ESA’s SMART-1 made solar-electric propulsion the central technology demonstration of Europe’s first lunar mission.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "SMART-1 did not race directly from Earth to the Moon. Its faint but persistent solar-electric ion thrust gradually spiralled the spacecraft outward until it reached lunar orbit in November 2004.",
+      "body": "<p>On September 27, 2003, Europe’s SMART-1 spacecraft lifted off from Europe’s Spaceport in Kourou, French Guiana, as a secondary payload aboard an Ariane 5 rocket. It was Europe’s first spacecraft mission to the Moon and its first European flight test of solar-electric ion propulsion as a primary propulsion system.</p><p>Rather than using a conventional high-thrust transfer, SMART-1 gradually raised its orbit around Earth with an ion engine powered by sunlight. After about 13 months of in-space testing, ESA declared the technology-demonstration phase complete and successful. The spacecraft reached lunar orbit in November 2004.</p><p>SMART-1 also carried out lunar observations. Its D-CIXS X-ray spectrometer made an unambiguous remote-sensing detection of calcium and distinguished signals associated with calcium, aluminium, silicon, and iron in Mare Crisium. A miniature camera and an infrared spectrometer were among the mission’s other scientific instruments.</p><p>The mission demonstrated that a small European spacecraft could use solar-electric propulsion for a long Earth-to-Moon transfer while conducting lunar science. It did not, by itself, establish that electric propulsion was superior for every mission or resolve the Moon’s origin. SMART-1 ended when it deliberately impacted the Moon on September 3, 2006.</p>",
+      "wrongBelief": "ESA explicitly expected before launch that solar-electric propulsion and miniaturized spacecraft systems would be essential technologies for future spacecraft, offering greater fuel efficiency and enabling smaller spacecraft to carry substantial scientific instruments.",
+      "evidence": "SMART-1 demonstrated that its solar-electric ion engine could serve as the spacecraft’s primary propulsion system during a long Earth-to-Moon transfer, including the gradual raising of its orbit and arrival in lunar orbit. Its instruments also returned lunar scientific data, including D-CIXS detections of calcium, aluminium, silicon, and iron in Mare Crisium. These results demonstrated the operation of the propulsion and instrument systems in space; they did not prove that solar-electric propulsion was superior for every mission or resolve the Moon’s origin.",
+      "primarySource": [
+        "European Space Agency, “SMART-1 operations”",
+        "European Space Agency, “SMART-1: the first spacecraft of the future,” September 22, 2003",
+        "European Space Agency, “27 September”",
+        "European Space Agency, “Last ion engine thrust puts ESA’s SMART-1 on the right track for its Moon encounter,” October 18, 2004",
+        "European Space Agency, “SMART-1 detects calcium on the Moon,” June 8, 2005"
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-09-27",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "SMART-1 launched on September 27, 2003, from Europe’s Spaceport at Kourou, French Guiana, aboard Ariane 5 as a secondary payload. ([esa.int](https://www.esa.int/Enabling_Support/Operations/SMART-1_operations2?utm_source=openai))",
+          "SMART-1 was ESA’s first European mission and spacecraft to travel to and orbit the Moon. ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/SMART-1/SMART-1_overview?utm_source=openai))",
+          "The spacecraft used solar-electric ion propulsion as its main propulsion system and spiralled outward from Earth over roughly 13 months. ([esa.int](https://www.esa.int/Newsroom/Press_Releases/Last_ion_engine_thrust_puts_ESA_s_SMART-1_on_the_right_track_for_its_Moon_encounter?utm_source=openai))",
+          "ESA declared the technology-demonstration portion successful when SMART-1 reached the Moon and was captured by lunar gravity in November 2004. ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/SMART-1/Impact_landing_ends_Smart-1_Moon_mission?utm_source=openai))",
+          "D-CIXS made an unambiguous remote-sensing detection of calcium and distinguished calcium, aluminium, silicon, and iron in Mare Crisium. ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/SMART-1/SMART-1_detects_calcium_on_the_Moon?utm_source=openai))",
+          "The article appropriately limits the mission’s conclusions: it does not claim that electric propulsion was superior for every mission or that SMART-1 resolved the Moon’s origin.",
+          "SMART-1 deliberately ended its mission by impacting the Moon on September 3, 2006. ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/SMART-1/SMART-1_overview?utm_source=openai))",
+          "The statement about ESA’s pre-launch expectations for solar-electric propulsion and miniaturized spacecraft systems is supported by ESA’s September 22, 2003 mission material. ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/SMART-1/SMART-1_the_first_spacecraft_of_the_future?utm_source=openai))"
+        ],
+        "warnings": [
+          "The phrase \"reached lunar orbit in November 2004\" is accurate but slightly imprecise: SMART-1 was captured by lunar gravity on November 15, 2004, with subsequent orbit-lowering operations. This does not affect publication accuracy."
+        ],
+        "researchSources": [
+          "European Space Agency, “SMART-1 operations,” mission record listing the September 27, 2003 launch, Kourou launch site, objectives, and mission results. ([esa.int](https://www.esa.int/Enabling_Support/Operations/SMART-1_operations2?utm_source=openai))",
+          "European Space Agency, “SMART-1: the first spacecraft of the future,” pre-launch mission information dated September 22, 2003. ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/SMART-1/SMART-1_the_first_spacecraft_of_the_future?utm_source=openai))",
+          "European Space Agency, “27 September,” contemporaneous historical account of SMART-1’s launch and release from Ariane Flight 162. ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/27_September?utm_source=openai))",
+          "European Space Agency, “Last ion engine thrust puts ESA’s SMART-1 on the right track for its Moon encounter,” October 18, 2004. ([esa.int](https://www.esa.int/Newsroom/Press_Releases/Last_ion_engine_thrust_puts_ESA_s_SMART-1_on_the_right_track_for_its_Moon_encounter?utm_source=openai))",
+          "European Space Agency, “SMART-1 detects calcium on the Moon,” June 8, 2005, reporting D-CIXS observations. ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/SMART-1/SMART-1_detects_calcium_on_the_Moon?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“The introduction of a ‘luminiferous ether’ will prove to be superfluous.”",
-    "author": "Albert Einstein, “On the Electrodynamics of Moving Bodies,” 1905; English translation of the original paper."
+    "text": "“the first European flight test of a solar-powered ion engine as a spacecraft’s main propulsion system”",
+    "author": "European Space Agency, “Last ion engine thrust puts ESA’s SMART-1 on the right track for its Moon encounter,” October 18, 2004"
   },
   "onThisDay": {
-    "title": "The Day Einstein Made the Ether Unnecessary",
-    "copy": "On September 26, 1905, Annalen der Physik published Albert Einstein’s “On the Electrodynamics of Moving Bodies.” The paper recast motion, space, and time around two principles: the laws of physics are the same in uniformly moving frames, and light in empty space has a constant speed. It did not report a new experiment; it offered a new framework for understanding results that classical physics and the ether hypothesis had struggled to reconcile."
+    "title": "The Small Probe That Took the Long Way to the Moon",
+    "copy": "On September 27, 2003, Europe’s SMART-1 spacecraft left Kourou, French Guiana, aboard an Ariane 5 rocket. Rather than racing directly toward the Moon, it used a faint but persistent solar-electric ion thrust to spiral outward from Earth. The mission became a successful demonstration of electric propulsion for interplanetary travel and later returned new measurements of the Moon’s chemical composition."
   },
   "instrument": {
-    "title": "The Interferometer Behind the Ether Question",
-    "copy": "The Michelson interferometer was the key historical instrument in the background to Einstein’s 1905 paper. Michelson and Morley’s 1887 interferometer experiment found no measurable change associated with Earth’s motion through the proposed ether. That null result did not by itself prove special relativity, but it helped make the ether hypothesis a central problem for early twentieth-century physics."
+    "title": "D-CIXS: The X-Ray Fingerprint Reader",
+    "copy": "SMART-1’s Demonstration of a Compact Imaging X-ray Spectrometer, or D-CIXS, read chemical clues from the lunar surface. Solar X-rays caused elements in lunar rocks to fluoresce, and the instrument identified those elements from their characteristic X-ray energies. D-CIXS made an unambiguous remote-sensing detection of calcium on the Moon and distinguished calcium, aluminium, silicon, and iron in Mare Crisium."
   },
-  "updated": "2026-09-26"
+  "updated": "2026-09-27"
 };

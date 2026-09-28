@@ -606,19 +606,59 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Seymour Roger Cray",
+      "exactHistoricalDate": "September 28, 1925",
+      "headline": "The Birthday of the Wizard of Supercomputing",
+      "deck": "Seymour Cray’s later machines helped establish high-performance scientific computing as a distinct technological field.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image is included in this edition.",
+      "lore": "Cray preferred designing computers from a “blank piece of paper” and said, “I would rather try new ingredients in building the computer than old ingredients.”",
+      "body": "<p>On September 28, 1925, Seymour Roger Cray was born in Chippewa Falls, Wisconsin. Decades later, his computers would become defining instruments of scientific computation, pushing the limits of calculation-intensive work in fields including weather modeling, engineering analysis, and physics.</p><p>Cray helped found Control Data Corporation in 1957 and was associated with the design of the CDC 1604, CDC 6600, and CDC 7600. The Computer History Museum described the CDC 6600 as the most powerful computer of its time.</p><p>In 1972, Cray founded Cray Research. The Cray-1, delivered in 1976, became an icon of the supercomputer era and established a new standard in computational power for scientific and engineering work.</p><p>Cray’s career reflected his commitment to scientific computing and to rethinking machine design. His work helped shape supercomputing, though the record does not establish that he single-handedly invented every form of supercomputer or that all later advances derived from his work.</p>",
+      "wrongBelief": "Some of Control Data’s founders favored commercial applications, while Cray argued for building large scientific computers. The documented source presents this as an internal disagreement at the company, not as a universal view of the computing field.",
+      "evidence": "Cray’s birth on September 28, 1925, demonstrated only that he was born in Chippewa Falls, Wisconsin; it did not itself demonstrate anything about computing. The event’s historical significance comes from the later record of his work on major scientific computers, his founding of Cray Research, and the performance standards associated with his systems. The sources support his major role in supercomputing but do not establish that he single-handedly invented every form of supercomputer or that all later advances derived from his work.",
+      "primarySource": "Seymour Cray, interview with David Allison, National Museum of American History, Smithsonian Institution, May 9, 1995; Computer History Museum, “September 28: Supercomputer Pioneer Seymour Cray Born”; Computer History Museum, historical record for Cray Research, Inc.; Seymour Cray, remarks to the Shannon Center for Advanced Studies, University of Virginia, preserved by the Smithsonian Institution.",
+      "editorialRecord": {
+        "publishedDate": "2026-09-28",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "Seymour Roger Cray was born on September 28, 1925, in Chippewa Falls, Wisconsin. ([computerhistory.org](https://www.computerhistory.org/tdih/september/28/))",
+          "Cray co-founded or helped start Control Data Corporation with William Norris in approximately 1957. ([americanhistory.si.edu](https://americanhistory.si.edu/comphist/cray.htm))",
+          "The article's account of the CDC internal disagreement is supported by Cray's interview: other founders favored commercial activities, while Cray advocated building large scientific computers. The source presents this as an internal company disagreement, not a universal belief about computing. ([americanhistory.si.edu](https://americanhistory.si.edu/comphist/cray.htm))",
+          "Cray was associated with the CDC 1604, CDC 6600, and CDC 7600. The sources directly support the 1604 and 6600 and describe the 6600 and 7600 as follow-on machines in the same design evolution. ([computerhistory.org](https://www.computerhistory.org/tdih/october/5/))",
+          "The CDC 6600 was described by the Computer History Museum as the most powerful computer of its time. ([computerhistory.org](https://www.computerhistory.org/tdih/october/5/))",
+          "Cray founded Cray Research in 1972, and the Cray-1 was delivered in 1976 and became an icon of the supercomputer era. ([computerhistory.org](https://www.computerhistory.org/brochures/a-c/cray-research-inc/))",
+          "The article accurately limits Cray's significance by rejecting claims that he single-handedly invented every form of supercomputer or caused all later advances. ([computerhistory.org](https://www.computerhistory.org/tdih/september/28/))",
+          "The on-this-day copy, instrument copy, and historical framing are consistent with the dossier and supported by the cited institutional sources."
+        ],
+        "warnings": [
+          "The wording \"introduced in 1976\" is slightly less precise than the documented wording that the Cray-1 was \"delivered in 1976.\" This is not material, but \"delivered\" would be preferable for strict historical precision. ([computerhistory.org](https://www.computerhistory.org/brochures/a-c/cray-research-inc/))",
+          "Phrases such as \"defining instruments\" and \"established a new standard\" are interpretive descriptions rather than directly dated facts. They are consistent with the dossier's cautious significance claim and do not materially exaggerate Cray's role. ([computerhistory.org](https://www.computerhistory.org/tdih/september/28/))"
+        ],
+        "researchSources": [
+          "Seymour Cray, interview with David Allison, National Museum of American History, Smithsonian Institution, May 9, 1995. ([americanhistory.si.edu](https://americanhistory.si.edu/comphist/cray.htm?utm_source=openai))",
+          "Computer History Museum, 'September 28: Supercomputer Pioneer Seymour Cray Born.' ([computerhistory.org](https://www.computerhistory.org/tdih/september/28/?utm_source=openai))",
+          "Computer History Museum, historical record for Cray Research, Inc. ([computerhistory.org](https://www.computerhistory.org/brochures/a-c/cray-research-inc/?utm_source=openai))",
+          "Seymour Cray, remarks to the Shannon Center for Advanced Studies, University of Virginia, preserved by the Smithsonian Institution. ([americanhistory.si.edu](https://americanhistory.si.edu/comphist/montic/cray.htm?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“the first European flight test of a solar-powered ion engine as a spacecraft’s main propulsion system”",
-    "author": "European Space Agency, “Last ion engine thrust puts ESA’s SMART-1 on the right track for its Moon encounter,” October 18, 2004"
+    "text": "I would rather try new ingredients in building the computer than old ingredients.",
+    "author": "Seymour Cray, interview with David Allison, National Museum of American History, Smithsonian Institution, May 9, 1995."
   },
   "onThisDay": {
-    "title": "The Small Probe That Took the Long Way to the Moon",
-    "copy": "On September 27, 2003, Europe’s SMART-1 spacecraft left Kourou, French Guiana, aboard an Ariane 5 rocket. Rather than racing directly toward the Moon, it used a faint but persistent solar-electric ion thrust to spiral outward from Earth. The mission became a successful demonstration of electric propulsion for interplanetary travel and later returned new measurements of the Moon’s chemical composition."
+    "title": "The Birthday of the Wizard of Supercomputing",
+    "copy": "On September 28, 1925, Seymour Cray was born in Chippewa Falls, Wisconsin. Decades later, his computers would become defining instruments of scientific computation, pushing the limits of weather modeling, engineering analysis, physics, and other calculation-intensive fields."
   },
   "instrument": {
-    "title": "D-CIXS: The X-Ray Fingerprint Reader",
-    "copy": "SMART-1’s Demonstration of a Compact Imaging X-ray Spectrometer, or D-CIXS, read chemical clues from the lunar surface. Solar X-rays caused elements in lunar rocks to fluoresce, and the instrument identified those elements from their characteristic X-ray energies. D-CIXS made an unambiguous remote-sensing detection of calcium on the Moon and distinguished calcium, aluminium, silicon, and iron in Mare Crisium."
+    "title": "The Cray-1: A New Instrument for Scientific Computation",
+    "copy": "Introduced in 1976, the Cray-1 established a new standard in supercomputing. It was not a laboratory instrument in the traditional sense, but a powerful computational instrument: a machine used to turn mathematical models into results at a scale unavailable from ordinary computers of its era."
   },
-  "updated": "2026-09-27"
+  "updated": "2026-09-28"
 };

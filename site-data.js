@@ -646,19 +646,56 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Louis de Broglie",
+      "exactHistoricalDate": "September 29, 1954",
+      "headline": "The Day Europe Built a Laboratory for Peace",
+      "deck": "The CERN Convention entered into force, transforming a postwar plan for shared scientific research into a permanent international organization.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this edition.",
+      "lore": "Louis de Broglie’s 1949 proposal helped initiate plans for a European scientific laboratory, while Isidor Isaac Rabi promoted the idea of international regional laboratories through UNESCO. CERN was conceived as a shared institution for fundamental research among European states.",
+      "body": "<p>On September 29, 1954, in Geneva, Switzerland, the CERN Convention entered into force after the required instruments of ratification had been deposited. The legal change formally established the European Organization for Nuclear Research as a permanent international scientific institution and brought the provisional CERN arrangement to an end.</p><p>The Convention had been signed in Paris on July 1, 1953, by twelve founding states. It defined CERN as an organization for collaboration in pure and fundamental nuclear research and excluded work undertaken for military requirements. Its stated purpose was cooperation among European states in research of a pure scientific and fundamental character, with results intended to be made generally available.</p><blockquote>The Organization shall provide for collaboration among European States in nuclear research of a pure scientific and fundamental character.</blockquote><p>For its founders, the laboratory was both a scientific undertaking and a postwar European project. Their documented expectation was that a shared institution could help restore Europe’s strength in fundamental science and bring nations together after the Second World War. The Convention demonstrated that this commitment had acquired legal and institutional force; it did not itself constitute a scientific discovery, prove a physical theory, or show that the planned laboratory would succeed scientifically.</p><p>The instruments came later. CERN’s first accelerator, the 600-MeV Synchrocyclotron, began operating in 1957, followed by the Proton Synchrotron in 1959. These machines turned the organization’s promise of shared fundamental research into an operating program of experimental particle physics.</p>",
+      "wrongBelief": "The founders explicitly expected that a European laboratory could restore the continent’s strength in fundamental science and help bring European nations together after the Second World War.",
+      "evidence": "The event demonstrated that the CERN Convention had acquired sufficient legal force to dissolve the provisional arrangement and establish a permanent organization committed to shared, non-military, publishable research. It did not demonstrate a scientific discovery, prove a physical theory, or establish that CERN’s planned laboratory would succeed scientifically; those outcomes came later through construction and research.",
+      "primarySource": "Convention for the Establishment of a European Organization for Nuclear Research, signed in 1953, together with the CERN Council minutes recording the Convention’s entry into force on September 29, 1954.",
+      "editorialRecord": {
+        "publishedDate": "2026-09-29",
+        "validationScore": 99.0,
+        "verifiedClaims": [
+          "September 29, 1954 is the correct date on which sufficient ratifications brought the CERN Convention into force and formally created CERN, dissolving the provisional CERN arrangement. ([home.cern](https://home.cern/cern-celebrates-40th-anniversary/))",
+          "Geneva, Switzerland is consistent with CERN's institutional location and the documented selection of a laboratory site near Geneva. ([home.cern](https://home.cern/about/who-we-are/our-history/))",
+          "The Convention was signed in Paris on July 1, 1953 by twelve states, subject to ratification. ([home.cern](https://home.cern/about/who-we-are/our-history/))",
+          "The article accurately states the Convention's fundamental, non-military, and generally publishable research mission. ([home.cern](https://home.cern/about/who-we-are/our-history/))",
+          "The discussion of Louis de Broglie, Isidor Isaac Rabi, postwar European scientific renewal, and international cooperation is supported by CERN's historical account. ([home.cern](https://home.cern/cern-celebrates-40th-anniversary/))",
+          "The article correctly distinguishes the Convention's institutional achievement from later scientific discoveries and does not claim that the 1954 event proved a theory or demonstrated scientific success.",
+          "The 600-MeV Synchrocyclotron's 1957 operation and the Proton Synchrotron's 1959 operation are accurately dated. ([home.cern](https://home.cern/cern-celebrates-40th-anniversary/))"
+        ],
+        "warnings": [
+          "The headline's phrase \"built a laboratory for peace\" is interpretive rather than literal, but it is consistent with CERN's documented postwar unity aims and its explicitly non-military mission. ([home.cern](https://home.cern/about/who-we-are/our-history/))"
+        ],
+        "researchSources": [
+          "Convention for the Establishment of a European Organization for Nuclear Research, signed in 1953 and preserved in the CERN Document Server. ([cds.cern.ch](https://cds.cern.ch/record/32201?ln=en&utm_source=openai))",
+          "Minutes of the CERN Council recording the Convention’s entry into force on September 29, 1954. ([cds.cern.ch](https://cds.cern.ch/record/18104/files/CM-P00074838-e.pdf?utm_source=openai))",
+          "CERN’s historical account of the Convention, its founding aims, and the development of the laboratory. ([home.cern](https://home.cern/about/who-we-are/our-history/?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "I would rather try new ingredients in building the computer than old ingredients.",
-    "author": "Seymour Cray, interview with David Allison, National Museum of American History, Smithsonian Institution, May 9, 1995."
+    "text": "“The Organization shall provide for collaboration among European States in nuclear research of a pure scientific and fundamental character.”",
+    "author": "Convention for the Establishment of a European Organization for Nuclear Research, Article II, 1953"
   },
   "onThisDay": {
-    "title": "The Birthday of the Wizard of Supercomputing",
-    "copy": "On September 28, 1925, Seymour Cray was born in Chippewa Falls, Wisconsin. Decades later, his computers would become defining instruments of scientific computation, pushing the limits of weather modeling, engineering analysis, physics, and other calculation-intensive fields."
+    "title": "The Day Europe Built a Laboratory for Peace",
+    "copy": "On September 29, 1954, the CERN Convention entered into force, formally creating the European Organization for Nuclear Research. Born from postwar efforts to rebuild European science, CERN received an international and non-military mission: to pool resources, pursue fundamental research, and make its results generally available. The laboratory’s scientific instruments came later, but this was the day the institution behind them became real."
   },
   "instrument": {
-    "title": "The Cray-1: A New Instrument for Scientific Computation",
-    "copy": "Introduced in 1976, the Cray-1 established a new standard in supercomputing. It was not a laboratory instrument in the traditional sense, but a powerful computational instrument: a machine used to turn mathematical models into results at a scale unavailable from ordinary computers of its era."
+    "title": "The Machines CERN Was Created to Build",
+    "copy": "CERN’s founding was closely tied to the need for instruments beyond the reach of individual European laboratories. Its first accelerator, the Synchrocyclotron, began operation in 1957, followed by the Proton Synchrotron in 1959. These machines turned the new organization’s promise of shared fundamental research into an operating program of experimental particle physics."
   },
-  "updated": "2026-09-28"
+  "updated": "2026-09-29"
 };

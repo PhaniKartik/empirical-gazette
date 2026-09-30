@@ -683,19 +683,58 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Henry Draper",
+      "exactHistoricalDate": "September 30, 1880",
+      "headline": "The Night a Nebula First Appeared on a Photographic Plate",
+      "deck": "At his observatory in Hastings-on-Hudson, New York, Henry Draper made the first successful photograph of a nebula: the bright central region of Orion Nebula, Messier 42.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this dispatch.",
+      "lore": "Draper’s photograph did not show the full extent or fine structure of the Orion Nebula. It preserved, however, a mottled record of its bright central region near the Trapezium—turning a fleeting view into an astronomical record that could be examined again.",
+      "body": "<p>On September 30, 1880, Henry Draper photographed the bright central region of the Orion Nebula at his observatory in Hastings-on-Hudson, New York. The surviving image showed recognizable, mottled nebulosity near the Trapezium, establishing the first successful photographic record of a nebula.</p><p>The result depended on both optics and steadiness. Draper used a Clark photographic refractor mounted equatorially, with a driving clock he had constructed. The arrangement held the celestial image steady for an unusually long exposure, allowing the plate to preserve structural detail that the eye could otherwise study only as a fleeting view.</p><p>Mary Anna Palmer Draper collaborated with Henry Draper in the observatory’s astronomical work. Together with Draper’s later photographs, the September 1880 image helped demonstrate that astronomical photography could preserve faint, extended celestial appearances for repeated examination and comparison.</p><p>The photograph was not a complete portrait of Orion, nor did it settle the nebula’s physical composition, distance, or full boundaries. Later photographs by Andrew Ainslie Common and others disclosed additional details and extensions. Draper’s achievement was narrower but foundational: a nebula could be recorded photographically.</p>",
+      "wrongBelief": "Ten minutes had previously been considered the maximum duration for which the driving machinery could hold an astronomical image steadily enough for photography.",
+      "evidence": "The surviving photograph and Draper’s contemporary report demonstrated that the bright central region of Orion could be recorded photographically and that the plate preserved mottled structural detail. The event did not by itself establish the nebula’s physical composition, distance, complete boundaries, or fine structure.",
+      "primarySource": "Henry Draper, “Photograph of the Nebula in Orion,” Nature, published October 21, 1880; Henry Draper’s letter to George F. Barker, dated October 9, 1880, published in the Proceedings of the American Philosophical Society; George F. Barker, “Memoir: Henry Draper, 1837–1882,” National Academy of Sciences memorial volume.",
+      "editorialRecord": {
+        "publishedDate": "2026-09-30",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "Henry Draper photographed the bright central region of the Orion Nebula near the Trapezium on September 30, 1880. ([nature.com](https://www.nature.com/articles/022583a0?utm_source=openai))",
+          "The photograph was the first recognized successful photographic record of a nebula. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/c/c4/Proceedings_of_the_American_Philosophical_Society_held_at_Philadelphia_for_promoting_useful_knowledge_%28IA_proceedingsofame019amer%29.pdf?utm_source=openai))",
+          "The image recorded the region's mottled appearance rather than the full extent or fine structure of the Orion Nebula. ([nature.com](https://www.nature.com/articles/022583a0?utm_source=openai))",
+          "Draper used an 11-inch Clark photographic objective or refractor with an equatorial mounting and a driving clock he constructed. ([nature.com](https://www.nature.com/articles/022583a0?utm_source=openai))",
+          "The exposure demonstrated that astronomical photography could preserve nebular structure for later examination and comparison, without establishing the nebula's composition, distance, complete boundaries, or detailed physical nature. ([nasonline.org](https://www.nasonline.org/wp-content/uploads/2024/06/draper-henry.pdf))",
+          "Later photographs, including those by Andrew Ainslie Common, revealed additional details and extensions of the nebula. ([history.aip.org](https://history.aip.org/exhibits/cosmology/tools/pic-spectroscopy-orion.htm?utm_source=openai))",
+          "The statement that ten minutes had previously been considered the maximum practical duration for the driving machinery is supported by Draper's contemporary report. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/c/c4/Proceedings_of_the_American_Philosophical_Society_held_at_Philadelphia_for_promoting_useful_knowledge_%28IA_proceedingsofame019amer%29.pdf?utm_source=openai))"
+        ],
+        "warnings": [
+          "Mary Anna Palmer Draper's collaboration is supported by the American Astronomical Society, which credits Henry and Mary Anna Draper jointly. However, the contemporaneous Nature letter and the October 9, 1880 letter to George F. Barker are written in Henry Draper's first person, so the article should not be read as claiming that Mary Anna independently operated the telescope or made the exposure. ([aas.org](https://www.aas.org/posts/news/2022/10/month-astronomical-history-september-2022))",
+          "The field labeled \"primarySource\" includes George F. Barker's 1888 National Academy memoir, which is a retrospective secondary source rather than a primary account. The list nevertheless also includes the contemporaneous Nature letter and Draper's 1880 letter, so the article's evidentiary foundation is adequate. ([nasonline.org](https://www.nasonline.org/wp-content/uploads/2024/06/draper-henry.pdf))",
+          "Historical accounts differ slightly on the first exposure's duration—50 minutes in Draper's contemporaneous accounts and 57 minutes in Barker's later memoir—but the article avoids stating a precise duration, preventing a factual conflict. ([nature.com](https://www.nature.com/articles/022583a0?utm_source=openai))"
+        ],
+        "researchSources": [
+          "Henry Draper, “Photograph of the Nebula in Orion,” Nature, published October 21, 1880. ([nature.com](https://www.nature.com/articles/022583a0?utm_source=openai))",
+          "Henry Draper's letter to George F. Barker, dated October 9, 1880, published in the Proceedings of the American Philosophical Society. ([upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/c/c4/Proceedings_of_the_American_Philosophical_Society_held_at_Philadelphia_for_promoting_useful_knowledge_%28IA_proceedingsofame019amer%29.pdf?utm_source=openai))",
+          "George F. Barker, “Memoir: Henry Draper, 1837–1882,” National Academy of Sciences memorial volume. ([nasonline.org](https://www.nasonline.org/wp-content/uploads/2024/06/draper-henry.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“The Organization shall provide for collaboration among European States in nuclear research of a pure scientific and fundamental character.”",
-    "author": "Convention for the Establishment of a European Organization for Nuclear Research, Article II, 1953"
+    "text": "“This is the first time a nebula has been photographed.”",
+    "author": "Henry Draper, letter to George F. Barker, October 9, 1880"
   },
   "onThisDay": {
-    "title": "The Day Europe Built a Laboratory for Peace",
-    "copy": "On September 29, 1954, the CERN Convention entered into force, formally creating the European Organization for Nuclear Research. Born from postwar efforts to rebuild European science, CERN received an international and non-military mission: to pool resources, pursue fundamental research, and make its results generally available. The laboratory’s scientific instruments came later, but this was the day the institution behind them became real."
+    "title": "The Night a Nebula First Appeared on a Photographic Plate",
+    "copy": "On September 30, 1880, Henry Draper recorded the bright central region of the Orion Nebula at his observatory in Hastings-on-Hudson, New York. The image was not a complete portrait of Orion, but it preserved mottled nebulosity that the eye could previously study only as a fleeting view. Draper’s photograph marked the first successful photographic record of a nebula and helped make the camera a lasting instrument of astronomical observation."
   },
   "instrument": {
-    "title": "The Machines CERN Was Created to Build",
-    "copy": "CERN’s founding was closely tied to the need for instruments beyond the reach of individual European laboratories. Its first accelerator, the Synchrocyclotron, began operation in 1957, followed by the Proton Synchrotron in 1959. These machines turned the new organization’s promise of shared fundamental research into an operating program of experimental particle physics."
+    "title": "The Photographic Telescope That Held the Stars Still",
+    "copy": "Draper’s achievement depended on more than a sensitive photographic plate. He used a Clark photographic refractor and an equatorial mounting with a driving clock of his own construction. Contemporary accounts emphasized that the clock had to maintain the image steadily for an unusually long exposure, turning the telescope from a viewing instrument into a means of creating a durable astronomical record."
   },
-  "updated": "2026-09-29"
+  "updated": "2026-09-30"
 };

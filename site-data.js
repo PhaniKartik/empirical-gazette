@@ -722,19 +722,62 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "T. Keith Glennan",
+      "exactHistoricalDate": "October 1, 1958",
+      "headline": "The Civilian Space Agency Opens Its Doors",
+      "deck": "NASA began operations by absorbing the people, laboratories, and research infrastructure of the National Advisory Committee for Aeronautics.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "NASA began not from a blank slate, but from the established laboratories and expertise of NACA. Its first headquarters occupied the Dolley Madison House on Lafayette Square in Washington, D.C., while its inherited facilities extended across the United States.",
+      "body": "<p>On October 1, 1958, NASA officially began operations in Washington, D.C., with T. Keith Glennan as its first Administrator and Hugh L. Dryden as its first Deputy Administrator. The new agency replaced the National Advisory Committee for Aeronautics, or NACA, which was inactivated on the same date.</p><p>NASA absorbed approximately 8,000 NACA employees, three major research laboratories, and other facilities. These included the Langley Aeronautical Laboratory in Virginia, Ames Aeronautical Laboratory in California, and Lewis Flight Propulsion Laboratory in Ohio. The transfer gave NASA an established scientific and engineering base, including wind-tunnel facilities that had supported advances in aeronautics.</p><p>Congress had created NASA through the National Aeronautics and Space Act, signed by President Dwight D. Eisenhower on July 29, 1958. On October 1, Executive Order 10783 also transferred Project Vanguard and specified space-related functions from the Department of Defense to NASA.</p><p>The event demonstrated the creation of a federal structure for coordinating civilian aeronautics and space research. It did not, by itself, demonstrate a scientific discovery, a successful spaceflight, or the permanent separation of all space work from military programs. NASA's first spacecraft launch under its management, Pioneer 1, followed ten days later, on October 11, 1958.</p>",
+      "wrongBelief": "The founding statute established that U.S. space activities should be conducted through a civilian agency and directed toward peaceful purposes, but it did not claim that space exploration would be exclusively nonmilitary.",
+      "evidence": "The administrative and legal record shows that NASA became operational on October 1, 1958; NACA was inactivated; and NACA's personnel, laboratories, and facilities were transferred into NASA. This demonstrated a new federal structure for civilian aeronautics and space research. It did not, by itself, demonstrate a scientific discovery, a successful spaceflight, or the permanent separation of all space work from military programs.",
+      "primarySource": "National Aeronautics and Space Act of 1958, Public Law 85-568; Executive Order 10783; NASA, “A Brief History of NASA”; NASA, “60 Years Ago: NASA Opens for Business”; National Archives, “Records of the National Aeronautics and Space Administration.”",
+      "editorialRecord": {
+        "publishedDate": "2026-10-01",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "NASA officially began operations on October 1, 1958. ([nasa.gov](https://www.nasa.gov/history/SP-4225/documentation/brief-history/history.htm?utm_source=openai))",
+          "T. Keith Glennan was NASA's first Administrator and Hugh L. Dryden its first Deputy Administrator. ([nasa.gov](https://www.nasa.gov/history/monograph10/nasabrth.html?utm_source=openai))",
+          "NASA inherited NACA's personnel, laboratories, facilities, and research infrastructure, including approximately 8,000 employees and the Langley, Ames, and Lewis laboratories. ([nasa.gov](https://www.nasa.gov/history/SP-4225/documentation/brief-history/history.htm?utm_source=openai))",
+          "NASA's first headquarters was in the Dolley Madison House on Lafayette Square in Washington, D.C. ([nasa.gov](https://www.nasa.gov/history/65-years-ago-nasa-begins-operations/?utm_source=openai))",
+          "The National Aeronautics and Space Act was signed by President Dwight D. Eisenhower on July 29, 1958. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2015/04/607087main_nasasfirst50yearshistoricalperspectives-ebook.pdf?emrc=a0d78e&utm_source=openai))",
+          "Executive Order 10783, dated October 1, 1958, transferred Project Vanguard and specified space-related functions from the Department of Defense to NASA. ([archives.gov](https://www.archives.gov/federal-register/codification/executive-order/10783.html?utm_source=openai))",
+          "Pioneer 1 launched on October 11, 1958, ten days after NASA began operations, and was the first spacecraft launched under NASA's authority or aegis. ([science.nasa.gov](https://science.nasa.gov/mission/pioneer-1-able-2/?utm_source=openai))",
+          "The article correctly distinguishes NASA's institutional creation from a scientific discovery, successful spaceflight, or complete separation of civilian and military space activity. The statutory civilian and peaceful-purpose language included an explicit exception for defense-related activities. ([govinfo.gov](https://www.govinfo.gov/content/pkg/CHRG-110hhrg43687/pdf/CHRG-110hhrg43687.pdf?utm_source=openai))",
+          "The quotation, \"activities in space should be devoted to peaceful purposes for the benefit of all mankind,\" accurately reflects Section 102(a) of the National Aeronautics and Space Act of 1958. ([govinfo.gov](https://www.govinfo.gov/content/pkg/CHRG-110hhrg43687/pdf/CHRG-110hhrg43687.pdf?utm_source=openai))",
+          "The descriptions of NACA's wind tunnels and aeronautical research as part of NASA's inherited scientific and engineering foundation are supported by NASA historical materials. ([nasa.gov](https://www.nasa.gov/history-of-the-naca-inspections/?utm_source=openai))"
+        ],
+        "warnings": [
+          "The statement that Pioneer 1 was NASA's first spacecraft launch is historically acceptable, but the U.S. Air Force conducted the launch operations; NASA's role was supervisory or under its aegis. The article's wording, \"under its management,\" is appropriately cautious. ([science.nasa.gov](https://science.nasa.gov/mission/pioneer-1-able-2/?utm_source=openai))",
+          "The article says NASA absorbed approximately 8,000 NACA employees and three major laboratories. This is supported; NASA also inherited two smaller test facilities, which the article does not mention but was not required to mention. ([nasa.gov](https://www.nasa.gov/history/SP-4225/documentation/brief-history/history.htm?utm_source=openai))"
+        ],
+        "researchSources": [
+          "National Aeronautics and Space Act of 1958, Public Law 85-568, Government Publishing Office. ([govinfo.gov](https://www.govinfo.gov/content/pkg/STATUTE-72/pdf/STATUTE-72-Pg426-2.pdf?utm_source=openai))",
+          "Executive Order 10783, 'Transferring Certain Functions From the Department of Defense to the National Aeronautics and Space Administration,' National Archives. ([archives.gov](https://www.archives.gov/federal-register/codification/executive-order/10783.html?utm_source=openai))",
+          "NASA, 'A Brief History of NASA.' ([nasa.gov](https://www.nasa.gov/history/SP-4225/documentation/brief-history/history.htm?utm_source=openai))",
+          "NASA, '60 Years Ago: NASA Opens for Business.' ([nasa.gov](https://www.nasa.gov/history/60-years-ago-nasa-opens-for-business/?utm_source=openai))",
+          "National Archives, 'Records of the National Aeronautics and Space Administration.' ([archives.gov](https://www.archives.gov/research/guide-fed-records/groups/255.html?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“This is the first time a nebula has been photographed.”",
-    "author": "Henry Draper, letter to George F. Barker, October 9, 1880"
+    "text": "activities in space should be devoted to peaceful purposes for the benefit of all mankind",
+    "author": "United States Congress, National Aeronautics and Space Act of 1958, Section 102(a), enacted July 29, 1958"
   },
   "onThisDay": {
-    "title": "The Night a Nebula First Appeared on a Photographic Plate",
-    "copy": "On September 30, 1880, Henry Draper recorded the bright central region of the Orion Nebula at his observatory in Hastings-on-Hudson, New York. The image was not a complete portrait of Orion, but it preserved mottled nebulosity that the eye could previously study only as a fleeting view. Draper’s photograph marked the first successful photographic record of a nebula and helped make the camera a lasting instrument of astronomical observation."
+    "title": "The Civilian Space Agency Opens Its Doors",
+    "copy": "On October 1, 1958, NASA officially began operations in Washington, D.C. It inherited the people, laboratories, and research culture of NACA, the 43-year-old organization that had advanced American aeronautics. The new agency did not yet have a long record of spaceflight; its significance lay in creating a civilian institution to organize the nation's expanding work in air and space."
   },
   "instrument": {
-    "title": "The Photographic Telescope That Held the Stars Still",
-    "copy": "Draper’s achievement depended on more than a sensitive photographic plate. He used a Clark photographic refractor and an equatorial mounting with a driving clock of his own construction. Contemporary accounts emphasized that the clock had to maintain the image steadily for an unusually long exposure, turning the telescope from a viewing instrument into a means of creating a durable astronomical record."
+    "title": "The Wind Tunnels NASA Inherited",
+    "copy": "NASA's first major scientific assets were not spacecraft but the wind tunnels and research facilities developed by NACA. At Langley and other laboratories, these instruments had supplied aerodynamic evidence for aircraft design, high-speed flight, and propulsion research. Their transfer on October 1, 1958, gave NASA an established experimental foundation as it moved from aeronautics into space research."
   },
-  "updated": "2026-09-30"
+  "updated": "2026-10-01"
 };

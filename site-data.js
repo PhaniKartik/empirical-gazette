@@ -765,19 +765,55 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "John Bardeen and Walter H. Brattain",
+      "exactHistoricalDate": "October 3, 1950",
+      "headline": "The Solid-State Switch Receives Its Patent",
+      "deck": "A Bell Telephone Laboratories patent formally recognized a compact, three-electrode semiconductor device capable of amplifying electrical signals without a heated cathode or evacuated envelope.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "The point-contact transistor used a semiconductor and three electrodes—emitter, collector, and base—to amplify or otherwise translate electrical signals.",
+      "lore": "The invention was developed at Bell Telephone Laboratories in Murray Hill, New Jersey, within a semiconductor research program that Bardeen later described as beginning in 1946. William Shockley’s related research helped shape the Bell Labs transistor program.",
+      "body": "<p>On October 3, 1950, the United States Patent Office granted Bell Telephone Laboratories researchers John Bardeen and Walter H. Brattain U.S. Patent No. 2,524,035, titled “Three-electrode circuit element utilizing semiconductive materials.” The patent described a compact semiconductor device with emitter, collector, and base electrodes.</p><p>The device was intended for electrical amplification and related signal-processing functions, including oscillation. Its design pursued a useful amplifier that could operate without the heated thermionic cathode and evacuated or gas-filled envelope required by a vacuum tube. The patent described the apparatus as “compact, simple, and rugged.”</p><p>The patent marked a formal recognition of the transistor’s operating principle and intended uses. It demonstrated the claimed three-electrode semiconductor circuit element and its capacity to amplify or otherwise translate electrical signals.</p><p>That document alone did not demonstrate mass production, universal reliability, or the immediate disappearance of vacuum tubes. Its later significance was broader: transistor descendants helped enable semiconductor electronics, integrated circuits, microprocessors, and digital computers.</p>",
+      "wrongBelief": "The patent records an engineering expectation that a useful amplifier could operate without a heated cathode and without an evacuated or gas-filled envelope. It does not document a belief that vacuum tubes would immediately disappear.",
+      "evidence": "The patent documented a three-electrode semiconductor circuit element and stated that it could amplify or otherwise translate electrical signals. It also described the device as compact and immediately operative because it did not require a heated cathode. The event therefore demonstrated the claimed operating principle and intended uses, but it did not by itself demonstrate mass production, universal reliability, or the eventual dominance of transistors over vacuum tubes.",
+      "primarySource": "U.S. Patent No. 2,524,035, “Three-electrode circuit element utilizing semiconductive materials,” published October 3, 1950; John Bardeen, “Semiconductor Research Leading to the Point Contact Transistor,” Nobel Lecture, December 11, 1956.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-03",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "U.S. Patent No. 2,524,035, “Three-electrode circuit element utilizing semiconductive materials,” was published on October 3, 1950, with John Bardeen and Walter H. Brattain listed as inventors and Bell Telephone Laboratories as the original assignee. ([patents.google.com](https://patents.google.com/patent/US2524035A/en?utm_source=openai))",
+          "The patent describes a semiconductor circuit element using emitter, collector, and base electrodes, intended to amplify or otherwise translate electrical signals, including for wave generation. ([patents.google.com](https://patents.google.com/patent/US2524035A/en?utm_source=openai))",
+          "The patent explicitly identifies as objectives operation without a heated thermionic cathode and without an evacuated or gas-filled envelope, and describes the apparatus as “compact, simple, and rugged.” ([patents.google.com](https://patents.google.com/patent/US2524035A/en?utm_source=openai))",
+          "Bardeen’s Nobel lecture states that Bell Laboratories initiated its fundamental semiconductor research program in early 1946 and identifies Shockley, Bardeen, and Brattain’s roles in that program. ([nobelprize.org](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf?utm_source=openai))",
+          "The article correctly distinguishes the patent’s documented capabilities and engineering objectives from the transistor’s later importance to semiconductor electronics, integrated circuits, microprocessors, and digital computers. The broader historical significance is supported by the Nobel Prize’s account of the transistor’s role in modern semiconductor technology. ([nobelprize.org](https://www.nobelprize.org/prizes/physics/2000/popular-information/1000/?utm_source=openai))",
+          "The article does not introduce an unsupported claim that vacuum tubes immediately disappeared, and its evidence language appropriately limits what the 1950 patent itself demonstrated."
+        ],
+        "warnings": [
+          "The phrase “the United States Patent Office granted” is understandable, but “issued” or “published” would be more precise terminology for the patent record.",
+          "The patent describes a three-electrode semiconductor circuit element and its intended amplification functions; the article appropriately avoids claiming that the patent itself established mass production, universal reliability, or the immediate replacement of vacuum tubes."
+        ],
+        "researchSources": [
+          "U.S. Patent No. 2,524,035, “Three-electrode circuit element utilizing semiconductive materials,” published October 3, 1950. ([patents.google.com](https://patents.google.com/patent/US2524035A/en))",
+          "John Bardeen, “Semiconductor Research Leading to the Point Contact Transistor,” Nobel Lecture, December 11, 1956. ([nobelprize.org](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "activities in space should be devoted to peaceful purposes for the benefit of all mankind",
-    "author": "United States Congress, National Aeronautics and Space Act of 1958, Section 102(a), enacted July 29, 1958"
+    "text": "“compact, simple, and rugged apparatus”",
+    "author": "U.S. Patent No. 2,524,035"
   },
   "onThisDay": {
-    "title": "The Civilian Space Agency Opens Its Doors",
-    "copy": "On October 1, 1958, NASA officially began operations in Washington, D.C. It inherited the people, laboratories, and research culture of NACA, the 43-year-old organization that had advanced American aeronautics. The new agency did not yet have a long record of spaceflight; its significance lay in creating a civilian institution to organize the nation's expanding work in air and space."
+    "title": "The Solid-State Switch Receives Its Patent",
+    "copy": "On October 3, 1950, the United States granted Bell Labs researchers John Bardeen and Walter Brattain a patent for a three-electrode semiconductor device. It was a formal milestone for the transistor: an amplifier designed to work without the heated cathode and bulky envelope of a vacuum tube. The patent did not announce the computer age, but it recorded the physical idea that would help make that age possible."
   },
   "instrument": {
-    "title": "The Wind Tunnels NASA Inherited",
-    "copy": "NASA's first major scientific assets were not spacecraft but the wind tunnels and research facilities developed by NACA. At Langley and other laboratories, these instruments had supplied aerodynamic evidence for aircraft design, high-speed flight, and propulsion research. Their transfer on October 1, 1958, gave NASA an established experimental foundation as it moved from aeronautics into space research."
+    "title": "The Point-Contact Transistor",
+    "copy": "Unlike a vacuum tube, the transistor used a solid semiconductor as its active element. The patented design organized electrical control around three electrodes and was intended to amplify signals in a compact, rugged form. Its later descendants became the switching and amplifying elements of integrated circuits and digital computers."
   },
-  "updated": "2026-10-01"
+  "updated": "2026-10-03"
 };

@@ -801,19 +801,53 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Sergei P. Korolev",
+      "exactHistoricalDate": "October 4, 1957",
+      "headline": "The Beep That Opened the Space Age",
+      "deck": "Sputnik 1 became the first human-made object to enter orbit around Earth, turning an International Geophysical Year project into a defining technological and political event.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this edition.",
+      "lore": "Sputnik 1's simple repeating radio signals made an invisible achievement audible around the world. The satellite carried no suite of scientific measuring instruments; its principal onboard device was a radio transmitter.",
+      "body": "<p>On October 4, 1957, the Soviet Union launched Sputnik 1 from a rocket testing facility near Tyuratam in the Kazakh Republic, now associated with the Baikonur Cosmodrome. The small aluminum sphere, approximately 58 centimeters in diameter and weighing about 83.6 kilograms, became the first human-made object to enter orbit around Earth.</p><p>The launch was presented as a contribution to the 1957–1958 International Geophysical Year, a multinational scientific program. After the satellite successfully reached orbit, the Soviet Union announced the achievement. Sputnik completed an orbit in roughly an hour and a half and transmitted regular radio signals detected by tracking stations around the world.</p><p>The achievement intensified technological and political competition between the Soviet Union and the United States. American officials had anticipated that a Soviet launch was possible, but they were surprised by the intensity of public concern after the achievement became known. The reaction helped accelerate American space research and science education and influenced the creation of NASA.</p><p>Sputnik demonstrated that a human-made object could be placed in sustained orbit and that its position could be tracked through radio transmissions and observations. It did not, by itself, demonstrate proven Soviet nuclear-strike capability or establish general technological superiority in every field. As John Foster Dulles wrote in a draft statement on October 5, the satellite's technical and scientific importance should not be exaggerated.</p>",
+      "wrongBelief": "The United States was expected to launch its own scientific satellite during the International Geophysical Year under an orderly program.",
+      "evidence": "The launch demonstrated that a human-made object could be placed in sustained orbit around Earth and that its position could be tracked through radio transmissions and observations. It did not, by itself, demonstrate that the Soviet Union possessed proven nuclear-strike capability, establish technological superiority in every field, or prove the military usefulness of the satellite.",
+      "primarySource": "The TASS announcement printed in Pravda on October 5, 1957, translated in the NASA Historical Reference Collection.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-04",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The date, location, event, and identification of Sergei P. Korolev are consistent with the dossier.",
+          "Sputnik 1's size, mass, orbital period, radio transmissions, and role in the International Geophysical Year are supported.",
+          "The article accurately distinguishes the demonstrated achievement of sustained orbit and radio tracking from unsupported claims of general technological superiority or proven nuclear-strike capability.",
+          "The claims about U.S. public concern, accelerated space research and science education, and NASA's creation are supported by the dossier.",
+          "The description of Sputnik 1's radio beacon and lack of a broad suite of scientific measuring instruments is supported."
+        ],
+        "warnings": [],
+        "researchSources": [
+          "TASS announcement, printed in Pravda on October 5, 1957, translated in the NASA Historical Reference Collection. ([nasa.gov](https://www.nasa.gov/history/sputnik/14.html))",
+          "Mikhail K. Tikhonravov's 1954 report, A Report on an Artificial Earth Satellite, prepared with the cooperation of Soviet designers and scientists and submitted with a letter from Sergei Korolev. ([nasa.gov](https://www.nasa.gov/history/sputnik/russ1.html))",
+          "John Foster Dulles, Draft Statements on the Soviet Satellite, October 5, 1957, from the John Foster Dulles Papers at the Dwight D. Eisenhower Library. ([nasa.gov](https://www.nasa.gov/history/sputnik/15.html))",
+          "Memorandum of Conference with President Eisenhower After Sputnik, October 8, 1957, preserved by the National Archives. ([archives.gov](https://www.archives.gov/education/lessons/sputnik-memo))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“compact, simple, and rugged apparatus”",
-    "author": "U.S. Patent No. 2,524,035"
+    "text": "The launching by the Soviet Union of the first earth satellite is an event of considerable technical and scientific importance. However, that importance should not be exaggerated.",
+    "author": "John Foster Dulles, Draft Statements on the Soviet Satellite, October 5, 1957"
   },
   "onThisDay": {
-    "title": "The Solid-State Switch Receives Its Patent",
-    "copy": "On October 3, 1950, the United States granted Bell Labs researchers John Bardeen and Walter Brattain a patent for a three-electrode semiconductor device. It was a formal milestone for the transistor: an amplifier designed to work without the heated cathode and bulky envelope of a vacuum tube. The patent did not announce the computer age, but it recorded the physical idea that would help make that age possible."
+    "title": "The Beep That Opened the Space Age",
+    "copy": "On October 4, 1957, the Soviet Union launched Sputnik 1, the first artificial satellite to orbit Earth. Its simple radio signals made an invisible achievement audible around the world—and turned the International Geophysical Year into the opening chapter of the Space Age."
   },
   "instrument": {
-    "title": "The Point-Contact Transistor",
-    "copy": "Unlike a vacuum tube, the transistor used a solid semiconductor as its active element. The patented design organized electrical control around three electrodes and was intended to amplify signals in a compact, rugged form. Its later descendants became the switching and amplifying elements of integrated circuits and digital computers."
+    "title": "Sputnik's Radio Beacon",
+    "copy": "Sputnik 1 carried no suite of scientific measuring instruments. Its principal onboard device was a radio transmitter that sent repeating signals. Those signals allowed observers and tracking stations to confirm the satellite's passage and determine aspects of its orbit; they did not by themselves constitute a broad survey of space or prove the satellite's military usefulness."
   },
-  "updated": "2026-10-03"
+  "updated": "2026-10-04"
 };

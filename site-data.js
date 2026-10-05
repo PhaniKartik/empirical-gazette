@@ -835,19 +835,56 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Edwin Powell Hubble",
+      "exactHistoricalDate": "October 5, 1923",
+      "headline": "The Red Ink That Enlarged the Universe",
+      "deck": "A changing star on one photographic plate gave astronomers a new way to test whether Andromeda belonged to the Milky Way.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "On photographic plate H335H, Hubble marked three bright objects as possible novae. Comparing the plate with earlier images, he found that one object varied over a cycle of roughly 31.4 days. He crossed out the original identification and wrote, \"VAR!\"",
+      "body": "<p>On October 5, 1923, Edwin Powell Hubble photographed the Andromeda Nebula through the 100-inch Hooker Telescope at Mount Wilson Observatory in California. One faint point on the plate appeared to change brightness when compared with earlier exposures.</p><p>Hubble initially marked three bright objects as possible novae. Further comparison showed that one varied over a cycle of roughly 31.4 days, identifying it as a Cepheid variable. The observation supplied the kind of recognizable distance indicator astronomers needed to investigate Andromeda's place in the universe.</p><blockquote>VAR!</blockquote><p>Henrietta Swan Leavitt's period–luminosity relation made Cepheid distance estimates possible, while Harlow Shapley's calibration helped Hubble apply the relation. Hubble later used the variable star's observed behavior to estimate Andromeda's distance and reported Cepheids in M31 and M33 in his 1925 paper, \"Cepheids in Spiral Nebulae.\"</p><p>The October 5 plate was the discovery step, not the entire measurement. Repeated observations, period calculations, and later analysis produced evidence that Andromeda lay far beyond the known dimensions of the Milky Way, helping turn a contested question about spiral nebulae into an observational problem with a decisive answer.</p>",
+      "wrongBelief": "It remained unresolved whether spiral nebulae such as Andromeda were relatively nearby objects within the Milky Way or independent stellar systems outside it. Harlow Shapley defended the former position during the 1920 debate.",
+      "evidence": "The photographic plate demonstrated that a star-like object in Andromeda changed brightness and was therefore a candidate variable star. Subsequent observations established its periodic behavior, and applying the Cepheid period–luminosity relation produced a distance far beyond the known dimensions of the Milky Way. The single plate did not by itself measure Andromeda's full distance or prove every later conclusion about the universe.",
+      "primarySource": "Edwin Hubble's October 1923 observing log and photographic plate H335H, preserved in the Mount Wilson and Carnegie observatory historical collections; Edwin Hubble, \"Cepheids in Spiral Nebulae,\" Observatory 48 (1925), pages 139–142; and the Huntington Library's Edwin Powell Hubble Papers.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-05",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "Hubble used the 100-inch Hooker Telescope at Mount Wilson Observatory to obtain plate H335H, which contained three objects initially marked as novae. ([airandspace.si.edu](https://airandspace.si.edu/air-and-space-quarterly/issue-15/edwin-hubble-astronomy?utm_source=openai))",
+          "Comparison with earlier plates showed that one object varied on a cycle of approximately 31.4 days, leading Hubble to mark it \"VAR!\" and identify it as a Cepheid variable. ([airandspace.si.edu](https://airandspace.si.edu/air-and-space-quarterly/issue-15/edwin-hubble-astronomy?utm_source=openai))",
+          "The article correctly distinguishes the discovery of the variable star from the later distance determination and broader conclusion that Andromeda is an independent galaxy. ([airandspace.si.edu](https://airandspace.si.edu/air-and-space-quarterly/issue-15/edwin-hubble-astronomy?utm_source=openai))",
+          "The references to Henrietta Leavitt's period–luminosity relation, Harlow Shapley's calibration, and Hubble's 1925 paper \"Cepheids in Spiral Nebulae\" are supported by the dossier and archival record. ([huntington.org](https://www.huntington.org/collections/lib-p15150coll7-4185?utm_source=openai))",
+          "The account of the unresolved status of spiral nebulae during the 1920 debate, including Shapley's position, is historically consistent with the supplied dossier. ([airandspace.si.edu](https://airandspace.si.edu/air-and-space-quarterly/issue-15/edwin-hubble-astronomy?utm_source=openai))",
+          "The Hooker Telescope's status as the world's largest optical telescope beginning in 1917 and its role in Hubble's work are supported. ([mtwilson.edu](https://www.mtwilson.edu/historic-observatories/?utm_source=openai))"
+        ],
+        "warnings": [
+          "The observation occurred during the night of October 5–6, 1923; using October 5, 1923 as the historical date is consistent with the dossier and Mount Wilson's chronology. ([carnegiescience.edu](https://carnegiescience.edu/about/history/archives/plate-archives/m31var?field_divisions_departments_target_id_1=269&utm_source=openai))",
+          "The phrase \"decisive answer\" appropriately refers to the broader sequence of observations and Hubble's later analysis, not to the single photographic plate alone. The article explicitly preserves that limitation."
+        ],
+        "researchSources": [
+          "Edwin Hubble's October 1923 observing log and photographic plate H335H, preserved in the Mount Wilson and Carnegie observatory historical collections. ([carnegiescience.edu](https://carnegiescience.edu/about/history/archives/plate-archives?utm_source=openai))",
+          "Edwin Hubble, \"Cepheids in Spiral Nebulae,\" published in Observatory 48 (1925), pages 139–142. ([huntington.org](https://www.huntington.org/collections/lib-p15150coll7-4185?utm_source=openai))",
+          "The Huntington Library's Edwin Powell Hubble Papers, including his plate logs, manuscripts, and reprints. ([huntington.org](https://www.huntington.org/collections/lib-msshub-1-1098-aspace-3c03ab28c44f87ce71b39925025bb6d0?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "The launching by the Soviet Union of the first earth satellite is an event of considerable technical and scientific importance. However, that importance should not be exaggerated.",
-    "author": "John Foster Dulles, Draft Statements on the Soviet Satellite, October 5, 1957"
+    "text": "VAR!",
+    "author": "Edwin Hubble's handwritten annotation on discovery plate H335H"
   },
   "onThisDay": {
-    "title": "The Beep That Opened the Space Age",
-    "copy": "On October 4, 1957, the Soviet Union launched Sputnik 1, the first artificial satellite to orbit Earth. Its simple radio signals made an invisible achievement audible around the world—and turned the International Geophysical Year into the opening chapter of the Space Age."
+    "title": "The Red Ink That Enlarged the Universe",
+    "copy": "On October 5, 1923, Edwin Hubble photographed the Andromeda Nebula through Mount Wilson's 100-inch Hooker Telescope. One faint point changed brightness between plates. Hubble first labeled it a nova, then crossed out the mark and wrote \"VAR!\"—the clue that it was a Cepheid variable. That clue supplied the kind of distance evidence astronomers needed to test whether Andromeda belonged to the Milky Way or stood far beyond it. The decisive conclusion came later, but the universe had begun to expand on paper that night."
   },
   "instrument": {
-    "title": "Sputnik's Radio Beacon",
-    "copy": "Sputnik 1 carried no suite of scientific measuring instruments. Its principal onboard device was a radio transmitter that sent repeating signals. Those signals allowed observers and tracking stations to confirm the satellite's passage and determine aspects of its orbit; they did not by themselves constitute a broad survey of space or prove the satellite's military usefulness."
+    "title": "The 100-Inch Hooker Telescope",
+    "copy": "Mount Wilson's 100-inch Hooker Telescope was the largest optical telescope in the world when it entered service in 1917. Its light-gathering power allowed Hubble to resolve individual variable stars in the faint, hazy forms then called spiral nebulae. The telescope did not reveal the entire answer in a single view; it made possible the long sequence of photographic observations on which the distance argument rested."
   },
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
 };

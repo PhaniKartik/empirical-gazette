@@ -872,19 +872,60 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Michel Mayor and Didier Queloz",
+      "exactHistoricalDate": "October 6, 1995",
+      "headline": "The First World Found Around a Sun-Like Star",
+      "deck": "In Florence, Michel Mayor and Didier Queloz announced evidence for 51 Pegasi b, a Jupiter-mass planet orbiting an ordinary star in just 4.2 days.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "The discovery of 51 Pegasi b was inferred from the star’s regular radial-velocity motion, measured with the ELODIE spectrograph at France’s Haute-Provence Observatory.",
+      "lore": "The planet was not seen directly. Its presence was inferred from the subtle, periodic Doppler shifts of its host star, 51 Pegasi, as an unseen companion gravitationally tugged the star back and forth.",
+      "body": "<p>On October 6, 1995, Michel Mayor of the Geneva Observatory and his doctoral student Didier Queloz announced in Florence, Italy, that they had detected a planet orbiting the Sun-like star 51 Pegasi.</p><p>Designated 51 Pegasi b, the object had a minimum mass of roughly half Jupiter’s mass, an orbital period of about 4.2 days, and an orbital distance of approximately 0.05 astronomical units—far inside Mercury’s orbit. It is now commonly classified as a hot Jupiter.</p><p>The evidence came from a regular pattern in the star’s spectral Doppler shifts. The observations showed the star moving back and forth as though gravitationally tugged by an unseen companion. Follow-up observations by an American team matched the reported period and properties.</p><p>The discovery provided strong evidence for a planet around a normal, Sun-like star and helped launch modern exoplanet astronomy. It also challenged planet-formation expectations, since the then-popular model held that a planet like 51 Pegasi b could not form so close to its star. The finding prompted consideration of large-scale migration from a more distant birthplace, while leaving the planet’s atmosphere, direct appearance, and habitability undetermined.</p>",
+      "wrongBelief": "The then-popular planet-formation model predicted that a planet like 51 Pegasi b could not form in place so close to its star.",
+      "evidence": "The evidence was a periodic pattern in the star’s spectral Doppler shifts, indicating reflex motion caused by an unseen companion. Follow-up observations matched the reported period and properties. The discovery did not directly photograph the planet, determine its atmosphere, or show that it could support life.",
+      "primarySource": "Michel Mayor and Didier Queloz, “A Jupiter-mass companion to a solar-type star,” Nature 378, 355–359 (1995).",
+      "editorialRecord": {
+        "publishedDate": "2026-10-06",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The announcement date, October 6, 1995, is supported.",
+          "Michel Mayor and Didier Queloz are correctly identified as the discoverers.",
+          "The announcement location, Florence, Italy, is supported.",
+          "51 Pegasi b is correctly identified as a roughly Jupiter-mass planet orbiting a Sun-like star.",
+          "The approximately 4.2-day orbital period and approximately 0.05 AU orbital distance are supported.",
+          "The minimum mass of roughly half Jupiter's mass is supported.",
+          "The classification of 51 Pegasi b as a hot Jupiter is supported.",
+          "The detection method—periodic stellar radial-velocity or Doppler shifts measured with ELODIE—is accurately described.",
+          "The article correctly states that the planet was not directly photographed and that its atmosphere and habitability were not demonstrated.",
+          "The account of follow-up observations by an American team is supported by the dossier.",
+          "The discussion of the discovery's challenge to planet-formation models and the resulting consideration of planetary migration is supported.",
+          "The ELODIE instrument and its installation on the 1.93-meter telescope at the Haute-Provence Observatory are accurately described.",
+          "The statement that the discovery helped launch modern exoplanet astronomy is consistent with the dossier's stated significance."
+        ],
+        "warnings": [],
+        "researchSources": [
+          "Michel Mayor and Didier Queloz, “A Jupiter-mass companion to a solar-type star,” Nature 378, 355–359 (1995). The paper inferred the companion from periodic stellar radial-velocity variations. ([scixplorer.org](https://scixplorer.org/abs/1995Natur.378..355M/abstract?utm_source=openai))",
+          "Didier Queloz, Nobel Lecture in Physics, “51 Pegasi b, and the Exoplanet Revolution” (2019). ([nobelprize.org](https://www.nobelprize.org/uploads/2019/10/queloz-lecture.pdf?utm_source=openai))",
+          "National Academies of Sciences, Engineering, and Medicine, Exoplanet Science Strategy, discussion of the significance and theoretical surprise of 51 Pegasi b. ([nationalacademies.org](https://www.nationalacademies.org/read/25187/chapter/4))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "VAR!",
-    "author": "Edwin Hubble's handwritten annotation on discovery plate H335H"
+    "text": "“A planet of Jupiter’s mass is orbiting the star 51Peg with a 4.25d period.”",
+    "author": "Didier Queloz, Nobel Lecture in Physics, 2019"
   },
   "onThisDay": {
-    "title": "The Red Ink That Enlarged the Universe",
-    "copy": "On October 5, 1923, Edwin Hubble photographed the Andromeda Nebula through Mount Wilson's 100-inch Hooker Telescope. One faint point changed brightness between plates. Hubble first labeled it a nova, then crossed out the mark and wrote \"VAR!\"—the clue that it was a Cepheid variable. That clue supplied the kind of distance evidence astronomers needed to test whether Andromeda belonged to the Milky Way or stood far beyond it. The decisive conclusion came later, but the universe had begun to expand on paper that night."
+    "title": "The First World Found Around a Sun-Like Star",
+    "copy": "On October 6, 1995, Michel Mayor and Didier Queloz announced in Florence that they had detected a planet orbiting the ordinary star 51 Pegasi. The signal came not from a photograph of the planet, but from the star’s measured wobble—a subtle Doppler shift caused by an unseen companion. 51 Pegasi b was astonishingly large and close to its star, overturning expectations shaped by the architecture of our own Solar System and opening the modern search for worlds beyond it."
   },
   "instrument": {
-    "title": "The 100-Inch Hooker Telescope",
-    "copy": "Mount Wilson's 100-inch Hooker Telescope was the largest optical telescope in the world when it entered service in 1917. Its light-gathering power allowed Hubble to resolve individual variable stars in the faint, hazy forms then called spiral nebulae. The telescope did not reveal the entire answer in a single view; it made possible the long sequence of photographic observations on which the distance argument rested."
+    "title": "ELODIE: The Spectrograph That Heard a Star Wobble",
+    "copy": "The discovery depended on ELODIE, a high-precision spectrograph installed on the 1.93-meter telescope at France’s Haute-Provence Observatory. By splitting starlight into a spectrum and tracking minute, periodic shifts in its lines, ELODIE revealed the reflex motion of 51 Pegasi. The instrument’s success helped inspire later planet-hunting spectrographs, including CORALIE and HARPS."
   },
-  "updated": "2026-10-05"
+  "updated": "2026-10-06"
 };

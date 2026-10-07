@@ -913,19 +913,64 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Engineers and scientists of the Soviet lunar program; scientists of the USSR Academy of Sciences",
+      "exactHistoricalDate": "October 7, 1959",
+      "headline": "The Moon Turns Its Unseen Face",
+      "deck": "Luna 3 photographed the lunar far side for the first time, transforming an astronomical unknown into a subject of direct scientific study.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "Luna 3 began photographing the sunlit lunar far side at approximately 03:30 Universal Time on October 7, 1959, after passing the Moon and looking back toward it.",
+      "lore": "For centuries, the hemisphere of the Moon permanently hidden from Earth remained beyond direct observation. Luna 3’s blurred photographs ended that geographic mystery, even though the images were incomplete and difficult to resolve.",
+      "body": "<p>On October 7, 1959, the Soviet spacecraft Luna 3 photographed territory no human being had ever seen. After passing the Moon, the spacecraft looked back toward the sunlit far side and began its photographic sequence at approximately 03:30 Universal Time.</p><p>Luna 3 made 29 exposures. The returned photographs covered approximately 70 percent of the far side, although many frames were difficult to resolve. Even so, the images showed terrain unlike the familiar Earth-facing hemisphere: heavily cratered highlands and comparatively few dark lunar maria.</p><p>The spacecraft combined a camera, onboard film-processing equipment, and an electronic scanning system. Developed photographs were converted into radio signals and transmitted to Soviet tracking stations on Earth, allowing scientists to reconstruct humanity’s first views of the hidden hemisphere.</p><p>The photographs demonstrated that substantial portions of the far side could be imaged during a passing spacecraft encounter and provided evidence that its visible terrain differed markedly from the near side. They did not provide a complete, high-resolution map, nor did they explain why the two lunar hemispheres differ. Early identifications and maps, including features later associated with Mare Moscoviense and Mare Desiderii, remained provisional.</p>",
+      "wrongBelief": "A contemporary educational account states that most scientists expected the far side to resemble the familiar near side, with broad dark maria among craters and mountains. The dossier identifies this as a documented expectation, not a demonstrated scientific consensus.",
+      "evidence": "The transmitted photographs demonstrated that substantial portions of the lunar far side could be imaged from a passing spacecraft and that the visible terrain contained many more cratered highlands and far fewer maria than the near side. They did not provide a complete, high-resolution map of the hemisphere or explain why the two lunar hemispheres differ.",
+      "primarySource": [
+        "Luna 3 photographic material and the 1959 Soviet publication First Photographs of the Far Side of the Moon, documented in the Linda Hall Library collection.",
+        "A 1959 TASS photograph of the far side held by The Metropolitan Museum of Art.",
+        "NASA’s Deep Space Chronicle, recording the mission’s timing, imaging sequence, coverage, and transmission system.",
+        "A contemporaneous Associated Press report reproducing the Soviet preliminary interpretation of the images."
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-10-07",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "Luna 3 photographed the lunar far side on October 7, 1959, after passing the Moon and looking back toward its sunlit surface. NASA records the first exposure at approximately 03:30 Universal Time. ([science.nasa.gov](https://science.nasa.gov/resource/first-close-up-of-the-far-side-of-moon/?utm_source=openai))",
+          "The spacecraft made 29 photographs covering approximately 70 percent of the far side. The images were noisy and low-resolution, but some features could be recognized. ([science.nasa.gov](https://science.nasa.gov/resource/first-close-up-of-the-far-side-of-moon/?utm_source=openai))",
+          "The images showed the far side to be markedly different from the near side, especially in its relative scarcity of dark lunar maria and prevalence of cratered highlands. ([science.nasa.gov](https://science.nasa.gov/wp-content/uploads/2023/09/DSC_monograph24.pdf?utm_source=openai))",
+          "The description of Luna 3’s imaging system—camera, onboard film processing, scanning, and radio transmission—is supported by NASA documentation. ([science.nasa.gov](https://science.nasa.gov/wp-content/uploads/2023/09/DSC_monograph24.pdf?utm_source=openai))",
+          "The article appropriately states that the mission did not produce a complete, high-resolution map or explain the hemispheric differences; those are important limitations.",
+          "The Associated Press quotation is supported by the October 27, 1959 newspaper reproduction of the October 26 report, and the attribution to Soviet scientists is accurate. ([oregonnews.uoregon.edu](https://oregonnews.uoregon.edu/lccn/sn85042470/1959-10-27/ed-1/seq-1/?utm_source=openai))",
+          "The article’s statement about contemporary expectations is properly framed as a documented expectation rather than an established scientific consensus."
+        ],
+        "warnings": [
+          "“Permanently hidden from terrestrial view” is conventional shorthand, but lunar libration allows observers on Earth to see slightly more than half of the lunar surface over time; “the hemisphere not visible from Earth” would be more precise.",
+          "The phrase “humanity’s first views” is historically acceptable, but the images were received and reconstructed by scientists on Earth rather than directly viewed by human observers at the Moon.",
+          "The early feature identification involving Mare Desiderii should remain explicitly qualified as provisional, as the article does; later lunar mapping did not retain Mare Desiderii as a confirmed feature."
+        ],
+        "researchSources": [
+          "Luna 3 photographic material and the 1959 Soviet publication First Photographs of the Far Side of the Moon, documented in the Linda Hall Library collection. ([lindahall.org](https://www.lindahall.org/about/news/scientist-of-the-day/luna-3/?utm_source=openai))",
+          "A 1959 TASS photograph of the far side, held by The Metropolitan Museum of Art. ([metmuseum.org](https://www.metmuseum.org/art/collection/search/786320?utm_source=openai))",
+          "NASA’s Deep Space Chronicle, which records the timing, imaging sequence, coverage, and transmission system of the mission. ([science.nasa.gov](https://science.nasa.gov/wp-content/uploads/2023/09/DSC_monograph24.pdf?utm_source=openai))",
+          "A contemporaneous Associated Press report reproducing the Soviet preliminary interpretation of the images. ([oregonnews.uoregon.edu](https://oregonnews.uoregon.edu/lccn/sn85042470/1959-10-27/ed-1/seq-1/?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“A planet of Jupiter’s mass is orbiting the star 51Peg with a 4.25d period.”",
-    "author": "Didier Queloz, Nobel Lecture in Physics, 2019"
+    "text": "“The hidden side of the moon is largely drab plains with far fewer landmarks than we see on its face.”",
+    "author": "Associated Press report summarizing comments by Soviet scientists, October 26, 1959"
   },
   "onThisDay": {
-    "title": "The First World Found Around a Sun-Like Star",
-    "copy": "On October 6, 1995, Michel Mayor and Didier Queloz announced in Florence that they had detected a planet orbiting the ordinary star 51 Pegasi. The signal came not from a photograph of the planet, but from the star’s measured wobble—a subtle Doppler shift caused by an unseen companion. 51 Pegasi b was astonishingly large and close to its star, overturning expectations shaped by the architecture of our own Solar System and opening the modern search for worlds beyond it."
+    "title": "The Moon Turns Its Unseen Face",
+    "copy": "On October 7, 1959, Luna 3 looked back after passing the Moon and photographed territory no human being had ever seen. Its blurred frames showed a far side unlike the familiar lunar face: heavily cratered, comparatively short on dark maria, and suddenly available for scientific investigation. The pictures were incomplete and crude, but they ended the Moon’s oldest geographic mystery."
   },
   "instrument": {
-    "title": "ELODIE: The Spectrograph That Heard a Star Wobble",
-    "copy": "The discovery depended on ELODIE, a high-precision spectrograph installed on the 1.93-meter telescope at France’s Haute-Provence Observatory. By splitting starlight into a spectrum and tracking minute, periodic shifts in its lines, ELODIE revealed the reflex motion of 51 Pegasi. The instrument’s success helped inspire later planet-hunting spectrographs, including CORALIE and HARPS."
+    "title": "Luna 3’s Camera in Deep Space",
+    "copy": "Luna 3 carried a compact imaging system that combined a photographic camera with onboard film processing and an electronic scanner. Instead of sending a modern digital image, the spacecraft converted the developed film into radio signals, allowing ground stations to reconstruct humanity’s first views of the lunar far side."
   },
-  "updated": "2026-10-06"
+  "updated": "2026-10-07"
 };

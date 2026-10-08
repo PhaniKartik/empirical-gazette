@@ -958,19 +958,59 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Johannes Kepler",
+      "exactHistoricalDate": "October 8, 1604; some contemporary reports place early observations on October 9 or 10, while Kepler first saw the object in Prague on October 17 because of cloudy weather.",
+      "headline": "The Night a New Star Challenged the Unchanging Heavens",
+      "deck": "A brilliant naked-eye star appeared in Ophiuchus, testing the belief that the celestial realm could not change.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition. SN 1604 appeared near the boundary of Ophiuchus and Sagittarius and was observed without a telescope.",
+      "lore": "The new star was seen by several observers across Europe before Kepler viewed it in Prague. Galileo later used its measured position in lectures and writings at Padua to argue that the object belonged among the fixed stars rather than in the atmosphere.",
+      "body": "<p>On October 8, 1604, observers reported a brilliant new star in the constellation Ophiuchus, near the boundary with Sagittarius. Historical accounts differ by location and calendar, with some contemporary reports placing early observations on October 9 or 10. Cloudy weather delayed Johannes Kepler’s own first sighting until October 17 in Prague.</p><p>The appearance challenged a specifically documented Aristotelian belief that the high celestial spheres were immutable and that stars could not genuinely appear or disappear there. The object remained visible for many months and occupied a fixed location among the stars, prompting sustained observations by Kepler, Lodovico delle Colombe, Galileo Galilei, Johannes Brunowsky, and other astronomers.</p><p>Kepler followed the star for more than a year and published <i>De Stella Nova in Pede Serpentarii</i> in 1606. Galileo discussed the event in lectures and writings at Padua, using its measured position to argue that it belonged to the region of the fixed stars rather than the atmosphere. Their work helped turn a startling apparition into a major episode in the history of astronomy.</p><p>Modern astronomy identifies the surviving expanding debris as a supernova remnant studied in visible, infrared, and X-ray wavelengths. The original observations demonstrated that an apparent change had occurred in the heavens and undermined the claim that the celestial region was wholly unalterable; they did not, by themselves, reveal the physical cause of the event.</p>",
+      "wrongBelief": "The high celestial spheres were immutable: stars could not genuinely appear or disappear there.",
+      "evidence": "A bright object appeared at a fixed location among the stars, remained visible for many months, and displayed measurable positional behavior that observers treated as astronomical rather than atmospheric. This demonstrated that an apparent change had occurred in the heavens and provided evidence against the claim that the celestial region was wholly unalterable. It did not by itself reveal the physical cause of the event; identifying SN 1604 as a stellar explosion depends on later astronomical and astrophysical evidence.",
+      "primarySource": "Johannes Kepler, Gründtlicher Bericht von einem ungewöhnlichen neuen Stern, published in Prague in 1604; Johannes Kepler, De Stella Nova in Pede Serpentarii, published in 1606; Galileo Galilei’s writings and lectures on the new star of 1604; contemporary observational reports discussed in First Observations of SN 1604 (Kepler’s Supernova).",
+      "editorialRecord": {
+        "publishedDate": "2026-10-08",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "SN 1604 appeared in Ophiuchus near the boundary with Sagittarius and was visible to the unaided eye. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/?utm_source=openai))",
+          "Kepler did not see the object until October 17, 1604, after cloudy weather, and he subsequently observed it for more than a year. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/?utm_source=openai))",
+          "The event was observed by multiple astronomers, including Lodovico delle Colombe, Johannes Brunowsky, Galileo Galilei, and Johannes Kepler. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/?utm_source=openai))",
+          "Kepler published De Stella Nova in Pede Serpentarii in Prague in 1606. ([science.nasa.gov](https://science.nasa.gov/missions/hubble/nasas-great-observatories-may-unravel-400-year-old-supernova-mystery/?utm_source=openai))",
+          "Galileo discussed the new star in Padua and used positional arguments to place it among the fixed stars rather than in the atmosphere. ([mdpi.com](https://www.mdpi.com/2218-1997/7/11/430?utm_source=openai))",
+          "The event challenged the Aristotelian doctrine that the celestial realm was immutable. The article correctly distinguishes that historical observation from the later astrophysical identification of SN 1604 as a supernova. ([mdpi.com](https://www.mdpi.com/2218-1997/7/11/430?utm_source=openai))",
+          "The surviving remnant is studied across optical, infrared, and X-ray wavelengths. ([chandra.harvard.edu](https://chandra.harvard.edu/chronicle/0404/kepler/index.html?utm_source=openai))"
+        ],
+        "warnings": [
+          "The October 8 date is defensible and appears in institutional references, but the chronology of the earliest sightings is disputed. Some scholarly reconstructions place Lodovico delle Colombe's observation on October 9 and Johannes Brunowsky's Prague observation on October 10. The article appropriately acknowledges this uncertainty. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/?utm_source=openai))",
+          "The quotation is supported as a modern English translation attributed to Kepler, but the article does not identify the specific Kepler work or translation from which the wording derives. This is a sourcing refinement rather than a factual error. ([chandra.harvard.edu](https://chandra.harvard.edu/chronicle/0404/kepler/index.html?utm_source=openai))",
+          "The phrase 'fixed location among the stars' is historically reasonable in context, but early observers' positional measurements demonstrated astronomical distance and lack of detectable parallax rather than proving the object's physical nature."
+        ],
+        "researchSources": [
+          "Johannes Kepler, Gründtlicher Bericht von einem ungewöhnlichen neuen Stern, published in Prague in 1604. ([commons.wikimedia.org](https://commons.wikimedia.org/wiki/File%3AKepler-Gruendtlicher_Bericht_Von_einem_vngewohnlichen_Newen_Stern-Prag_1604.pdf?utm_source=openai))",
+          "Johannes Kepler, De Stella Nova in Pede Serpentarii, published in 1606.",
+          "Galileo Galilei, writings and lectures on the new star of 1604, including the Dialogo in Perpuosito de la Stella Nuova. ([mdpi.com](https://www.mdpi.com/2218-1997/7/11/430?utm_source=openai))",
+          "Contemporary observational reports discussed in the scholarly study First Observations of SN 1604 (Kepler’s Supernova). ([mdpi.com](https://www.mdpi.com/2218-1997/7/11/430?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“The hidden side of the moon is largely drab plains with far fewer landmarks than we see on its face.”",
-    "author": "Associated Press report summarizing comments by Soviet scientists, October 26, 1959"
+    "text": "“Happy is the man who devotes himself to the study of the heavens; their study will furnish him with the pursuit of enjoyments.”",
+    "author": "Johannes Kepler"
   },
   "onThisDay": {
-    "title": "The Moon Turns Its Unseen Face",
-    "copy": "On October 7, 1959, Luna 3 looked back after passing the Moon and photographed territory no human being had ever seen. Its blurred frames showed a far side unlike the familiar lunar face: heavily cratered, comparatively short on dark maria, and suddenly available for scientific investigation. The pictures were incomplete and crude, but they ended the Moon’s oldest geographic mystery."
+    "title": "The Night a New Star Challenged the Unchanging Heavens",
+    "copy": "On October 8, 1604, observers reported a brilliant new star in Ophiuchus. The light would later be understood as a supernova, but to early-modern astronomers it challenged the belief that the heavens could not change. Johannes Kepler’s subsequent observations and 1606 book helped turn the apparition into a major episode in the history of astronomy."
   },
   "instrument": {
-    "title": "Luna 3’s Camera in Deep Space",
-    "copy": "Luna 3 carried a compact imaging system that combined a photographic camera with onboard film processing and an electronic scanner. Instead of sending a modern digital image, the spacecraft converted the developed film into radio signals, allowing ground stations to reconstruct humanity’s first views of the lunar far side."
+    "title": "A Celestial Event Seen Without a Telescope",
+    "copy": "SN 1604 was observed with the unaided eye, before the telescope became an astronomical instrument. Later generations investigated its remnant with observatories operating in visible light, infrared, and X-rays, linking an early naked-eye report with modern multiwavelength astronomy."
   },
-  "updated": "2026-10-07"
+  "updated": "2026-10-08"
 };

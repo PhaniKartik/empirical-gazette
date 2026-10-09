@@ -998,19 +998,57 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Lodovico delle Colombe, Ilario Altobelli, and Johannes Kepler",
+      "exactHistoricalDate": "October 9, 1604",
+      "headline": "The Star That Appeared Among the Fixed Stars",
+      "deck": "A brilliant new object in Ophiuchus challenged the expectation that the heavens beyond the Moon could not change.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image: SN 1604 was observed without a telescope, using unaided eyesight, positional comparison with known stars, and written reports.",
+      "lore": "The event is known as Kepler’s Supernova because Johannes Kepler made sustained observations and published an extended account, not because he was the first European to see it. Surviving correspondence places an independent observation by Ilario Altobelli in Verona on October 9, while Kepler first observed the object in Prague on October 17.",
+      "body": "<p>On October 9, 1604, observers in northern Italy recorded a brilliant new star in Ophiuchus, the constellation then commonly described as the Serpent Bearer. The object brightened to roughly magnitude −2.5, becoming brighter than Jupiter, and was reportedly visible in daylight for several weeks.</p><p>Lodovico delle Colombe is identified as the first European observer, while Ilario Altobelli’s surviving correspondence places an independent sighting in Verona on the same date. Johannes Kepler did not see the object until October 17 in Prague, but he followed it for more than a year and published <i>De Stella nova in pede Serpentarii</i> in 1606.</p><p>The sudden appearance and later disappearance of the star tested the inherited Aristotelian expectation that the celestial realm beyond the Moon was immutable. Observers debated whether the object truly belonged among the fixed stars or was instead a lower atmospheric phenomenon. Its fixed position among the stars and lack of observed daily motion like a nearby atmospheric object provided evidence that the visible heavens could change.</p><p>The observations did not reveal the physical cause of the outburst, establish the modern concept of a supernova, or prove any particular planetary system. Modern astronomy classifies SN 1604 as a Type Ia supernova and studies its expanding remnant, interpretations unavailable to the observers of 1604.</p>",
+      "wrongBelief": "The heavens beyond the Moon were expected to be immutable, so a genuinely new star could not ordinarily arise among the fixed stars.",
+      "evidence": "The event demonstrated that a bright object could appear at a fixed position among the stars and later fade from view, making the claim that the visible heavens were entirely unchanging untenable. It did not demonstrate the mechanism of the outburst, the modern astrophysical classification of the event, or the truth of any particular planetary system.",
+      "primarySource": "Johannes Kepler, <i>Gründtlicher Bericht Von einem ungewohnlichen Newen Stern</i>, Prague, 1604; Johannes Kepler, <i>De Stella nova in pede Serpentarii</i>, Prague, 1606; and Ilario Altobelli’s late-1604 and early-1605 letters to Galileo Galilei.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-09",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "October 9, 1604 is a supported date for the earliest documented European observations, while Kepler began observing the object in Prague on October 17. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/))",
+          "The object appeared in Ophiuchus, was observed without a telescope, reached approximately magnitude −2.5, outshone Jupiter, and was visible in daylight for about three weeks. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/))",
+          "Kepler monitored the object for more than a year and published De Stella nova in pede Serpentarii in 1606. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/))",
+          "The article correctly distinguishes the historical observation of a new star from the modern classification of SN 1604 as a Type Ia supernova. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/))",
+          "The discussion of Aristotelian immutability, the debate over a celestial versus atmospheric phenomenon, and the evidentiary limits of the observations is historically cautious and does not claim that the event alone proved heliocentrism or explained the physical mechanism. ([de.wikisource.org](https://de.wikisource.org/wiki/Seite%3AKepler-Gruendtlicher_Bericht_Von_einem_vngewohnlichen_Newen_Stern-Prag_1604.pdf/2))",
+          "The explanation of the name Kepler's Supernova as reflecting Kepler's sustained observations and publication, rather than priority of discovery, is supported. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/))"
+        ],
+        "warnings": [
+          "Priority of the first observation is historiographically contested. The article appropriately attributes Lodovico delle Colombe's priority to an identification rather than presenting it as indisputable, but an even more cautious formulation could note that Ilario Altobelli's October 9 report is also described in scholarship as the first known surviving report. NASA identifies Lodovico delle Colombe as the first European observer, while Altobelli's correspondence independently documents the same date. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/))",
+          "The statement that the object was visible in daylight for several weeks is supported by NASA, which specifies approximately three weeks. ([nasa.gov](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/))",
+          "The quotation is presented with ellipses and normalized spacing; this is acceptable as an excerpt, but the source's transcription has variant early-modern spellings, so the quotation should remain clearly marked as a partial diplomatic transcription. ([de.wikisource.org](https://de.wikisource.org/wiki/Seite%3AKepler-Gruendtlicher_Bericht_Von_einem_vngewohnlichen_Newen_Stern-Prag_1604.pdf/2))"
+        ],
+        "researchSources": [
+          "Johannes Kepler, Gründtlicher Bericht Von einem ungewohnlichen Newen Stern, Prague, 1604. The surviving text records the star’s first appearance as occurring on October 9 or 10 and argues that it belonged among the fixed stars. ([de.wikisource.org](https://de.wikisource.org/wiki/Seite%3AKepler-Gruendtlicher_Bericht_Von_einem_vngewohnlichen_Newen_Stern-Prag_1604.pdf/2))",
+          "Johannes Kepler, De Stella nova in pede Serpentarii, Prague, 1606, the major published account of his observations.",
+          "Ilario Altobelli’s letters to Galileo Galilei, written in late 1604 and early 1605, reporting the October 9 sighting in northern Italy. ([mdpi.com](https://www.mdpi.com/2218-1997/7/11/430?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“Happy is the man who devotes himself to the study of the heavens; their study will furnish him with the pursuit of enjoyments.”",
-    "author": "Johannes Kepler"
+    "text": "“den 9 oder 10 Octobris ... ein sehr grosser heller zwintzerender stern ... erstmahlen entzündet”",
+    "author": "Johannes Kepler, <i>Gründtlicher Bericht Von einem ungewohnlichen Newen Stern</i>, Prague, 1604"
   },
   "onThisDay": {
-    "title": "The Night a New Star Challenged the Unchanging Heavens",
-    "copy": "On October 8, 1604, observers reported a brilliant new star in Ophiuchus. The light would later be understood as a supernova, but to early-modern astronomers it challenged the belief that the heavens could not change. Johannes Kepler’s subsequent observations and 1606 book helped turn the apparition into a major episode in the history of astronomy."
+    "title": "The Star That Appeared Among the Fixed Stars",
+    "copy": "On October 9, 1604, observers in northern Italy recorded a brilliant new star in Ophiuchus. Johannes Kepler first saw it on October 17, but his sustained observations and 1606 book made the event famous. For early-modern astronomers, the question was not yet how a star exploded, but whether the supposedly unchanging heavens could change at all."
   },
   "instrument": {
-    "title": "A Celestial Event Seen Without a Telescope",
-    "copy": "SN 1604 was observed with the unaided eye, before the telescope became an astronomical instrument. Later generations investigated its remnant with observatories operating in visible light, infrared, and X-rays, linking an early naked-eye report with modern multiwavelength astronomy."
+    "title": "Before the Telescope: A Naked-Eye Supernova",
+    "copy": "SN 1604 was observed without a telescope. The first European records depended on unaided eyesight, careful positional comparison with known stars, and written reports exchanged among observers."
   },
-  "updated": "2026-10-08"
+  "updated": "2026-10-09"
 };

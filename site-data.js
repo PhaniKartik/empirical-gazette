@@ -1036,19 +1036,57 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "William Lassell",
+      "exactHistoricalDate": "October 10, 1846",
+      "headline": "The New Planet’s First Moon",
+      "deck": "Seventeen days after Neptune was identified, William Lassell detected a faint object moving with the new planet from his observatory in Liverpool.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image is included in this edition.",
+      "lore": "Lassell’s report also described a supposed ring around Neptune, but later analysis concluded that the ring was an optical effect caused by the telescope.",
+      "body": "<p>On October 10, 1846, William Lassell examined Neptune from Starfield Observatory in Liverpool, England, and detected a faint object associated with the newly identified planet. Subsequent observations confirmed that the object moved as a satellite.</p><p>The observation demonstrated that Neptune had at least one natural satellite and opened the study of the Neptunian system. The object was later named Triton; it remains Neptune’s largest moon. The observation itself did not establish the moon’s physical composition, origin, or unusual retrograde orbit.</p><p>Lassell made the discovery with a large reflecting telescope he had built and installed at Starfield. John Herschel had urged him to search for possible satellites after Neptune’s discovery, reportedly writing, “satellites with all possible expedition!!”</p><p>Lassell reported the finding in the Royal Astronomical Society’s <em>Monthly Notices</em> under the title “Discovery of supposed ring and satellite of Neptune.” His simultaneous report of a ring showed that telescope observations required independent confirmation: later analysis judged the supposed ring to be an instrumental optical effect.</p>",
+      "wrongBelief": "The documented expectation was not that Neptune definitely possessed a moon, but that it might; John Herschel urged Lassell to search for possible satellites.",
+      "evidence": "Lassell’s observation showed a faint object associated with Neptune, and subsequent observations confirmed that it moved as a satellite. The discovery demonstrated that Neptune had at least one natural satellite. The October 10 observation did not establish the moon’s physical composition, origin, or unusual retrograde orbit, and the reported ring was later judged to be an optical effect caused by the telescope.",
+      "primarySource": "William Lassell, “Discovery of supposed ring and satellite of Neptune,” Monthly Notices of the Royal Astronomical Society, volume 7, 1846, page 157.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-10",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "William Lassell observed Neptune's satellite on October 10, 1846, seventeen days after Neptune's discovery. ([science.nasa.gov](https://science.nasa.gov/neptune/moons/triton/?utm_source=openai))",
+          "The observation was made at Lassell's Starfield installation in Liverpool with his large reflecting telescope. ([en.wikisource.org](https://en.wikisource.org/wiki/Dictionary_of_National_Biography%2C_1885-1900/Lassell%2C_William?utm_source=openai))",
+          "The object was later confirmed as Neptune's satellite and is now known as Triton, Neptune's largest moon. ([science.nasa.gov](https://science.nasa.gov/neptune/moons/triton/?utm_source=openai))",
+          "Lassell's report was published in Monthly Notices of the Royal Astronomical Society under the title \"Discovery of supposed ring and satellite of Neptune,\" volume 7, page 157. ([journals.sagepub.com](https://journals.sagepub.com/doi/10.1177/002182868401500101?utm_source=openai))",
+          "Lassell also reported a supposed ring around Neptune, later understood as an optical or instrumental effect. ([journals.sagepub.com](https://journals.sagepub.com/doi/10.1177/002182868401500101?utm_source=openai))",
+          "John Herschel did urge Lassell to search for possible satellites, and the quoted wording is documented in secondary historical accounts. ([oklo.org](https://oklo.org/2012/02/19/regular-systems-of-satellites/?utm_source=openai))",
+          "The article appropriately distinguishes what the 1846 observation established from later knowledge about Triton's composition, origin, and retrograde orbit."
+        ],
+        "warnings": [
+          "The phrase \"detected a faint object moving with the new planet\" is acceptable in context, but the object's satellite motion was established through subsequent observations rather than by the October 10 observation alone.",
+          "The statement that the supposed ring \"showed that telescope observations required independent confirmation\" is a reasonable editorial inference from the false-ring report, but it is broader than the directly documented historical claim."
+        ],
+        "researchSources": [
+          "William Lassell, “Discovery of supposed ring and satellite of Neptune,” Monthly Notices of the Royal Astronomical Society, volume 7, 1846, page 157. ([journals.sagepub.com](https://journals.sagepub.com/doi/10.1177/002182868401500101?utm_source=openai))",
+          "William Lassell’s astronomical notebook for 1846–1847, preserved in the Royal Astronomical Society archives. ([ras.ac.uk](https://ras.ac.uk/library/about-the-library/mss-lassell-pigott))",
+          "Royal Astronomical Society archival description of Lassell’s observational papers. ([ras.ac.uk](https://ras.ac.uk/library/about-the-library/mss-lassell-pigott))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“den 9 oder 10 Octobris ... ein sehr grosser heller zwintzerender stern ... erstmahlen entzündet”",
-    "author": "Johannes Kepler, <i>Gründtlicher Bericht Von einem ungewohnlichen Newen Stern</i>, Prague, 1604"
+    "text": "“Discovery of supposed ring and satellite of Neptune.”",
+    "author": "William Lassell, title of his 1846 report in Monthly Notices of the Royal Astronomical Society."
   },
   "onThisDay": {
-    "title": "The Star That Appeared Among the Fixed Stars",
-    "copy": "On October 9, 1604, observers in northern Italy recorded a brilliant new star in Ophiuchus. Johannes Kepler first saw it on October 17, but his sustained observations and 1606 book made the event famous. For early-modern astronomers, the question was not yet how a star exploded, but whether the supposedly unchanging heavens could change at all."
+    "title": "The New Planet’s First Moon",
+    "copy": "On October 10, 1846, William Lassell examined the recently discovered Neptune from his Liverpool observatory and detected a faint companion moving with it. The find, made just seventeen days after Neptune itself, revealed that the distant planet had a moon—later named Triton—and extended the known architecture of the Solar System."
   },
   "instrument": {
-    "title": "Before the Telescope: A Naked-Eye Supernova",
-    "copy": "SN 1604 was observed without a telescope. The first European records depended on unaided eyesight, careful positional comparison with known stars, and written reports exchanged among observers."
+    "title": "Lassell’s Starfield Reflector",
+    "copy": "The discovery was made with William Lassell’s self-built reflecting telescope at Starfield in Liverpool. The instrument helped demonstrate that important astronomical discoveries were not limited to major institutional observatories, while the supposed ring also showed that telescope observations required independent confirmation."
   },
-  "updated": "2026-10-09"
+  "updated": "2026-10-10"
 };

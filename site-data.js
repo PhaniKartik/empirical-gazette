@@ -1074,19 +1074,58 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Walter M. Schirra Jr., Donn F. Eisele, and R. Walter Cunningham",
+      "exactHistoricalDate": "October 11, 1968",
+      "headline": "Apollo 7 Restores Crewed Flight to the Apollo Program",
+      "deck": "The first crewed Apollo mission tested the Command and Service Module in Earth orbit and provided engineering confidence for later lunar missions.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "After separating from the Saturn IVB stage, the crew maneuvered away, turned around, and approached it again as a simulated rendezvous target.",
+      "body": "<p>On October 11, 1968, Walter M. Schirra Jr., Donn F. Eisele, and R. Walter Cunningham lifted off from Launch Complex 34 at Cape Kennedy, Florida, aboard Apollo 7. The mission was the first crewed Apollo flight and the first crewed flight of the Block II Apollo Command and Service Module.</p><p>Designed as an engineering test rather than a lunar expedition, Apollo 7 examined the spacecraft, crew performance, mission-support systems, rendezvous capability, and live television transmission from space. The spacecraft remained in Earth orbit for 10 days, 20 hours, 9 minutes, and 3 seconds. Its Service Propulsion System completed eight planned burns, and NASA later reported that the primary mission objectives were achieved.</p><p>The flight provided evidence that the crewed Command and Service Module could operate in orbit for longer than the expected duration of a lunar landing mission, perform rendezvous-related maneuvers, and support repeated propulsion tests and communications. It did not demonstrate a lunar flight, lunar-orbit insertion, lunar-module operations, or every detailed test objective. NASA records specifically state that the planned star-and-Earth-horizon sightings for establishing an Earth-horizon model were not achieved because the horizon was indistinct and variable.</p><p>After the January 1967 Apollo 1 fire, Apollo 7's successful Earth-orbital test restored crewed flight to the Apollo program and helped provide the engineering confidence needed for later lunar missions.</p>",
+      "wrongBelief": "NASA's documented preflight expectation was that an approximately 11-day Earth-orbital engineering test would last long enough to demonstrate that the Apollo spacecraft could support the requirements of a future lunar mission.",
+      "evidence": "Apollo 7 demonstrated that the crewed Command and Service Module could operate in orbit for longer than the expected duration of a lunar landing mission, perform rendezvous-related maneuvers, complete repeated Service Propulsion System burns, and support communications and live television. It did not itself demonstrate a lunar flight, lunar-orbit insertion, lunar-module operations, or every planned detailed test; the Earth-horizon navigation objective was specifically recorded as unsuccessful.",
+      "primarySource": "NASA, Apollo 7 Press Kit, September 27, 1968; NASA, Apollo 7 Mission Report, December 1968; NASA, Apollo 7 mission transcripts; NASA, Apollo by the Numbers.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-11",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The date, crew, launch site, mission designation, and identification of Apollo 7 as the first crewed Apollo mission are correct. ([nasa.gov](https://www.nasa.gov/mission/apollo-7/?utm_source=openai))",
+          "Apollo 7 was the first crewed flight of the Block II Apollo Command and Service Module. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/static/history/PDFs/Finding%20aids/Programs/apollo%207_10-finding_aid.pdf?utm_source=openai))",
+          "The Saturn IB launch vehicle, Earth-orbital mission profile, and total duration of 10 days, 20 hours, 9 minutes, and 3 seconds are correct. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/static/history/PDFs/Finding%20aids/Programs/apollo%207_10-finding_aid.pdf?utm_source=openai))",
+          "The descriptions of rendezvous exercises with the Saturn IVB stage, Service Propulsion System burns, mission-support testing, and live television are supported by NASA records. ([nasa.gov](https://www.nasa.gov/image-article/southern-california-as-seen-from-apollo-7/?utm_source=openai))",
+          "The article correctly states that Apollo 7 did not conduct a lunar flight, lunar-orbit insertion, or lunar-module operations.",
+          "The statement that the planned star-and-Earth-horizon sightings failed because the horizon was indistinct and variable is consistent with the dossier's documented limitation.",
+          "The quotation \"She is riding like a dream\" is correctly attributed to Walter M. Schirra Jr. and is supported by NASA's contemporary mission commentary and archival records. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/static/history/PDFs/Finding%20aids/Programs/apollo%207_10-finding_aid.pdf?utm_source=openai))",
+          "The guidance-and-navigation description is consistent with the dossier and NASA's Apollo 7 technical documentation."
+        ],
+        "warnings": [
+          "The phrase \"prove ... could function together in orbit\" is understandable in the context of an engineering test, but \"demonstrate\" or \"validate\" would be slightly more historically cautious. The article otherwise accurately distinguishes demonstrated capabilities from unachieved objectives."
+        ],
+        "researchSources": [
+          "NASA, Apollo 7 Press Kit, September 27, 1968: contemporary mission objectives, vehicle description, photographic equipment, and onboard television information. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/static/apollo50th/pdf/A07_PressKit.pdf?utm_source=openai))",
+          "NASA, Apollo 7 Mission Report, December 1968: postflight technical record of the mission. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19750017909/downloads/19750017909.pdf?utm_source=openai))",
+          "NASA, Apollo 7 mission transcripts: contemporaneous air-to-ground, onboard, and public-affairs records. ([nasa.gov](https://www.nasa.gov/history/mission-transcripts-mercury-gemini-and-apollo/?utm_source=openai))",
+          "NASA, Apollo by the Numbers: summary of Apollo 7 objectives and their documented level of achievement. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/sp-4029.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“Discovery of supposed ring and satellite of Neptune.”",
-    "author": "William Lassell, title of his 1846 report in Monthly Notices of the Royal Astronomical Society."
+    "text": "She is riding like a dream.",
+    "author": "Walter M. Schirra Jr."
   },
   "onThisDay": {
-    "title": "The New Planet’s First Moon",
-    "copy": "On October 10, 1846, William Lassell examined the recently discovered Neptune from his Liverpool observatory and detected a faint companion moving with it. The find, made just seventeen days after Neptune itself, revealed that the distant planet had a moon—later named Triton—and extended the known architecture of the Solar System."
+    "title": "Apollo 7 Restores Crewed Flight to the Apollo Program",
+    "copy": "On October 11, 1968, Walter Schirra, Donn Eisele, and Walter Cunningham lifted off from Cape Kennedy aboard Apollo 7—the first crewed Apollo mission. The flight was designed as an engineering test, not a lunar expedition: its purpose was to prove that the Apollo Command and Service Module, its crew, and its support systems could function together in orbit. The spacecraft completed rendezvous exercises, repeated propulsion tests, and the first live television broadcasts from an American spacecraft. Apollo 7 did not reach the Moon, but its successful performance cleared a critical engineering and institutional hurdle on the road to Apollo 8 and the later lunar landings."
   },
   "instrument": {
-    "title": "Lassell’s Starfield Reflector",
-    "copy": "The discovery was made with William Lassell’s self-built reflecting telescope at Starfield in Liverpool. The instrument helped demonstrate that important astronomical discoveries were not limited to major institutional observatories, while the supposed ring also showed that telescope observations required independent confirmation."
+    "title": "The Apollo Guidance and Navigation System",
+    "copy": "Apollo 7 tested the spacecraft's guidance and navigation equipment: an inertial measurement unit, optical instruments including a scanning telescope and sextant, and the onboard guidance computer. The system supported navigation checks, optical tracking of the Saturn IVB rendezvous target, and guidance-related tests during the mission. NASA's records show that most of these objectives were achieved, while the planned Earth-horizon model was not, because the horizon lacked a sufficiently distinct boundary."
   },
-  "updated": "2026-10-10"
+  "updated": "2026-10-11"
 };

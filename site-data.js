@@ -1113,19 +1113,73 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Konstantin Feoktistov",
+      "exactHistoricalDate": "October 12, 1964",
+      "headline": "Three People, One Capsule: Voskhod 1 Opens a New Era in Orbit",
+      "deck": "The Soviet Union’s Voskhod 1 carried a commander, an engineer, and a physician into orbit, demonstrating that crewed spaceflight could become a team activity.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "Voskhod 1 was a modified Vostok-derived spacecraft launched from launch complex 1 at Baikonur Cosmodrome in the Kazakh Soviet Socialist Republic, Soviet Union.",
+      "body": "<p>On October 12, 1964, the Soviet Union launched Voskhod 1 with Vladimir Komarov, Konstantin Feoktistov, and Boris Yegorov aboard. It was the first spacecraft to carry three people into orbit and the first to place a pilot, an engineer, and a physician on the same orbital mission.</p><p>The crew completed 16 orbits and remained in space for approximately 24 hours and 17 minutes. Feoktistov became the first engineer to travel into space, while Yegorov became the first physician in orbit. Their roles provided evidence that orbital missions could include specialists working together rather than a lone pilot.</p><blockquote>“All three members of the Voskhod crew are feeling well.”</blockquote><p>Voskhod 1 also marked the first crewed launch in which the occupants remained inside the spacecraft during landing. The cabin was configured to accommodate three people, so the crew flew without pressure suits—a characteristic of this particular flight, not evidence that pressure suits were unnecessary for future missions.</p><p>The mission demonstrated that three people could complete a planned orbital flight in this spacecraft and flight plan. It did not establish that all multi-person spacecraft were safe, spacious, or suitable for long-duration missions.</p>",
+      "wrongBelief": "A specific strategic expectation was that the United States was preparing two-person Gemini missions, so Soviet planners sought to send a larger crew first. This was a space-race objective, not a general scientific belief about the safety or long-term practicality of multi-person spacecraft.",
+      "evidence": {
+        "demonstrated": [
+          "Three people could be launched into Earth orbit together and complete a planned mission lasting more than a day.",
+          "Piloting, engineering, and medical roles could be represented on one orbital mission.",
+          "The crew could remain inside the spacecraft during landing."
+        ],
+        "didNotDemonstrate": [
+          "That all multi-person spacecraft were safe, spacious, or suitable for long-duration missions.",
+          "That pressure suits were unnecessary for future crewed missions."
+        ]
+      },
+      "primarySource": [
+        "TASS announcement on the Voskhod 1 landing, October 13, 1964, as reproduced in contemporary Associated Press coverage",
+        "NASA, Astronautics and Aeronautics, 1964, contemporary event record for the Voskhod 1 flight",
+        "NASA historical launch table in Orbital Launch Attempts in the Soviet Piloted Space Program, 1960–1974"
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-10-12",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "Voskhod 1 launched on October 12, 1964, from Baikonur's Launch Complex 1.",
+          "The crew consisted of Vladimir Komarov, Konstantin Feoktistov, and Boris Yegorov.",
+          "It was the first crewed spacecraft to carry more than one person into orbit and the first to carry three people.",
+          "The mission lasted approximately 24 hours and 17 minutes and completed 16 orbits.",
+          "Feoktistov was a spacecraft engineer and became the first engineer or scientist-engineer to travel into space; Yegorov became the first physician in space.",
+          "The crew remained inside the spacecraft during landing.",
+          "The crew flew without pressure suits because the spacecraft was configured to accommodate three people; the article correctly avoids presenting this as a general lesson for future spacecraft.",
+          "The article appropriately limits the mission's demonstrated significance to this spacecraft and flight plan and does not claim that all multi-person spacecraft were safe, spacious, or suitable for long-duration missions.",
+          "The account of Soviet interest in preceding the United States' two-person Gemini missions is historically supported as a space-race consideration."
+        ],
+        "warnings": [
+          "The phrase \"opens a new era in orbit\" is interpretive and promotional, but it is consistent with the documented significance and is not materially exaggerated.",
+          "The quotation is supported through a contemporary Associated Press reproduction of a TASS report rather than a directly accessed TASS transcript."
+        ],
+        "researchSources": [
+          "TASS announcement on the Voskhod 1 landing, October 13, 1964, as reproduced in contemporary Associated Press coverage",
+          "NASA, Astronautics and Aeronautics, 1964, contemporary event record for the Voskhod 1 flight",
+          "NASA historical launch table in Orbital Launch Attempts in the Soviet Piloted Space Program, 1960–1974"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "She is riding like a dream.",
-    "author": "Walter M. Schirra Jr."
+    "text": "“All three members of the Voskhod crew are feeling well.”",
+    "author": "TASS, Soviet news agency, in its report on the Voskhod 1 landing, October 13, 1964; quoted in contemporary Associated Press coverage."
   },
   "onThisDay": {
-    "title": "Apollo 7 Restores Crewed Flight to the Apollo Program",
-    "copy": "On October 11, 1968, Walter Schirra, Donn Eisele, and Walter Cunningham lifted off from Cape Kennedy aboard Apollo 7—the first crewed Apollo mission. The flight was designed as an engineering test, not a lunar expedition: its purpose was to prove that the Apollo Command and Service Module, its crew, and its support systems could function together in orbit. The spacecraft completed rendezvous exercises, repeated propulsion tests, and the first live television broadcasts from an American spacecraft. Apollo 7 did not reach the Moon, but its successful performance cleared a critical engineering and institutional hurdle on the road to Apollo 8 and the later lunar landings."
+    "title": "Three People, One Capsule: Voskhod 1 Opens a New Era in Orbit",
+    "copy": "On October 12, 1964, the Soviet Union sent Vladimir Komarov, Konstantin Feoktistov, and Boris Yegorov into orbit aboard Voskhod 1. It was the first spaceflight with more than one person aboard—and the first to place a pilot, an engineer, and a physician in the same spacecraft. The crew completed 16 orbits before returning safely the next day, showing that orbital flight was becoming a team activity rather than a lone pilot’s test."
   },
   "instrument": {
-    "title": "The Apollo Guidance and Navigation System",
-    "copy": "Apollo 7 tested the spacecraft's guidance and navigation equipment: an inertial measurement unit, optical instruments including a scanning telescope and sextant, and the onboard guidance computer. The system supported navigation checks, optical tracking of the Saturn IVB rendezvous target, and guidance-related tests during the mission. NASA's records show that most of these objectives were achieved, while the planned Earth-horizon model was not, because the horizon lacked a sufficiently distinct boundary."
+    "title": "Voskhod 1: A Three-Person Laboratory in Orbit",
+    "copy": "Voskhod 1 was more than a transport capsule: it was a compact orbital platform for human, engineering, and medical observations. Its three-person configuration allowed specialists to share a mission, although the cramped cabin and absence of pressure suits revealed the compromises behind the achievement. The flight showed what the spacecraft could accomplish; it did not settle how future crewed vehicles should be designed."
   },
-  "updated": "2026-10-11"
+  "updated": "2026-10-12"
 };

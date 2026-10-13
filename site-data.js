@@ -1167,19 +1167,59 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Verner E. Suomi, with Robert J. Parent",
+      "exactHistoricalDate": "October 13, 1959",
+      "headline": "Explorer 7 Begins Measuring Earth from Orbit",
+      "deck": "The seventh and final U.S. Earth satellite associated with the International Geophysical Year carried instruments that measured Earth's radiation environment, cosmic rays, trapped particles, solar emissions, and micrometeoroids.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "Explorer 7 launched aboard a Juno II rocket from the Eastern Test Range at Cape Canaveral, Florida, beginning an early sustained effort to study Earth and its surrounding space from orbit.",
+      "lore": "The finale of the IGY-IGC satellite program came with the launching of Explorer VII on 13 October 1959.",
+      "body": "<p>On October 13, 1959, a Juno II rocket carried the 41.5-kilogram Explorer 7 satellite into Earth orbit from the Eastern Test Range at Cape Canaveral, Florida. Associated with the satellite were NASA project manager Hermann E. LaGow, University of Wisconsin scientist Verner E. Suomi, collaborator Robert J. Parent, and James Van Allen's State University of Iowa cosmic-ray group.</p><p>Explorer 7 was designed to observe more than the immediate conditions of space. Its scientific package included instruments for thermal radiation, cosmic rays, trapped energetic particles, solar X-rays and Lyman-alpha radiation, micrometeoroid effects, and related atmospheric studies. The thermal-radiation experiment examined Earth's radiation budget—the balance among incoming solar energy, reflected energy, and energy emitted by Earth.</p><p>The satellite returned Earth-looking thermal-radiation data, including measurements later preserved in NASA's public datasets. These observations demonstrated that Earth's outgoing and reflected radiation could be measured from orbit and helped establish Earth-orbiting satellites as instruments for quantitative Earth science.</p><p>The results were not complete. NASA's historical account records that the radiation-balance data were difficult to reduce, that the results were less complete than Suomi had hoped, and that the solar-gain portion required later analysis. Radiation in the Van Allen belts also hindered Explorer 7's solar X-ray detectors. Even so, the mission provided an early foundation for satellite meteorology and later Earth-radiation-budget studies, while the spacecraft remained in orbit after its operational mission ended.</p>",
+      "wrongBelief": "A documented expectation was that Explorer 7 would provide a more complete measurement of Earth's radiation balance. NASA's historical account states that the results were less complete than Verner Suomi had hoped.",
+      "evidence": "Explorer 7 successfully entered orbit and returned Earth-looking thermal-radiation measurements that demonstrated Earth's reflected and outgoing radiation could be observed from space. It did not, by itself, provide a complete or fully resolved global heat budget: the data were difficult to reduce, the radiation-balance results were incomplete, and the solar-gain portion required later analysis. Its solar X-ray detectors were also hindered by radiation in the Van Allen belts, so the mission was not uniformly successful for every planned experiment.",
+      "primarySource": "NASA History Office, \"Sputnik, Explorer, and the Dawn of the Space Age,\" chapter 13; NASA Historical Data Book, Explorer 7 table; NASA Open Data Portal, Explorer 7 Thermal Radiation Experiment dataset; W. C. Lin, D. Venkatesan, and J. A. Van Allen, \"Latitude Survey of Cosmic-Ray Intensity by Explorer 7,\" Journal of Geophysical Research, 1963.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-13",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The date, launch vehicle, location, and 41.5-kilogram mass are correct: Explorer 7 launched on October 13, 1959, from the Eastern Test Range on a Juno II and remained in orbit. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/sp-4012v2.pdf))",
+          "Explorer 7 was the final satellite of the IGY-IGC satellite program, and the quoted launch description matches NASA's historical account. ([nasa.gov](https://www.nasa.gov/history/sputnik/chap13.html))",
+          "The named participants and institutional associations are supported: Hermann E. LaGow was the project manager associated with the micrometeoroid experiment; Verner E. Suomi and Robert J. Parent developed the thermal-radiation instrument; and James Van Allen's State University of Iowa group supplied cosmic-ray and charged-particle experiments. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/sp-4012v2.pdf))",
+          "The described instrument suite is accurate, including thermal-radiation, cosmic-ray, trapped-particle, solar X-ray, Lyman-alpha, micrometeoroid, and atmospheric or ionospheric investigations. ([nasa.gov](https://www.nasa.gov/history/sputnik/chap13.html))",
+          "The article correctly distinguishes the experiment's intended radiation-budget measurements from what was actually achieved. NASA reports that the data were significant but incomplete, difficult to reduce, and that computation of solar gains continued for years. ([nasa.gov](https://www.nasa.gov/history/sputnik/chap13.html))",
+          "The statement that radiation in the Van Allen belts hindered the solar X-ray and Lyman-alpha measurements is supported by NASA's historical account. ([nasa.gov](https://www.nasa.gov/history/sputnik/chap13.html))",
+          "The claims about Earth-looking thermal-radiation data, NASA archival datasets, and the experiment's importance to later satellite meteorology and Earth-radiation observations are supported by NASA and University of Wisconsin sources. ([data.nasa.gov](https://data.nasa.gov/dataset/explorer-7-thermal-radiation-experiment-selected-white-sensor-temperature-nighttime-values-185a2?utm_source=openai))",
+          "The statement that the spacecraft remained in orbit after its operational mission ended is supported by the NASA Historical Data Book. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/sp-4012v2.pdf))"
+        ],
+        "warnings": [
+          "The description of Hermann E. LaGow as a NASA project manager is broadly supported by the NASA Historical Data Book, though contemporary sources also identify him with NRL and later NASA/GSFC roles. For maximum precision, he could be described simply as Explorer 7's project manager and micrometeoroid-experiment lead. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/sp-4012v2.pdf))",
+          "The article's broad significance claims are acceptable because they are paired with explicit limitations: the radiation-balance results were incomplete, difficult to reduce, and did not yield a complete global heat budget. ([nasa.gov](https://www.nasa.gov/history/sputnik/chap13.html))"
+        ],
+        "researchSources": [
+          "NASA History Office, \"Sputnik, Explorer, and the Dawn of the Space Age,\" chapter 13, documenting the October 13, 1959 launch, the instrument package, and the mission's radiation-balance results. ([nasa.gov](https://www.nasa.gov/history/sputnik/chap13.html?utm_source=openai))",
+          "NASA Historical Data Book, table for Explorer 7, recording the launch date, Eastern Test Range location, project management, objectives, and experiments. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/sp-4012v2.pdf?utm_source=openai))",
+          "NASA Open Data Portal, Explorer 7 Thermal Radiation Experiment dataset, preserving measurements returned from the satellite's Earth-radiation experiment. ([data.nasa.gov](https://data.nasa.gov/dataset/explorer-7-thermal-radiation-experiment-selected-white-sensor-temperature-nighttime-values-185a2?utm_source=openai))",
+          "W. C. Lin, D. Venkatesan, and J. A. Van Allen, \"Latitude Survey of Cosmic-Ray Intensity by Explorer 7,\" Journal of Geophysical Research, 1963, a primary analysis of the satellite's cosmic-ray observations. ([agupubs.onlinelibrary.wiley.com](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JZ068i017p04885?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“All three members of the Voskhod crew are feeling well.”",
-    "author": "TASS, Soviet news agency, in its report on the Voskhod 1 landing, October 13, 1964; quoted in contemporary Associated Press coverage."
+    "text": "“The finale of the IGY-IGC satellite program came with the launching of Explorer VII on 13 October 1959.”",
+    "author": "NASA History Office, \"Sputnik, Explorer, and the Dawn of the Space Age,\" chapter 13"
   },
   "onThisDay": {
-    "title": "Three People, One Capsule: Voskhod 1 Opens a New Era in Orbit",
-    "copy": "On October 12, 1964, the Soviet Union sent Vladimir Komarov, Konstantin Feoktistov, and Boris Yegorov into orbit aboard Voskhod 1. It was the first spaceflight with more than one person aboard—and the first to place a pilot, an engineer, and a physician in the same spacecraft. The crew completed 16 orbits before returning safely the next day, showing that orbital flight was becoming a team activity rather than a lone pilot’s test."
+    "title": "Explorer 7 Begins Measuring Earth from Orbit",
+    "copy": "On October 13, 1959, a Juno II rocket carried Explorer 7 into orbit from Cape Canaveral. The small satellite was built not merely to circle Earth, but to measure the environment around it: cosmic rays, trapped radiation, micrometeoroids, solar emissions, and the energy Earth released back toward space. Its thermal-radiation experiment produced some of the first Earth-looking measurements from orbit, showing that satellites could become scientific observers of the planet itself. The results were incomplete, but they opened a new era in which Earth's weather and climate could be studied from above."
   },
   "instrument": {
-    "title": "Voskhod 1: A Three-Person Laboratory in Orbit",
-    "copy": "Voskhod 1 was more than a transport capsule: it was a compact orbital platform for human, engineering, and medical observations. Its three-person configuration allowed specialists to share a mission, although the cramped cabin and absence of pressure suits revealed the compromises behind the achievement. The flight showed what the spacecraft could accomplish; it did not settle how future crewed vehicles should be designed."
+    "title": "The Radiometers That Watched Earth's Heat Budget",
+    "copy": "Explorer 7 carried radiation sensors developed through the work of Verner Suomi and Robert Parent. Their purpose was to record broad patterns in the energy Earth received, reflected, and emitted. The experiment did not produce a complete global accounting, but it established a crucial principle: Earth's heat budget could be observed from space. Later generations of weather and climate satellites built on this early orbital measurement system."
   },
-  "updated": "2026-10-12"
+  "updated": "2026-10-13"
 };

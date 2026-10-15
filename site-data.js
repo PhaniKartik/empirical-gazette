@@ -1207,19 +1207,56 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "D. J. Bird and the University of Utah Fly’s Eye collaboration",
+      "exactHistoricalDate": "October 15, 1991",
+      "headline": "The Particle That Outran the Expected Cosmic Limit",
+      "deck": "The Fly’s Eye detector recorded an air shower from a cosmic ray carrying approximately 3.2 × 10^20 electron volts—about 51 joules.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "The event was later nicknamed the “Oh-My-God particle.”",
+      "body": "<p>On October 15, 1991, at 7:34:16 Universal Time, the University of Utah’s Fly’s Eye detector at Dugway Proving Ground recorded an extensive air shower produced high in Earth’s atmosphere. The detector measured the faint fluorescence from the shower rather than observing the incoming particle directly.</p><p>Researchers reconstructed the event’s energy as approximately (3.2 ± 0.9) × 10^20 electron volts, equivalent to about 51 joules. The shower profile did not fit an interpretation that reduced the event to only 100 exaelectron volts, supporting its unusually high-energy measurement.</p><p>The result lay well above the range at which interactions with the cosmic microwave background were expected to limit the travel of ordinary ultra-high-energy cosmic rays. The observation therefore intensified questions about the sources, composition, and propagation of the most energetic particles in nature.</p><p>The measurement established an exceptionally energetic air-shower event, but it did not identify the incoming particle as a proton, atomic nucleus, photon, or neutrino. It also did not establish the event’s astrophysical source. As of 2026, it remains the most energetic cosmic ray detected, while later observations have confirmed that ultra-high-energy cosmic rays are real.</p>",
+      "wrongBelief": "The primary paper stated that a Greisen–Zatsepin–Kuzmin cutoff should occur below the measured energy because of energy losses from pion photoproduction, unless the highest-energy cosmic rays had traveled less than approximately 30 megaparsecs.",
+      "evidence": "Fly’s Eye recorded the light profile of an extensive atmospheric air shower and reconstructed its energy as approximately 3.2 × 10^20 electron volts. The shower profile was inconsistent with forcing the event to have an energy of only 100 exaelectron volts, supporting the unusually high-energy interpretation. The evidence demonstrated an exceptionally energetic air-shower event, but it did not uniquely identify the incoming particle or establish its astrophysical source.",
+      "primarySource": "D. J. Bird et al., “Detection of a Cosmic Ray with Measured Energy Well beyond the Expected Spectral Cutoff due to Cosmic Microwave Radiation,” The Astrophysical Journal 441 (1995), 144; arXiv:astro-ph/9410067.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-15",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The date, time, and location—October 15, 1991, at 7:34:16 Universal Time, at the University of Utah's Fly's Eye detector at Dugway Proving Ground—match the dossier.",
+          "The reported energy, approximately (3.2 ± 0.9) × 10^20 electron volts, or about 51 joules, is supported by the primary paper's abstract, which gives 51 joules and 320 ± 90 exaelectron volts. ([arxiv.org](https://arxiv.org/abs/astro-ph/9410067?utm_source=openai))",
+          "The description of Fly's Eye measuring atmospheric fluorescence from an extensive air shower rather than directly observing the incoming particle is accurate. ([science.utah.edu](https://science.utah.edu/astronomy/yodh-prize/?utm_source=openai))",
+          "The article correctly states that the event exceeded the expected GZK-related energy range and intensified questions about cosmic-ray sources, composition, and propagation. The primary paper explicitly discusses the expected cutoff from pion photoproduction and the approximately 30-megaparsec qualification. ([arxiv.org](https://arxiv.org/abs/astro-ph/9410067?utm_source=openai))",
+          "The article correctly preserves the experimental limitation: the shower maximum did not uniquely identify the primary particle, and the observation did not establish its source. ([arxiv.org](https://arxiv.org/abs/astro-ph/9410067?utm_source=openai))",
+          "The statement that the event remains the highest-energy cosmic ray detected, while later observations confirmed that such ultra-high-energy events are genuine, is consistent with University of Utah's historical account. ([science.utah.edu](https://science.utah.edu/faculty/why-scientists-havent-solved-the-mystery-of-the-oh-my-god-particle/?utm_source=openai))"
+        ],
+        "warnings": [
+          "The headline is a permissible metaphor, not a literal claim that the particle exceeded a physical speed or limit.",
+          "The article appropriately describes the event as an air-shower measurement and avoids claiming that the primary particle's exact identity or astrophysical source was established."
+        ],
+        "researchSources": [
+          "D. J. Bird et al., “Detection of a Cosmic Ray with Measured Energy Well beyond the Expected Spectral Cutoff due to Cosmic Microwave Radiation,” The Astrophysical Journal 441 (1995), 144; arXiv:astro-ph/9410067. ([arxiv.org](https://arxiv.org/abs/astro-ph/9410067?utm_source=openai))",
+          "D. J. Bird et al., “Evidence for Correlated Changes in the Spectrum and Composition of Cosmic Rays at Extremely High Energies,” Physical Review Letters 71 (1993), 3401–3404. ([journals.aps.org](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.71.3401?utm_source=openai))",
+          "University of Utah, “Why Scientists Haven’t Solved the Mystery of the OMG Particle,” historical account of the Fly’s Eye observation and its later interpretation. ([science.utah.edu](https://science.utah.edu/faculty/why-scientists-havent-solved-the-mystery-of-the-oh-my-god-particle/?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“The finale of the IGY-IGC satellite program came with the launching of Explorer VII on 13 October 1959.”",
-    "author": "NASA History Office, \"Sputnik, Explorer, and the Dawn of the Space Age,\" chapter 13"
+    "text": "We report the detection of a 51-joule cosmic ray by the Fly’s Eye air shower detector in Utah.",
+    "author": "D. J. Bird and collaborators, abstract of “Detection of a Cosmic Ray with Measured Energy Well beyond the Expected Spectral Cutoff due to Cosmic Microwave Radiation,” The Astrophysical Journal 441 (1995)."
   },
   "onThisDay": {
-    "title": "Explorer 7 Begins Measuring Earth from Orbit",
-    "copy": "On October 13, 1959, a Juno II rocket carried Explorer 7 into orbit from Cape Canaveral. The small satellite was built not merely to circle Earth, but to measure the environment around it: cosmic rays, trapped radiation, micrometeoroids, solar emissions, and the energy Earth released back toward space. Its thermal-radiation experiment produced some of the first Earth-looking measurements from orbit, showing that satellites could become scientific observers of the planet itself. The results were incomplete, but they opened a new era in which Earth's weather and climate could be studied from above."
+    "title": "The Particle That Outran the Expected Cosmic Limit",
+    "copy": "On October 15, 1991, the University of Utah’s Fly’s Eye detector in Utah recorded an air shower produced by one of the most energetic particles ever seen. Its estimated energy—about 3.2 × 10^20 electron volts—was far beyond the range expected to survive long journeys through the cosmic microwave background. The observation did not reveal the particle’s source or exact identity, but it gave physicists an enduring mystery at the extreme edge of known cosmic-ray physics."
   },
   "instrument": {
-    "title": "The Radiometers That Watched Earth's Heat Budget",
-    "copy": "Explorer 7 carried radiation sensors developed through the work of Verner Suomi and Robert Parent. Their purpose was to record broad patterns in the energy Earth received, reflected, and emitted. The experiment did not produce a complete global accounting, but it established a crucial principle: Earth's heat budget could be observed from space. Later generations of weather and climate satellites built on this early orbital measurement system."
+    "title": "Fly’s Eye: Watching the Atmosphere Glow",
+    "copy": "The Fly’s Eye was an atmospheric-fluorescence detector designed to observe faint ultraviolet light from air showers rather than the incoming cosmic ray directly. Its system of mirrors and photomultiplier tubes recorded the shower’s development across the sky, allowing researchers to estimate the event’s energy and atmospheric profile. The instrument measured the consequences of the cosmic-ray impact; it did not photograph the primary particle itself."
   },
-  "updated": "2026-10-13"
+  "updated": "2026-10-15"
 };

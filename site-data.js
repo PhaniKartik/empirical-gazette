@@ -1244,19 +1244,61 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Queen Elizabeth II",
+      "exactHistoricalDate": "October 17, 1956",
+      "headline": "The Switch That Sent Atomic Power to the Grid",
+      "deck": "Queen Elizabeth II opened Calder Hall and ceremonially directed electricity from its first reactor into Britain's National Grid.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "Calder Hall had already been connected to the grid on August 27, 1956. The October 17 ceremony made its industrial-scale nuclear electricity public, with power reaching Workington.",
+      "body": "<p>On October 17, 1956, Queen Elizabeth II opened Calder Hall near Windscale, now the Sellafield site, in West Cumbria, England. At the ceremony, she directed electricity from the station's first reactor into Britain's National Grid, with the supply reaching Workington.</p><p>Calder Hall was the first nuclear power station to generate electricity on a full industrial and commercial scale for a public grid. The ceremony helped launch Britain's civil nuclear-power program and made nuclear fission visible as a source of public electricity rather than solely a military or laboratory technology.</p><p>The station used Magnox reactors and ultimately operated with four reactors. It generated electricity for 47 years before closing in March 2003. Its role was dual: alongside electricity generation, it supported Britain's nuclear-materials program.</p><p>The event demonstrated that heat from nuclear fission could be converted into electricity at industrial scale and delivered to a public grid. It did not by itself establish that nuclear power would be cheaper than fossil fuels, replace them broadly, or remain free of environmental, safety, or military complications.</p>",
+      "wrongBelief": "The United Kingdom Atomic Energy Authority presented Calder Hall as evidence that atomic energy could become a large-scale new source of useful power and potentially extend industrial development beyond dependence on coal and oil.",
+      "evidence": "The event provided evidence that nuclear fission could produce heat that was converted into electricity at industrial scale and supplied to a public grid. It did not demonstrate that nuclear power would be cheaper than fossil fuels, broadly replace them, or avoid environmental, safety, or military complications. Calder Hall was not the world's first reactor to generate nuclear electricity; the Soviet Union's Obninsk plant began producing electricity in 1954.",
+      "primarySource": "United Kingdom Atomic Energy Authority, K. E. B. Jay, Calder Hall: The Story of Britain's First Atomic Power Station, 1956.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-17",
+        "validationScore": 96.0,
+        "verifiedClaims": [
+          "Queen Elizabeth II officially opened Calder Hall on October 17, 1956.",
+          "Calder Hall was at the Windscale site in West Cumbria, now associated with Sellafield.",
+          "The ceremony involved directing electricity from the first reactor into the National Grid.",
+          "The station's electricity reached Workington.",
+          "Calder Hall had already been connected to the grid on August 27, 1956.",
+          "It was the first nuclear power station to generate electricity on a full industrial or commercial scale for a public grid, while Obninsk had generated nuclear electricity earlier, beginning in 1954.",
+          "The station used Magnox reactors, ultimately had four reactors, operated for 47 years, and closed in March 2003.",
+          "Calder Hall had a dual electricity-generation and nuclear-materials role.",
+          "The article appropriately distinguishes the demonstrated capability of industrial-scale nuclear electricity from later claims about cost, fossil-fuel replacement, environmental effects, safety, and military implications.",
+          "The description of the control switch as a ceremonial interface representing connection to the public supply is historically reasonable and not materially exaggerated."
+        ],
+        "warnings": [
+          "The listed primarySource is a relevant contemporary UKAEA publication, but it does not by itself document every claim in the article, especially the August 27, 1956 grid connection date and the exact quotation. Those claims are supported by the broader dossier evidence.",
+          "The phrase \"helped launch Britain's civil nuclear-power program\" is broadly defensible but interpretive; Calder Hall was part of an already developing program rather than its literal beginning."
+        ],
+        "researchSources": [
+          "United Kingdom Atomic Energy Authority, K. E. B. Jay, Calder Hall: The Story of Britain's First Atomic Power Station, 1956; the contemporary booklet described the October 17 opening and the flow of electricity into the National Grid. ([laka.org](https://www.laka.org/docu/catalogue/publication/2.05.8.38/04?utm_source=openai))",
+          "UK Parliament, House of Commons Hansard, January 31, 1956; R. A. Butler's statement specifying the planned October 17 grid-switching ceremony. ([api.parliament.uk](https://api.parliament.uk/historic-hansard/written-answers/1956/jan/31/power-stations?utm_source=openai))",
+          "British Pathé film record of the October 17, 1956 ceremony, catalogued by Newcastle University's Co-Curate resource. ([co-curate.ncl.ac.uk](https://co-curate.ncl.ac.uk/resources/view/128204/?utm_source=openai))",
+          "Sellafield Ltd and UK government historical records on Calder Hall's opening, operation, and later closure. ([gov.uk](https://www.gov.uk/government/case-studies/calder-hall-decommissioning-the-worlds-first-commercial-nuclear-power-station?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "We report the detection of a 51-joule cosmic ray by the Fly’s Eye air shower detector in Utah.",
-    "author": "D. J. Bird and collaborators, abstract of “Detection of a Cosmic Ray with Measured Energy Well beyond the Expected Spectral Cutoff due to Cosmic Microwave Radiation,” The Astrophysical Journal 441 (1995)."
+    "text": "This new power, which has proved itself to be such a terrifying weapon of destruction, is harnessed for the first time for the common good of our community.",
+    "author": "Queen Elizabeth II, speech at the opening of Calder Hall, October 17, 1956"
   },
   "onThisDay": {
-    "title": "The Particle That Outran the Expected Cosmic Limit",
-    "copy": "On October 15, 1991, the University of Utah’s Fly’s Eye detector in Utah recorded an air shower produced by one of the most energetic particles ever seen. Its estimated energy—about 3.2 × 10^20 electron volts—was far beyond the range expected to survive long journeys through the cosmic microwave background. The observation did not reveal the particle’s source or exact identity, but it gave physicists an enduring mystery at the extreme edge of known cosmic-ray physics."
+    "title": "The Switch That Sent Atomic Power to the Grid",
+    "copy": "On October 17, 1956, Queen Elizabeth II opened Calder Hall in West Cumbria and directed electricity from its first reactor into Britain's National Grid. The plant was not the first reactor anywhere to produce electricity, but it was the first commercial-scale nuclear station to make atomic power a public utility. The ceremony announced a new industrial possibility—and also revealed how closely civilian electricity remained connected to the military history of the nuclear age."
   },
   "instrument": {
-    "title": "Fly’s Eye: Watching the Atmosphere Glow",
-    "copy": "The Fly’s Eye was an atmospheric-fluorescence detector designed to observe faint ultraviolet light from air showers rather than the incoming cosmic ray directly. Its system of mirrors and photomultiplier tubes recorded the shower’s development across the sky, allowing researchers to estimate the event’s energy and atmospheric profile. The instrument measured the consequences of the cosmic-ray impact; it did not photograph the primary particle itself."
+    "title": "The Grid-Switch Control",
+    "copy": "At the ceremony, a control switch connected Calder Hall's generated electricity with the National Grid. It was less a measuring instrument than a public-facing control interface: a small, comprehensible action that represented the transition from reactor heat to usable electrical power. The switch did not create the electricity or prove every promise made for nuclear energy; it marked the point at which the station's output became part of an ordinary public supply."
   },
-  "updated": "2026-10-15"
+  "updated": "2026-10-17"
 };

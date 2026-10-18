@@ -1286,19 +1286,59 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Soviet planetary scientists and engineers responsible for Venera 4; Mstislav V. Keldysh",
+      "exactHistoricalDate": "October 18, 1967",
+      "headline": "Venera 4 Finds Venus Beneath the Clouds",
+      "deck": "The Soviet probe returned the first direct measurements from another planet’s atmosphere, revealing Venus as a carbon-dioxide-dominated world.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "Venera 4 transformed Venus from a subject of remote observation into a world that could be studied through measurements made within its clouds.",
+      "body": "<p>On October 18, 1967, the Soviet Venera 4 probe entered the atmosphere of Venus and deployed an instrumented descent capsule. As the capsule descended, it transmitted the first direct in-situ measurements made from another planet’s atmosphere.</p><p>The capsule carried instruments for measuring temperature, pressure, density, and atmospheric composition. Its readings indicated that carbon dioxide was the dominant atmospheric constituent, while oxygen, nitrogen, and water vapor were present in much smaller proportions.</p><p>Those measurements challenged the specific expectation that Venus’s atmosphere was chiefly nitrogen, an assumption associated with the planet’s apparent similarity to Earth. Venera 4 therefore demonstrated the value of direct planetary measurement and provided the first direct evidence about the physical and chemical properties of another planet’s lower atmosphere.</p><p>The mission did not, by itself, settle the conditions at Venus’s solid surface. The initial Soviet interpretation of the capsule’s final measurements as surface conditions was later challenged by Mariner 5 radio-occultation data and Earth-based radar observations, which indicated that Venera 4 had probably stopped transmitting above the true surface.</p>",
+      "wrongBelief": "Until 1967, scientists assumed that nitrogen was the main chemical constituent of Venus’s atmosphere because of the planet’s apparent similarity to Earth.",
+      "evidence": "Venera 4 demonstrated that Venus’s lower atmosphere was dominated by carbon dioxide and contained only small amounts of oxygen, nitrogen, and water vapor. It did not, by itself, establish the exact conditions at the solid surface; later Mariner 5 and radar observations indicated that the capsule had probably stopped transmitting above it.",
+      "primarySource": "NASA, Astronautics and Aeronautics, 1967 chronology; A. D. Anderson, “Superadiabatic Atmospheric Layer on Venus, as inferred from the Venera-4 Probe Measurements,” Nature, February 17, 1968; Jet Propulsion Laboratory, “Venus Air Pressure,” August 22, 1968; contemporary Soviet reports in Pravda and Izvestiia cited in the Nature paper.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-18",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "The date October 18, 1967 is correct.",
+          "Venera 4 entered Venus's atmosphere and transmitted direct in-situ measurements during descent.",
+          "The mission used an instrumented descent capsule with temperature, pressure, density, and atmospheric-composition instruments.",
+          "The measurements indicated a carbon-dioxide-dominated atmosphere, with much smaller amounts of oxygen, nitrogen, and water vapor.",
+          "The mission challenged the expectation that Venus's atmosphere was chiefly nitrogen.",
+          "The article correctly distinguishes atmospheric-composition findings from the later uncertainty over whether the probe reached the true surface.",
+          "The account correctly identifies later Mariner 5 radio-occultation data and Earth-based radar observations as challenging the initial Soviet interpretation of the final measurements as surface conditions.",
+          "The historical significance is cautiously framed as establishing the value of direct planetary measurements rather than proving exact surface conditions."
+        ],
+        "warnings": [
+          "The phrase \"opened the era of atmospheric planetary science\" is interpretive and somewhat broad, but it is consistent with the dossier's stated significance and is not materially exaggerated.",
+          "The article's scientist field names Mstislav V. Keldysh without explaining his role. This is not inaccurate, but the attribution would be clearer if it identified him as president of the Soviet Academy of Sciences and a public commentator on the mission's interpretation."
+        ],
+        "researchSources": [
+          "NASA, Astronautics and Aeronautics, 1967 chronology, recording Venera 4’s October 18 atmospheric entry. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1967.pdf?utm_source=openai))",
+          "A. D. Anderson, “Superadiabatic Atmospheric Layer on Venus, as inferred from the Venera-4 Probe Measurements,” Nature, February 17, 1968. ([nature.com](https://www.nature.com/articles/217627a0))",
+          "Jet Propulsion Laboratory, “Venus Air Pressure,” August 22, 1968, reporting the comparison of Venera 4 and Mariner 5 results. ([jpl.nasa.gov](https://www.jpl.nasa.gov/news/venus-air-pressure/))",
+          "Contemporary Soviet reports in Pravda and Izvestiia, cited in the 1968 Nature paper. ([nature.com](https://www.nature.com/articles/217627a0))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "This new power, which has proved itself to be such a terrifying weapon of destruction, is harnessed for the first time for the common good of our community.",
-    "author": "Queen Elizabeth II, speech at the opening of Calder Hall, October 17, 1956"
+    "text": "“The surface air pressure on the planet Venus may be 75 or 100 times that on Earth.”",
+    "author": "Jet Propulsion Laboratory press release, “Venus Air Pressure,” August 22, 1968"
   },
   "onThisDay": {
-    "title": "The Switch That Sent Atomic Power to the Grid",
-    "copy": "On October 17, 1956, Queen Elizabeth II opened Calder Hall in West Cumbria and directed electricity from its first reactor into Britain's National Grid. The plant was not the first reactor anywhere to produce electricity, but it was the first commercial-scale nuclear station to make atomic power a public utility. The ceremony announced a new industrial possibility—and also revealed how closely civilian electricity remained connected to the military history of the nuclear age."
+    "title": "Venera 4 Finds Venus Beneath the Clouds",
+    "copy": "On October 18, 1967, the Soviet Venera 4 probe entered Venus’s atmosphere and sent back the first direct measurements made inside another planet’s air. Its instruments found a carbon-dioxide-dominated atmosphere, overturning the specific assumption that Venus’s atmosphere was chiefly nitrogen. Later observations showed that Venera 4 had not measured all the way to the true surface, but its brief descent opened the era of atmospheric planetary science."
   },
   "instrument": {
-    "title": "The Grid-Switch Control",
-    "copy": "At the ceremony, a control switch connected Calder Hall's generated electricity with the National Grid. It was less a measuring instrument than a public-facing control interface: a small, comprehensible action that represented the transition from reactor heat to usable electrical power. The switch did not create the electricity or prove every promise made for nuclear energy; it marked the point at which the station's output became part of an ordinary public supply."
+    "title": "The Venera 4 Atmospheric Laboratory",
+    "copy": "Venera 4’s descent capsule combined temperature and pressure sensors with instruments for measuring atmospheric density and composition. During its descent, these instruments returned direct evidence about Venus’s lower atmosphere, including the predominance of carbon dioxide. The readings were scientifically decisive about atmospheric composition, while the capsule’s final altitude and the exact surface conditions remained subjects of later comparison with Mariner 5 and radar observations."
   },
-  "updated": "2026-10-17"
+  "updated": "2026-10-18"
 };

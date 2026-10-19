@@ -1326,19 +1326,55 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Max Planck",
+      "exactHistoricalDate": "October 19, 1900",
+      "headline": "The Formula That Opened the Door to Quantum Physics",
+      "deck": "In Berlin, Max Planck presented a revised law for black-body radiation after new measurements exposed limits in Wien’s earlier formula.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "Max Planck’s October 19 presentation supplied a mathematical description of thermal radiation that agreed with available measurements, while leaving the deeper implications for later work.",
+      "lore": "Planck was seeking a successful law for thermal radiation, not announcing a finished quantum theory. The October presentation became significant because it matched measurements that had begun to undermine Wien’s law; Planck’s December 1900 treatment introduced finite energy elements more explicitly.",
+      "body": "<p>On October 19, 1900, Max Planck presented a new law describing the distribution of energy in thermal, or black-body, radiation at a meeting of the German Physical Society in Berlin.</p><p>Black-body radiation was being studied because its spectrum depends on temperature rather than on the particular material producing it. Measurements by Otto Lummer, Ernst Pringsheim, Heinrich Rubens, and Ferdinand Kurlbaum showed that Wien’s law did not have universal validity, especially at longer wavelengths.</p><p>Planck’s revised formula agreed with the available measurements across the relevant range. The result therefore provided a successful empirical radiation law and exposed a problem in the earlier theory. It later helped launch quantum theory, although the October presentation should not be described as a completed theory of quantum mechanics.</p><blockquote>“Die neueren Spectralmessungen ... haben gezeigt, dass das zuerst von W. Wien ... abgeleitete Gesetz der Energieverteilung im Normalspectrum keine allgemeine Gültigkeit besitzt.”</blockquote>",
+      "wrongBelief": "Planck had believed that the entropy expression underlying Wien’s law was uniquely determined and that Wien’s law therefore possessed general validity.",
+      "evidence": "New spectral measurements showed that Wien’s law failed as a universal description, while Planck’s revised formula agreed with the available measurements across the relevant range. The event demonstrated a successful empirical radiation law and exposed a problem in the earlier theory. It did not, by itself, demonstrate the complete modern interpretation of quantum mechanics or establish that all electromagnetic radiation was already understood as discrete particles.",
+      "primarySource": "Max Planck, “Ueber das Gesetz der Energieverteilung im Normalspectrum,” Annalen der Physik 309 (1901), pp. 553–563. The paper records that the work was communicated to the German Physical Society on October 19 and December 14, 1900; it cites the Verhandlungen der Deutschen Physikalischen Gesellschaft, volume 2 (1900).",
+      "editorialRecord": {
+        "publishedDate": "2026-10-19",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The date, person, location, event, and connection to the German Physical Society are supported. Planck's 1901 paper states that the work had been communicated at meetings on October 19 and December 14, 1900, in Berlin. ([onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/10.1002/andp.19013090310?utm_source=openai))",
+          "Planck's paper explicitly says that newer measurements by Lummer and Pringsheim, and by Rubens and Kurlbaum, showed that Wien's law lacked general validity. ([onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/10.1002/andp.19013090310?utm_source=openai))",
+          "The article correctly identifies longer wavelengths as the region where the discrepancies with Wien's law became especially important. ([scribd.com](https://www.scribd.com/document/772641004/1901ApJ-14-335R?utm_source=openai))",
+          "The article appropriately distinguishes the October empirical radiation law from the more explicit December treatment involving finite energy elements and does not portray the October presentation as a completed theory of quantum mechanics. ([arivero.github.io](https://arivero.github.io/navstokgap/sources/Planck_Energieverteilung_1901_de_wikisource.html?utm_source=openai))",
+          "The quotation is accurately attributed to Max Planck's 1901 paper and is supported by the primary-source text. ([onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/10.1002/andp.19013090310?utm_source=openai))",
+          "The black-body explanation and the instrument copy are historically consistent with work at the Physikalisch-Technische Reichsanstalt, where cavity radiators were developed to approximate ideal black-body radiation and enable precise spectral measurements. ([max-planck.mpg.de](https://www.max-planck.mpg.de/seite11/english.html?utm_source=openai))"
+        ],
+        "warnings": [
+          "The cited 1901 paper is the written version of Planck's December 14, 1900 presentation and refers retrospectively to the October 19 communication; it is an appropriate primary source for the quotation and chronology, but it is not the verbatim October proceedings.",
+          "The phrase \"agreed with the available measurements across the relevant range\" is accurate in context, but should not be read as claiming that every later measurement or the complete modern black-body spectrum had already been explained."
+        ],
+        "researchSources": [
+          "Max Planck, “Ueber das Gesetz der Energieverteilung im Normalspectrum,” Annalen der Physik 309 (1901), pp. 553–563. The paper records that the work was communicated to the German Physical Society on October 19 and December 14, 1900. ([de.wikisource.org](https://de.wikisource.org/wiki/Ueber_das_Gesetz_der_Energieverteilung_im_Normalspectrum))",
+          "Verhandlungen der Deutschen Physikalischen Gesellschaft, volume 2 (1900), proceedings cited by Planck for the October 19 and December 14 meetings. ([de.wikisource.org](https://de.wikisource.org/wiki/Ueber_das_Gesetz_der_Energieverteilung_im_Normalspectrum))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“The surface air pressure on the planet Venus may be 75 or 100 times that on Earth.”",
-    "author": "Jet Propulsion Laboratory press release, “Venus Air Pressure,” August 22, 1968"
+    "text": "“Die neueren Spectralmessungen ... haben gezeigt, dass das zuerst von W. Wien ... abgeleitete Gesetz der Energieverteilung im Normalspectrum keine allgemeine Gültigkeit besitzt.”",
+    "author": "Max Planck, “Ueber das Gesetz der Energieverteilung im Normalspectrum,” 1901"
   },
   "onThisDay": {
-    "title": "Venera 4 Finds Venus Beneath the Clouds",
-    "copy": "On October 18, 1967, the Soviet Venera 4 probe entered Venus’s atmosphere and sent back the first direct measurements made inside another planet’s air. Its instruments found a carbon-dioxide-dominated atmosphere, overturning the specific assumption that Venus’s atmosphere was chiefly nitrogen. Later observations showed that Venera 4 had not measured all the way to the true surface, but its brief descent opened the era of atmospheric planetary science."
+    "title": "The Formula That Opened the Door to Quantum Physics",
+    "copy": "On October 19, 1900, Max Planck presented a new law for black-body radiation to the German Physical Society in Berlin. It matched measurements that had begun to undermine Wien’s law. Planck was seeking a better description of thermal radiation—not announcing a finished quantum theory—but his result became the starting point for one of physics’ deepest revolutions."
   },
   "instrument": {
-    "title": "The Venera 4 Atmospheric Laboratory",
-    "copy": "Venera 4’s descent capsule combined temperature and pressure sensors with instruments for measuring atmospheric density and composition. During its descent, these instruments returned direct evidence about Venus’s lower atmosphere, including the predominance of carbon dioxide. The readings were scientifically decisive about atmospheric composition, while the capsule’s final altitude and the exact surface conditions remained subjects of later comparison with Mariner 5 and radar observations."
+    "title": "The Cavity That Made a Perfect Black Body Almost Possible",
+    "copy": "Planck’s work depended on increasingly precise studies of thermal radiation. At the Physikalisch-Technische Reichsanstalt in Berlin, researchers had developed a cavity model whose interior absorbed radiation effectively enough to approximate an ideal black body. Such instruments gave physicists a common reference for comparing radiation spectra and revealed where older formulas stopped matching observation."
   },
-  "updated": "2026-10-18"
+  "updated": "2026-10-19"
 };

@@ -1362,19 +1362,63 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Dante Lauretta",
+      "exactHistoricalDate": "October 20, 2020",
+      "headline": "The Day NASA Touched an Asteroid",
+      "deck": "OSIRIS-REx briefly contacted Bennu and collected surface material—the first successful asteroid sample collection in NASA history.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "More than 200 million miles from Earth, OSIRIS-REx turned a remote astronomical target into a body whose ancient material could be examined directly in laboratories on Earth.",
+      "body": "<p>On October 20, 2020, NASA’s OSIRIS-REx spacecraft briefly touched asteroid 101955 Bennu at a site named Nightingale. Its Touch-and-Go Sample Acquisition Mechanism, or TAGSAM, contacted the surface and collected material before the spacecraft moved away.</p><p>OSIRIS-REx had reached Bennu in 2018 and spent nearly two years mapping the asteroid and assessing possible collection sites. SamCam images recorded the approach, contact, and departure, while telemetry and follow-up imagery showed that surface particles had entered the collector head.</p><p>The successful collection was especially notable because Bennu’s surface proved rougher and more weakly consolidated than pre-encounter observations had suggested. Before the encounter, scientists expected the event to leave perhaps only a small divot or subtle footprint. Later imagery instead showed a larger disturbance, providing evidence that near-surface material was weaker and more porous than many pre-encounter models had assumed.</p><p>The October 20 event demonstrated successful acquisition of asteroid material, but it did not demonstrate the existence of life or explain the origin of life. The sample capsule was later returned to Earth on September 24, 2023, giving laboratories direct access to a pristine sample from Bennu.</p>",
+      "wrongBelief": "Before the encounter, mission scientists expected the Touch-and-Go event to have relatively little effect on Bennu’s surface—perhaps leaving only a small divot or subtle footprint.",
+      "evidence": "The event demonstrated that OSIRIS-REx successfully contacted Bennu and acquired surface material: SamCam images recorded the spacecraft’s approach, contact, and departure, while telemetry and follow-up imagery showed particles entering TAGSAM. It also provided evidence that Bennu’s near-surface material was weaker and more porous than many pre-encounter models had assumed. The event did not demonstrate the existence of life or explain the origin of life, and its results did not establish that all asteroids have the same surface properties.",
+      "primarySource": "NASA, “OSIRIS-REx TAGs Surface of Asteroid Bennu,” October 21, 2020; NASA Science, “OSIRIS-REx In Depth”; NASA Scientific Visualization Studio, “OSIRIS-REx TAG Event: Real-time Animation”; Lauretta et al., “The unexpected surface of asteroid (101955) Bennu,” Nature, 2019; NASA Planetary Data System, OSIRIS-REx instrument and mission data records.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-20",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The date, October 20, 2020, is correct.",
+          "Dante Lauretta is correctly identified as the OSIRIS-REx principal investigator.",
+          "OSIRIS-REx contacted asteroid 101955 Bennu at the Nightingale site using TAGSAM.",
+          "The spacecraft reached Bennu in 2018 and spent nearly two years mapping it and evaluating collection sites.",
+          "SamCam imagery and mission telemetry documented the approach, contact, departure, mobilized surface material, and successful sample acquisition.",
+          "The mission's first successful U.S. asteroid sample collection is accurately distinguished from earlier Japanese asteroid-sampling missions.",
+          "The article correctly describes Bennu's surface as rougher and weaker than many pre-encounter expectations and correctly limits the inference to Bennu rather than all asteroids.",
+          "The article correctly states that the event did not prove the existence of life or explain the origin of life.",
+          "The sample capsule returned to Earth on September 24, 2023.",
+          "The historical significance is appropriately framed as providing terrestrial laboratories with direct access to ancient asteroid material."
+        ],
+        "warnings": [
+          "The article is historically accurate as a retrospective account. On October 20, 2020, the mission initially had strong evidence of successful acquisition; the amount of material collected was confirmed later. The article's retrospective wording is acceptable.",
+          "The phrase \"pristine sample\" is supported in the mission's scientific context, meaning material substantially uncontaminated by terrestrial processes; it should not be read as absolute chemical or geological purity.",
+          "The statement that Bennu was \"far less solid\" is a concise editorial characterization. The more precise scientific claim is that the surface was rougher, weaker, and more porous or weakly consolidated than many pre-encounter models had assumed."
+        ],
+        "researchSources": [
+          "NASA, “OSIRIS-REx TAGs Surface of Asteroid Bennu,” October 21, 2020. ([nasa.gov](https://www.nasa.gov/solar-system/osiris-rex-tags-surface-of-asteroid-bennu/?utm_source=openai))",
+          "NASA Science, “OSIRIS-REx In Depth.” ([science.nasa.gov](https://science.nasa.gov/mission/osiris-rex/in-depth/?utm_source=openai))",
+          "NASA Scientific Visualization Studio, “OSIRIS-REx TAG Event: Real-time Animation,” released October 20, 2020. ([svs.gsfc.nasa.gov](https://svs.gsfc.nasa.gov/20326/?utm_source=openai))",
+          "Lauretta et al., “The unexpected surface of asteroid (101955) Bennu,” Nature, 2019. ([nature.com](https://www.nature.com/articles/s41586-019-1033-6?utm_source=openai))",
+          "NASA Planetary Data System, OSIRIS-REx instrument and mission data records. ([pds.nasa.gov](https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn%3Anasa%3Apds%3Acontext%3Ainstrument%3Aprop.orex&version=1.2&utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“Die neueren Spectralmessungen ... haben gezeigt, dass das zuerst von W. Wien ... abgeleitete Gesetz der Energieverteilung im Normalspectrum keine allgemeine Gültigkeit besitzt.”",
-    "author": "Max Planck, “Ueber das Gesetz der Energieverteilung im Normalspectrum,” 1901"
+    "text": "“We really did kind of make a mess on the surface of this asteroid, but it’s a good mess, the kind of mess we were hoping for.”",
+    "author": "Dante Lauretta, OSIRIS-REx principal investigator, quoted by PBS NewsHour"
   },
   "onThisDay": {
-    "title": "The Formula That Opened the Door to Quantum Physics",
-    "copy": "On October 19, 1900, Max Planck presented a new law for black-body radiation to the German Physical Society in Berlin. It matched measurements that had begun to undermine Wien’s law. Planck was seeking a better description of thermal radiation—not announcing a finished quantum theory—but his result became the starting point for one of physics’ deepest revolutions."
+    "title": "The Day NASA Touched an Asteroid",
+    "copy": "On October 20, 2020, NASA’s OSIRIS-REx spacecraft briefly touched asteroid Bennu and collected material from its surface—the first successful asteroid sample collection in NASA history. The images sent home revealed a world far less solid and far more rugged than scientists had expected, while the retrieved sample eventually gave laboratories on Earth direct access to an ancient remnant of the early Solar System."
   },
   "instrument": {
-    "title": "The Cavity That Made a Perfect Black Body Almost Possible",
-    "copy": "Planck’s work depended on increasingly precise studies of thermal radiation. At the Physikalisch-Technische Reichsanstalt in Berlin, researchers had developed a cavity model whose interior absorbed radiation effectively enough to approximate an ideal black body. Such instruments gave physicists a common reference for comparing radiation spectra and revealed where older formulas stopped matching observation."
+    "title": "TAGSAM: The Collector That Touched an Asteroid",
+    "copy": "The Touch-and-Go Sample Acquisition Mechanism, or TAGSAM, was the sampler carried by OSIRIS-REx. Its collector head was the only part of the spacecraft intended to contact Bennu. The instrument made the mission’s central achievement possible: obtaining an uncontaminated sample from an asteroid for return and study on Earth."
   },
-  "updated": "2026-10-19"
+  "updated": "2026-10-20"
 };

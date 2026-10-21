@@ -1406,19 +1406,62 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "William G. Fastie",
+      "exactHistoricalDate": "October 21, 1965",
+      "headline": "A Spectrometer Rides a Rocket to Meet a Sun-Grazing Comet",
+      "deck": "NASA launched an Aerobee 150 from Wallops Island to observe Comet Ikeya–Seki during its close passage through the solar corona.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this edition.",
+      "lore": "The observing effort was organized rapidly after the comet was reported to be exceptionally bright. William G. Fastie later recalled the expectation: “It looks like it’s bright, very, very bright.”",
+      "body": "<p>On October 21, 1965, NASA launched an Aerobee 150 from Wallops Island, Virginia, as Comet Ikeya–Seki passed extremely close to the Sun. The 205-pound payload rose to approximately 117 miles, placing its ultraviolet-sensing equipment above much of Earth’s atmosphere during a rare astronomical event.</p><p>The payload included an Ebert–Fastie scanning spectrometer and an attitude-control system intended to keep the instruments pointed toward the comet. The experiment scanned the comet’s head and tail twice and also obtained data from the Sun’s corona.</p><p>Johns Hopkins University scientists William G. Fastie, Thomas M. Donahue, Hank Crosswhite, and Warren Moos were associated with the effort. NASA’s chronology described the flight as the best of three sounding-rocket experiments conducted to observe Ikeya–Seki.</p><p>The flight demonstrated that a suborbital rocket could provide a short-lived observing platform above much of the atmosphere during the comet’s sun-grazing passage. Its records established that observations were gathered, but they did not by themselves provide a complete explanation of the comet’s composition, fragmentation, or interaction with the solar corona.</p>",
+      "wrongBelief": "The documented expectation was that the newly discovered comet would be exceptionally bright and scientifically worthwhile to observe. This was the project team’s expectation about the comet’s brightness, not a general consensus about its later behavior.",
+      "evidence": "The surviving NASA records show that the rocket reached its planned observing altitude, that the payload scanned the comet’s head and tail twice, and that measurements of the solar corona were obtained. These records demonstrate that the flight successfully gathered observational data during the comet’s close solar passage. They do not, by themselves, establish a complete explanation of the comet’s composition, fragmentation, or interaction with the corona; those questions required later analysis and additional observations.",
+      "primarySource": [
+        "NASA, Astronautics and Aeronautics, 1965, historical chronology and launch summary.",
+        "NASA, Chronology 1965, entry for the October 21 Ikeya–Seki observing Aerobee.",
+        "Smithsonian National Air and Space Museum, Space Telescope Oral History Project interview with William G. Fastie."
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-10-21",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The launch date, location, Aerobee 150 vehicle, 205-pound payload, and approximately 117-mile peak altitude are supported by NASA's historical chronology. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1965.pdf?utm_source=openai))",
+          "The Ebert–Fastie scanning spectrometer and attitude-control system are accurately described. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1965.pdf?utm_source=openai))",
+          "The experiment scanned the comet's head and tail twice and obtained data from the solar corona. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19670017647/downloads/19670017647.pdf?utm_source=openai))",
+          "NASA's chronology reported this flight as the best of three sounding-rocket experiments observing Ikeya–Seki. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19670017647/downloads/19670017647.pdf?utm_source=openai))",
+          "The description of Ikeya–Seki as passing through or extremely close to the solar corona on October 21, 1965, is historically supported. ([nature.com](https://www.nature.com/articles/2131002a0?utm_source=openai))",
+          "The association of William G. Fastie, Thomas M. Donahue, Hank Crosswhite, and Warren Moos with the effort is supported by Fastie's oral-history account. ([si.edu](https://www.si.edu/media/NASM/NASM-NASM_AudioIt-000002835DOCS-000001.pdf?utm_source=openai))",
+          "The quotation attributed to William G. Fastie is supported by the Smithsonian oral-history transcript. ([si.edu](https://www.si.edu/media/NASM/NASM-NASM_AudioIt-000002835DOCS-000001.pdf?utm_source=openai))",
+          "The article appropriately distinguishes recorded observations from later explanations of composition, fragmentation, or comet–corona interaction."
+        ],
+        "warnings": [
+          "The phrase \"demonstrated that a suborbital rocket could provide a short-lived observing platform\" is a reasonable inference from the successful flight, but it is interpretive rather than a direct quotation from the historical record.",
+          "The cited NASA chronology directly supports the launch, payload, altitude, instrument, pointing system, repeated scans, corona observations, and its reported ranking as the best of three experiments. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1965.pdf?utm_source=openai))"
+        ],
+        "researchSources": [
+          "NASA, Astronautics and Aeronautics, 1965, historical chronology and launch summary. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1965.pdf?utm_source=openai))",
+          "NASA, Chronology 1965, entry for the October 21 Ikeya–Seki observing Aerobee. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19670017647/downloads/19670017647.pdf?utm_source=openai))",
+          "Smithsonian National Air and Space Museum, Space Telescope Oral History Project interview with William G. Fastie. ([si.edu](https://www.si.edu/media/NASM/NASM-NASM_AudioIt-000002835DOCS-000001.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“We really did kind of make a mess on the surface of this asteroid, but it’s a good mess, the kind of mess we were hoping for.”",
-    "author": "Dante Lauretta, OSIRIS-REx principal investigator, quoted by PBS NewsHour"
+    "text": "It looks like it’s bright, very, very bright.",
+    "author": "William G. Fastie"
   },
   "onThisDay": {
-    "title": "The Day NASA Touched an Asteroid",
-    "copy": "On October 20, 2020, NASA’s OSIRIS-REx spacecraft briefly touched asteroid Bennu and collected material from its surface—the first successful asteroid sample collection in NASA history. The images sent home revealed a world far less solid and far more rugged than scientists had expected, while the retrieved sample eventually gave laboratories on Earth direct access to an ancient remnant of the early Solar System."
+    "title": "A Spectrometer Rides a Rocket to Meet a Sun-Grazing Comet",
+    "copy": "On October 21, 1965, NASA launched an Aerobee 150 from Wallops Island as Comet Ikeya–Seki passed close to the Sun. A Johns Hopkins–associated payload scanned the comet’s head and tail from above the atmosphere and recorded data from the solar corona. The flight captured an extraordinary celestial encounter with instruments designed for a fleeting target."
   },
   "instrument": {
-    "title": "TAGSAM: The Collector That Touched an Asteroid",
-    "copy": "The Touch-and-Go Sample Acquisition Mechanism, or TAGSAM, was the sampler carried by OSIRIS-REx. Its collector head was the only part of the spacecraft intended to contact Bennu. The instrument made the mission’s central achievement possible: obtaining an uncontaminated sample from an asteroid for return and study on Earth."
+    "title": "The Ebert–Fastie Spectrometer",
+    "copy": "The rocket’s principal scientific instrument was an Ebert–Fastie scanning spectrometer, paired with an attitude-control system for directing the payload toward the comet. Its role was to record spectral information during the brief observing window; the surviving mission chronology confirms the observations made, while later scientific interpretation belongs to subsequent analysis."
   },
-  "updated": "2026-10-20"
+  "updated": "2026-10-21"
 };

@@ -1449,19 +1449,57 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Arnold Selivanov",
+      "exactHistoricalDate": "October 22, 1975",
+      "headline": "The First Photograph from Another Planet",
+      "deck": "Venera 9 transmitted humanity’s first clear view of a planetary surface beyond Earth.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "The Venera 9 lander’s processed panorama showed angular rocks, soil, and a visible horizon on Venus.",
+      "lore": "The Soviet Venera 9 lander operated on the Venusian surface for about 53 minutes and transmitted a single surface image.",
+      "body": "<p>On October 22, 1975, the Soviet Venera 9 lander touched down near 32° S, 291° E on Venus. At 05:13 UTC, it began an approximately 53-minute surface operation in an environment hidden beneath the planet’s permanent cloud cover.</p><p>Its panoramic telephotometer transmitted a single processed, black-and-white television panorama. The image showed angular, partly weathered rocks, soil, and a visible horizon—the first clear visual evidence of what the surface of another planet looked like.</p><blockquote>“expected poor lighting conditions and built our instruments accordingly”</blockquote><p>Arnold Selivanov, a designer of the Venera television system, described the team’s expectations about illumination. Soviet scientists were reportedly surprised that the landing sites were illuminated, allowing the instrument to return a usable view despite Venus’s dense clouds.</p><p>Venera 9 demonstrated that a spacecraft could reach Venus’s surface, survive long enough to communicate, and return scientific imagery from an extraordinarily hostile environment. The panorama did not establish the geology of Venus as a whole, prove that the photographed rocks represented the entire planet, or settle Venus’s global geological history; those questions required later measurements and missions.</p>",
+      "wrongBelief": "Soviet scientists expected poor lighting conditions at the Venus landing sites because the planet’s dense cloud cover was understood to keep the surface in perpetual shade.",
+      "evidence": "The returned panorama directly demonstrated that Venera 9 had reached a rocky surface and that usable natural illumination existed at the landing site. It also showed a visible horizon and surface rocks. The image did not by itself establish Venus’s geology as a whole, prove that the photographed rocks were representative of the entire planet, or settle the planet’s global geological history.",
+      "primarySource": "NASA NSSDC image archive record for the Venera 9 lander surface image; NASA’s Astronautics and Aeronautics, 1975 chronology; and C.P. Florensky, The Surface of Venus as Revealed by Venera 9 and 10 Probes, published in Highlights of Astronomy in 1977.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-22",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The date, landing time, approximate location, and 53-minute surface operation match NASA's NSSDC record and NASA's historical chronology. ([nssdc.gsfc.nasa.gov](https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/v09_lander_proc.html))",
+          "Venera 9 returned a single surface image showing angular, partly weathered rocks, soil, and a visible horizon. ([nssdc.gsfc.nasa.gov](https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/v09_lander_proc.html))",
+          "The panoramic telephotometer is correctly identified as the imaging instrument. ([nssdc.gsfc.nasa.gov](https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/v09_lander_proc.html))",
+          "The quotation attributed to Arnold Selivanov is supported by NASA's contemporaneous chronology, which identifies him as a Venera television-system designer. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1975.pdf))",
+          "The article accurately distinguishes the directly demonstrated findings from broader geological interpretations and does not claim that the image established Venus's global geology.",
+          "The statement that earlier successful Venera 7 and Venera 8 landers returned data but carried no cameras is consistent with NASA's chronology. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1975.pdf))",
+          "The account of scientists expecting poor illumination because Venus was thought to be in perpetual shade is supported by the cited historical record. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1975.pdf))"
+        ],
+        "warnings": [
+          "The terms \"photograph\" and \"picture\" are historically conventional but technically imprecise: Venera 9 returned a processed television panorama rather than a conventional photographic image. The article otherwise makes this clear by calling it a processed, black-and-white television panorama.",
+          "The phrase \"first clear view of a planetary surface beyond Earth\" is supported in context, though \"first clear photograph from the surface of another planet\" is the more precise historical formulation."
+        ],
+        "researchSources": [
+          "NASA NSSDC image archive record for the Venera 9 lander surface image, including the landing time, location, instrument identification, and image description. ([nssdc.gsfc.nasa.gov](https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/v09_lander_proc.html))",
+          "NASA's contemporaneous Astronautics and Aeronautics, 1975 chronology, which recorded the landing, the first photographs of the Venusian surface, the reported scientific findings, and comments from Soviet scientists. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1975.pdf))",
+          "C.P. Florensky, The Surface of Venus as Revealed by Venera 9 and 10 Probes, published in Highlights of Astronomy, 1977, with references to the 1976 Soviet preliminary analysis of the first panoramas. ([cambridge.org](https://www.cambridge.org/core/journals/highlights-of-astronomy/article/surface-of-venus-as-revealed-by-venera-9-and-10-probes/4CF77E2E9F7413A3297F27B56DCB493D))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "It looks like it’s bright, very, very bright.",
-    "author": "William G. Fastie"
+    "text": "“expected poor lighting conditions and built our instruments accordingly”",
+    "author": "Arnold Selivanov, a designer of the Venera television system"
   },
   "onThisDay": {
-    "title": "A Spectrometer Rides a Rocket to Meet a Sun-Grazing Comet",
-    "copy": "On October 21, 1965, NASA launched an Aerobee 150 from Wallops Island as Comet Ikeya–Seki passed close to the Sun. A Johns Hopkins–associated payload scanned the comet’s head and tail from above the atmosphere and recorded data from the solar corona. The flight captured an extraordinary celestial encounter with instruments designed for a fleeting target."
+    "title": "The First Photograph from Another Planet",
+    "copy": "On October 22, 1975, the Soviet Venera 9 lander touched down on Venus and sent back the first clear photograph taken from the surface of another planet. The image revealed angular rocks, soil, and a distant horizon beneath the planet’s permanent clouds. It was a brief glimpse—only about 53 minutes of surface operation—but it transformed Venus from a hidden world into a place that could be seen."
   },
   "instrument": {
-    "title": "The Ebert–Fastie Spectrometer",
-    "copy": "The rocket’s principal scientific instrument was an Ebert–Fastie scanning spectrometer, paired with an attitude-control system for directing the payload toward the comet. Its role was to record spectral information during the brief observing window; the surviving mission chronology confirms the observations made, while later scientific interpretation belongs to subsequent analysis."
+    "title": "The Panoramic Telephotometer",
+    "copy": "Venera 9’s panoramic telephotometer converted the lander’s surroundings into a television panorama for transmission to Earth. The returned image was a processed, black-and-white view that made the surface’s rocks, soil, and horizon visible for the first time."
   },
-  "updated": "2026-10-21"
+  "updated": "2026-10-22"
 };

@@ -1487,19 +1487,59 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Alberto Santos-Dumont",
+      "exactHistoricalDate": "1906-10-23",
+      "headline": "The 14-bis Takes Flight in Paris",
+      "deck": "At Bagatelle, Alberto Santos-Dumont’s 14-bis flew approximately 60 metres under its own power and won the Archdeacon Cup.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "Santos-Dumont’s 14-bis, also called Oiseau de Proie II, during its publicly witnessed flight at Bagatelle, Paris.",
+      "lore": "The 14-bis was a large, box-kite-like biplane built for the emerging heavier-than-air competitions in France.",
+      "body": "<p>On October 23, 1906, at Bagatelle in Paris, Alberto Santos-Dumont’s 14-bis lifted from the ground and flew approximately 60 metres at an altitude of roughly 3 metres. Members of the Aero-Club de France and its scientific committee were associated with the publicly observed event.</p><p>The flight won the Archdeacon Cup, established for a self-propelled heavier-than-air flight exceeding 25 metres. Its significance lay in demonstrating that an aircraft could leave the ground and remain airborne without support from a balloon or another lighter-than-air device.</p><p>The achievement was a major public milestone in European aviation, but it was not the first powered flight worldwide. The Wright brothers had made powered flights in the United States in 1903. The 14-bis’s later development, including improved control and longer flights, continued after this first public success.</p><p>A later flight on November 12, 1906, was longer and became the first Santos-Dumont flight recognized by the Aero-Club de France as a ratified distance record.</p>",
+      "wrongBelief": "That this event established Santos-Dumont as the first powered aviator worldwide.",
+      "evidence": "The event demonstrated that the 14-bis could rise from the ground under its own power and travel approximately 60 metres, satisfying the Archdeacon Prize’s requirement for a heavier-than-air flight of more than 25 metres. It did not establish Santos-Dumont as the first person anywhere to achieve powered flight, and the short flight did not demonstrate sustained maneuvering, long-distance travel, or routine aircraft control.",
+      "primarySource": "International Civil Aviation Organization, Postal History of ICAO; Fédération Aéronautique Internationale, Alberto Santos-Dumont biographical and historical dossier; Alberto Santos-Dumont, What I Saw, What We Will See; NASA historical overview.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-23",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "The date, person, aircraft, and location are correct: Alberto Santos-Dumont flew the 14-bis at Bagatelle in Paris on October 23, 1906.",
+          "The aircraft flew approximately 60 metres under its own power at a low altitude, publicly demonstrating powered flight by a heavier-than-air machine without balloon support. ([icao.int](https://www.icao.int/sites/default/files/postalhistory/the_commemorative_covers_brazil_semana_da_asa.htm?utm_source=openai))",
+          "The flight exceeded the Archdeacon competition's 25-metre criterion and was associated with the Archdeacon Cup or Prize. ([icao.int](https://www.icao.int/sites/default/files/postalhistory/the_commemorative_covers_brazil_semana_da_asa.htm?utm_source=openai))",
+          "The article correctly avoids claiming that Santos-Dumont was the first powered aviator worldwide and correctly identifies the Wright brothers' 1903 flights as preceding this event.",
+          "The article appropriately limits the achievement: the short flight did not by itself demonstrate sustained maneuvering, long-distance travel, or routine aircraft control.",
+          "The November 12, 1906 flight was longer and was the first officially homologated or ratified distance flight associated with Santos-Dumont's 14-bis. ([fai.org](https://fai.org/sites/default/files/documents/cia-hof-santos-dumont-alberto.pdf))",
+          "The quotation is materially supported by the cited October 27, 1906 L'Illustration passage as reproduced in Santos-Dumont's memoir. ([en.wikisource.org](https://en.wikisource.org/wiki/Translation%3AWhat_I_Saw%2C_What_We_Will_See/Part_I))"
+        ],
+        "warnings": [
+          "The award is also commonly termed the Archdeacon Prize; 'Archdeacon Cup' is historically acceptable.",
+          "The October 23 flight was a publicly witnessed 60-metre performance, while the later November 12 flight was the one formally homologated as a 220-metre distance record by the Aéro-Club de France. The article distinguishes these events adequately.",
+          "Altitude estimates vary slightly among sources—approximately 2 to 3 metres—so 'roughly 3 metres' is acceptable but should not be treated as an exact measurement."
+        ],
+        "researchSources": [
+          "International Civil Aviation Organization, Postal History of ICAO: account of the October 23, 1906 flight and Archdeacon Prize. ([icao.int](https://www.icao.int/sites/default/files/postalhistory/the_commemorative_covers_brazil_semana_da_asa.htm))",
+          "Fédération Aéronautique Internationale, Alberto Santos-Dumont biographical and historical dossier. ([fai.org](https://www.fai.org/sites/default/files/documents/cia-hof-santos-dumont-alberto.pdf))",
+          "Alberto Santos-Dumont, What I Saw, What We Will See, quoting contemporary reports from L’Illustration and La Nature. ([en.wikisource.org](https://en.wikisource.org/wiki/Translation%3AWhat_I_Saw%2C_What_We_Will_See/Part_I))",
+          "NASA, historical overview distinguishing the Wright brothers’ 1903 powered flights from later European aviation milestones. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19990025343/downloads/19990025343.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“expected poor lighting conditions and built our instruments accordingly”",
-    "author": "Arnold Selivanov, a designer of the Venera television system"
+    "text": "“The great interest of the experiment was to demonstrate that it is possible, without the help of a support lighter than the air, to realize the plane flight.”",
+    "author": "L’Illustration, October 27, 1906, quoted in Alberto Santos-Dumont’s What I Saw, What We Will See."
   },
   "onThisDay": {
-    "title": "The First Photograph from Another Planet",
-    "copy": "On October 22, 1975, the Soviet Venera 9 lander touched down on Venus and sent back the first clear photograph taken from the surface of another planet. The image revealed angular rocks, soil, and a distant horizon beneath the planet’s permanent clouds. It was a brief glimpse—only about 53 minutes of surface operation—but it transformed Venus from a hidden world into a place that could be seen."
+    "title": "The 14-bis Takes Flight in Paris",
+    "copy": "On October 23, 1906, Alberto Santos-Dumont’s 14-bis lifted from the field at Bagatelle and flew roughly 60 metres before a watching crowd. The publicly witnessed performance won the Archdeacon Cup, awarded for a heavier-than-air flight exceeding 25 metres. The achievement did not make Santos-Dumont the first powered aviator worldwide—the Wright brothers had flown in 1903—but it gave European aviation one of its earliest celebrated public demonstrations."
   },
   "instrument": {
-    "title": "The Panoramic Telephotometer",
-    "copy": "Venera 9’s panoramic telephotometer converted the lander’s surroundings into a television panorama for transmission to Earth. The returned image was a processed, black-and-white view that made the surface’s rocks, soil, and horizon visible for the first time."
+    "title": "The 14-bis: A Heavier-than-Air Machine Takes the Prize",
+    "copy": "The 14-bis, also called Oiseau de Proie II, was a large, box-kite-like biplane built by Santos-Dumont for the emerging heavier-than-air competitions in France. Its October 23 flight showed that the machine could rise under its own power and cover the Archdeacon Prize’s required distance. The aircraft remained an experimental design, with improved control and longer flights continuing after this first public success."
   },
-  "updated": "2026-10-22"
+  "updated": "2026-10-23"
 };

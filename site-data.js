@@ -1527,19 +1527,61 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Clyde T. Holliday",
+      "exactHistoricalDate": "October 24, 1946",
+      "headline": "The Camera That First Saw Earth from Space",
+      "deck": "A captured V-2 launched at White Sands carried a 35-millimeter camera above the atmosphere, recording Earth's curved horizon against the blackness of space.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "The surviving film from V-2 No. 13 showed Earth's curved horizon, portions of the southwestern United States, and the darkness of space.",
+      "lore": "The missile was destroyed when it returned to the ground, but the film survived inside its protective cassette.",
+      "body": "<p>On October 24, 1946, a captured German V-2 rose from White Sands Proving Ground, New Mexico, as part of the postwar U.S. Army rocket-research program. A 35-millimeter motion-picture camera developed by Clyde T. Holliday at the Johns Hopkins University Applied Physics Laboratory operated during the flight, recording a new frame approximately every one and a half seconds.</p><p>The rocket reached approximately 65 miles, or about 105 kilometers, before returning to the ground. Although the missile was destroyed, its protective film cassette survived. The recovered photographs showed Earth's curved horizon, large portions of the southwestern United States, and the blackness of space.</p><p>The flight produced the first widely recognized photographs of Earth taken from beyond the atmosphere. The images demonstrated that a camera carried by a suborbital rocket could record useful views of Earth from above the atmosphere, providing an early visual foundation for space-based Earth observation and remote sensing.</p><p>These were not orbital images, nor did they show Earth as a complete disk. They did not demonstrate continuous observation, orbital photography, or the ability to map the entire planet. Those later achievements required satellites and more advanced imaging systems.</p>",
+      "wrongBelief": "Clyde Holliday's contemporary account documented that the team hoped the camera would photograph Earth from more than 80 miles above the surface, although the October 24 flight reached approximately 65 miles.",
+      "evidence": "The recovered film showed Earth's curved horizon, large portions of the southwestern United States, and the blackness of space. This demonstrated that a suborbital rocket camera could record useful views of Earth from above the atmosphere. It did not demonstrate continuous observation, orbital photography, a full-disk view of Earth, or the ability to map the entire planet.",
+      "primarySource": [
+        "Clyde T. Holliday, \"Seeing the Earth from 80 Miles Up,\" National Geographic, October 1950.",
+        "Fraser and Siegler, 1948 U.S. Army report on rocket photography, cited by the U.S. Geological Survey.",
+        "The surviving V-2 No. 13 photographic record, credited to White Sands Missile Range and the Johns Hopkins University Applied Physics Laboratory."
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-10-24",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "The date, location, captured German V-2, U.S. Army postwar rocket-research context, and V-2 No. 13 identification are supported. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-first-image-of-earth-from-mars-and-other-postcards-of-home/?utm_source=openai))",
+          "Clyde T. Holliday and the Johns Hopkins University Applied Physics Laboratory are correctly associated with the rocket-borne camera. The camera's approximately 1.5-second frame interval is corroborated by contemporary and institutional accounts. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-first-image-of-earth-from-mars-and-other-postcards-of-home/?utm_source=openai))",
+          "The approximately 65-mile, or 105-kilometer, altitude is supported for the October 24 flight. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-first-image-of-earth-from-mars-and-other-postcards-of-home/?utm_source=openai))",
+          "The missile's destructive impact and survival of the film in its protective cassette are accurately stated. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-first-image-of-earth-from-mars-and-other-postcards-of-home/?utm_source=openai))",
+          "The description of the recovered photographs as showing Earth's curved horizon, portions of the southwestern United States, and the blackness of space is supported by the dossier and corroborating historical accounts. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-first-image-of-earth-from-mars-and-other-postcards-of-home/?utm_source=openai))",
+          "The article correctly distinguishes the flight from orbital photography, full-disk imagery, continuous observation, and planet-wide mapping. These limitations are historically important and prevent exaggerated claims about what the experiment demonstrated. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-first-image-of-earth-from-mars-and-other-postcards-of-home/?utm_source=openai))",
+          "The statement that the flight provided an early foundation for space-based Earth observation and remote sensing is a reasonable, cautious historical interpretation consistent with later accounts of V-2 photography's significance. ([pubs.usgs.gov](https://pubs.usgs.gov/publication/cir1552/full?utm_source=openai))"
+        ],
+        "warnings": [
+          "The phrase \"first photographs of Earth from space\" is historically accepted for the October 24, 1946 V-2 flight, but terminology varies among sources. Some NASA material distinguishes this milestone from the first image taken above 100 miles, the first photograph from orbit, and later full-disk images. The article's explicit limitations appropriately reduce the risk of overstatement. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-first-image-of-earth-from-mars-and-other-postcards-of-home/?utm_source=openai))",
+          "The article's metadata labels Clyde T. Holliday as a \"scientist,\" while the dossier more precisely identifies him as an Applied Physics Laboratory engineer. This is a minor classification issue, not a material historical error."
+        ],
+        "researchSources": [
+          "Clyde T. Holliday, \"Seeing the Earth from 80 Miles Up,\" National Geographic, October 1950, a contemporary account by the camera's developer. ([cuttersguide.com](https://www.cuttersguide.com/pdf/National-Geographic/1950-10.pdf?utm_source=openai))",
+          "Fraser and Siegler, 1948 U.S. Army report on rocket photography, cited by the U.S. Geological Survey for the event's results and scientific significance. ([pubs.usgs.gov](https://pubs.usgs.gov/publication/cir1552/full?utm_source=openai))",
+          "The surviving V-2 No. 13 photographic record, credited to White Sands Missile Range and the Johns Hopkins University Applied Physics Laboratory. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-first-image-of-earth-from-mars-and-other-postcards-of-home/))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“The great interest of the experiment was to demonstrate that it is possible, without the help of a support lighter than the air, to realize the plane flight.”",
-    "author": "L’Illustration, October 27, 1906, quoted in Alberto Santos-Dumont’s What I Saw, What We Will See."
+    "text": "How our Earth would look to visitors from another planet coming in on a space ship.",
+    "author": "Clyde T. Holliday"
   },
   "onThisDay": {
-    "title": "The 14-bis Takes Flight in Paris",
-    "copy": "On October 23, 1906, Alberto Santos-Dumont’s 14-bis lifted from the field at Bagatelle and flew roughly 60 metres before a watching crowd. The publicly witnessed performance won the Archdeacon Cup, awarded for a heavier-than-air flight exceeding 25 metres. The achievement did not make Santos-Dumont the first powered aviator worldwide—the Wright brothers had flown in 1903—but it gave European aviation one of its earliest celebrated public demonstrations."
+    "title": "The Camera That First Saw Earth from Space",
+    "copy": "On October 24, 1946, a captured V-2 rose from White Sands carrying a 35-millimeter camera. The rocket's brief climb produced the first photographs of Earth from beyond the atmosphere: grainy frames in which the curved horizon met the blackness of space. The missile was lost on its return, but its film survived, giving scientists and the public a new view of the planet."
   },
   "instrument": {
-    "title": "The 14-bis: A Heavier-than-Air Machine Takes the Prize",
-    "copy": "The 14-bis, also called Oiseau de Proie II, was a large, box-kite-like biplane built by Santos-Dumont for the emerging heavier-than-air competitions in France. Its October 23 flight showed that the machine could rise under its own power and cover the Archdeacon Prize’s required distance. The aircraft remained an experimental design, with improved control and longer flights continuing after this first public success."
+    "title": "A Rocket-Borne Motion-Picture Camera",
+    "copy": "Developed by Clyde T. Holliday at the Johns Hopkins University Applied Physics Laboratory, the camera recorded a sequence of black-and-white frames during the V-2's ascent. Its protective film cassette survived the rocket's destructive impact, preserving the images that revealed Earth's curvature from above the atmosphere."
   },
-  "updated": "2026-10-23"
+  "updated": "2026-10-24"
 };

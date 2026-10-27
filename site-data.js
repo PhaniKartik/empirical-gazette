@@ -1569,19 +1569,59 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Samuel Williams",
+      "exactHistoricalDate": "October 27, 1780",
+      "headline": "The Eclipse Expedition That Entered Enemy Waters",
+      "deck": "A Massachusetts-backed Harvard expedition crossed into British-controlled waters to observe an eclipse expected to be total, but recorded instead a deep partial eclipse and an early description of Baily’s beads.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "During the American Revolutionary War, Massachusetts supplied the Lincoln galley for a scientific expedition organized by Harvard and the American Academy of Arts and Sciences. The observers entered Penobscot Bay, established themselves on Long Island after finding their intended site unsuitable, and recorded the eclipse with instruments from Harvard’s scientific collection.",
+      "body": "<p>On October 27, 1780, Samuel Williams, Harvard’s Hollis Professor of Mathematics and Natural Philosophy, led a company of students and assistants to Long Island in Penobscot Bay, present-day Maine. The expedition had been organized to observe a solar eclipse that calculations indicated would be total in the chosen region.</p><p>Massachusetts supplied the expedition’s vessel, the Lincoln galley, despite the ongoing war. British authorities permitted the vessel to enter Penobscot Bay but restricted where the observers could go. After finding the intended observing site unsuitable, the company established itself on Long Island.</p><p>The observers did not see complete darkness. Their reports described an extremely deep partial eclipse, a darkened landscape, the appearance of Venus and stars, and bright drops of sunlight near the disappearing edge of the Sun. James Winthrop recorded that a small portion of the Sun remained visible, while Samuel Williams later described the solar edge breaking into small, separate drops or star-like points.</p><p>The expedition therefore provided evidence of a carefully documented partial eclipse and an early description of the fleeting points later known as Baily’s beads. It did not demonstrate that the observers had reached or witnessed the predicted path of totality. Its passage into British-controlled waters also illustrates the cooperation that scientific work could receive from opposing sides during wartime.</p>",
+      "wrongBelief": "The organizers believed that, according to their calculations, the eclipse would be total at the chosen part of eastern Massachusetts and Penobscot Bay.",
+      "evidence": "The surviving reports show that the expedition observed and recorded a very deep partial eclipse. James Winthrop stated that a small portion of the Sun remained visible and recorded two bright drops at the upper edge; Samuel Williams described the solar edge breaking into small, separate drops or star-like points. The evidence documents the eclipse at the observers’ location and an early account of what are now called Baily’s beads, but it does not show that the expedition reached or observed the predicted path of totality.",
+      "primarySource": "Samuel Williams, “Astronomical Observations, Made in the State of Massachusetts,” in Memoirs of the American Academy of Arts and Sciences, volume 1; James Winthrop, “An Account of the Proceedings of the Company sent by the General Court of Massachusetts to observe the Solar Eclipse at Penobscot on 27 Oct. 1780”; and contemporary letters and eclipse observations preserved in the American Academy of Arts and Sciences archives.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-27",
+        "validationScore": 96.0,
+        "verifiedClaims": [
+          "The date, October 27, 1780, is correct. ([amacad.org](https://www.amacad.org/archives/transcriptions/i-c-1_vol01.html))",
+          "Samuel Williams led the expedition and was Harvard’s Hollis Professor of Mathematics and Natural Philosophy. ([amacad.org](https://www.amacad.org/news/expedition-behind-enemy-lines))",
+          "The expedition was endorsed by Harvard and the American Academy of Arts and Sciences, with Massachusetts providing the Lincoln galley. ([amacad.org](https://www.amacad.org/news/expedition-behind-enemy-lines))",
+          "The vessel entered Penobscot Bay with permission from British commanders, who restricted movement and directed the party to anchor near Long Island. ([amacad.org](https://www.amacad.org/archives/transcriptions/i-c-1_vol01.html))",
+          "The observers remained on Long Island after finding no convenient observing location near the British fort. ([amacad.org](https://www.amacad.org/archives/transcriptions/i-c-1_vol01.html))",
+          "The eclipse was a very deep partial eclipse, not a total eclipse: Winthrop recorded that approximately one-eightieth of the Sun’s diameter remained visible and described two bright drops at the upper cusp. ([amacad.org](https://www.amacad.org/archives/transcriptions/i-c-1_vol01.html))",
+          "The reports describe unusual darkness, falling temperature, Venus, other stars, and the breaking of the solar limb into drops or star-like points. ([amacad.org](https://www.amacad.org/archives/transcriptions/i-c-1_vol01.html))",
+          "The article cautiously characterizes the observation as an early description of Baily’s beads rather than claiming that the expedition discovered or proved the phenomenon. ([amacad.org](https://www.amacad.org/news/expedition-behind-enemy-lines))",
+          "The instrument claims are supported: Harvard’s Ellicott regulator and Sisson astronomical quadrant are identified with the 1780 expedition, along with telescopes and other apparatus. ([chsi.emuseum.com](https://chsi.emuseum.com/objects/11564/astronomical-regulator?utm_source=openai))"
+        ],
+        "warnings": [
+          "The onThisDayCopy describes the sunlight as breaking apart at the 'edge of the Moon’s shadow.' The surviving account more precisely places the bright drops at the upper cusp or disappearing edge of the Sun; the current wording is potentially misleading, though the surrounding article correctly identifies the phenomenon as Baily’s beads. ([amacad.org](https://www.amacad.org/archives/transcriptions/i-c-1_vol01.html))",
+          "The phrase 'fell just short of complete darkness' is readable but slightly impressionistic. The primary account says that a very small portion of the Sun remained visible and that a lantern was needed to count the clock, while observers could still distinguish faces and write outdoors. ([amacad.org](https://www.amacad.org/archives/transcriptions/i-c-1_vol01.html))"
+        ],
+        "researchSources": [
+          "Samuel Williams, “Astronomical Observations, Made in the State of Massachusetts,” in Memoirs of the American Academy of Arts and Sciences, volume 1; the account was written after the October 27, 1780, eclipse and includes the prediction that totality was expected at the observing region. ([amacad.org](https://www.amacad.org/news/expedition-behind-enemy-lines))",
+          "James Winthrop, “An Account of the Proceedings of the Company sent by the General Court of Massachusetts to observe the Solar Eclipse at Penobscot on 27 Oct. 1780,” preserved in the American Academy of Arts and Sciences archives. ([amacad.org](https://www.amacad.org/archives/transcriptions/i-c-1_vol01.html))",
+          "Contemporary letters and eclipse observations preserved in the American Academy of Arts and Sciences archives, including submissions by Samuel Deane and Ezra Stiles. ([amacad.org](https://www.amacad.org/archives/fa/communications-bound))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "How our Earth would look to visitors from another planet coming in on a space ship.",
-    "author": "Clyde T. Holliday"
+    "text": "“where, by calculation, it was expected it would be total.”",
+    "author": "Samuel Williams, “Astronomical Observations, Made in the State of Massachusetts,” Memoirs of the American Academy of Arts and Sciences, volume 1."
   },
   "onThisDay": {
-    "title": "The Camera That First Saw Earth from Space",
-    "copy": "On October 24, 1946, a captured V-2 rose from White Sands carrying a 35-millimeter camera. The rocket's brief climb produced the first photographs of Earth from beyond the atmosphere: grainy frames in which the curved horizon met the blackness of space. The missile was lost on its return, but its film survived, giving scientists and the public a new view of the planet."
+    "title": "The Eclipse Expedition That Entered Enemy Waters",
+    "copy": "On October 27, 1780, Harvard professor Samuel Williams and a Massachusetts-backed team watched a solar eclipse from Long Island in Penobscot Bay. Their calculations had placed the site near the path of totality, but the expedition fell just short of complete darkness. Even so, the observers recorded a remarkably deep partial eclipse and described bright drops of sunlight breaking apart at the edge of the Moon’s shadow—an early account of what would later be called Baily’s beads."
   },
   "instrument": {
-    "title": "A Rocket-Borne Motion-Picture Camera",
-    "copy": "Developed by Clyde T. Holliday at the Johns Hopkins University Applied Physics Laboratory, the camera recorded a sequence of black-and-white frames during the V-2's ascent. Its protective film cassette survived the rocket's destructive impact, preserving the images that revealed Earth's curvature from above the atmosphere."
+    "title": "The Clock and Quadrant Behind the Lines",
+    "copy": "The expedition carried an astronomical regulator, an astronomical quadrant, and telescopes from Harvard’s scientific collection. Harvard’s surviving Ellicott regulator is documented as having accompanied Samuel Williams to Long Island for the 1780 eclipse, while a Sisson astronomical quadrant is also identified with the expedition. Together, these instruments represent the precision timekeeping and celestial measurement available to eighteenth-century American observers."
   },
-  "updated": "2026-10-24"
+  "updated": "2026-10-27"
 };

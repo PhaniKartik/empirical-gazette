@@ -1609,19 +1609,66 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Forecasters at NOAA’s Space Environment Center, scientists and instrument teams operating NASA’s TIMED and SORCE satellites, and scientists and instrument teams operating the ESA/NASA SOHO observatory",
+      "exactHistoricalDate": "October 28, 2003",
+      "headline": "The Sun Unleashes an X17 Flare",
+      "deck": "A powerful eruption from solar active region NOAA 10486 produced an Earth-directed coronal mass ejection and became a defining episode of the 2003 Halloween space-weather storms.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "The X17 flare erupted near the center of the Sun’s visible disk and was observed from Earth orbit and ground-based solar observatories.",
+      "lore": "On October 28, 2003, solar active region NOAA 10486 produced an exceptionally powerful flare followed by a fast, Earth-directed coronal mass ejection. The event became one of the landmark episodes of the Halloween solar storms of 2003.",
+      "body": "<p>A massive solar flare erupted from the surface of the Sun at 9:51 UTC on October 28, 2003, reaching its peak at 11:10 UTC. NOAA classified the event as an X17/4B flare, among the largest solar X-ray flares recorded at the time.</p><p>Observations from NOAA’s GOES satellites measured the flare’s X-ray intensity, while SOHO’s LASCO instrument recorded the associated full-halo coronal mass ejection. The halo appearance indicated that the expelled solar material was directed toward Earth.</p><p>NASA’s TIMED and SORCE satellites recorded an approximately twenty-five-fold increase in solar X-ray radiation, with elevated levels lasting for more than an hour. These measurements provided unusually strong evidence of how a major solar eruption affected radiation and the solar atmosphere.</p><p>The eruption was part of a broader sequence of major flares and coronal mass ejections known as the Halloween storms of 2003. NOAA’s contemporaneous forecast expected at least a severe geomagnetic storm, with extreme levels possible, while warning that additional major eruptions could follow from the same active regions.</p>",
+      "wrongBelief": "The documented NOAA forecast expected the Earth-directed eruption to produce at least a severe geomagnetic storm, with extreme levels possible, and warned that additional major eruptions could follow from the same active regions.",
+      "evidence": "The observations demonstrated that the Sun produced an intense X-ray flare, a rapid increase in ultraviolet and X-ray radiation, and a full-halo coronal mass ejection directed toward Earth. They showed that the eruption was exceptionally energetic and expelled a large quantity of solar material. They did not, by themselves, establish the exact severity of every later effect in Earth’s magnetosphere or atmosphere; those effects required separate measurements after the ejected material arrived.",
+      "primarySource": [
+        "NOAA, “Halloween Space Weather Storms of 2003,” including the contemporaneous October 28, 2003 space-weather advisory.",
+        "NASA Earth Observatory, “Massive Solar Flare,” published October 29, 2003.",
+        "NASA TIMED/SORCE observations, Laboratory for Atmospheric and Space Physics, “Extremely Large X-class Flare.”",
+        "ESA, “Enormous X-ray solar flare seen by SOHO.”",
+        "Mandrini and colleagues, “Companion Event and Precursor of the X17 Flare on 28 October 2003,” Solar Physics, 2006."
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-10-28",
+        "validationScore": 96.0,
+        "verifiedClaims": [
+          "The event occurred on October 28, 2003, in NOAA active region 10486, near the central solar disk. ([spaceref.com](https://spaceref.com/status-report/joint-usafnoaa-report-of-solar-and-geophysical-activity-28-oct-2003/))",
+          "The flare began at approximately 09:51 UTC and peaked at 11:10 UTC. ([science.nasa.gov](https://science.nasa.gov/earth/earth-observatory/massive-solar-flare-3912/))",
+          "The flare was classified as X17/X17.2 and 4B, and was among the largest solar X-ray flares recorded at that time. ([spaceref.com](https://spaceref.com/status-report/joint-usafnoaa-report-of-solar-and-geophysical-activity-28-oct-2003/))",
+          "SOHO/LASCO observed a fast, full-halo, Earth-directed CME associated with the flare. ([spaceref.com](https://spaceref.com/status-report/joint-usafnoaa-report-of-solar-and-geophysical-activity-28-oct-2003/))",
+          "TIMED and SORCE measured an approximately 25-fold increase in solar X-ray radiation, with elevated levels lasting more than an hour. ([lasp.colorado.edu](https://lasp.colorado.edu/see/2003/10/28/extremely-large-x-class-flare/))",
+          "The event was part of the broader Halloween solar storms of 2003. ([ncei.noaa.gov](https://www.ncei.noaa.gov/news/great-halloween-solar-storm-2003))",
+          "The NOAA forecast language concerning an expected severe geomagnetic storm, possible extreme levels, and additional major eruptions is supported by the contemporaneous advisory. ([repository.library.noaa.gov](https://repository.library.noaa.gov/view/noaa/19648/noaa_19648_DS1.pdf?utm_source=openai))",
+          "The article appropriately distinguishes direct observations of the flare, radiation increase, and CME from later measurements of terrestrial effects. ([lasp.colorado.edu](https://lasp.colorado.edu/see/2003/10/28/extremely-large-x-class-flare/))"
+        ],
+        "warnings": [
+          "The sentence stating that TIMED and SORCE measurements showed how the eruption affected 'the solar atmosphere' is somewhat broader than the cited observations directly establish. They clearly measured a roughly 25-fold increase in solar X-ray radiation lasting more than an hour; claims about resulting atmospheric effects should be attributed to separate analysis or phrased more cautiously. ([lasp.colorado.edu](https://lasp.colorado.edu/see/2003/10/28/extremely-large-x-class-flare/))",
+          "The article uses 'X17' while some authoritative sources specify X17.2. This is acceptable as a rounded classification, but 'X17.2/4B' would be maximally precise. ([science.nasa.gov](https://science.nasa.gov/earth/earth-observatory/massive-solar-flare-3912/))"
+        ],
+        "researchSources": [
+          "NOAA, “Halloween Space Weather Storms of 2003,” including the contemporaneous October 28, 2003 space-weather advisory. ([repository.library.noaa.gov](https://repository.library.noaa.gov/view/noaa/19648/noaa_19648_DS1.pdf?utm_source=openai))",
+          "NASA Earth Observatory, “Massive Solar Flare,” published October 29, 2003. ([science.nasa.gov](https://science.nasa.gov/earth/earth-observatory/massive-solar-flare-3912/?utm_source=openai))",
+          "NASA TIMED/SORCE observations, Laboratory for Atmospheric and Space Physics, “Extremely Large X-class Flare.” ([lasp.colorado.edu](https://lasp.colorado.edu/see/2003/10/28/extremely-large-x-class-flare/?utm_source=openai))",
+          "ESA, “Enormous X-ray solar flare seen by SOHO.” ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/Extreme_space/ENORMOUS_X-ray_solar_flare_seen_by_SOHO?utm_source=openai))",
+          "Mandrini and colleagues, “Companion Event and Precursor of the X17 Flare on 28 October 2003,” Solar Physics, 2006. ([link.springer.com](https://link.springer.com/article/10.1007/s11207-006-0205-3?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“where, by calculation, it was expected it would be total.”",
-    "author": "Samuel Williams, “Astronomical Observations, Made in the State of Massachusetts,” Memoirs of the American Academy of Arts and Sciences, volume 1."
+    "text": "A massive solar flare erupted from the surface of the Sun at 9:51 UTC on October 28, 2003.",
+    "author": "NASA Earth Observatory, “Massive Solar Flare,” October 29, 2003"
   },
   "onThisDay": {
-    "title": "The Eclipse Expedition That Entered Enemy Waters",
-    "copy": "On October 27, 1780, Harvard professor Samuel Williams and a Massachusetts-backed team watched a solar eclipse from Long Island in Penobscot Bay. Their calculations had placed the site near the path of totality, but the expedition fell just short of complete darkness. Even so, the observers recorded a remarkably deep partial eclipse and described bright drops of sunlight breaking apart at the edge of the Moon’s shadow—an early account of what would later be called Baily’s beads."
+    "title": "The Sun Unleashes an X17 Flare",
+    "copy": "On October 28, 2003, solar active region NOAA 10486 produced an enormous X17 flare, followed by an Earth-directed coronal mass ejection. NASA and ESA observatories recorded one of the most powerful solar eruptions of its era, while satellite instruments measured a dramatic surge in solar X-ray and ultraviolet radiation. The eruption became a landmark episode in the Halloween solar storms of 2003."
   },
   "instrument": {
-    "title": "The Clock and Quadrant Behind the Lines",
-    "copy": "The expedition carried an astronomical regulator, an astronomical quadrant, and telescopes from Harvard’s scientific collection. Harvard’s surviving Ellicott regulator is documented as having accompanied Samuel Williams to Long Island for the 1780 eclipse, while a Sisson astronomical quadrant is also identified with the expedition. Together, these instruments represent the precision timekeeping and celestial measurement available to eighteenth-century American observers."
+    "title": "GOES, SOHO, and TIMED Watch the Sun Break Loose",
+    "copy": "NOAA’s GOES satellites measured the flare’s X-ray intensity; SOHO’s LASCO coronagraph recorded the Earth-directed halo coronal mass ejection; and NASA’s TIMED and SORCE missions measured the sharp rise in solar X-ray and ultraviolet output. Together, these observations connected the visible solar eruption with its radiation and outward-moving cloud of solar material."
   },
-  "updated": "2026-10-27"
+  "updated": "2026-10-28"
 };

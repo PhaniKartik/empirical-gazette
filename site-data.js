@@ -1656,19 +1656,62 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Joseph Veverka, M. J. S. Belton, Peter C. Thomas, Philip Helfenstein, Kenneth P. Klaasen, and The Galileo Imaging Team",
+      "exactHistoricalDate": "October 29, 1991, with closest approach at approximately 22:37 UTC",
+      "headline": "Galileo Gives the Asteroid Belt a Face",
+      "deck": "Galileo’s encounter with 951 Gaspra turned an unresolved point of light into a directly imaged geological body.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition. Galileo passed within roughly 1,600 kilometers of 951 Gaspra and returned about 150 photographs along with additional scientific measurements.",
+      "lore": "On October 29, 1991, NASA’s Galileo spacecraft made the first spacecraft encounter with an asteroid while following a gravity-assist trajectory toward Jupiter. Its close approach to 951 Gaspra opened a new era of asteroid observation.",
+      "body": "<p>Near 951 Gaspra in the main asteroid belt, Galileo achieved the first spacecraft encounter with an asteroid. Mission operations were managed by NASA’s Jet Propulsion Laboratory in Pasadena, California, as the spacecraft continued along its route toward Jupiter.</p><p>Galileo passed within roughly 1,600 kilometers of Gaspra and returned about 150 photographs, together with additional scientific measurements. The Solid-State Imaging camera revealed an irregular, heavily cratered body measuring approximately 19 by 12 by 11 kilometers in the published scientific analysis.</p><p>Before the encounter, NASA had described Gaspra as a fairly typical small, rocky main-belt asteroid. Direct imaging replaced distant, unresolved observations with visible evidence of an uneven outline, large facets, craters, and contrasting surface regions.</p><p>The scientific team interpreted Gaspra’s morphology as consistent with catastrophic disruption of a parent body and possible thin regolith. Those interpretations explained the observations but did not prove every detail of Gaspra’s geological history, nor establish that all asteroids share the same appearance or origin. Galileo later flew past Ida in 1993, making Gaspra the first of two asteroids visited by the spacecraft.</p>",
+      "wrongBelief": "Before direct spacecraft images were available, NASA stated that scientists believed Gaspra was a fairly typical small, rocky main-belt asteroid.",
+      "evidence": "The encounter demonstrated Gaspra’s irregular shape, cratered surface, large facets, and surface variations through direct imaging. It provided evidence consistent with catastrophic disruption of a parent body and possible thin regolith, but it did not prove every detail of Gaspra’s geological history or show that all asteroids share the same appearance or origin.",
+      "primarySource": "Belton et al., “Galileo encounter with 951 Gaspra: First pictures of an asteroid,” Science, 1992.",
+      "editorialRecord": {
+        "publishedDate": "2026-10-29",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The encounter occurred on October 29, 1991, with closest approach at approximately 22:37 UTC.",
+          "Galileo's encounter with 951 Gaspra was the first spacecraft encounter with an asteroid.",
+          "The spacecraft passed within approximately 1,600 kilometers of Gaspra.",
+          "Galileo was en route to Jupiter using gravity-assist flybys, and the mission was managed by NASA's Jet Propulsion Laboratory in Pasadena.",
+          "Galileo obtained approximately 150 photographs and additional scientific measurements.",
+          "Gaspra's published dimensions were approximately 19 by 12 by 11 kilometers.",
+          "The Solid-State Imaging camera produced the historic images, and Galileo also used other remote-sensing instruments, including NIMS.",
+          "The pre-encounter expectation that Gaspra was a fairly typical small, rocky main-belt asteroid is documented in a July 1, 1991, JPL release.",
+          "The scientific interpretation involving catastrophic disruption of a parent body and possible thin regolith is accurately presented as an interpretation rather than conclusive proof.",
+          "Galileo later encountered asteroid 243 Ida in 1993.",
+          "The article's historical-significance claims are appropriately framed and are not materially exaggerated."
+        ],
+        "warnings": [
+          "The phrase \"heavily cratered\" is somewhat stronger than the wording in the cited 1992 scientific abstract, which describes Gaspra as irregular and discusses its craters. NASA's mission overview does characterize it as cratered, so this is not a material error.",
+          "The claim that Galileo \"returned about 150 photographs\" is supported by NASA historical material; the contemporary JPL release also refers to the broader set of Gaspra observations and scientific data."
+        ],
+        "researchSources": [
+          "NASA Science, Galileo mission overview and asteroid-flyby record. ([science.nasa.gov](https://science.nasa.gov/mission/galileo/?utm_source=openai))",
+          "NASA/JPL press release, “Galileo First Close-Up Image of Gaspra Released,” November 14, 1991. ([jpl.nasa.gov](https://www.jpl.nasa.gov/news/galileo-first-close-up-image-of-gaspra-released/?utm_source=openai))",
+          "Belton et al., “Galileo encounter with 951 Gaspra: First pictures of an asteroid,” Science, 1992. ([pubs.usgs.gov](https://pubs.usgs.gov/publication/70017001?utm_source=openai))",
+          "NASA Planetary Data System record for Galileo’s Gaspra encounter data. ([pds.nasa.gov](https://pds.nasa.gov/ds-view/pds/viewCollection.jsp?identifier=urn%3Anasa%3Apds%3Agalileo-traj-prejup%3Adata-gaspra&version=1.0&utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "A massive solar flare erupted from the surface of the Sun at 9:51 UTC on October 28, 2003.",
-    "author": "NASA Earth Observatory, “Massive Solar Flare,” October 29, 2003"
+    "text": "“the world's first close-up image of an asteroid”",
+    "author": "NASA/JPL, “Galileo First Close-Up Image of Gaspra Released,” November 14, 1991."
   },
   "onThisDay": {
-    "title": "The Sun Unleashes an X17 Flare",
-    "copy": "On October 28, 2003, solar active region NOAA 10486 produced an enormous X17 flare, followed by an Earth-directed coronal mass ejection. NASA and ESA observatories recorded one of the most powerful solar eruptions of its era, while satellite instruments measured a dramatic surge in solar X-ray and ultraviolet radiation. The eruption became a landmark episode in the Halloween solar storms of 2003."
+    "title": "Galileo Gives the Asteroid Belt a Face",
+    "copy": "On October 29, 1991, NASA’s Galileo spacecraft passed asteroid 951 Gaspra at close range—the first spacecraft encounter with an asteroid. Its images revealed an irregular, cratered world where astronomers had previously possessed only distant, unresolved observations. The photographs did not merely add another object to an astronomical catalog; they opened a new era in which asteroids could be studied as landscapes."
   },
   "instrument": {
-    "title": "GOES, SOHO, and TIMED Watch the Sun Break Loose",
-    "copy": "NOAA’s GOES satellites measured the flare’s X-ray intensity; SOHO’s LASCO coronagraph recorded the Earth-directed halo coronal mass ejection; and NASA’s TIMED and SORCE missions measured the sharp rise in solar X-ray and ultraviolet output. Together, these observations connected the visible solar eruption with its radiation and outward-moving cloud of solar material."
+    "title": "The Camera That Gave Gaspra a Surface",
+    "copy": "Galileo’s Solid-State Imaging camera produced the encounter’s historic views of Gaspra. The images revealed the asteroid’s uneven outline, craters, facets, and contrasting surface regions. Galileo also carried other remote-sensing instruments, including a near-infrared mapping spectrometer, allowing the encounter to combine visible imaging with broader physical and compositional observations."
   },
-  "updated": "2026-10-28"
+  "updated": "2026-10-29"
 };

@@ -1699,19 +1699,65 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "William M. “Bill” Shepherd, Yuri P. Gidzenko, and Sergei K. Krikalev",
+      "exactHistoricalDate": "October 31, 2000",
+      "headline": "The First Crew Moves Into the International Space Station",
+      "deck": "Soyuz TM-31 carried Expedition 1 toward the partly assembled station, beginning the ISS’s uninterrupted human occupation.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "Soyuz TM-31 launched from Baikonur Cosmodrome, Kazakhstan, carrying William Shepherd, Yuri Gidzenko, and Sergei Krikalev toward the International Space Station.",
+      "lore": "On October 31, 2000, the first long-term crew of the International Space Station began its journey into orbit. Their arrival two days later marked the beginning of continuous human presence aboard the station.",
+      "body": "<p>At 10:53 a.m. local time in Kazakhstan, Soyuz TM-31 launched from Baikonur Cosmodrome carrying NASA astronaut William M. “Bill” Shepherd and Russian cosmonauts Yuri P. Gidzenko and Sergei K. Krikalev. The spacecraft’s destination was the partly assembled International Space Station.</p><p>The spacecraft docked with the station on November 2, 2000. Expedition 1 thereby established the first continuous human presence aboard the ISS and began the work of preparing its basic systems for later scientific research.</p><p>The mission was an international undertaking involving NASA, Russia, and the European Space Agency among the station partners. The crew’s extended stay provided evidence that the ISS could support continuous human occupation and basic station operations.</p><blockquote>“Today at 10:53 Moscow time (07:53 GMT), a new chapter opened in the history of Space.”</blockquote><p>The launch itself did not demonstrate the station’s long-term scientific productivity. That required later missions and research activity. Its significance was more immediate: Expedition 1 helped turn an orbital construction project into a functioning international laboratory.</p>",
+      "wrongBelief": "The documented expectation was that the International Space Station would become a permanent human outpost and an operating laboratory in orbit.",
+      "evidence": "The October 31 launch demonstrated that the first resident crew had begun its journey to the station. The November 2 docking and the crew’s extended stay demonstrated that the ISS could support continuous human occupation and basic station operations. The launch alone did not demonstrate the station’s long-term scientific productivity; that required later missions and research activity.",
+      "primarySource": [
+        "NASA, “Expedition 1.”",
+        "European Space Agency, “First crew starts living and working on the International Space Station,” October 31, 2000.",
+        "NASA, “Oct. 31, 2000, Launch of First Crew to International Space Station.”",
+        "NASA, “Space Station 20th: Expedition 1 Crew Launches to the International Space Station!”"
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-10-31",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "Expedition 1 launched on October 31, 2000, from Baikonur Cosmodrome in Kazakhstan aboard Soyuz TM-31.",
+          "The launch time of 10:53 a.m. Kazakhstan local time is supported by NASA records.",
+          "The crew consisted of William M. Shepherd, Yuri P. Gidzenko, and Sergei K. Krikalev.",
+          "The spacecraft docked with the ISS on November 2, 2000.",
+          "Expedition 1 began the uninterrupted human presence aboard the ISS.",
+          "The crew performed initial station setup and prepared basic systems for later operations and research.",
+          "The ISS was an international undertaking involving NASA, Russia, ESA, and other station partners.",
+          "The article appropriately limits the claim about scientific productivity, stating that the launch itself did not demonstrate long-term research productivity.",
+          "The claim that the ISS was intended as a sustained research platform is supported.",
+          "The quotation is accurately transcribed and correctly attributed to the European Space Agency's October 31, 2000, press release."
+        ],
+        "warnings": [
+          "The headline \"The First Crew Moves Into the International Space Station\" could be read as describing October 31, 2000, but the crew launched that day and moved into the station after docking on November 2, 2000. The body and supporting copy correctly distinguish the launch from the arrival."
+        ],
+        "researchSources": [
+          "NASA, “Expedition 1.” ([nasa.gov](https://www.nasa.gov/mission/expedition-1/?utm_source=openai))",
+          "European Space Agency, “First crew starts living and working on the International Space Station,” October 31, 2000. ([esa.int](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/First_crew_starts_living_and_working_on_the_International_Space_Station?utm_source=openai))",
+          "NASA, “Oct. 31, 2000, Launch of First Crew to International Space Station.” ([nasa.gov](https://www.nasa.gov/image-article/oct-31-2000-launch-of-first-crew-international-space-station/?utm_source=openai))",
+          "NASA, “Space Station 20th: Expedition 1 Crew Launches to the International Space Station!” ([nasa.gov](https://www.nasa.gov/history/space-station-20th-expedition-1-crew-launches-to-the-international-space-station/?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“the world's first close-up image of an asteroid”",
-    "author": "NASA/JPL, “Galileo First Close-Up Image of Gaspra Released,” November 14, 1991."
+    "text": "Today at 10:53 Moscow time (07:53 GMT), a new chapter opened in the history of Space.",
+    "author": "European Space Agency, ESA Press Release Nr. 70-2000, October 31, 2000"
   },
   "onThisDay": {
-    "title": "Galileo Gives the Asteroid Belt a Face",
-    "copy": "On October 29, 1991, NASA’s Galileo spacecraft passed asteroid 951 Gaspra at close range—the first spacecraft encounter with an asteroid. Its images revealed an irregular, cratered world where astronomers had previously possessed only distant, unresolved observations. The photographs did not merely add another object to an astronomical catalog; they opened a new era in which asteroids could be studied as landscapes."
+    "title": "The First Crew Moves Into the International Space Station",
+    "copy": "On October 31, 2000, Soyuz TM-31 lifted off from Baikonur carrying William Shepherd, Yuri Gidzenko, and Sergei Krikalev. Their November 2 arrival began the ISS’s uninterrupted human presence and opened the station as a permanent platform for research in orbit."
   },
   "instrument": {
-    "title": "The Camera That Gave Gaspra a Surface",
-    "copy": "Galileo’s Solid-State Imaging camera produced the encounter’s historic views of Gaspra. The images revealed the asteroid’s uneven outline, craters, facets, and contrasting surface regions. Galileo also carried other remote-sensing instruments, including a near-infrared mapping spectrometer, allowing the encounter to combine visible imaging with broader physical and compositional observations."
+    "title": "The International Space Station Becomes a Laboratory",
+    "copy": "The ISS was designed as a sustained scientific platform. Expedition 1 established the basic living, communications, computer, and environmental systems needed for later investigations of physics, biology, and Earth from orbit."
   },
-  "updated": "2026-10-29"
+  "updated": "2026-10-31"
 };

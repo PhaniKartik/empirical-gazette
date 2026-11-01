@@ -1745,19 +1745,62 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "William E. Gordon",
+      "exactHistoricalDate": "November 1, 1963",
+      "headline": "A Giant Ear Opens in Puerto Rico",
+      "deck": "The Arecibo Ionospheric Observatory inaugurated a 305-meter instrument built to study Earth’s upper atmosphere and capable of opening new paths in radio astronomy and planetary radar.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "The Arecibo Observatory’s fixed spherical reflector was built in a natural karst sinkhole in the northern hills of Puerto Rico.",
+      "lore": "A telescope that could not turn its reflector still found a way to look outward: a movable transmitter-receiver assembly suspended above the enormous fixed surface allowed researchers to receive signals from different directions.",
+      "body": "<p>On November 1, 1963, the Arecibo Ionospheric Observatory formally opened in a natural karst sinkhole in northern Puerto Rico. Conceived for ionospheric research, the facility represented one of the early space age’s most ambitious scientific instruments.</p><p>Its approximately 1,000-foot, or 305-meter, spherical reflector was fixed in the ground rather than mounted on a steerable dish. Above it, a movable transmitter-receiver assembly gave researchers access to signals arriving from different directions while preserving the advantages of an exceptionally large collecting surface.</p><p>William E. Gordon, a Cornell electrical engineer and the observatory’s first director, helped shape the project. Cornell researchers and engineers, the Advanced Research Projects Agency, and U.S. Army Corps of Engineers personnel supported its development. Domingo Albino was among the engineers involved in the telescope’s construction and design.</p><p>The inauguration demonstrated that a huge fixed spherical reflector with a suspended receiving assembly could serve studies of the upper ionosphere while also supporting radio and radar astronomy. It did not itself establish later discoveries, including work associated with a binary pulsar or other subsequent scientific results, which followed from later observations, analysis, and instrument upgrades.</p>",
+      "wrongBelief": "William E. Gordon calculated that useful incoherent-scatter radar measurements required an antenna roughly 1,000 feet, or 305 meters, across; this documented design expectation shaped the decision to build the unusually large spherical reflector.",
+      "evidence": "The observatory’s formal inauguration and entry into operation on November 1, 1963, demonstrated that the completed fixed spherical reflector and suspended transmitter-receiver assembly could support ionospheric research while also enabling radio and radar astronomy. The inauguration itself did not establish later findings such as pulsar discoveries or gravitational-wave evidence; those resulted from subsequent observations, scientific analysis, and later instrument upgrades.",
+      "primarySource": [
+        "U.S. Defense Advanced Research Projects Agency, “Arecibo Observatory,” official innovation timeline.",
+        "National Science Foundation, Preservation Principles and Management Plan, Arecibo Observatory, Puerto Rico.",
+        "Cornell University, Selections Concerning the History of the Arecibo Observatory."
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-11-01",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "The formal inauguration date, November 1, 1963, is correct. ([darpa.mil](https://www.darpa.mil/about/innovation-timeline/arecibo-observatory))",
+          "The location in a natural karst sinkhole in northern Puerto Rico is correct. ([physicstoday.aip.org](https://physicstoday.aip.org/features/the-arecibo-observatory-fifty-astronomical-years))",
+          "The approximately 1,000-foot, or 305-meter, fixed spherical reflector and suspended movable transmitter-receiver assembly are accurately described. ([darpa.mil](https://www.darpa.mil/about/innovation-timeline/arecibo-observatory))",
+          "William E. Gordon was the Cornell electrical engineer who conceived and directed the project and served as its first director. Domingo Albino was involved in the telescope's construction and design. ([physicstoday.aip.org](https://physicstoday.aip.org/features/the-arecibo-observatory-fifty-astronomical-years))",
+          "The article correctly identifies the observatory's original ionospheric purpose and its capability for radio astronomy and planetary radar. ([darpa.mil](https://www.darpa.mil/about/innovation-timeline/arecibo-observatory))",
+          "The explanation of how movement of the feed assembly allowed observations from different directions while the reflector remained fixed is historically and technically sound. ([physicstoday.aip.org](https://physicstoday.aip.org/features/the-arecibo-observatory-fifty-astronomical-years))",
+          "The article appropriately distinguishes the 1963 inauguration from later pulsar discoveries, relativity tests, and other scientific results. ([physicstoday.aip.org](https://physicstoday.aip.org/features/the-arecibo-observatory-fifty-astronomical-years))",
+          "The statement about Gordon's calculation that useful incoherent-scatter measurements required an antenna roughly 1,000 feet across is supported. ([physicstoday.aip.org](https://physicstoday.aip.org/features/the-arecibo-observatory-fifty-astronomical-years))"
+        ],
+        "warnings": [
+          "The sentence stating that the inauguration 'demonstrated' the reflector's ability to support radio and radar astronomy is slightly stronger than necessary. The historical record supports that the completed instrument was designed and shown to be capable of those uses; later astronomical discoveries and results came from subsequent observations and upgrades. ([darpa.mil](https://www.darpa.mil/about/innovation-timeline/arecibo-observatory))",
+          "The article's source list is acceptable, but the quoted sentence is specifically drawn from Physics Today, which is identified separately under quoteAuthor rather than included in primarySource."
+        ],
+        "researchSources": [
+          "U.S. Defense Advanced Research Projects Agency, “Arecibo Observatory,” official innovation timeline. ([darpa.mil](https://www.darpa.mil/about/innovation-timeline/arecibo-observatory))",
+          "National Science Foundation, Preservation Principles and Management Plan, Arecibo Observatory, Puerto Rico, including the site history and inauguration record. ([nsf.gov](https://www.nsf.gov/mps/ast/env_impact_reviews/arecibo/section106/NSF_Arecibo_PPM-Plan_Final.pdf))",
+          "Cornell University, Selections Concerning the History of the Arecibo Observatory, a compilation of historical Cornell publications from 1963 onward. ([ecommons.cornell.edu](https://ecommons.cornell.edu/entities/publication/26d4b9b0-8f39-4746-a351-1ed585e7f771))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "Today at 10:53 Moscow time (07:53 GMT), a new chapter opened in the history of Space.",
-    "author": "European Space Agency, ESA Press Release Nr. 70-2000, October 31, 2000"
+    "text": "“Three years and $9 million later, the Arecibo Ionospheric Observatory was in operation.”",
+    "author": "Physics Today, “The Arecibo Observatory: Fifty astronomical years”"
   },
   "onThisDay": {
-    "title": "The First Crew Moves Into the International Space Station",
-    "copy": "On October 31, 2000, Soyuz TM-31 lifted off from Baikonur carrying William Shepherd, Yuri Gidzenko, and Sergei Krikalev. Their November 2 arrival began the ISS’s uninterrupted human presence and opened the station as a permanent platform for research in orbit."
+    "title": "A Giant Ear Opens in Puerto Rico",
+    "copy": "On November 1, 1963, the Arecibo Ionospheric Observatory opened in a limestone sinkhole in northern Puerto Rico. Conceived to probe Earth’s upper atmosphere, its enormous fixed reflector soon became a powerful instrument for listening to the radio universe and sending radar toward nearby worlds."
   },
   "instrument": {
-    "title": "The International Space Station Becomes a Laboratory",
-    "copy": "The ISS was designed as a sustained scientific platform. Expedition 1 established the basic living, communications, computer, and environmental systems needed for later investigations of physics, biology, and Earth from orbit."
+    "title": "The 305-Meter Reflector",
+    "copy": "Arecibo’s unusual design placed a movable transmitter-receiver assembly above a fixed spherical reflector nearly 1,000 feet across. That arrangement gave researchers a large collecting surface for faint radio signals and a way to study both the ionosphere and astronomical objects without moving the reflector itself."
   },
-  "updated": "2026-10-31"
+  "updated": "2026-11-01"
 };

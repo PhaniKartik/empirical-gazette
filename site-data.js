@@ -1788,19 +1788,63 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Giuseppe Colombo",
+      "exactHistoricalDate": "November 3, 1973",
+      "headline": "Mariner 10 Takes the Gravity-Assisted Road to Mercury",
+      "deck": "NASA launched the first spacecraft bound for Mercury—and the first interplanetary mission to use a gravity assist—from Cape Canaveral.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this edition.",
+      "lore": "Mariner 10 became the first spacecraft to visit two planets during one mission. Its route to Mercury depended on a technique in which Venus’s gravity reshaped the spacecraft’s solar orbit, reducing the launch energy otherwise required to reach Mercury.",
+      "body": "<p>On November 3, 1973, Mariner 10 lifted off from Launch Complex 36B at Cape Canaveral, Florida, aboard an Atlas-Centaur rocket. The 502-kilogram spacecraft was launched toward Venus and Mercury, with the primary objective of making the first close observations of Mercury.</p><p>Giuseppe Colombo’s analysis showed that Mariner 10 could be placed on repeated Mercury encounters. Earlier work by Michael Minovitch helped establish the mathematical basis for gravity-assist trajectories, while scientists and engineers at NASA’s Jet Propulsion Laboratory managed the mission and Boeing Aerospace Company built the spacecraft.</p><blockquote>The primary objective of this mission was to perform the first close observations of the planet Mercury.</blockquote><p>Mariner 10 reached Venus on February 5, 1974, then used Venus’s gravity to alter its solar orbit and continue toward Mercury. It made three Mercury encounters—in March and September 1974 and March 1975—returning more than 7,000 images and scientific measurements.</p><p>The launch demonstrated that Mariner 10 had entered its planned mission trajectory, but it did not by itself establish anything about Mercury. The later encounters provided evidence of a heavily cratered surface, a weak magnetic field, extreme differences between daytime and nighttime temperatures, and the absence of a substantial atmosphere.</p>",
+      "wrongBelief": "NASA was uncertain whether Mercury had an atmosphere at all.",
+      "evidence": "The November 3 launch demonstrated that Mariner 10 had entered the planned mission trajectory; it did not by itself establish anything about Mercury. Later Venus and Mercury encounters supplied the relevant evidence: images showed a Moon-like, cratered surface, magnetometer data indicated a weak magnetic field, and other measurements indicated that Mercury lacked a substantial atmosphere.",
+      "primarySource": "NASA/JPL, \"The Mariner 10 Mission.\"",
+      "editorialRecord": {
+        "publishedDate": "2026-11-03",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "November 3, 1973, is the correct launch date. ([science.nasa.gov](https://science.nasa.gov/mission/mariner-10/?utm_source=openai))",
+          "Launch Complex 36B at Cape Canaveral and the Atlas-Centaur launch vehicle are correct. ([science.nasa.gov](https://science.nasa.gov/mission/mariner-10/?utm_source=openai))",
+          "The approximately 502-kilogram spacecraft mass is supported. ([science.nasa.gov](https://science.nasa.gov/mission/mariner-10/?utm_source=openai))",
+          "Mariner 10 was the first spacecraft sent to Mercury, the first mission to explore two planets during one mission, and the first spacecraft to use a gravity assist to reach another planet. ([science.nasa.gov](https://science.nasa.gov/mission/mariner-10/?utm_source=openai))",
+          "The Venus gravity assist altered Mariner 10's trajectory and reduced the launch energy required to reach Mercury. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19760009906/downloads/19760009906.pdf?utm_source=openai))",
+          "Giuseppe Colombo's trajectory analysis enabled repeated Mercury encounters. ([nasa.gov](https://www.nasa.gov/history/45-years-ago-mariner-10-first-to-explore-mercury/))",
+          "The article's attribution of earlier gravity-assist work to Michael Minovitch is consistent with the dossier and is not overstated as direct mission management.",
+          "JPL managed the mission and Boeing Aerospace built the spacecraft, consistent with the dossier's cited mission documentation.",
+          "The February 5, 1974, Venus encounter and the three Mercury encounters in March 1974, September 1974, and March 1975 are correct. ([nasa.gov](https://www.nasa.gov/history/45-years-ago-mariner-10-first-to-explore-mercury/))",
+          "The reported findings—Mercury's heavily cratered surface, weak magnetic field, major day-night temperature differences, and very thin atmosphere—are supported by mission results. ([nasa.gov](https://www.nasa.gov/history/45-years-ago-mariner-10-first-to-explore-mercury/))",
+          "The article correctly distinguishes the launch's demonstration of a planned trajectory from the later encounters' scientific evidence.",
+          "The statement that NASA was uncertain whether Mercury had an atmosphere is supported by the mission's stated objective to investigate the atmosphere if one existed. ([nasa.gov](https://www.nasa.gov/history/45-years-ago-mariner-10-first-to-explore-mercury/))",
+          "The article contains no unsupported image claim and correctly reflects the intentional absence of an image."
+        ],
+        "warnings": [
+          "The article's statement that later measurements showed the 'absence of a substantial atmosphere' is accurate but should not be read as meaning Mercury had no atmosphere: Mariner 10 detected a very thin, helium-dominated atmosphere. ([nasa.gov](https://www.nasa.gov/history/45-years-ago-mariner-10-first-to-explore-mercury/))",
+          "The phrase 'more than 7,000 images and scientific measurements' is broadly supported, although the clearest documented figure is more than 7,000 images of Mercury, Venus, Earth, and the Moon; the wording could be read as claiming more than 7,000 measurements as well. ([jpl.nasa.gov](https://www.jpl.nasa.gov/images/pia03104-photomosaic-of-mercury-outbound-view/?utm_source=openai))"
+        ],
+        "researchSources": [
+          "NASA/JPL mission report, \"The Mariner 10 Mission,\" which records the November 3, 1973 launch, the Mercury objective, and the planned Venus gravity assist. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19760009906/downloads/19760009906.pdf?utm_source=openai))",
+          "NASA/JPL, \"Scientific Experimentation,\" a contemporary technical account of the mission’s launch and scientific measurements. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19770021263/downloads/19770021263.pdf?utm_source=openai))",
+          "NASA, \"45 Years Ago: Mariner 10 Off to Venus and Mercury,\" a historical account of the launch and mission design. ([nasa.gov](https://www.nasa.gov/history/45-years-ago-mariner-10-off-to-venus-and-mercury/?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“Three years and $9 million later, the Arecibo Ionospheric Observatory was in operation.”",
-    "author": "Physics Today, “The Arecibo Observatory: Fifty astronomical years”"
+    "text": "The primary objective of this mission was to perform the first close observations of the planet Mercury.",
+    "author": "NASA/JPL, \"The Mariner 10 Mission\""
   },
   "onThisDay": {
-    "title": "A Giant Ear Opens in Puerto Rico",
-    "copy": "On November 1, 1963, the Arecibo Ionospheric Observatory opened in a limestone sinkhole in northern Puerto Rico. Conceived to probe Earth’s upper atmosphere, its enormous fixed reflector soon became a powerful instrument for listening to the radio universe and sending radar toward nearby worlds."
+    "title": "Mariner 10 Takes the Gravity-Assisted Road to Mercury",
+    "copy": "On November 3, 1973, NASA launched Mariner 10 from Cape Canaveral toward Venus and Mercury. Its journey would make planetary-navigation history: after passing Venus, the spacecraft used the planet’s gravity to reshape its orbit and become the first probe to study Mercury at close range."
   },
   "instrument": {
-    "title": "The 305-Meter Reflector",
-    "copy": "Arecibo’s unusual design placed a movable transmitter-receiver assembly above a fixed spherical reflector nearly 1,000 feet across. That arrangement gave researchers a large collecting surface for faint radio signals and a way to study both the ionosphere and astronomical objects without moving the reflector itself."
+    "title": "Mariner 10’s Eyes and Magnetic Sense",
+    "copy": "Mariner 10 carried twin television cameras, a magnetometer, radiometers, ultraviolet instrumentation, plasma and charged-particle sensors, and radio-science equipment. Together, these instruments produced images and measurements that transformed Mercury from a largely unknown point of light into a world with craters, ridges, temperature extremes, and a weak magnetic field."
   },
-  "updated": "2026-11-01"
+  "updated": "2026-11-03"
 };

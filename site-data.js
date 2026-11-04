@@ -1832,19 +1832,57 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "John Stewart Bell",
+      "exactHistoricalDate": "November 4, 1964",
+      "headline": "The Four-November Challenge to Local Hidden Variables",
+      "deck": "John Stewart Bell turned the Einstein–Podolsky–Rosen dispute over quantum mechanics into a mathematical test.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this edition.",
+      "lore": "Bell’s paper initially attracted little attention, accumulating fewer than a dozen citations during its first six years, according to the American Physical Society.",
+      "body": "<p>On November 4, 1964, John Stewart Bell’s manuscript “On the Einstein Podolsky Rosen paradox” was received by the journal Physics. Bell was listed with the University of Wisconsin–Madison while on leave from CERN and SLAC.</p><p>The paper examined the Einstein–Podolsky–Rosen argument that quantum mechanics was incomplete and might require additional variables capable of restoring causality and locality. Bell converted that dispute into a mathematical confrontation between quantum-mechanical predictions and local hidden-variable theories.</p><p>Bell derived a constraint for theories combining additional variables with locality and argued that the constraint was incompatible with the statistical predictions of quantum mechanics. The analysis became known as Bell’s theorem and made the abstract dispute precise enough for later experimental investigation.</p><p>The paper did not report experimental data, rule out every possible hidden-variable theory, or establish a method for faster-than-light communication. Its demonstrated result concerned the incompatibility between quantum predictions and the particular combination of hidden variables and locality that Bell examined.</p>",
+      "wrongBelief": "The Einstein–Podolsky–Rosen argument held that quantum mechanics was incomplete and should be supplemented by additional variables capable of restoring causality and locality.",
+      "evidence": "The event demonstrated a mathematical constraint on local hidden-variable theories and Bell’s argument that this constraint conflicts with quantum mechanics’ statistical predictions. It did not itself produce experimental data, prove that every hidden-variable theory is impossible, or establish usable faster-than-light communication.",
+      "primarySource": "John S. Bell, “On the Einstein Podolsky Rosen paradox,” Physics Physique Fizika 1, no. 3 (1964), pp. 195–200; received November 4, 1964.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-04",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "John Stewart Bell authored “On the Einstein Podolsky Rosen paradox,” and the manuscript was received on November 4, 1964. ([doi.org](https://doi.org/10.1103%2Fphysicsphysiquefizika.1.195))",
+          "Bell’s listed affiliation was the University of Wisconsin in Madison, and the paper noted that he was on leave from SLAC and CERN. ([doi.org](https://doi.org/10.1103%2Fphysicsphysiquefizika.1.195))",
+          "Bell described the EPR argument as claiming that quantum mechanics was incomplete and should be supplemented by additional variables intended to restore causality and locality. ([journals.aps.org](https://journals.aps.org/ppf/pdf/10.1103/PhysicsPhysiqueFizika.1.195))",
+          "The paper mathematically formulated the local hidden-variable proposal and argued that it was incompatible with quantum mechanics’ statistical predictions. ([journals.aps.org](https://journals.aps.org/ppf/pdf/10.1103/PhysicsPhysiqueFizika.1.195))",
+          "The article correctly states that the paper did not report experimental data and that its result concerned local hidden-variable theories rather than every possible hidden-variable theory. ([journals.aps.org](https://journals.aps.org/ppf/pdf/10.1103/PhysicsPhysiqueFizika.1.195))",
+          "The claim that the work made the dispute experimentally testable is supported by later historical accounts from the American Physical Society. ([physics.aps.org](https://physics.aps.org/articles/pdf/10.1103/Physics.18.53))",
+          "The claim that the paper initially attracted little attention, receiving fewer than a dozen citations in its first six years, is supported by the American Physical Society. ([physics.aps.org](https://physics.aps.org/articles/pdf/10.1103/Physics.18.53))",
+          "The article appropriately avoids claiming that Bell’s 1964 paper itself established faster-than-light communication; Bell’s paper instead discussed nonlocal influence within the class of theories under examination. ([journals.aps.org](https://journals.aps.org/ppf/pdf/10.1103/PhysicsPhysiqueFizika.1.195))"
+        ],
+        "warnings": [
+          "The journal record displays a publication date of November 1, 1964, while separately identifying the manuscript as received on November 4, 1964. The article correctly and specifically describes November 4 as the receipt date, not the publication date. ([doi.org](https://doi.org/10.1103%2Fphysicsphysiquefizika.1.195))",
+          "“University of Wisconsin–Madison” modernizes the journal’s listed affiliation, which was “University of Wisconsin, Madison, Wisconsin”; this is not materially misleading. ([doi.org](https://doi.org/10.1103%2Fphysicsphysiquefizika.1.195))"
+        ],
+        "researchSources": [
+          "John S. Bell, “On the Einstein Podolsky Rosen paradox,” Physics Physique Fizika 1, no. 3 (1964), pp. 195–200; received November 4, 1964. ([doi.org](https://doi.org/10.1103%2Fphysicsphysiquefizika.1.195?utm_source=openai))",
+          "Albert Einstein, Boris Podolsky, and Nathan Rosen, “Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?” Physical Review 47 (1935), cited and discussed in Bell’s paper. ([doi.org](https://doi.org/10.1103%2Fphysicsphysiquefizika.1.195?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "The primary objective of this mission was to perform the first close observations of the planet Mercury.",
-    "author": "NASA/JPL, \"The Mariner 10 Mission\""
+    "text": "These additional variables were to restore to the theory causality and locality.",
+    "author": "John Stewart Bell, “On the Einstein Podolsky Rosen paradox,” 1964"
   },
   "onThisDay": {
-    "title": "Mariner 10 Takes the Gravity-Assisted Road to Mercury",
-    "copy": "On November 3, 1973, NASA launched Mariner 10 from Cape Canaveral toward Venus and Mercury. Its journey would make planetary-navigation history: after passing Venus, the spacecraft used the planet’s gravity to reshape its orbit and become the first probe to study Mercury at close range."
+    "title": "The Four-November Challenge to Local Hidden Variables",
+    "copy": "On November 4, 1964, physicist John Stewart Bell’s paper was received by the journal Physics. Bell took the Einstein–Podolsky–Rosen argument—that quantum mechanics might be incomplete—and turned it into a mathematical confrontation between quantum predictions and local hidden-variable theories. The paper did not report an experiment, but it identified a precise divide that later experiments could investigate."
   },
   "instrument": {
-    "title": "Mariner 10’s Eyes and Magnetic Sense",
-    "copy": "Mariner 10 carried twin television cameras, a magnetometer, radiometers, ultraviolet instrumentation, plasma and charged-particle sensors, and radio-science equipment. Together, these instruments produced images and measurements that transformed Mercury from a largely unknown point of light into a world with craters, ridges, temperature extremes, and a weak magnetic field."
+    "title": "The Instrument Was a Theorem",
+    "copy": "Bell’s 1964 work used no new laboratory device. Its instrument was a mathematical test: a constraint on theories that attempted to preserve both hidden variables and locality. The paper’s importance lay in making an abstract dispute experimentally addressable, while leaving the actual testing to later researchers."
   },
-  "updated": "2026-11-03"
+  "updated": "2026-11-04"
 };

@@ -1870,19 +1870,57 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Marie Curie",
+      "exactHistoricalDate": "November 5, 1906",
+      "headline": "Marie Curie Takes the Sorbonne Lectern",
+      "deck": "After Pierre Curie's death, Marie Curie assumed his physics teaching duties and became the first woman to teach at the Sorbonne.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "Marie Curie's first Sorbonne lecture opened with recent developments in electricity and matter rather than a ceremonial tribute.",
+      "lore": "The lecture followed Pierre Curie's death in an accident on April 19, 1906. Assigned responsibility for his teaching duties by the Faculty of Sciences, Marie Curie entered the Sorbonne's formal curriculum not through ceremony, but through a matter-of-fact survey of modern physics.",
+      "body": "<p>On November 5, 1906, Marie Curie delivered her first lecture at the Sorbonne in Paris after succeeding Pierre Curie in his physics teaching post. The Faculty of Sciences had assigned her responsibility for continuing his course following his death on April 19, 1906.</p><p>Her opening did not center on a eulogy or an elaborate defense of the scientific field. Instead, Curie reviewed recent developments in the theories of electricity and matter, presenting a concise account of how new ideas were reshaping physics.</p><p>The lecture marked Curie's entry into the Sorbonne teaching staff and made her the first woman to teach there. It demonstrated that a major scientific institution had placed a woman physicist at the center of its formal curriculum only months after Pierre Curie's death. Curie became a full professor in 1908.</p><p>The Sorbonne physics amphitheatre served as the setting for the course and as an institutional stage for transmitting scientific knowledge to students and scholars. Its later commemoration preserves the date and significance of Curie's first course there.</p>",
+      "wrongBelief": "The documented institutional expectation was that an inaugural lecture would normally include lavish praise for the predecessor and an eloquent defense of the lecturer's scientific field.",
+      "evidence": "The event demonstrated Marie Curie's appointment to a teaching role at the Sorbonne and preserved the opening of her lecture as a discussion of advances in physics. It did not, by itself, constitute a new experimental discovery or prove a new physical theory; its historical importance was institutional and educational.",
+      "primarySource": "Marie Curie, \"Les théories modernes relatives à l'électricité et à la matière,\" published from the lecture in Revue Scientifique in November 1906; contemporary lecture text reproduced in the American Institute of Physics historical archive; Sorbonne commemorative plaque text identifying November 5, 1906, as the date of Curie's first course there.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-05",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The date, November 5, 1906, is supported.",
+          "Marie Curie delivered her first Sorbonne course in the physics amphitheatre, later identified by the commemorative plaque as the Georges Lefebvre amphitheatre. ([sorbonne.fr](https://www.sorbonne.fr/pose-dune-plaque-commemorative-en-souvenir-de-marie-curie/))",
+          "Pierre Curie died in an accident on April 19, 1906, and Marie Curie assumed responsibility for continuing his course.",
+          "The lecture opened with a matter-of-fact discussion of developments in physics, rather than a ceremonial tribute to Pierre Curie. ([history.aip.org](https://history.aip.org/exhibits/curie/trag2.htm))",
+          "The subject, modern theories concerning electricity and matter, is accurately represented. ([history.aip.org](https://history.aip.org/exhibits/curie/trag2.htm))",
+          "Marie Curie's status as the first woman professor at the Sorbonne and her promotion to full professor in 1908 are supported. ([history.aip.org](https://history.aip.org/exhibits/curie/trag2.htm))",
+          "The article correctly distinguishes the lecture's institutional and educational significance from the making of a new experimental discovery or proof of a physical theory."
+        ],
+        "warnings": [
+          "The phrases \"at the center of its formal curriculum\" and \"institutional stage for transmitting scientific knowledge to students and scholars\" are interpretive but not materially exaggerated.",
+          "For maximum precision, \"first woman to teach at the Sorbonne\" could be rendered as \"the Sorbonne's first woman professor\" or \"the first woman appointed to a professorship there.\""
+        ],
+        "researchSources": [
+          "Marie Curie, \"Les théories modernes relatives à l'électricité et à la matière,\" published from the lecture in Revue Scientifique in November 1906. ([historyofideasblog.com](https://historyofideasblog.com/thesciencebookstore/2017/05/jf-this-was-the-first-lecture-curie-delivered-as-the-first-woman-to-have-a-teaching-position-at-the-sorbonne-she-took-the.html?utm_source=openai))",
+          "Contemporary lecture text reproduced in the American Institute of Physics historical archive. ([history.aip.org](https://history.aip.org/exhibits/curie/curie.pdf))",
+          "Sorbonne commemorative plaque text identifying November 5, 1906, as the date of Curie's first course there. ([sorbonne.fr](https://www.sorbonne.fr/pose-dune-plaque-commemorative-en-souvenir-de-marie-curie/))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "These additional variables were to restore to the theory causality and locality.",
-    "author": "John Stewart Bell, “On the Einstein Podolsky Rosen paradox,” 1964"
+    "text": "When one considers the progress that has been made in physics in the past ten years, one is surprised at the advance that has taken place in our ideas concerning electricity and matter.",
+    "author": "Marie Curie, opening of her first Sorbonne lecture, November 5, 1906"
   },
   "onThisDay": {
-    "title": "The Four-November Challenge to Local Hidden Variables",
-    "copy": "On November 4, 1964, physicist John Stewart Bell’s paper was received by the journal Physics. Bell took the Einstein–Podolsky–Rosen argument—that quantum mechanics might be incomplete—and turned it into a mathematical confrontation between quantum predictions and local hidden-variable theories. The paper did not report an experiment, but it identified a precise divide that later experiments could investigate."
+    "title": "Marie Curie Takes the Sorbonne Lectern",
+    "copy": "On November 5, 1906, Marie Curie delivered her first lecture at the Sorbonne. Appointed to continue Pierre Curie's physics course after his death, she became the first woman to teach at the institution. Her opening was not a eulogy or a spectacle, but a concise account of how new ideas about electricity and matter were reshaping physics."
   },
   "instrument": {
-    "title": "The Instrument Was a Theorem",
-    "copy": "Bell’s 1964 work used no new laboratory device. Its instrument was a mathematical test: a constraint on theories that attempted to preserve both hidden variables and locality. The paper’s importance lay in making an abstract dispute experimentally addressable, while leaving the actual testing to later researchers."
+    "title": "The Sorbonne Physics Amphitheatre",
+    "copy": "The amphitheatre was more than a setting: it was the university's instrument for transmitting scientific knowledge to a large public of students and scholars. On November 5, 1906, it became the documented site of Curie's first Sorbonne course and a visible stage in the history of scientific institutions."
   },
-  "updated": "2026-11-04"
+  "updated": "2026-11-05"
 };

@@ -1908,19 +1908,56 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Edwin H. Armstrong",
+      "exactHistoricalDate": "November 6, 1935",
+      "headline": "The Signal That Turned Down the Static",
+      "deck": "Edwin H. Armstrong presented a wide-band frequency-modulation system intended to reduce interference in radio reception.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "Edwin H. Armstrong presented his frequency-modulation system at the Institute of Radio Engineers' New York meeting in the Engineers Building on November 6, 1935.",
+      "lore": "Armstrong's achievement was not a single device but an integrated transmitting-and-receiving system. Its significance lay in treating interference through changes in carrier frequency rather than the amplitude changes used by conventional broadcasting.",
+      "body": "<p>On November 6, 1935, Edwin H. Armstrong presented “A Method of Reducing Disturbances in Radio Signaling by a System of Frequency Modulation” to members of the Institute of Radio Engineers at the Engineers Building in New York City.</p><p>Conventional amplitude-modulation broadcasting encoded sound through changes in signal strength. Armstrong's system instead varied the carrier wave's frequency, an approach intended to make reception less vulnerable to static and other interference.</p><p>Contemporary accounts reported experimental transmissions associated with the Empire State Building and reception sites in New Jersey and Long Island. The reported tests described FM signals remaining intelligible under noise and static conditions that seriously degraded nearby amplitude-modulated broadcasts.</p><p>The presentation demonstrated a promising method for reducing audible interference, but it did not establish that FM would immediately replace existing broadcast systems or guarantee the elimination of every kind of noise. Armstrong's paper was later published in the May 1936 issue of the Proceedings of the Institute of Radio Engineers.</p>",
+      "wrongBelief": "The apparent complexity of Armstrong's system might delay its adoption, perhaps limiting it initially to point-to-point communications.",
+      "evidence": "The event demonstrated in reported experimental tests that FM signals could remain intelligible under noise and static conditions that seriously degraded nearby amplitude-modulated broadcasts. It did not demonstrate that FM was superior in every environment, that all interference had been eliminated, or that broadcasters would adopt it commercially at once.",
+      "primarySource": "Edwin H. Armstrong, “A Method of Reducing Disturbances in Radio Signaling by a System of Frequency Modulation,” Proceedings of the Institute of Radio Engineers, May 1936; the paper records that it was presented at the New York meeting on November 6, 1935. Contemporary accounts also include “Phase-Frequency Modulation,” Electronics, November 1935, and “2½-Meter Demonstration,” Radio News, March 1936.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-06",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "Edwin H. Armstrong presented the paper “A Method of Reducing Disturbances in Radio Signaling by a System of Frequency Modulation” at the Institute of Radio Engineers' New York meeting on November 6, 1935. ([worldradiohistory.com](https://www.worldradiohistory.com/BOOKSHELF-ARH/Technology/Technology-Early-Radio/Edwin-H-Armstrong-IRE-Papers.pdf?utm_source=openai))",
+          "The presentation concerned frequency modulation, in which information was conveyed through changes in carrier frequency rather than the amplitude changes used in conventional AM broadcasting. ([worldradiohistory.com](https://www.worldradiohistory.com/Archive-Electronics/30s/Electronics-1935-11.pdf?utm_source=openai))",
+          "Contemporary reports documented experimental transmissions involving the Empire State Building and reception in New Jersey and Long Island, including tests in which FM remained intelligible amid noise and static that impaired AM reception. ([worldradiohistory.com](https://www.worldradiohistory.com/BOOKSHELF-ARH/Biography/Legacies-of-Edwin-Howard-Armstong-1990-11-Radio-Club-of-America.pdf?utm_source=openai))",
+          "The article appropriately distinguishes demonstrated noise reduction from broader claims that FM would immediately replace existing broadcasting or eliminate all forms of interference.",
+          "The paper was published in the May 1936 Proceedings of the Institute of Radio Engineers. ([worldradiohistory.com](https://www.worldradiohistory.com/BOOKSHELF-ARH/Biography/Legacies-of-Edwin-Howard-Armstong-1990-11-Radio-Club-of-America.pdf?utm_source=openai))",
+          "The article's description of the system as an integrated transmitting-and-receiving arrangement is supported by Armstrong's paper, which discusses both arrangements and the mechanism of noise reduction. ([worldradiohistory.com](https://www.worldradiohistory.com/BOOKSHELF-ARH/Biography/Legacies-of-Edwin-Howard-Armstong-1990-11-Radio-Club-of-America.pdf?utm_source=openai))",
+          "The statement that complexity could delay adoption or initially limit the system to point-to-point communications is supported by contemporary reporting. ([worldradiohistory.com](https://www.worldradiohistory.com/Archive-Radio-News/30s/Radio-News-1936-03-R.pdf?utm_source=openai))"
+        ],
+        "warnings": [
+          "The venue is described in contemporary reporting as the Engineering Societies Building, while the article calls it the Engineers Building. These names refer to the same midtown Manhattan location, but the formal name would be preferable for maximum precision. ([worldradiohistory.com](https://www.worldradiohistory.com/Archive-Radio-News/30s/Radio-News-1936-03-R.pdf?utm_source=openai))"
+        ],
+        "researchSources": [
+          "Edwin H. Armstrong, “A Method of Reducing Disturbances in Radio Signaling by a System of Frequency Modulation,” Proceedings of the Institute of Radio Engineers, May 1936; the paper records that it was presented at the New York meeting on November 6, 1935. ([worldradiohistory.com](https://www.worldradiohistory.com/BOOKSHELF-ARH/Technology/Technology-Early-Radio/Edwin-H-Armstrong-IRE-Papers.pdf?utm_source=openai))",
+          "“Phase-Frequency Modulation,” Electronics, November 1935, a contemporary report on the Institute of Radio Engineers meeting and Armstrong's disclosed system. ([worldradiohistory.com](https://www.worldradiohistory.com/Archive-Electronics/30s/Electronics-1935-11.pdf?utm_source=openai))",
+          "“2½-Meter Demonstration,” Radio News, March 1936, a contemporary account of the meeting's reported demonstration. ([worldradiohistory.com](https://www.worldradiohistory.com/Archive-Radio-News/30s/Radio-News-1936-03-R.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "When one considers the progress that has been made in physics in the past ten years, one is surprised at the advance that has taken place in our ideas concerning electricity and matter.",
-    "author": "Marie Curie, opening of her first Sorbonne lecture, November 5, 1906"
+    "text": "A new method of reducing the effects of all kinds of disturbances is described.",
+    "author": "Edwin H. Armstrong, abstract of “A Method of Reducing Disturbances in Radio Signaling by a System of Frequency Modulation,” Proceedings of the Institute of Radio Engineers, May 1936."
   },
   "onThisDay": {
-    "title": "Marie Curie Takes the Sorbonne Lectern",
-    "copy": "On November 5, 1906, Marie Curie delivered her first lecture at the Sorbonne. Appointed to continue Pierre Curie's physics course after his death, she became the first woman to teach at the institution. Her opening was not a eulogy or a spectacle, but a concise account of how new ideas about electricity and matter were reshaping physics."
+    "title": "The Signal That Turned Down the Static",
+    "copy": "On November 6, 1935, Edwin H. Armstrong presented a new radio system to the Institute of Radio Engineers in New York City. Instead of encoding sound through changes in signal strength, his wide-band frequency-modulation system placed the information in changes of frequency—an approach intended to make radio reception far less vulnerable to static. The presentation did not instantly remake broadcasting, but it gave engineers a documented demonstration that clearer reception was possible."
   },
   "instrument": {
-    "title": "The Sorbonne Physics Amphitheatre",
-    "copy": "The amphitheatre was more than a setting: it was the university's instrument for transmitting scientific knowledge to a large public of students and scholars. On November 5, 1906, it became the documented site of Curie's first Sorbonne course and a visible stage in the history of scientific institutions."
+    "title": "Armstrong's Frequency-Modulation System",
+    "copy": "Armstrong's achievement was not a single device but an integrated transmitting-and-receiving system. Its significance lay in how the system treated interference: the transmitted signal carried sound through frequency changes, while the receiving arrangement was designed to reject much of the noise that troubled conventional radio. Contemporary reports described successful experimental reception, while also noting the system's complexity and uncertain commercial future."
   },
-  "updated": "2026-11-05"
+  "updated": "2026-11-06"
 };

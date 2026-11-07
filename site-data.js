@@ -1945,19 +1945,57 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Frederick B. Farquharson",
+      "exactHistoricalDate": "November 7, 1940",
+      "headline": "When Tacoma’s Bridge Learned to Twist",
+      "deck": "A windstorm transformed the Tacoma Narrows Bridge from a visibly flexible structure into a landmark case in structural aerodynamics.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this edition.",
+      "lore": "The collapse was filmed and photographed, creating an unusually detailed visual record for later engineering analysis.",
+      "body": "<p>On November 7, 1940, the Tacoma Narrows Bridge collapsed in Puget Sound, Washington, after sustained winds rose from about 38 to 42 miles per hour. The bridge had opened only a few months earlier, on July 1, and had already developed a reputation for pronounced vertical movement in moderate winds.</p><p>That morning, its familiar up-and-down motion changed into severe twisting. Opposite sides of the roadway rose and fell as the structure entered destructive torsional motion. At about 11 a.m., a roughly 600-foot section of roadway fell into Puget Sound; the main span collapsed within minutes. People on the bridge escaped, but a dog trapped in a car was killed.</p><p>Eyewitness accounts, photographs, and motion pictures documented the transition from vertical movement to torsional failure. Frederick B. Farquharson filmed the bridge’s oscillations, while Tacoma News Tribune photographer Howard Clifford recorded the collapse. The surviving record demonstrated the bridge’s changing behavior under wind, but it did not by itself settle the later debate over the relative roles of flexibility, vortex shedding, cable movement, and torsional flutter.</p><p>The failure exposed the danger of treating wind chiefly as a sideways, static load. The Federal Works Administration’s investigation considered simple mechanical resonance an improbable explanation, while later analyses emphasized torsional flutter and vortex-shedding effects. The collapse helped establish the importance of studying wind-induced motion, torsional behavior, and aerodynamic stability in bridge design.</p>",
+      "wrongBelief": "A documented design assumption was that the bridge’s main cables would provide sufficient stiffness and that wind would act chiefly sideways rather than producing dangerous vertical or twisting motion.",
+      "evidence": "Eyewitness testimony, photographs, and motion pictures showed that the bridge changed from vertical bouncing to pronounced torsional motion, with opposite sides of the roadway rising and falling before structural failure. This demonstrated destructive twisting under wind. It did not, by itself, prove the later complete aerodynamic explanation; investigators and engineers continued debating the relative roles of flexibility, vortex shedding, cable movement, and torsional flutter.",
+      "primarySource": "Washington State Department of Transportation, “Eyewitness accounts of November 7, 1940”; Library of Congress, Historic American Engineering Record, “Tacoma Narrows Bridge,” HAER No. WA-99; Library of Congress, “Suspension bridge collapses into the Tacoma Narrows”; Tacoma Narrows Bridge, Report of the Board of Investigation, Smithsonian’s National Museum of American History.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-07",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The date, location, bridge opening date, wind measurements, transition from vertical motion to torsional twisting, approximate 600-foot roadway section, and collapse sequence are supported. ([aps.org](https://www.aps.org/apsnews/2016/11/collapse-of-tacoma-narrows-bridge?utm_source=openai))",
+          "Frederick B. Farquharson filmed the bridge, and Howard Clifford photographed the collapse using a Graflex 4-by-5 reflex camera. ([apps.wsdot.wa.gov](https://apps.wsdot.wa.gov/TNBhistory/eyewitnesses.htm?utm_source=openai))",
+          "The account that people escaped while Leonard Coatsworth's dog was killed is supported by eyewitness testimony. ([apps.wsdot.wa.gov](https://apps.wsdot.wa.gov/TNBhistory/eyewitnesses.htm?utm_source=openai))",
+          "The discussion of the misleading resonance explanation and the Federal Works Administration's conclusion that resonance was improbable is supported. ([aps.org](https://www.aps.org/apsnews/2016/11/collapse-of-tacoma-narrows-bridge?utm_source=openai))",
+          "The description of the design assumption concerning lateral wind forces, cable stiffness, and the omission of deeper stiffening trusses is supported. ([aps.org](https://www.aps.org/apsnews/2016/11/collapse-of-tacoma-narrows-bridge?utm_source=openai))",
+          "The statement that the evidence demonstrated changing bridge behavior and destructive torsional motion, but did not alone settle the complete aerodynamic explanation, is appropriately cautious and historically accurate. ([apps.wsdot.wa.gov](https://apps.wsdot.wa.gov/TNBhistory/eyewitnesses.htm?utm_source=openai))"
+        ],
+        "warnings": [
+          "The phrase \"sustained winds rose from about 38 to 42 miles per hour\" is broadly supported, but the underlying record reports measurements taken at different times and locations; \"wind speeds were measured at about 38 to 42 miles per hour\" would be slightly more precise. ([apps.wsdot.wa.gov](https://apps.wsdot.wa.gov/TNBhistory/collapse.htm?utm_source=openai))",
+          "The article appropriately presents torsional flutter and vortex shedding as later analytical interpretations rather than claiming that the surviving visual record alone proved the complete aerodynamic mechanism. ([aps.org](https://www.aps.org/apsnews/2016/11/collapse-of-tacoma-narrows-bridge?utm_source=openai))"
+        ],
+        "researchSources": [
+          "Washington State Department of Transportation, “Eyewitness accounts of November 7, 1940,” reproducing accounts from official reports, newspapers, interviews, and memoirs. ([apps.wsdot.wa.gov](https://apps.wsdot.wa.gov/TNBhistory/eyewitnesses.htm))",
+          "Library of Congress, Historic American Engineering Record, “Tacoma Narrows Bridge,” HAER No. WA-99. ([tile.loc.gov](https://tile.loc.gov/storage-services/master/pnp/habshaer/wa/wa0400/wa0453/data/wa0453data.pdf))",
+          "Library of Congress, contemporary photograph, “Suspension bridge collapses into the Tacoma Narrows,” dated November 7, 1940. ([loc.gov](https://www.loc.gov/resource/cph.3a46846/?utm_source=openai))",
+          "Tacoma Narrows Bridge, Report of the Board of Investigation, archival record held by the Smithsonian’s National Museum of American History. ([americanhistory.si.edu](https://americanhistory.si.edu/pt/collections/archival-item/sova-nmah-ac-0976-ref537?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "A new method of reducing the effects of all kinds of disturbances is described.",
-    "author": "Edwin H. Armstrong, abstract of “A Method of Reducing Disturbances in Radio Signaling by a System of Frequency Modulation,” Proceedings of the Institute of Radio Engineers, May 1936."
+    "text": "“It was my bridge.”",
+    "author": "Clark Eldridge, project engineer for the Washington State Toll Bridge Authority"
   },
   "onThisDay": {
-    "title": "The Signal That Turned Down the Static",
-    "copy": "On November 6, 1935, Edwin H. Armstrong presented a new radio system to the Institute of Radio Engineers in New York City. Instead of encoding sound through changes in signal strength, his wide-band frequency-modulation system placed the information in changes of frequency—an approach intended to make radio reception far less vulnerable to static. The presentation did not instantly remake broadcasting, but it gave engineers a documented demonstration that clearer reception was possible."
+    "title": "When Tacoma’s Bridge Learned to Twist",
+    "copy": "On November 7, 1940, the Tacoma Narrows Bridge collapsed in a windstorm after its familiar vertical bouncing changed into violent twisting. Film and eyewitness accounts preserved the moment when a modern suspension bridge revealed a new engineering problem: wind could drive a structure into destructive motion not captured by static-load calculations alone."
   },
   "instrument": {
-    "title": "Armstrong's Frequency-Modulation System",
-    "copy": "Armstrong's achievement was not a single device but an integrated transmitting-and-receiving system. Its significance lay in how the system treated interference: the transmitted signal carried sound through frequency changes, while the receiving arrangement was designed to reject much of the noise that troubled conventional radio. Contemporary reports described successful experimental reception, while also noting the system's complexity and uncertain commercial future."
+    "title": "The Camera as Scientific Witness",
+    "copy": "Frederick Farquharson filmed the bridge’s oscillations for later study, while photographer Howard Clifford recorded the collapse with an old Graflex 4-by-5 reflex camera. Their images became primary evidence of the bridge’s shift from vertical movement to torsional twisting."
   },
-  "updated": "2026-11-06"
+  "updated": "2026-11-07"
 };

@@ -1983,19 +1983,58 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Wilhelm Conrad Röntgen",
+      "exactHistoricalDate": "November 8, 1895",
+      "headline": "The Unknown Rays That Made Matter Look Transparent",
+      "deck": "At the Physical Institute of the University of Würzburg, Wilhelm Conrad Röntgen detected an unseen emission that could pass through some materials and reveal hidden structures as shadows.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "The discharge tube and fluorescent screen made an unseen emission observable outside the tube.",
+      "lore": "Röntgen later called the emission X-rays because its physical nature was still unknown. The famous radiograph of his wife Anna Bertha Röntgen's hand was made later, in December 1895, not on November 8.",
+      "body": "<p>On November 8, 1895, at the Physical Institute of the University of Würzburg in Würzburg, Bavaria, Germany, physicist Wilhelm Conrad Röntgen was investigating cathode-ray discharge tubes when he noticed that an effect from a covered tube could still be detected outside it.</p><p>A nearby fluorescent screen glowed even though visible light from the tube had been blocked. Röntgen then found that the new radiation passed through some materials to different degrees, producing shadows and images that visible light could not produce.</p><p>The observation demonstrated a previously unknown, observable radiation and its potential for imaging structures hidden from ordinary sight. It did not establish the radiation's complete physical nature or its later electromagnetic classification. Röntgen used the provisional designation X-rays, with the X marking the radiation as unknown.</p><p>His provisional communication, <i>Über eine neue Art von Strahlen</i>—<i>On a New Kind of Rays</i>—was submitted to the Würzburg Physico-Medical Society on December 28, 1895. The discovery opened a new branch of physics and helped influence scientific instrumentation, materials research, and medical imaging.</p>",
+      "wrongBelief": "The documented uncertainty concerned the nature of the emission itself: Röntgen did not assign it a known physical identity and used the provisional designation X-rays.",
+      "evidence": "The evidence showed that an unseen emission associated with the discharge tube could produce fluorescence beyond an opaque covering and penetrate materials with unequal effectiveness. It demonstrated a new observable radiation and its imaging potential, but on November 8 it did not establish the radiation's complete physical nature or later electromagnetic classification.",
+      "primarySource": "Wilhelm Conrad Röntgen, \"Über eine neue Art von Strahlen\" (\"On a New Kind of Rays\"), provisional communication submitted to the Würzburg Physico-Medical Society on December 28, 1895.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-08",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "Wilhelm Conrad Röntgen is correctly identified as the discoverer.",
+          "November 8, 1895, is correctly given as the date of the initial observation.",
+          "The Physical Institute of the University of Würzburg is correctly identified as the location.",
+          "The covered discharge tube, fluorescent-screen glow, and blocked visible light are supported.",
+          "The radiation's unequal penetration of materials and imaging potential are supported.",
+          "The article correctly distinguishes the demonstrated effects from the radiation's later physical classification.",
+          "The explanation of the provisional designation X-rays is supported.",
+          "The December 28, 1895, submission date and title 'On a New Kind of Rays' are supported.",
+          "The statement that Anna Bertha Röntgen's famous hand radiograph was made later in December 1895 is supported.",
+          "The significance claims concerning physics, instrumentation, materials research, and medical imaging are consistent with the dossier and are not materially exaggerated."
+        ],
+        "warnings": [
+          "The sentence 'Röntgen then found that the new radiation passed through some materials...' may imply that the penetration and imaging experiments occurred on November 8 itself. The dossier supports the initial observation on November 8 but indicates that the radiographs and fuller demonstrations followed later in 1895. Consider clarifying the chronology."
+        ],
+        "researchSources": [
+          "Wilhelm Conrad Röntgen, \"Über eine neue Art von Strahlen\" (\"On a New Kind of Rays\"), provisional communication submitted to the Würzburg Physico-Medical Society on December 28, 1895. The original report describes the fluorescent response and the new radiation's unequal penetration of materials. ([uni-wuerzburg.de](https://www.uni-wuerzburg.de/fileadmin/uniwue/Presse/pdf-Dateien/Roentgen-Ausstellungskatalog_en.pdf?utm_source=openai))",
+          "English translation of Röntgen's report published in Nature on January 23, 1896. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/4920446/?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“It was my bridge.”",
-    "author": "Clark Eldridge, project engineer for the Washington State Toll Bridge Authority"
+    "text": "On a New Kind of Rays",
+    "author": "Wilhelm Conrad Röntgen"
   },
   "onThisDay": {
-    "title": "When Tacoma’s Bridge Learned to Twist",
-    "copy": "On November 7, 1940, the Tacoma Narrows Bridge collapsed in a windstorm after its familiar vertical bouncing changed into violent twisting. Film and eyewitness accounts preserved the moment when a modern suspension bridge revealed a new engineering problem: wind could drive a structure into destructive motion not captured by static-load calculations alone."
+    "title": "The Unknown Rays That Made Matter Look Transparent",
+    "copy": "On November 8, 1895, physicist Wilhelm Conrad Röntgen noticed that something from a shielded discharge tube could make a fluorescent screen glow. The effect was not visible light, and it passed through materials that blocked ordinary illumination. Röntgen called the emission X-rays because its nature was still unknown. Within weeks, his report and radiographs showed that the discovery could turn hidden structures into visible shadows—giving physics a new kind of radiation and science a new way to see inside objects."
   },
   "instrument": {
-    "title": "The Camera as Scientific Witness",
-    "copy": "Frederick Farquharson filmed the bridge’s oscillations for later study, while photographer Howard Clifford recorded the collapse with an old Graflex 4-by-5 reflex camera. Their images became primary evidence of the bridge’s shift from vertical movement to torsional twisting."
+    "title": "The Discharge Tube and the Fluorescent Screen",
+    "copy": "Röntgen's discovery depended on a late-19th-century cathode-ray discharge tube together with a fluorescent screen. The tube generated the phenomenon under investigation; the screen provided the visible sign that an unseen emission had escaped its enclosure. The arrangement did not explain the rays, but it made their existence observable and led to the first experiments in X-ray imaging."
   },
-  "updated": "2026-11-07"
+  "updated": "2026-11-08"
 };

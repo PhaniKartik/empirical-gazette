@@ -2022,19 +2022,67 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Wernher von Braun, director of NASA's Marshall Space Flight Center",
+      "exactHistoricalDate": "November 9, 1967",
+      "headline": "Saturn V Faces Its First Sky",
+      "deck": "Apollo 4's uncrewed flight tested the complete Saturn V, an Apollo command and service module, a simulated translunar-injection burn, and a lunar-return-speed entry.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "Apollo 4 carried an automatic command-module apogee camera that photographed Earth around the mission's highest point.",
+      "body": "<p>At 7:00:01 a.m. Eastern Standard Time on November 9, 1967, the uncrewed AS-501 mission lifted off from Launch Complex 39A at Kennedy Space Center, Florida. Apollo 4 was the first flight of the complete three-stage Saturn V and the first integrated test of the launch vehicle with an Apollo command and service module.</p><p>After reaching Earth orbit, the S-IVB third stage restarted for a simulated translunar-injection burn. The command module then entered the atmosphere at roughly lunar-return velocity, testing the Block II heat-shield design under conditions similar to those expected during a return from the Moon.</p><p>NASA's postflight summary reported that the primary objectives had been accomplished, including tests of structural and thermal integrity, vehicle-spacecraft compatibility, S-IVB restart, heat-shield performance, and ground-support operations. The command module splashed down in the Pacific Ocean near Hawaii about 8 hours and 37 minutes after launch, approximately 14 to 16 kilometers from the planned recovery point.</p><p>The mission demonstrated that the Saturn V and Apollo spacecraft could operate together through launch, orbital operations, a simulated translunar-injection burn, high-speed command-module entry, and recovery. It did not demonstrate the safety of a crewed flight, lunar navigation, lunar-orbit operations, or a lunar landing.</p>",
+      "wrongBelief": "Wernher von Braun and George Low believed that data from several flights would be needed before the Saturn V could be regarded as ready for a lunar mission.",
+      "evidence": "Apollo 4 demonstrated the integrated operation of the Saturn V and Apollo spacecraft through launch, Earth orbit, S-IVB restart, simulated translunar injection, high-speed command-module entry, and recovery. NASA reported that the mission accomplished its primary objectives, including structural and thermal integrity, vehicle-spacecraft compatibility, heat-shield performance, and ground-support operations. It did not demonstrate crewed-flight safety, lunar navigation, lunar-orbit operations, or a lunar landing.",
+      "primarySource": [
+        "NASA, Apollo 4 mission page and mission facts.",
+        "NASA, Apollo 4 flight-summary document listing the mission's primary objectives and their accomplishment.",
+        "NASA technical report, AS-501 mission introduction and flight description.",
+        "NASA, Astronautics and Aeronautics, 1967, November 9 entry reporting the mission's results and contemporary reactions."
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-11-09",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "The date, launch time, mission designation AS-501, and launch site are correct. NASA records liftoff at 7:00:01 a.m. EST on November 9, 1967, from Launch Complex 39A at Kennedy Space Center. ([nasa.gov](https://www.nasa.gov/mission/apollo-4/?utm_source=openai))",
+          "Apollo 4 was the first all-up test and first flight of the three-stage Saturn V, carrying an Apollo command and service module into Earth orbit. ([nasa.gov](https://www.nasa.gov/mission/apollo-4/?utm_source=openai))",
+          "The S-IVB third stage was restarted after Earth orbits for a simulated translunar-injection burn. ([nasa.gov](https://www.nasa.gov/mission/apollo-4/?utm_source=openai))",
+          "The command module underwent atmospheric entry at approximately lunar-return velocity, testing the heat shield under conditions similar to those expected on a lunar return. ([nasa.gov](https://www.nasa.gov/mission/apollo-4/?utm_source=openai))",
+          "The stated primary objectives—structural and thermal integrity, vehicle-spacecraft compatibility, S-IVB restart, heat-shield performance, and ground-support operations—are supported by NASA mission summaries. ([nasa.gov](https://www.nasa.gov/mission/apollo-4/?utm_source=openai))",
+          "The splashdown description is accurate. The command module landed in the Pacific near Hawaii approximately 8 hours and 37 minutes after launch, about 14 to 16 kilometers from the planned point. ([nasa.gov](https://www.nasa.gov/mission/apollo-4/?utm_source=openai))",
+          "The article appropriately distinguishes what Apollo 4 demonstrated from what it did not demonstrate: it was uncrewed and did not test crewed-flight safety, lunar navigation, lunar-orbit operations, or a lunar landing. ([nasa.gov](https://www.nasa.gov/mission/apollo-4/?utm_source=openai))",
+          "The statement about Wernher von Braun and George Low's expectation that data from several flights would be needed before Saturn V was considered ready for a lunar mission is supported by NASA's historical account. ([nasa.gov](https://www.nasa.gov/history/Apollo204/chariot.html?utm_source=openai))",
+          "The automatic command-module apogee camera and its Earth photography are documented by NASA. ([nasa.gov](https://www.nasa.gov/mission/apollo-4/?utm_source=openai))",
+          "The quotation attributed to Wernher von Braun is supported by NASA historical material and is accurately reproduced. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/02/SP-4313.pdf?emrc=aff800&utm_source=openai))",
+          "The article's broader significance claim—that Apollo 4 converted Saturn V from an engineering promise into a tested flight system—is a reasonable editorial synthesis of the documented successful integrated test, not an unsupported claim of lunar-mission capability."
+        ],
+        "warnings": [
+          "The label \"scientist\" for Wernher von Braun is not materially wrong, but \"rocket engineer\" or \"aerospace engineer\" would be more precise editorially.",
+          "The article correctly describes testing of the Block II heat-shield design; this should not be read as saying Apollo 4 carried a complete Block II spacecraft. NASA identifies the flown spacecraft as CSM-017, a Block I command and service module with Block II heat-shield features."
+        ],
+        "researchSources": [
+          "NASA, Apollo 4 mission page and mission facts. ([nasa.gov](https://www.nasa.gov/mission/apollo-4/?utm_source=openai))",
+          "NASA, Apollo 4 flight-summary document listing the mission's primary objectives and their accomplishment. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19740013403/downloads/19740013403.pdf?utm_source=openai))",
+          "NASA technical report, AS-501 mission introduction and flight description. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19680026222/downloads/19680026222.pdf?utm_source=openai))",
+          "NASA, Astronautics and Aeronautics, 1967, November 9 entry reporting the mission's results and contemporary reactions. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1967.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "On a New Kind of Rays",
-    "author": "Wilhelm Conrad Röntgen"
+    "text": "“No single event since the formation of the Marshall Center in 1960 equals today’s launch in significance.”",
+    "author": "Wernher von Braun"
   },
   "onThisDay": {
-    "title": "The Unknown Rays That Made Matter Look Transparent",
-    "copy": "On November 8, 1895, physicist Wilhelm Conrad Röntgen noticed that something from a shielded discharge tube could make a fluorescent screen glow. The effect was not visible light, and it passed through materials that blocked ordinary illumination. Röntgen called the emission X-rays because its nature was still unknown. Within weeks, his report and radiographs showed that the discovery could turn hidden structures into visible shadows—giving physics a new kind of radiation and science a new way to see inside objects."
+    "title": "Saturn V Faces Its First Sky",
+    "copy": "On November 9, 1967, the uncrewed Apollo 4 mission sent the first complete Saturn V into space. The rocket reached orbit, restarted its third stage, and drove the Apollo command module through a simulated lunar-return entry—turning the Moon program's most powerful machine from an engineering promise into a tested flight system."
   },
   "instrument": {
-    "title": "The Discharge Tube and the Fluorescent Screen",
-    "copy": "Röntgen's discovery depended on a late-19th-century cathode-ray discharge tube together with a fluorescent screen. The tube generated the phenomenon under investigation; the screen provided the visible sign that an unseen emission had escaped its enclosure. The arrangement did not explain the rays, but it made their existence observable and led to the first experiments in X-ray imaging."
+    "title": "The Camera That Watched Earth from Apogee",
+    "copy": "Apollo 4 carried an automatic command-module apogee camera that photographed Earth around the mission's highest point. The images provided an additional record of the spacecraft's high-altitude test flight while the mission evaluated the systems needed for later journeys beyond low Earth orbit."
   },
-  "updated": "2026-11-08"
+  "updated": "2026-11-09"
 };

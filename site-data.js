@@ -2070,19 +2070,62 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Captain Albert W. Stevens and Captain Orvil A. Anderson, U.S. Army Air Corps, with scientists and engineers of the National Geographic Society and U.S. Army Air Corps",
+      "exactHistoricalDate": "November 11, 1935",
+      "headline": "Explorer II Climbs Above the Weather",
+      "deck": "A record-setting balloon flight turned the lower stratosphere into a temporary laboratory for studying cosmic rays, ozone, atmospheric composition, radio propagation, and the upper-air environment.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image accompanies this edition.",
+      "lore": "From the Stratobowl near Rapid City, South Dakota, Explorer II rose into an environment that had previously been difficult to study directly. Captain Albert W. Stevens later reported that “the sky had become a jet black awning.”",
+      "body": "<p>On November 11, 1935, Captains Albert W. Stevens and Orvil A. Anderson rose from the Stratobowl near Rapid City, South Dakota, in Explorer II, a sealed gondola suspended beneath a helium balloon. The flight reached 72,395 feet, or 22,066 meters, establishing a world altitude record before the balloon later landed near White Lake, South Dakota.</p><p>Explorer II was more than a record attempt. Its pressurized gondola carried instruments for observing cosmic rays, ionization, atmospheric composition, ozone, wind, temperature, radio-signal behavior, photography, and microorganisms at high altitude. The mission provided a temporary research platform above most of Earth’s atmosphere.</p><p>The observations included a reported maximum in cosmic-ray activity at about 57,000 feet, followed by a lower value at the record altitude. They also indicated that roughly 20 percent of the atmosphere’s ozone lay below 72,000 feet and that stratospheric air was not significantly different in composition from sea-level air.</p><p>The flight demonstrated that a crewed, instrumented gondola could operate and return scientific data from the lower stratosphere at unprecedented height. It did not, by itself, provide a complete explanation of cosmic rays, establish a final model of the upper atmosphere, or settle every later interpretation of the measurements.</p>",
+      "wrongBelief": "A specific contemporary uncertainty concerned the interpretation of cosmic-ray measurements: after Explorer II, Nature reported that the earlier Explorer I results appeared to require modification.",
+      "evidence": "The documented evidence consisted of the record altitude, directional cosmic-ray observations, altitude-dependent radiation readings, ionization measurements, air-composition and ozone estimates, meteorological observations, radio reports, and photographic or instrument records. These results demonstrated that a crewed, instrumented gondola could operate and return data from the lower stratosphere at unprecedented height. They did not, by themselves, provide a complete explanation of cosmic rays, prove a final model of the upper atmosphere, or establish all later interpretations of the measurements.",
+      "primarySource": "National Geographic Magazine’s May 1936 contemporary report on the scientific results of the second stratosphere expedition; a contemporary wireless report from Captain Albert Stevens summarized in Nature on November 16, 1935; Explorer II’s gondola and associated flight records preserved by the Smithsonian National Air and Space Museum; and air-sampling material and related atmospheric-composition records preserved in the NIST Digital Archives.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-11",
+        "validationScore": 95.0,
+        "verifiedClaims": [
+          "The flight occurred on November 11, 1935.",
+          "Explorer II launched from the Stratobowl near Rapid City, South Dakota, and later landed near White Lake, South Dakota. ([collections.si.edu](https://collections.si.edu/search/detail/edanmdm:nasm_A19370060000))",
+          "The crew members were Captain Albert W. Stevens and Captain Orvil A. Anderson of the U.S. Army Air Corps. ([collections.si.edu](https://collections.si.edu/search/detail/edanmdm:nasm_A19370060000))",
+          "The balloon reached 72,395 feet, or 22,066 meters, establishing a world altitude record. ([collections.si.edu](https://collections.si.edu/search/detail/edanmdm:nasm_A19370060000))",
+          "The flight used a sealed or airtight gondola and carried scientific instruments. ([media.defense.gov](https://media.defense.gov/2014/May/15/2001329852/-1/-1/0/AFD-140515-045.pdf?utm_source=openai))",
+          "The mission collected observations relevant to cosmic rays, ionization, ozone, atmospheric composition, meteorology, biology, photography, and radio propagation. ([nature.com](https://www.nature.com/articles/137896c0?error=cookies_not_supported&code=b08c9eaa-1143-4f14-8db2-4165759d10f3))",
+          "The reported cosmic-ray maximum occurred at approximately 57,000 feet, with a lower value at 72,395 feet. ([nature.com](https://www.nature.com/articles/137896c0?error=cookies_not_supported&code=b08c9eaa-1143-4f14-8db2-4165759d10f3))",
+          "The reported findings included approximately 20 percent of atmospheric ozone below 72,000 feet and no significant difference between stratospheric and sea-level air composition. ([nature.com](https://www.nature.com/articles/137896c0?error=cookies_not_supported&code=b08c9eaa-1143-4f14-8db2-4165759d10f3))",
+          "The article appropriately avoids claiming that Explorer II completely explained cosmic rays or established a final model of the upper atmosphere.",
+          "The NIST air-sampling source supports the article's reference to high-altitude atmospheric sampling and the stated altitude. ([nistdigitalarchives.contentdm.oclc.org](https://nistdigitalarchives.contentdm.oclc.org/digital/collection/p15421coll3/id/274/?utm_source=openai))"
+        ],
+        "warnings": [
+          "The lore says Stevens 'later reported' that 'the sky had become a jet black awning.' The quotation is supported, but the contemporary source identifies it as a wireless report made during the flight; 'reported by wireless during the ascent' would be more precise. ([nature.com](https://www.nature.com/articles/136786d0?error=cookies_not_supported&code=5a836d9c-f419-4377-a9cf-e7798e6a7dce))",
+          "The scientist field broadly mentions National Geographic Society and Army Air Corps scientists and engineers, but the documented airborne crew consisted of Captains Albert W. Stevens and Orvil A. Anderson. The wording should not imply that an unspecified group of scientists and engineers rode in the gondola. ([collections.si.edu](https://collections.si.edu/search/detail/edanmdm:nasm_A19370060000))",
+          "The phrase 'above most of Earth's atmosphere' is defensible but imprecise. The contemporary summary states that 72,000 feet covered approximately 96 percent of the atmosphere; retaining that wording or adding the figure would improve precision. ([nature.com](https://www.nature.com/articles/137896c0?error=cookies_not_supported&code=b08c9eaa-1143-4f14-8db2-4165759d10f3))"
+        ],
+        "researchSources": [
+          "National Geographic Magazine, May 1936, contemporary report on the scientific results of the second stratosphere expedition, identified by the contemporary Nature summary. ([nature.com](https://www.nature.com/articles/137896c0?error=cookies_not_supported&code=b08c9eaa-1143-4f14-8db2-4165759d10f3))",
+          "Contemporary wireless report from Captain Albert Stevens, summarized in Nature on November 16, 1935. ([nature.com](https://www.nature.com/articles/136786d0?error=cookies_not_supported&code=5a836d9c-f419-4377-a9cf-e7798e6a7dce))",
+          "Explorer II gondola and associated flight records preserved by the Smithsonian National Air and Space Museum. ([collections.si.edu](https://collections.si.edu/search/detail/edanmdm%3Anasm_A19370060000?hlterm=set_name%3A%26quot%3BBarron%2BHilton%2BPioneers%2Bof%2BFlight%26quot%3B&q=set_name%3A%22Barron+Hilton+Pioneers+of+Flight%22&record=14&utm_source=openai))",
+          "Air-sampling material and related atmospheric-composition records associated with the 1935 flight, preserved in the NIST Digital Archives. ([nistdigitalarchives.contentdm.oclc.org](https://nistdigitalarchives.contentdm.oclc.org/digital/collection/p15421coll3/id/274/?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“No single event since the formation of the Marshall Center in 1960 equals today’s launch in significance.”",
-    "author": "Wernher von Braun"
+    "text": "“the sky had become a jet black awning.”",
+    "author": "Captain Albert W. Stevens, in a wireless report from Explorer II, as quoted in Nature, November 16, 1935"
   },
   "onThisDay": {
-    "title": "Saturn V Faces Its First Sky",
-    "copy": "On November 9, 1967, the uncrewed Apollo 4 mission sent the first complete Saturn V into space. The rocket reached orbit, restarted its third stage, and drove the Apollo command module through a simulated lunar-return entry—turning the Moon program's most powerful machine from an engineering promise into a tested flight system."
+    "title": "Explorer II Climbs Above the Weather",
+    "copy": "On November 11, 1935, Captains Albert Stevens and Orvil Anderson rose from South Dakota in Explorer II, a sealed stratosphere gondola supported by a helium balloon. The craft reached 72,395 feet—a world altitude record—and returned observations on cosmic rays, ozone, atmospheric composition, ionization, radio signals, and the upper-air environment. It was not merely a record flight: it was a high-altitude laboratory, suspended above most of the atmosphere."
   },
   "instrument": {
-    "title": "The Camera That Watched Earth from Apogee",
-    "copy": "Apollo 4 carried an automatic command-module apogee camera that photographed Earth around the mission's highest point. The images provided an additional record of the spacecraft's high-altitude test flight while the mission evaluated the systems needed for later journeys beyond low Earth orbit."
+    "title": "Explorer II: A Gondola Turned into a Stratospheric Laboratory",
+    "copy": "Explorer II’s pressurized gondola housed its two crew members and an assortment of scientific instruments. The equipment included systems for recording cosmic-ray activity and ionization, atmospheric sampling, photography, meteorological observation, and radio work. The flight’s importance lay in combining a record-setting ascent with measurements from an environment that had previously been difficult to study directly."
   },
-  "updated": "2026-11-09"
+  "updated": "2026-11-11"
 };

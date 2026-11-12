@@ -2113,19 +2113,61 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Rosetta mission flight controllers, engineers, and scientists at ESA, DLR, CNES, and NASA",
+      "exactHistoricalDate": "November 12, 2014",
+      "headline": "The Lander That Bounced into History",
+      "deck": "Philae became the first spacecraft to land on a comet and return scientific data from its surface.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "Philae’s first touchdown was not its final resting place. When its anchoring systems failed, the lander rebounded and contacted Comet 67P/Churyumov–Gerasimenko two more times before settling elsewhere.",
+      "body": "<p>On November 12, 2014, ESA’s Rosetta mission released the Philae lander toward Comet 67P/Churyumov–Gerasimenko. Mission control centers in Darmstadt, Cologne, and Toulouse awaited confirmation as the lander descended toward the comet’s surface.</p><p>At 16:03 GMT, Earth received a touchdown signal relayed through the Rosetta orbiter. The signal provided direct operational confirmation that Philae had reached the comet, marking the first spacecraft landing on a comet.</p><p>Later telemetry, imagery, and ROMAP magnetic data showed that Philae had contacted the surface three times. Its harpoons did not secure it as intended, and its final position limited sunlight and power, preventing it from completing every planned observation.</p><p>Even so, Philae returned images, measurements, and scientific data from instruments including ROLIS, COSAC, Ptolemy, SD2, and CONSERT before its primary power was depleted. The achievement demonstrated that direct exploration could extend beyond planets, moons, and asteroids to a small, ancient body of the Solar System.</p>",
+      "wrongBelief": "Mission controllers expected Philae’s harpoons to keep the lander attached after touchdown when its active descent thruster was unavailable.",
+      "evidence": "The touchdown signal demonstrated that Philae had reached Comet 67P/Churyumov–Gerasimenko’s surface, and its returned measurements demonstrated that the lander had operated on or near the comet and transmitted scientific data through Rosetta. Later telemetry, imagery, and ROMAP magnetic data supported the conclusion that Philae made three surface contacts. The event did not demonstrate a single, stable touchdown at the planned site, and Philae could not complete every intended observation because its final position limited sunlight and power.",
+      "primarySource": [
+        "European Space Agency, “Touchdown! Rosetta’s Philae probe lands on comet.”",
+        "European Space Agency, “Three touchdowns for Rosetta’s lander.”",
+        "European Space Agency, “Pioneering Philae completes main mission before hibernation.”",
+        "NASA, Beyond Earth: A Chronicle of Deep Space Exploration, 1958–2016."
+      ],
+      "editorialRecord": {
+        "publishedDate": "2026-11-12",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The date, mission, lander, comet, and historical significance are accurate. Philae became the first spacecraft to land on a comet and return scientific data from its surface. ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Touchdown%21_Rosetta_s_Philae_probe_lands_on_comet?lang=km&utm_source=openai))",
+          "Rosetta released Philae on November 12, 2014, and touchdown confirmation reached Earth at 16:03 GMT via the Rosetta orbiter. ([esa.int](https://www.esa.int/articles/about-us/directorates/science/rosetta/three-touchdowns-for-rosetta-s-lander?utm_source=openai))",
+          "The references to mission operations in Darmstadt, Cologne, and Toulouse are supported by ESA’s contemporaneous account. ([esa.int](https://www.esa.int/articles/about-us/directorates/science/rosetta/three-touchdowns-for-rosetta-s-lander?utm_source=openai))",
+          "Philae did not remain at its first touchdown point. Its harpoons failed to fire, and later analysis established three touchdown events before the lander came to rest elsewhere. ([esa.int](https://www.esa.int/articles/about-us/directorates/science/rosetta/three-touchdowns-for-rosetta-s-lander?utm_source=openai))",
+          "The article correctly distinguishes the initial touchdown confirmation from later analysis of the lander’s bouncing and final position. Its statements about limited sunlight, depleted power, and incomplete observations are supported by ESA and NASA accounts. ([esa.int](https://www.esa.int/pt/articles/about-us/directorates/science/rosetta/pioneering-philae-completes-main-mission-before-hibernation?utm_source=openai))",
+          "The listed instruments—ROLIS, COSAC, Ptolemy, SD2, and CONSERT—returned science data during Philae’s primary mission. ([esa.int](https://www.esa.int/pt/articles/about-us/directorates/science/rosetta/pioneering-philae-completes-main-mission-before-hibernation?utm_source=openai))",
+          "The statement about controllers relying on the harpoons after the active descent thruster became unavailable is historically supported. ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Touchdown%21_Rosetta_s_Philae_probe_lands_on_comet?lang=km&utm_source=openai))",
+          "The ROMAP description is accurate: magnetic-field data helped reconstruct Philae’s motion and supported the conclusion that multiple surface contacts occurred; ROMAP did not photograph the landings. ([esa.int](https://www.esa.int/articles/about-us/directorates/science/rosetta/three-touchdowns-for-rosetta-s-lander?utm_source=openai))"
+        ],
+        "warnings": [],
+        "researchSources": [
+          "European Space Agency, “Touchdown! Rosetta’s Philae probe lands on comet.” ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Touchdown%21_Rosetta_s_Philae_probe_lands_on_comet?lang=km&utm_source=openai))",
+          "European Space Agency, “Three touchdowns for Rosetta’s lander.” ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Three_touchdowns_for_Rosetta_s_lander?utm_source=openai))",
+          "European Space Agency, “Pioneering Philae completes main mission before hibernation.” ([esa.int](https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Pioneering_Philae_completes_main_mission_before_hibernation?utm_source=openai))",
+          "NASA, Beyond Earth: A Chronicle of Deep Space Exploration, 1958–2016. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2018/09/beyond-earth-tagged.pdf?emrc=967232&utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“the sky had become a jet black awning.”",
-    "author": "Captain Albert W. Stevens, in a wireless report from Explorer II, as quoted in Nature, November 16, 1935"
+    "text": "“Our ambitious Rosetta mission has secured a place in the history books.”",
+    "author": "Jean-Jacques Dordain, Director General of the European Space Agency"
   },
   "onThisDay": {
-    "title": "Explorer II Climbs Above the Weather",
-    "copy": "On November 11, 1935, Captains Albert Stevens and Orvil Anderson rose from South Dakota in Explorer II, a sealed stratosphere gondola supported by a helium balloon. The craft reached 72,395 feet—a world altitude record—and returned observations on cosmic rays, ozone, atmospheric composition, ionization, radio signals, and the upper-air environment. It was not merely a record flight: it was a high-altitude laboratory, suspended above most of the atmosphere."
+    "title": "The Lander That Bounced into History",
+    "copy": "On November 12, 2014, ESA’s Rosetta mission released the Philae lander toward Comet 67P/Churyumov–Gerasimenko. A signal received on Earth confirmed touchdown—the first comet landing in history. Philae did not remain where it first touched: its anchoring systems failed, and the lander bounced twice more before settling elsewhere. Even so, it returned images, measurements, and scientific data from this small, ancient world."
   },
   "instrument": {
-    "title": "Explorer II: A Gondola Turned into a Stratospheric Laboratory",
-    "copy": "Explorer II’s pressurized gondola housed its two crew members and an assortment of scientific instruments. The equipment included systems for recording cosmic-ray activity and ionization, atmospheric sampling, photography, meteorological observation, and radio work. The flight’s importance lay in combining a record-setting ascent with measurements from an environment that had previously been difficult to study directly."
+    "title": "ROMAP: Reading the Landings in Magnetic Data",
+    "copy": "Philae’s ROMAP magnetometer helped reconstruct what happened after touchdown. Changes in the magnetic signal recorded the lander’s motion and supported the later conclusion that Philae made three contacts with the comet’s surface. The instrument did not photograph the landings; its data provided an independent physical record of the lander’s movements."
   },
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
 };

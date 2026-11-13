@@ -2155,19 +2155,58 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Dan Schneiderman; scientists and engineers of NASA's Jet Propulsion Laboratory; NASA's Mariner 9 mission team",
+      "exactHistoricalDate": "November 13, 1971, Pacific Standard Time; orbit insertion occurred at 00:18 UTC on November 14, 1971",
+      "headline": "Mariner 9 Takes the Long View of Mars",
+      "deck": "NASA's spacecraft became the first human-made object to orbit another planet, turning Mars into a world for sustained observation.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "Mariner 9 arrived at Mars beneath a planet-wide dust storm. Once the storm subsided, its orbital survey revealed immense volcanoes, canyon systems, polar features, and the moons Phobos and Deimos in unprecedented detail.",
+      "body": "<p>On November 13, 1971, NASA's Mariner 9 entered orbit around Mars, becoming the first human-made spacecraft to orbit a planet other than Earth. Mission operations were directed from NASA's Jet Propulsion Laboratory in Pasadena, California.</p><p>The achievement followed a difficult start. Mariner 9 launched from Cape Canaveral, Florida, on May 30, 1971, after its companion Mariner 8 failed during launch. In orbit around Mars, Mariner 9 could observe the planet continuously rather than making a single flyby, inaugurating detailed orbital planetary mapping.</p><p>Its first view was largely concealed. A planet-wide dust storm obscured most of Mars, and Dan Schneiderman, the Mariner 9 project manager, reported that “Surface features are almost entirely obscured.” As the dust subsided, the spacecraft produced extensive imagery of Olympus Mons, Valles Marineris, Phobos, and Deimos.</p><p>The orbit insertion demonstrated that Mariner 9 had become a planetary orbiter. It did not, by itself, establish later geological interpretations of Mars; those conclusions came from subsequent imaging and atmospheric measurements. The mission continued far beyond its planned 90-day primary mission and transmitted more than 7,000 images.</p>",
+      "wrongBelief": "Earlier Mariner flybys had encouraged an expectation that Mars might be a heavily cratered, relatively Moon-like world.",
+      "evidence": "The spacecraft's successful orbit insertion and subsequent tracking in an elliptical orbit around Mars demonstrated that Mariner 9 had become a planetary orbiter. The orbit itself did not establish later geological interpretations of Mars; those came from subsequent imaging and atmospheric measurements after the dust storm began to clear.",
+      "primarySource": "NASA/JPL, \"Mariner 9 Schedule of Events,\" September 21, 1971; NASA, Astronautics and Aeronautics, 1971 historical record; NASA, \"50 Years Ago: Mariner 9 Enters Mars Orbit\"; NASA technical report, \"Mariner Mars 1971 Project\" historical summary.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-13",
+        "validationScore": 96.0,
+        "verifiedClaims": [
+          "Mariner 9 was the first human-made spacecraft to enter orbit around another planet. ([nasa.gov](https://www.nasa.gov/history/50-years-ago-mariner-9-enters-mars-orbit/))",
+          "The mission was managed and operated through NASA's Jet Propulsion Laboratory in Pasadena, California. ([nasa.gov](https://www.nasa.gov/history/50-years-ago-mariner-9-enters-mars-orbit/))",
+          "Mariner 9 launched from Cape Canaveral on May 30, 1971, after Mariner 8 failed during launch. ([science.nasa.gov](https://science.nasa.gov/mission/mariner-9/))",
+          "A global dust storm obscured nearly all Martian surface features when Mariner 9 arrived. ([nasa.gov](https://www.nasa.gov/history/50-years-ago-mariner-9-enters-mars-orbit/))",
+          "The mission later imaged Olympus Mons, Valles Marineris, Phobos, and Deimos, and returned 7,329 images while operating far beyond its planned 90-day mission. ([nasa.gov](https://www.nasa.gov/history/50-years-ago-mariner-9-enters-mars-orbit/))",
+          "The article appropriately distinguishes successful orbit insertion from later geological interpretations based on imaging and other measurements. ([science.nasa.gov](https://science.nasa.gov/mission/mariner-9/))",
+          "The statement about earlier expectations of a heavily cratered, Moon-like Mars is historically supported by NASA's account of the pre-Mariner-9 understanding of the planet. ([nasa.gov](https://www.nasa.gov/history/50-years-ago-mariner-9-enters-mars-orbit/))"
+        ],
+        "warnings": [
+          "The phrase \"observe the planet continuously\" is slightly overstated if read literally. Mariner 9 enabled sustained, repeated orbital observation and mapping rather than uninterrupted observation; consider changing it to \"observe the planet repeatedly over time.\" ([nasa.gov](https://www.nasa.gov/history/50-years-ago-mariner-9-enters-mars-orbit/))",
+          "The November 13 date is correct in Pacific Standard Time, while the orbit-insertion burn began at 00:18 UTC on November 14. The article's exactHistoricalDate correctly preserves both conventions. ([science.nasa.gov](https://science.nasa.gov/mission/mariner-9/))"
+        ],
+        "researchSources": [
+          "NASA/JPL, \"Mariner 9 Schedule of Events,\" September 21, 1971. ([jpl.nasa.gov](https://www.jpl.nasa.gov/news/mariner-9-schedule-of-events/?utm_source=openai))",
+          "NASA, Astronautics and Aeronautics, 1971 historical record, including the contemporary account of the orbit-insertion event and the November 16 mission telex. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/1971.pdf?utm_source=openai))",
+          "NASA, \"50 Years Ago: Mariner 9 Enters Mars Orbit,\" published November 15, 2021. ([nasa.gov](https://www.nasa.gov/history/50-years-ago-mariner-9-enters-mars-orbit/?utm_source=openai))",
+          "NASA technical report, \"Mariner Mars 1971 Project\" historical summary. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19750008360/downloads/19750008360.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“Our ambitious Rosetta mission has secured a place in the history books.”",
-    "author": "Jean-Jacques Dordain, Director General of the European Space Agency"
+    "text": "Surface features are almost entirely obscured.",
+    "author": "Dan Schneiderman, Mariner 9 project manager, in a November 16, 1971, message summarized in NASA Release 71-229."
   },
   "onThisDay": {
-    "title": "The Lander That Bounced into History",
-    "copy": "On November 12, 2014, ESA’s Rosetta mission released the Philae lander toward Comet 67P/Churyumov–Gerasimenko. A signal received on Earth confirmed touchdown—the first comet landing in history. Philae did not remain where it first touched: its anchoring systems failed, and the lander bounced twice more before settling elsewhere. Even so, it returned images, measurements, and scientific data from this small, ancient world."
+    "title": "Mariner 9 Takes the Long View of Mars",
+    "copy": "On November 13, 1971, NASA's Mariner 9 entered orbit around Mars—the first spacecraft to orbit another planet. It arrived to find the Red Planet hidden beneath a global dust storm, but its patient survey soon transformed Mars from a distant point of light into a world of volcanoes, canyons, moons, and changing weather."
   },
   "instrument": {
-    "title": "ROMAP: Reading the Landings in Magnetic Data",
-    "copy": "Philae’s ROMAP magnetometer helped reconstruct what happened after touchdown. Changes in the magnetic signal recorded the lander’s motion and supported the later conclusion that Philae made three contacts with the comet’s surface. The instrument did not photograph the landings; its data provided an independent physical record of the lander’s movements."
+    "title": "Mariner 9's Imaging System",
+    "copy": "Mariner 9 carried an imaging system alongside ultraviolet and infrared instruments. Its cameras eventually supplied the broad orbital view that exposed Mars's immense volcanoes, canyon systems, polar features, and two small moons in unprecedented detail."
   },
-  "updated": "2026-11-12"
+  "updated": "2026-11-13"
 };

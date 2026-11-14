@@ -2194,19 +2194,60 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Gottfried Kirch",
+      "exactHistoricalDate": "14 November 1680 (Gregorian calendar; 4 November Old Style)",
+      "headline": "The Telescope Finds a Comet",
+      "deck": "At Coburg, Gottfried Kirch identified a faint new comet and began turning a celestial apparition into a measured track among the stars.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "A contemporary chart, “Cursus Cometae Anni 1680,” plotted Kirch’s observations and the comet’s apparent path among the stars.",
+      "lore": "The comet later became exceptionally bright, reportedly visible in daylight and marked by a very long tail. Yet Kirch first encountered it as a faint object while observing the Moon and nearby Mars.",
+      "body": "<p>On 14 November 1680, German astronomer Gottfried Kirch spotted a faint new comet from Coburg, Saxony, in the Holy Roman Empire, now Bavaria, Germany. It was the first comet known to have been discovered with a telescope.</p><p>Kirch’s initial observation was quiet rather than spectacular. The comet lacked the dramatic tail it later developed, but its position could be recorded against known stars. Kirch preserved those observations in a chart showing the object’s apparent course among stars and constellations.</p><p><blockquote>“decimo tertio die antequam a quoquam alio observatus sit” — “thirteen days before it was observed by anyone else.”</blockquote></p><p>The observation helped demonstrate the value of telescopic assistance, dated records, and positional astronomy in studying comets. It did not by itself establish the comet’s physical composition, prove a repeating period, or settle every question about cometary motion. Later observers, including Isaac Newton and Edmond Halley, contributed further study that placed the comet within the emerging mathematical astronomy of the period.</p>",
+      "wrongBelief": "Kirch’s 1681 volume included astrological conjectures about the significance of celestial events, while contemporary illustrated broadsides portrayed the comet as a presage of doom. This documents the coexistence of astrological interpretation with increasingly precise observation; it does not establish that all observers held this belief.",
+      "evidence": "The surviving evidence shows that Kirch observed and charted a previously unrecorded comet with telescopic assistance and followed its changing position against known stars. The event demonstrated the value of telescopic observation and positional astronomy, but it did not prove the comet’s physical composition, establish a repeating period, or settle every question about cometary motion.",
+      "primarySource": "Gottfried Kirch, Neue Himmels-Zeitung, Nuremberg, 1681; Gottfried Kirch, “Observationes quaedam accuratae insignis Cometae sub finem anni 1680 visi,” Philosophical Transactions, volume 29, published 1714; and the contemporary chart “Cursus Cometae Anni 1680.”",
+      "editorialRecord": {
+        "publishedDate": "2026-11-14",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "Gottfried Kirch discovered the Great Comet of 1680 at Coburg on 14 November 1680 Gregorian, corresponding to 4 November Old Style.",
+          "The comet is widely identified in the cited scholarship as the first comet discovered with telescopic assistance.",
+          "Kirch’s initial observation found a faint, barely visible object without the spectacular tail it later developed.",
+          "The discovery occurred at Coburg, identified in the contemporary account as being in Saxony and now in Bavaria, Germany.",
+          "Kirch’s observations were recorded against nearby fixed stars and preserved in a chart showing the comet’s apparent path.",
+          "The comet later became exceptionally bright, was reportedly visible in daylight, and developed a very long tail.",
+          "The article appropriately limits the discovery’s evidentiary significance: it demonstrated the value of telescopic and positional observation but did not prove the comet’s composition, periodicity, or fully resolve cometary motion.",
+          "The discussion of astrological interpretations and broadsides portraying the comet as a presage of doom is cautious and does not invent a universal contemporary consensus.",
+          "The quoted Latin wording appears in the title of Kirch’s account in Philosophical Transactions, volume 29, published in 1714, and the English translation is materially accurate.",
+          "The listed primary sources—Neue Himmels-Zeitung, the 1714 Philosophical Transactions account, and the contemporary comet chart—are historically appropriate and supported."
+        ],
+        "warnings": [
+          "The phrase “while examining the region around the Moon and Mars” is broadly supported, though the 1714 account describes Kirch surveying the Moon and nearby Mars before locating the comet; it should not be read as implying that both bodies were necessarily in the telescope’s initial field of view.",
+          "The article’s reference to Newton and Halley is historically reasonable, but their later work belongs to the broader mathematical study of the comet rather than to Kirch’s initial discovery itself."
+        ],
+        "researchSources": [
+          "Gottfried Kirch, Neue Himmels-Zeitung, Nuremberg, 1681; the surviving bibliographic record identifies Kirch as author and includes charts of the comet's observed course and a section of astrological conjectures. ([deutsche-digitale-bibliothek.de](https://www.deutsche-digitale-bibliothek.de/item/KZN3BA7VKA25BASERAIW6IFJ3OS5OW7L))",
+          "Gottfried Kirch, “Observationes quaedam accuratae insignis Cometae sub finem anni 1680 visi,” Philosophical Transactions, volume 29, published 1714; the title states that the comet was observed at Coburg thirteen days before anyone else observed it. ([jimclifford.ca](https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103049/))",
+          "Contemporary chart, “Cursus Cometae Anni 1680,” showing Kirch's first observations at Coburg and the comet's plotted path among the stars. ([e-rara.ch](https://www.e-rara.ch/download/pdf/26830413.pdf))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "Surface features are almost entirely obscured.",
-    "author": "Dan Schneiderman, Mariner 9 project manager, in a November 16, 1971, message summarized in NASA Release 71-229."
+    "text": "“decimo tertio die antequam a quoquam alio observatus sit” — “thirteen days before it was observed by anyone else.”",
+    "author": "Gottfried Kirch, as quoted in the title of his account in Philosophical Transactions, volume 29, 1714."
   },
   "onThisDay": {
-    "title": "Mariner 9 Takes the Long View of Mars",
-    "copy": "On November 13, 1971, NASA's Mariner 9 entered orbit around Mars—the first spacecraft to orbit another planet. It arrived to find the Red Planet hidden beneath a global dust storm, but its patient survey soon transformed Mars from a distant point of light into a world of volcanoes, canyons, moons, and changing weather."
+    "title": "The Telescope Finds a Comet",
+    "copy": "On 14 November 1680, German astronomer Gottfried Kirch spotted a faint new comet from Coburg while examining the region around the Moon and Mars. It was the first comet known to have been discovered with a telescope. In the weeks that followed, the object grew into one of the era’s most spectacular celestial sights—but Kirch’s first contribution was quieter: a measured observation and a chart that turned a fearful-looking apparition into a track across the stars."
   },
   "instrument": {
-    "title": "Mariner 9's Imaging System",
-    "copy": "Mariner 9 carried an imaging system alongside ultraviolet and infrared instruments. Its cameras eventually supplied the broad orbital view that exposed Mars's immense volcanoes, canyon systems, polar features, and two small moons in unprecedented detail."
+    "title": "The Telescope That Put a Comet on the Chart",
+    "copy": "Kirch’s telescope did not merely magnify a bright spectacle. It helped reveal a faint object that could be distinguished from the fixed stars and followed over time. His plotted observations exemplified a growing astronomical practice: using optical instruments, star references, and dated positional records to convert a transient appearance into evidence about motion in the heavens."
   },
-  "updated": "2026-11-13"
+  "updated": "2026-11-14"
 };

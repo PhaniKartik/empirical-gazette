@@ -2235,19 +2235,59 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Federico Faggin, Marcian E. “Ted” Hoff, Stanley Mazor, Masatoshi Shima, Ed Gelbach, and Robert Noyce",
+      "exactHistoricalDate": "November 15, 1971",
+      "headline": "The Computer Moves Onto a Chip",
+      "deck": "Intel publicly introduced the 4004 microprocessor and its MCS-4 chip set in a two-page Electronic News advertisement.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "The 4004 began as the central processor in Intel’s four-chip MCS-4 system for Busicom’s 141-PF printing calculator. After renegotiating with Busicom, Intel obtained rights to market the chip outside calculator applications.",
+      "body": "<p>On November 15, 1971, Intel published what is identified as the first known advertisement for a commercially available programmable microprocessor. The two-page spread in <em>Electronic News</em> announced the Intel 4004 and its MCS-4 chip set under the heading “Announcing a new era of integrated electronics.”</p><p>The 4004 was a four-bit processor containing approximately 2,300 transistors. It had been developed with Japanese calculator maker Busicom as part of a four-chip system for the 141-PF printing calculator, then marketed by Intel for broader applications after the companies renegotiated their arrangement.</p><p>The announcement presented computing logic as something that could be incorporated into a mass-produced chip and controlled through software rather than built entirely into custom hardware. A later historical account states that the public announcement generated about 5,000 responses, indicating substantial industry attention.</p><p>The event marked a commercial and technological transition toward programmable logic on a chip. It did not, by itself, immediately transform computing, nor does the evidence establish that Intel was the first group to conceive the microprocessor in principle. Historical accounts distinguish the 4004’s successful implementation and commercialization from earlier related ideas and competing work.</p>",
+      "wrongBelief": "A specific uncertainty inside Intel was whether the company should enter the systems business; the company’s board debated whether to exercise its option to commercialize the new product.",
+      "evidence": "The documented evidence shows that Intel publicly offered the 4004 and MCS-4 as programmable computing products on November 15, 1971, and that the announcement attracted substantial industry attention. It demonstrates a commercial and technological transition toward programmable logic on a chip. It does not demonstrate that Intel was the first group to conceive the microprocessor in principle, or that the advertisement alone immediately transformed computing.",
+      "primarySource": "Intel Corporation, “Announcing a New Era of Integrated Electronics,” a two-page advertisement published in Electronic News on November 15, 1971, reproduced in Intel’s historical archive; contemporary Intel 4004 product and marketing material reproduced in Intel’s 2021 anniversary press kit; and oral-history testimony by Ted Hoff, Federico Faggin, Stanley Mazor, and related participants preserved and discussed in the IEEE Annals of the History of Computing.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-15",
+        "validationScore": 97.0,
+        "verifiedClaims": [
+          "November 15, 1971 is the correct date for Intel's advertisement in Electronic News. ([computerhistory.org](https://www.computerhistory.org/tdih/november/15/))",
+          "The advertisement was a two-page spread headed “Announcing a new era of integrated electronics.” ([download.intel.com](https://download.intel.com/newsroom/archive/2025/en-us-2021-11-15-intel-4004.pdf))",
+          "The 4004 was part of the four-chip MCS-4 system developed for Busicom's 141-PF printing calculator. ([download.intel.com](https://download.intel.com/newsroom/archive/2025/en-us-2021-11-15-intel-4004.pdf))",
+          "Intel obtained rights to market the chip outside calculator applications after renegotiating with Busicom. ([intel.com](https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-intel-4004.html?pStoreID=newegg/1000'0,'))",
+          "The 4004 was a four-bit programmable processor with approximately 2,300 transistors. ([computerhistory.org](https://www.computerhistory.org/siliconengine/microprocessor-integrates-cpu-function-onto-a-single-chip/?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))",
+          "The claim that the announcement generated about 5,000 responses is supported by the historical account cited in the dossier. ([archive.computerhistory.org](https://archive.computerhistory.org/resources/access/text/2017/03/102770826-05-01-acc.pdf))",
+          "The article appropriately distinguishes the 4004's successful implementation and commercialization from the broader question of who first conceived the microprocessor. ([archive.computerhistory.org](https://archive.computerhistory.org/resources/access/text/2017/03/102770826-05-01-acc.pdf))",
+          "The statement about uncertainty inside Intel and debate over entering the systems business is supported by the historical account. ([archive.computerhistory.org](https://archive.computerhistory.org/resources/access/text/2017/03/102770826-05-01-acc.pdf))",
+          "The article makes no materially exaggerated claim that the advertisement alone immediately transformed computing; its significance claim is appropriately qualified. ([archive.computerhistory.org](https://archive.computerhistory.org/resources/access/text/2017/03/102770826-05-01-acc.pdf))"
+        ],
+        "warnings": [
+          "The `scientist` field is overly broad. Federico Faggin, Ted Hoff, Stanley Mazor, and Masatoshi Shima are identified with the 4004 design team; Robert Noyce was Intel's CEO involved in the rights and commercialization decision, while Ed Gelbach was a marketing director who helped move Intel into the microprocessor business. Consider labeling the field `key figures` or separating design and commercialization roles. ([archive.computerhistory.org](https://archive.computerhistory.org/resources/access/text/2017/03/102770826-05-01-acc.pdf))",
+          "The 4004 transistor count is reported variously as approximately 2,250 and 2,300 in authoritative historical sources. The article's wording, `approximately 2,300`, is acceptable, but an exact count should be avoided. ([computerhistory.org](https://www.computerhistory.org/tdih/november/15/))"
+        ],
+        "researchSources": [
+          "Intel Corporation, “Announcing a New Era of Integrated Electronics,” two-page advertisement published in Electronic News, November 15, 1971; reproduced in Intel’s historical archive. ([download.intel.com](https://download.intel.com/newsroom/archive/2025/en-us-2021-11-15-intel-4004.pdf))",
+          "Contemporary Intel 4004 product and marketing material reproduced in Intel’s 2021 anniversary press kit. ([download.intel.com](https://download.intel.com/newsroom/archive/2025/en-us-2021-11-15-intel-4004.pdf))",
+          "Ted Hoff, Federico Faggin, Stanley Mazor, and related oral-history testimony preserved and discussed in the IEEE Annals of the History of Computing. ([archive.computerhistory.org](https://archive.computerhistory.org/resources/access/text/2017/03/102770826-05-01-acc.pdf))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“decimo tertio die antequam a quoquam alio observatus sit” — “thirteen days before it was observed by anyone else.”",
-    "author": "Gottfried Kirch, as quoted in the title of his account in Philosophical Transactions, volume 29, 1714."
+    "text": "“Announcing a new era of integrated electronics.”",
+    "author": "Intel advertisement for the 4004 and MCS-4, Electronic News, November 15, 1971"
   },
   "onThisDay": {
-    "title": "The Telescope Finds a Comet",
-    "copy": "On 14 November 1680, German astronomer Gottfried Kirch spotted a faint new comet from Coburg while examining the region around the Moon and Mars. It was the first comet known to have been discovered with a telescope. In the weeks that followed, the object grew into one of the era’s most spectacular celestial sights—but Kirch’s first contribution was quieter: a measured observation and a chart that turned a fearful-looking apparition into a track across the stars."
+    "title": "The Computer Moves Onto a Chip",
+    "copy": "On November 15, 1971, Intel used a two-page advertisement in Electronic News to announce the 4004 microprocessor and its MCS-4 chip set. Developed with Japanese calculator maker Busicom, the 4004 placed a programmable central-processing function on a single silicon chip. The announcement did not instantly create the modern computer industry, but it made a new commercial idea visible: a reusable processor whose behavior could be changed by software rather than redesigned hardware."
   },
   "instrument": {
-    "title": "The Telescope That Put a Comet on the Chart",
-    "copy": "Kirch’s telescope did not merely magnify a bright spectacle. It helped reveal a faint object that could be distinguished from the fixed stars and followed over time. His plotted observations exemplified a growing astronomical practice: using optical instruments, star references, and dated positional records to convert a transient appearance into evidence about motion in the heavens."
+    "title": "The Intel 4004 Microprocessor",
+    "copy": "The 4004 was a four-bit programmable processor containing about 2,300 transistors. It was designed as part of the four-chip MCS-4 system for Busicom’s 141-PF calculator, then marketed by Intel for broader applications. Its historical importance lies less in raw speed than in the shift toward placing programmable computer functions inside a compact, commercially produced integrated circuit."
   },
-  "updated": "2026-11-14"
+  "updated": "2026-11-15"
 };

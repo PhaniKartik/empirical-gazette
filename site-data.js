@@ -2275,19 +2275,54 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "John Ambrose Fleming",
+      "exactHistoricalDate": "November 16, 1904",
+      "headline": "The Valve That Let Radio Current Flow One Way",
+      "deck": "John Ambrose Fleming filed a British patent for a two-electrode thermionic valve designed to detect high-frequency wireless signals.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "Fleming developed the device while serving as scientific adviser to Marconi’s Wireless Telegraphy Company, which faced difficulties detecting weak radio signals.",
+      "body": "<p>On November 16, 1904, John Ambrose Fleming filed a British patent application titled “Improvements in Instruments for Detecting and Measuring Alternating Electric Currents.” Filed at the British Patent Office, the application described a practical electronic rectifier for wireless telegraphy.</p><p>The device contained a heated conductor and a separate cold conductor enclosed in a highly evacuated vessel. Its key behavior was one-way conduction: current could pass preferentially from the hot conductor through the vacuum, allowing rapidly oscillating electrical signals to be converted into a more useful one-directional current for detection.</p><p>Fleming’s filing concerned rectification, not amplification. The patent was published and granted on September 21, 1905; November 16, 1904, is the date on which the application was filed.</p><blockquote>“Negative electricity can pass from the hot conductor, but not to it, through the vacuum.”</blockquote><p>The Fleming valve became an important precursor to vacuum-tube electronics used in radio, broadcasting, television, and early computers before the transistor era. Later vacuum-tube designs extended the technology into amplifiers, oscillators, receivers, and other electronic systems.</p>",
+      "wrongBelief": "In earlier investigations of the Edison effect, scientists reasoned that an incandescent filament discharged negative carbon molecules because electrons had not yet been identified.",
+      "evidence": "The patent documented one-way conduction from a hot conductor through a vacuum and described using that behavior to rectify high-frequency alternating currents. Later museum records identify Fleming’s device as a diode and an early thermionic valve used for radio detection. The filing did not demonstrate amplification, establish the full physical theory of thermionic emission, or create the transistor.",
+      "primarySource": "John Ambrose Fleming, British patent application GB 24,850, “Improvements in Instruments for Detecting and Measuring Alternating Electric Currents,” filed November 16, 1904: https://patents.google.com/patent/GB190424850A/en. See also John Ambrose Fleming, The Thermionic Valve and its Developments in Radiotelegraphy and Telephony, published 1919.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-16",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The person, date, patent title, and filing event are accurate. The patent record identifies John Ambrose Fleming as inventor and lists November 16, 1904, as both the filing and priority date. ([patents.google.com](https://patents.google.com/patent/GB190424850A/en))",
+          "The British location is consistent with the British patent record, which identifies the United Kingdom as the patent authority. ([patents.google.com](https://patents.google.com/patent/GB190424850A/en))",
+          "The article accurately describes a highly evacuated vessel containing a hot conductor and a cold conductor, and correctly characterizes the device's function as rectification of high-frequency currents for wireless telegraphy. ([patents.google.com](https://patents.google.com/patent/GB190424850A/en))",
+          "The statement that the patent was published and granted on September 21, 1905, while November 16, 1904, was the filing date, is supported by the patent record. ([patents.google.com](https://patents.google.com/patent/GB190424850A/en))",
+          "The article properly distinguishes rectification from amplification and avoids claiming that Fleming's filing demonstrated amplification, established the complete theory of thermionic emission, or created the transistor.",
+          "The historical significance is cautiously stated and supported: later vacuum-tube developments extended the technology into detection, amplification, oscillation, radio, television, and other electronic applications before the transistor era. ([aps.org](https://www.aps.org/apsnews/2024/10/ambrose-fleming-patents-vacuum-tube))",
+          "The claim about Fleming's role as scientific adviser to Marconi's Wireless Telegraphy Company and the company's signal-detection difficulties is supported by the historical account. ([aps.org](https://www.aps.org/apsnews/2024/10/ambrose-fleming-patents-vacuum-tube))",
+          "The Edison-effect explanation involving negative carbon molecules before the identification of electrons is accurately presented as a historical contemporary belief, not as established modern theory. ([aps.org](https://www.aps.org/apsnews/2024/10/ambrose-fleming-patents-vacuum-tube))"
+        ],
+        "warnings": [],
+        "researchSources": [
+          "John Ambrose Fleming, British patent application GB 24,850, “Improvements in Instruments for Detecting and Measuring Alternating Electric Currents,” filed November 16, 1904. ([patents.google.com](https://patents.google.com/patent/GB190424850A/en))",
+          "John Ambrose Fleming, The Thermionic Valve and its Developments in Radiotelegraphy and Telephony, published 1919, including Fleming’s account of the valve and its later patent history. ([worldradiohistory.com](https://www.worldradiohistory.com/BOOKSHELF-ARH/Technology/Technology-Vacuum-Tube/Thermionic-valve-and-its-developments-in-radiotelegraphy-and-telephony-Fleming-1919-308-pages.pdf))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“Announcing a new era of integrated electronics.”",
-    "author": "Intel advertisement for the 4004 and MCS-4, Electronic News, November 15, 1971"
+    "text": "“Negative electricity can pass from the hot conductor, but not to it, through the vacuum.”",
+    "author": "John Ambrose Fleming, British patent specification GB 24,850, filed November 16, 1904."
   },
   "onThisDay": {
-    "title": "The Computer Moves Onto a Chip",
-    "copy": "On November 15, 1971, Intel used a two-page advertisement in Electronic News to announce the 4004 microprocessor and its MCS-4 chip set. Developed with Japanese calculator maker Busicom, the 4004 placed a programmable central-processing function on a single silicon chip. The announcement did not instantly create the modern computer industry, but it made a new commercial idea visible: a reusable processor whose behavior could be changed by software rather than redesigned hardware."
+    "title": "The Valve That Let Radio Current Flow One Way",
+    "copy": "On November 16, 1904, John Ambrose Fleming filed a British patent for what he called an instrument for detecting and measuring alternating currents. Its one-way electrical behavior offered wireless telegraphy a more dependable way to turn faint, rapidly oscillating radio signals into detectable current. The filing marked an early step toward the vacuum-tube electronics that would dominate communication technology before the transistor."
   },
   "instrument": {
-    "title": "The Intel 4004 Microprocessor",
-    "copy": "The 4004 was a four-bit programmable processor containing about 2,300 transistors. It was designed as part of the four-chip MCS-4 system for Busicom’s 141-PF calculator, then marketed by Intel for broader applications. Its historical importance lies less in raw speed than in the shift toward placing programmable computer functions inside a compact, commercially produced integrated circuit."
+    "title": "The Fleming Valve",
+    "copy": "Fleming’s instrument was a two-electrode thermionic valve: a heated element and a separate electrode sealed inside an evacuated glass vessel. The patent concerned its rectifying action—allowing current to pass preferentially in one direction—not amplification. Later vacuum-tube designs built on this foundation and extended the technology into amplifiers, oscillators, receivers, and other electronic systems."
   },
-  "updated": "2026-11-15"
+  "updated": "2026-11-16"
 };

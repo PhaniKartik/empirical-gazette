@@ -2310,19 +2310,60 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Kurt Gödel",
+      "exactHistoricalDate": "November 17, 1930",
+      "headline": "The Day Mathematics Met Its Limits",
+      "deck": "Gödel’s paper on formally undecidable propositions was received for publication, presenting results that would become known as the incompleteness theorems.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "Gödel had already announced the first result informally at a conference in Königsberg in September 1930. John von Neumann quickly recognized the importance of the work and independently reached the related conclusion that an appropriate formal system could not prove its own consistency.",
+      "body": "<p>On November 17, 1930, Monatshefte für Mathematik und Physik recorded receipt of Kurt Gödel’s manuscript, <em>Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I</em>, or <em>On Formally Undecidable Propositions of Principia Mathematica and Related Systems I</em>. The paper was published in 1931 in volume 38, pages 173–198.</p><p>Gödel’s argument showed that, for a broad class of consistent formal systems capable of expressing elementary arithmetic, some statements cannot be proved within the system. It also stated that such systems cannot establish their own consistency by the same formal means. The submitted paper included the second incompleteness theorem, although a detailed proof appeared later in work by David Hilbert and Wilhelm Bernays.</p><p>The result challenged the straightforward form of a foundational program associated with David Hilbert, which sought a secure formal treatment of mathematics, including a consistency proof for formal systems. It did not mean that every part of Hilbert’s program was disproved, nor did it end mathematical reasoning. Instead, it clarified limits built into the formal systems used to investigate proof itself.</p><p>The manuscript became evidence for a precise mathematical boundary: formal systems of the relevant kind possess substantial power, but that power does not include settling every arithmetic statement or proving their own consistency by the same formal resources.</p>",
+      "wrongBelief": "The foundational program associated with David Hilbert sought a secure, formal treatment of mathematics, including a consistency proof for formal systems, in a straightforward way that Gödel’s work showed could not be achieved.",
+      "evidence": "Gödel’s published mathematical argument established undecidable propositions for the formal systems covered by its hypotheses and stated the unprovability of consistency for those systems. It did not show that mathematics as a whole is contradictory, that every mathematical question is undecidable, or that formal reasoning is useless.",
+      "primarySource": "Kurt Gödel, Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I, Monatshefte für Mathematik und Physik 38 (1931), 173–198. The publisher’s record gives the receipt date as November 17, 1930.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-17",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "November 17, 1930, is the documented receipt date for Gödel’s manuscript.",
+          "The manuscript title, author, journal, 1931 publication year, volume 38, and pages 173–198 are correct.",
+          "Gödel had announced the first result at the Königsberg conference in September 1930.",
+          "John von Neumann quickly recognized the significance of the result and independently identified the related unprovability-of-consistency conclusion.",
+          "The article correctly states the qualified scope of the first and second incompleteness theorems.",
+          "The submitted paper included a statement of the second incompleteness theorem.",
+          "The description of Hilbert’s foundational program is appropriately cautious and does not claim that every aspect of the program was disproved.",
+          "The article correctly distinguishes formal-provability limits from claims that mathematics is contradictory or that formal reasoning is useless.",
+          "The formal-system description as a language, axioms, and rules of inference is accurate.",
+          "The article does not introduce an unsupported location claim or an image claim."
+        ],
+        "warnings": [
+          "The article is accurate, but the broad phrase “formal systems of the relevant kind” should remain understood as applying only to systems satisfying the incompleteness theorems’ technical hypotheses.",
+          "The article says the second theorem was included in the submitted paper and that a detailed proof appeared later in Hilbert and Bernays; this is historically supported, though the later detailed proof appeared in 1939."
+        ],
+        "researchSources": [
+          "Kurt Gödel, Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I, Monatshefte für Mathematik und Physik 38 (1931), 173–198. The publisher’s record gives the receipt date as November 17, 1930. ([link.springer.com](https://link.springer.com/article/10.1007/BF01700692))",
+          "Kurt Gödel, 1930 abstract on the results of the paper, communicated to the Vienna Academy of Sciences by Hans Hahn. ([originalsources.com](https://www.originalsources.com/Document.aspx?DocID=LIDFKJS9H6BEJH9&utm_source=openai))",
+          "John von Neumann’s letter to Gödel of November 20, 1930, reproduced in Kurt Gödel, Collected Works, Volume V. ([tandfonline.com](https://www.tandfonline.com/doi/full/10.1080/01445340.2022.2137324?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“Negative electricity can pass from the hot conductor, but not to it, through the vacuum.”",
-    "author": "John Ambrose Fleming, British patent specification GB 24,850, filed November 16, 1904."
+    "text": "“the greatest logical discovery in a long time”",
+    "author": "E. Schmidt, as reported by John von Neumann in a November 20, 1930, letter to Kurt Gödel."
   },
   "onThisDay": {
-    "title": "The Valve That Let Radio Current Flow One Way",
-    "copy": "On November 16, 1904, John Ambrose Fleming filed a British patent for what he called an instrument for detecting and measuring alternating currents. Its one-way electrical behavior offered wireless telegraphy a more dependable way to turn faint, rapidly oscillating radio signals into detectable current. The filing marked an early step toward the vacuum-tube electronics that would dominate communication technology before the transistor."
+    "title": "The Day Mathematics Met Its Limits",
+    "copy": "On November 17, 1930, Kurt Gödel’s landmark paper on formally undecidable propositions was received by Monatshefte für Mathematik und Physik. Published in 1931, it demonstrated that sufficiently powerful formal systems can contain arithmetic statements that the systems themselves cannot settle—and that they cannot prove their own consistency by the same formal means. The result did not end mathematics; it clarified the limits within which formal proof can operate."
   },
   "instrument": {
-    "title": "The Fleming Valve",
-    "copy": "Fleming’s instrument was a two-electrode thermionic valve: a heated element and a separate electrode sealed inside an evacuated glass vessel. The patent concerned its rectifying action—allowing current to pass preferentially in one direction—not amplification. Later vacuum-tube designs built on this foundation and extended the technology into amplifiers, oscillators, receivers, and other electronic systems."
+    "title": "The Formal System as a Mathematical Instrument",
+    "copy": "Gödel’s subject was not a physical device but a formal mathematical system: a precisely specified language, a set of axioms, and rules for deriving statements. His paper treated such systems as instruments for investigating proof itself, revealing both their power and their built-in limitations."
   },
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
 };

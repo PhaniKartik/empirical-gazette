@@ -2351,19 +2351,60 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "John C. Mather; George F. Smoot; Michael G. Hauser; Nancy Boggess",
+      "exactHistoricalDate": "November 18, 1989",
+      "headline": "COBE Begins Mapping the Universe’s Afterglow",
+      "deck": "NASA’s Cosmic Background Explorer began a space-based precision study of the faint microwave and infrared radiation left from the early universe.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "COBE launched aboard Delta rocket No. 189 from the Western Space and Missile Center at Vandenberg Air Force Base, California.",
+      "lore": "COBE combined three specialized instruments in one observatory: FIRAS measured the cosmic microwave background’s spectrum, DMR mapped tiny temperature differences in that radiation, and DIRBE surveyed diffuse infrared light.",
+      "body": "<p>On November 18, 1989, NASA launched the Cosmic Background Explorer, or COBE, from the Western Space and Missile Center at Vandenberg Air Force Base in California. The spacecraft entered an approximately 900-kilometer, near-polar, Sun-synchronous orbit and began a mission designed specifically to measure the cosmic microwave and infrared backgrounds.</p><p>COBE carried three principal instruments. FIRAS measured the spectrum of the cosmic microwave background, DMR measured microwave temperature anisotropy, and DIRBE surveyed diffuse infrared radiation. The spacecraft was developed largely in-house at NASA’s Goddard Space Flight Center, with contributions from industry, the Jet Propulsion Laboratory, and universities.</p><p>COBE completed its first all-sky survey in June 1990. Its later observations found a cosmic microwave background spectrum in extraordinary agreement with a blackbody curve and detected small temperature variations across the sky. Those results provided important quantitative support for models in which cosmic structure grew from early density variations and helped establish modern precision cosmology.</p><p>The launch demonstrated that COBE had reached orbit and that its observatory systems and instruments could begin their planned mission. It did not, by itself, establish a cosmological theory. John C. Mather and George F. Smoot later shared the 2006 Nobel Prize in Physics for work based on measurements of the cosmic microwave background.</p>",
+      "wrongBelief": "COBE’s contemporary NASA mission profile did not assume that the early-universe background was perfectly uniform. It explicitly expected departures from uniformity to appear as spectral irregularities and anisotropy in the microwave and far-infrared background radiation.",
+      "evidence": "The launch demonstrated that COBE had reached orbit and that its observatory systems and instruments could begin the planned mission. Subsequent FIRAS and DMR observations showed a near-perfect blackbody spectrum and very small temperature variations across the sky. These findings supported early-universe models involving a hot, dense origin and the growth of structure from primordial irregularities, but they did not constitute a complete test of every claim associated with Big Bang cosmology.",
+      "primarySource": "NASA, Cosmic Background Explorer mission profile; NASA Technical Memorandum 104959, COBE On-Orbit Engineering Performance; John C. Mather, NASA Science, “Measuring the Big Bang with the COBE satellite.”",
+      "editorialRecord": {
+        "publishedDate": "2026-11-18",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The November 18, 1989 launch date is correct.",
+          "COBE launched from the Western Space and Missile Center at Vandenberg Air Force Base, California.",
+          "COBE launched aboard Delta rocket No. 189 and entered an approximately 900-kilometer, near-polar, Sun-synchronous orbit.",
+          "The mission was designed to measure the cosmic microwave and infrared backgrounds.",
+          "FIRAS, DMR, and DIRBE are correctly described, including their principal scientific functions.",
+          "The spacecraft's development at NASA's Goddard Space Flight Center, with contributions from industry, JPL, and universities, is supported.",
+          "COBE completed its first all-sky survey in June 1990.",
+          "The descriptions of FIRAS's near-perfect blackbody measurement and DMR's detection of small temperature variations are supported.",
+          "The article appropriately distinguishes the launch itself from the later scientific evidence and avoids claiming that COBE alone proved an entire cosmological theory.",
+          "The statements about support for models involving a hot, dense early universe and structure growth from primordial irregularities are appropriately qualified.",
+          "John C. Mather and George F. Smoot sharing the 2006 Nobel Prize in Physics for work based on cosmic microwave background measurements is correct.",
+          "The discussion of contemporary expectations regarding nonuniformity in the early-universe background is supported and does not invent a contrary prevailing belief.",
+          "The article's historical significance is cautious and consistent with the dossier."
+        ],
+        "warnings": [],
+        "researchSources": [
+          "NASA, Cosmic Background Explorer mission profile, documenting the mission objectives, instruments, launch date, and principal investigators. ([ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19930013681/downloads/19930013681.pdf))",
+          "NASA Technical Memorandum 104959, COBE On-Orbit Engineering Performance, documenting the successful November 18, 1989 launch and early instrument status. ([ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19920008877?utm_source=openai))",
+          "John C. Mather, NASA Science, Measuring the Big Bang with the COBE satellite, a first-person account of the mission's origins, launch, and scientific purpose. ([science.nasa.gov](https://science.nasa.gov/missions/explorer/measuring-the-big-bang-with-the-cobe-satellite/))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“the greatest logical discovery in a long time”",
-    "author": "E. Schmidt, as reported by John von Neumann in a November 20, 1930, letter to Kurt Gödel."
+    "text": "With it, we started the new subject of precision cosmology.",
+    "author": "John C. Mather"
   },
   "onThisDay": {
-    "title": "The Day Mathematics Met Its Limits",
-    "copy": "On November 17, 1930, Kurt Gödel’s landmark paper on formally undecidable propositions was received by Monatshefte für Mathematik und Physik. Published in 1931, it demonstrated that sufficiently powerful formal systems can contain arithmetic statements that the systems themselves cannot settle—and that they cannot prove their own consistency by the same formal means. The result did not end mathematics; it clarified the limits within which formal proof can operate."
+    "title": "COBE Begins Mapping the Universe’s Afterglow",
+    "copy": "On November 18, 1989, NASA launched the Cosmic Background Explorer from Vandenberg Air Force Base. Carrying three specialized instruments, COBE was built to measure the faint microwave and infrared glow left from the early universe. Its later observations revealed both the remarkably precise spectrum of that glow and the subtle variations that trace the beginnings of cosmic structure."
   },
   "instrument": {
-    "title": "The Formal System as a Mathematical Instrument",
-    "copy": "Gödel’s subject was not a physical device but a formal mathematical system: a precisely specified language, a set of axioms, and rules for deriving statements. His paper treated such systems as instruments for investigating proof itself, revealing both their power and their built-in limitations."
+    "title": "The Satellite That Measured the Cosmic Afterglow",
+    "copy": "COBE combined three space instruments in one observatory: FIRAS measured the cosmic microwave background’s spectrum, DMR mapped tiny temperature differences in that radiation, and DIRBE surveyed diffuse infrared light. Together, they turned a nearly uniform sky glow into a precision record of the early universe."
   },
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
 };

@@ -2392,19 +2392,76 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Charles \"Pete\" Conrad Jr.; Alan L. Bean; Richard F. Gordon Jr.; NASA flight controllers, engineers, and scientists",
+      "exactHistoricalDate": "November 19, 1969; lunar-module touchdown at 06:54:36 GMT (01:54:36 EST)",
+      "headline": "Apollo 12 Lands Beside a Robotic Pioneer",
+      "deck": "A precision landing near Surveyor III turned Apollo 12 into a controlled scientific expedition on the Moon.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "No image for this edition.",
+      "lore": "On November 19, 1969, Apollo 12's Intrepid landed in the Moon's Ocean of Storms about 535 feet from Surveyor III, a robotic spacecraft that had arrived on April 20, 1967. Charles Conrad and Alan Bean later walked to the earlier lander, collected lunar samples, retrieved selected Surveyor III components, and established a scientific station.",
+      "body": "<p>Four months after Apollo 11, Apollo 12 made the second crewed lunar landing. Its lunar module, Intrepid, touched down in Oceanus Procellarum—the Ocean of Storms—at approximately 3.2° south latitude and 23.4° west longitude, about 535 feet from Surveyor III.</p><p>Reaching that site was an explicit mission objective. Conrad and Bean were able to walk to the robotic spacecraft during their surface excursion, work in a known setting, collect lunar samples, and retrieve selected Surveyor III components for later examination of their exposure to the lunar environment.</p><p>The astronauts also deployed the Apollo Lunar Surface Experiments Package, or ALSEP. Its instruments studied lunar seismic activity, the solar wind, the lunar magnetic environment, charged particles, and dust, extending the mission beyond a brief visit into a longer-running scientific observatory.</p><p>Apollo 12 therefore demonstrated that a crewed lunar module could reach a deliberately selected site near an earlier robotic spacecraft and support fieldwork there. It did not establish that every lunar terrain would be equally safe or accessible, and it did not by itself provide a complete geological history of the Moon.</p>",
+      "wrongBelief": "The specifically documented expectation was that a crewed lunar module could be guided to a preselected lunar site near Surveyor III. NASA described precision landing as an Apollo 12 objective and treated the mission as a demonstration of that capability, not as proof that every future lunar landing would be equally precise.",
+      "evidence": "Landing coordinates, postflight trajectory analysis, photographs, and surface observations placed Intrepid approximately 535 feet from Surveyor III. The mission demonstrated precision relative to its selected target and showed that astronauts could work alongside a previously landed robotic spacecraft. It did not demonstrate that all lunar terrain was equally safe or accessible, nor did it establish a complete geological history of the Moon.",
+      "primarySource": "NASA, Apollo 12 Mission Report, March 1970 — https://www.nasa.gov/wp-content/uploads/2025/11/a12-missionreport.pdf",
+      "editorialRecord": {
+        "publishedDate": "2026-11-19",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "Apollo 12 was the second crewed lunar landing and followed Apollo 11 by four months.",
+          "Intrepid landed on November 19, 1969, at 06:54:36 GMT (01:54:36 EST).",
+          "The landing site was in Oceanus Procellarum, the Ocean of Storms, at approximately 3.2 degrees south latitude and 23.4 degrees west longitude.",
+          "Intrepid landed approximately 535 feet from Surveyor III, which had landed on April 20, 1967.",
+          "Landing near Surveyor III was an explicit Apollo 12 objective and demonstrated precision landing relative to a selected target.",
+          "Conrad and Bean walked to Surveyor III, collected lunar samples, and retrieved selected components from the spacecraft.",
+          "Apollo 12 deployed ALSEP, whose instruments included a passive seismometer, lunar surface magnetometer, solar-wind spectrometer, dust detector, and suprathermal ion detector.",
+          "The article appropriately limits the mission's significance and does not claim that Apollo 12 proved all lunar terrain was safe or equally accessible.",
+          "The quotation attributed to Charles Conrad is supported by NASA's Apollo 12 technical air-to-ground transcript."
+        ],
+        "warnings": [
+          "The phrase \"longer-running scientific observatory\" is an interpretive description of ALSEP rather than a formal NASA designation, but it is historically reasonable and not materially misleading.",
+          "The article's primary-source field lists the mission report only; the quotation is separately supported by NASA's Apollo 12 air-to-ground transcript."
+        ],
+        "researchSources": [
+          {
+            "title": "NASA, Apollo 12 Mission Report, March 1970",
+            "url": "https://www.nasa.gov/wp-content/uploads/2025/11/a12-missionreport.pdf",
+            "relevance": "Official postflight account of the landing objective, landing location, surface activities, and mission results."
+          },
+          {
+            "title": "NASA, Apollo 12 Preliminary Science Report, NASA SP-235, 1970",
+            "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a12/as12psr.pdf",
+            "relevance": "Contemporary scientific summary of the precision landing, experiments, samples, and Surveyor III investigation."
+          },
+          {
+            "title": "NASA, Apollo 12 Mission Summary",
+            "url": "https://www.nasa.gov/wp-content/uploads/static/history/SP-4029/Apollo_12a_Summary.htm",
+            "relevance": "Official mission chronology and landing details."
+          },
+          {
+            "title": "NASA, Apollo 12 Technical Air-to-Ground Voice Transcription",
+            "url": "https://www.nasa.gov/wp-content/uploads/2026/01/as12-tec.pdf",
+            "relevance": "Primary transcript of communications from the mission, including Conrad's first words on the lunar surface."
+          }
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "With it, we started the new subject of precision cosmology.",
-    "author": "John C. Mather"
+    "text": "Man, that may have been a small one for Neil, but that's a long one for me.",
+    "author": "Charles \"Pete\" Conrad Jr., Apollo 12 technical air-to-ground transcript, November 19, 1969"
   },
   "onThisDay": {
-    "title": "COBE Begins Mapping the Universe’s Afterglow",
-    "copy": "On November 18, 1989, NASA launched the Cosmic Background Explorer from Vandenberg Air Force Base. Carrying three specialized instruments, COBE was built to measure the faint microwave and infrared glow left from the early universe. Its later observations revealed both the remarkably precise spectrum of that glow and the subtle variations that trace the beginnings of cosmic structure."
+    "title": "Apollo 12 Lands Beside a Robotic Pioneer",
+    "copy": "On November 19, 1969, Apollo 12's Intrepid landed in the Moon's Ocean of Storms only about 535 feet from Surveyor III, a robotic spacecraft sent there two years earlier. Charles Conrad and Alan Bean then established a scientific station, gathered lunar samples, and inspected parts of the older lander. The achievement was more than a second Moon landing: it was a test of whether human explorers could arrive at carefully chosen scientific targets."
   },
   "instrument": {
-    "title": "The Satellite That Measured the Cosmic Afterglow",
-    "copy": "COBE combined three space instruments in one observatory: FIRAS measured the cosmic microwave background’s spectrum, DMR mapped tiny temperature differences in that radiation, and DIRBE surveyed diffuse infrared light. Together, they turned a nearly uniform sky glow into a precision record of the early universe."
+    "title": "ALSEP: A Scientific Station Left on the Moon",
+    "copy": "Apollo 12 deployed the Apollo Lunar Surface Experiments Package, or ALSEP, a group of instruments intended to continue sending measurements after the astronauts departed. Its experiments recorded information about lunar seismic activity, the solar wind, magnetic conditions, charged particles, and dust—extending the mission from a brief visit into a longer-running scientific observatory."
   },
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
 };

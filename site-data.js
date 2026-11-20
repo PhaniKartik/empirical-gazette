@@ -2449,19 +2449,59 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Engineers at the Khrunichev State Research and Production Space Center in Moscow",
+      "exactHistoricalDate": "November 20, 1998",
+      "headline": "Zarya Opens the International Space Station",
+      "deck": "A U.S.-funded, Russian-built module began the orbital assembly of the ISS from Baikonur Cosmodrome.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "A Russian Proton rocket placed Zarya, the first component of the International Space Station, into orbit on November 20, 1998.",
+      "lore": "Zarya was also called the Functional Cargo Block, or FGB. Though it was not a scientific instrument in the narrow sense, its early control, power, communications, propulsion, fuel-storage, and rendezvous functions made later station assembly possible.",
+      "body": "<p>On November 20, 1998, a Russian Proton rocket launched Zarya from Baikonur Cosmodrome in Kazakhstan. The U.S.-funded, Russian-built module became the first element of the International Space Station, beginning the station’s orbital assembly.</p><p>Zarya supplied early propulsion, orientation control, communications, electrical power, battery power, fuel storage, and rendezvous capability. It orbited Earth by itself for 16 days before Space Shuttle Endeavour delivered the Unity module.</p><p>On December 6, 1998, the STS-88 crew captured Zarya and connected it to Unity, creating the station’s initial two-module core. The project represented a major U.S.–Russian space partnership after the Cold War and demonstrated that an international station could begin as a staged construction effort in orbit.</p><p>The launch did not bring a crew to the station, complete the ISS, or establish continuous habitation. Continuous crewed occupancy began only in November 2000, and the later scientific program depended on further assembly beyond Zarya’s first flight.</p><blockquote>The largest and most complex international construction project in space began on the steppes of Kazakhstan.</blockquote>",
+      "wrongBelief": "NASA and its international partners targeted November 20, 1998, for the first station component and December 3, 1998, for the shuttle mission carrying Unity. This documented expectation was a staged construction schedule, not evidence that the station was already complete or ready for permanent habitation.",
+      "evidence": "The Proton launch placed Zarya in orbit, where it deployed its antennas and solar panels and functioned as the station’s initial control and utility module. Its later capture and connection to Unity in December 1998 demonstrated the beginning of orbital assembly and the viability of the first station element. The launch did not, by itself, demonstrate that the full ISS was operational, continuously inhabited, or capable of its later scientific program.",
+      "primarySource": "NASA, \"20 Years Ago, Space Station Construction Begins,\" November 20, 2018; NASA, \"Zarya Module\"; NASA, ISS Laboratories Guide; NASA Historical Data Book, Table 3-129, \"Zarya-Unity Orbital Events Summary\"; NASA Kennedy Space Center News Release 66-98, \"International Space Station Partners Adjust Target Dates for First Launches,\" May 31, 1998.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-20",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "Zarya launched on November 20, 1998, aboard a Russian Proton rocket from Baikonur Cosmodrome in Kazakhstan. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-space-station-construction-begins/?utm_source=openai))",
+          "Zarya was the first component of the ISS, was U.S.-funded and Russian-built, and was also known as the Functional Cargo Block or FGB. ([nasa.gov](https://www.nasa.gov/international-space-station/zarya-module/?utm_source=openai))",
+          "The module provided early propulsion, attitude or orientation control, communications, electrical power, battery power, fuel storage, and rendezvous or docking functions. ([nasa.gov](https://www.nasa.gov/missions/station/the-international-space-station-20-years-of-communications-excellence/?utm_source=openai))",
+          "Zarya orbited alone for 16 days before Endeavour's STS-88 mission arrived, and the crew captured and mated it with Unity on December 6, 1998. ([nasa.gov](https://www.nasa.gov/international-space-station/zarya-module/?utm_source=openai))",
+          "The launch began orbital assembly but did not complete the ISS or establish crewed occupancy; continuous human presence began on November 2, 2000. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-space-station-construction-begins/?utm_source=openai))",
+          "The article's characterization of the project as a major U.S.-Russian partnership after the Cold War is supported by NASA's historical account of former adversaries collaborating on the station. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-space-station-construction-begins/?utm_source=openai))",
+          "The quotation is accurately reproduced and attributed to John Uri of NASA's Johnson Space Center in the cited NASA article. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-space-station-construction-begins/?utm_source=openai))",
+          "The documented November 20, 1998, and December 3, 1998, target dates describe a staged construction schedule, not a completed or habitation-ready station. ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/sp-4012v7.pdf?emrc=3e369a&utm_source=openai))"
+        ],
+        "warnings": [
+          "For maximum technical precision, 'connected it to Unity' could be phrased as 'mated it to Unity via PMA-1 while both modules were in Endeavour's payload bay.' The existing wording is historically acceptable."
+        ],
+        "researchSources": [
+          "NASA, \"20 Years Ago, Space Station Construction Begins,\" November 20, 2018. ([nasa.gov](https://www.nasa.gov/history/20-years-ago-space-station-construction-begins/?utm_source=openai))",
+          "NASA, \"Zarya Module,\" mission overview and technical description. ([nasa.gov](https://www.nasa.gov/international-space-station/zarya-module/?utm_source=openai))",
+          "NASA, ISS Laboratories Guide, timeline of ISS construction. ([nasa.gov](https://www.nasa.gov/pdf/626225main_ISS_LABS_Guide.pdf?utm_source=openai))",
+          "NASA Historical Data Book, Table 3-129, \"Zarya-Unity Orbital Events Summary.\" ([nasa.gov](https://www.nasa.gov/wp-content/uploads/2023/04/sp-4012v7.pdf?emrc=3e369a&utm_source=openai))",
+          "NASA, Kennedy Space Center News Release 66-98, \"International Space Station Partners Adjust Target Dates for First Launches,\" May 31, 1998. ([www3.nasa.gov](https://www3.nasa.gov/centers/kennedy/pdf/744611main_1998.pdf?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "Man, that may have been a small one for Neil, but that's a long one for me.",
-    "author": "Charles \"Pete\" Conrad Jr., Apollo 12 technical air-to-ground transcript, November 19, 1969"
+    "text": "The largest and most complex international construction project in space began on the steppes of Kazakhstan.",
+    "author": "John Uri, NASA Johnson Space Center"
   },
   "onThisDay": {
-    "title": "Apollo 12 Lands Beside a Robotic Pioneer",
-    "copy": "On November 19, 1969, Apollo 12's Intrepid landed in the Moon's Ocean of Storms only about 535 feet from Surveyor III, a robotic spacecraft sent there two years earlier. Charles Conrad and Alan Bean then established a scientific station, gathered lunar samples, and inspected parts of the older lander. The achievement was more than a second Moon landing: it was a test of whether human explorers could arrive at carefully chosen scientific targets."
+    "title": "Zarya Opens the International Space Station",
+    "copy": "On November 20, 1998, a Russian Proton rocket lifted Zarya into orbit from Baikonur Cosmodrome. The U.S.-funded, Russian-built module became the first component of the International Space Station, providing the early control, power, communications, and propulsion functions needed for later modules. Zarya’s launch did not complete the station—but it turned an international design into an object assembled in orbit."
   },
   "instrument": {
-    "title": "ALSEP: A Scientific Station Left on the Moon",
-    "copy": "Apollo 12 deployed the Apollo Lunar Surface Experiments Package, or ALSEP, a group of instruments intended to continue sending measurements after the astronauts departed. Its experiments recorded information about lunar seismic activity, the solar wind, magnetic conditions, charged particles, and dust—extending the mission from a brief visit into a longer-running scientific observatory."
+    "title": "Zarya: The Orbital Utility Module",
+    "copy": "Zarya was not a scientific instrument in the narrow sense. It was the ISS’s first functional cargo block: a pressurized orbital module designed to provide early propulsion, orientation control, communications, electrical power, fuel storage, and docking capability. Its significance lay in making later station assembly possible."
   },
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
 };

@@ -2489,19 +2489,53 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Ole Rømer",
+      "exactHistoricalDate": "November 21, 1676",
+      "headline": "The Night Light Lost Its Instantaneity",
+      "deck": "In Paris, Ole Rømer presented evidence that light required time to cross space.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "At the Paris Observatory, telescopic observations of Jupiter’s moon Io turned a distant eclipse into a clock for measuring light’s arrival.",
+      "lore": "The observations began as a practical effort to use recurring eclipses of Jupiter’s moons as a possible clock for determining longitude. Instead, their irregular timing revealed that light itself was not instantaneous.",
+      "body": "<p>On November 21, 1676, Ole Rømer presented an account to the Académie Royale des Sciences in Paris showing that light’s motion was not instantaneous. His evidence came from repeated observations of eclipses of Jupiter’s moon Io, made through the astronomical observation program at the Paris Observatory.</p><p>Rømer had predicted that an Io eclipse expected on November 9 would appear about ten minutes late. The recorded event occurred at 5:35:45 rather than the predicted 5:25:45. As Earth’s position changed relative to Jupiter, the apparent timing of Io’s eclipses shifted in a pattern consistent with the travel time of light across the changing distance.</p><p>Rømer stated that light required about 22 minutes to cross the diameter of Earth’s annual orbit. The result demonstrated that light took time to travel through space and provided an approximate transit time across that distance. It did not produce the modern exact value of light’s speed, and some contemporaries, including Giovanni Domenico Cassini, continued to consider alternative explanations for the irregularities.</p><p>Later calculations by Christiaan Huygens converted the astronomical result into an estimate of light’s speed, although Rømer himself did not publish a modern-style numerical value for the velocity.</p>",
+      "wrongBelief": "The specifically documented expectation was that light might propagate instantaneously.",
+      "evidence": "The evidence was a systematic timing discrepancy in Io’s eclipses: Rømer predicted a ten-minute delay for the November 9, 1676, eclipse, and the event was recorded at 5:35:45 instead of 5:25:45. This demonstrated that the observations were consistent with a finite travel time for light and provided an approximate transit time across Earth’s orbital diameter. It did not establish the modern exact value of light’s speed, and some contemporaries continued to consider alternative explanations.",
+      "primarySource": "Académie Royale des Sciences meeting record for November 21, 1676; Ole Rømer, “Démonstration touchant le mouvement de la lumière,” published in the Journal des Sçavans in December 1676; and the 1677 English translation in the Royal Society’s Philosophical Transactions.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-21",
+        "validationScore": 100.0,
+        "verifiedClaims": [
+          "The article correctly identifies Ole Rømer, the Académie Royale des Sciences in Paris, and November 21, 1676, as the setting and date of the presentation. ([optica-opn.org](https://www.optica-opn.org/home/articles/volume_20/issue_7/features/ole_r%C3%B8mer_and_the_speed_of_light/?utm_source=openai))",
+          "The account accurately describes the Io-eclipse evidence, including the prediction of a roughly ten-minute delay on November 9, 1676, and the recorded times of 5:35:45 versus 5:25:45. ([optica-opn.org](https://www.optica-opn.org/home/articles/volume_20/issue_7/features/ole_r%C3%B8mer_and_the_speed_of_light/?utm_source=openai))",
+          "The article correctly states that Rømer presented the result as showing that light's motion was not instantaneous and that he estimated approximately 22 minutes for light to cross the diameter of Earth's orbit. ([optica-opn.org](https://www.optica-opn.org/home/articles/volume_20/issue_7/features/ole_r%C3%B8mer_and_the_speed_of_light/?utm_source=openai))",
+          "The explanation of the observations' original longitude-related purpose, the changing Earth-Jupiter distance, and the continued consideration of alternative explanations by contemporaries is historically supported and appropriately cautious. ([optica-opn.org](https://www.optica-opn.org/home/articles/volume_20/issue_7/features/ole_r%C3%B8mer_and_the_speed_of_light/?utm_source=openai))",
+          "The statement that Huygens later converted the astronomical result into a numerical estimate of light's speed, while Rømer did not publish a modern-style velocity value himself, is supported by the dossier and historical accounts. ([optica-opn.org](https://www.optica-opn.org/home/articles/volume_20/issue_7/features/ole_r%C3%B8mer_and_the_speed_of_light/?utm_source=openai))",
+          "The article does not overstate the result as a measurement of the modern exact speed of light; it distinguishes the demonstrated finite travel time from later numerical calculation."
+        ],
+        "warnings": [],
+        "researchSources": [
+          "Académie Royale des Sciences meeting record for November 21, 1676, preserving the statement that Rømer showed light’s motion was not instantaneous; the surviving wording is quoted in Optica’s historical account. ([optica-opn.org](https://www.optica-opn.org/home/articles/volume_20/issue_7/features/ole_r%C3%B8mer_and_the_speed_of_light/))",
+          "Ole Rømer, “Démonstration touchant le mouvement de la lumière,” published in the Journal des Sçavans in December 1676. ([optica-opn.org](https://www.optica-opn.org/home/articles/volume_20/issue_7/features/ole_r%C3%B8mer_and_the_speed_of_light/))",
+          "English translation of the report in the Royal Society’s Philosophical Transactions, “A Demonstration Concerning the Motion of Light, Communicated from Paris, in the Journal des Scavans, and here Made English,” 1677. ([jstor.org](https://www.jstor.org/stable/101779))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "The largest and most complex international construction project in space began on the steppes of Kazakhstan.",
-    "author": "John Uri, NASA Johnson Space Center"
+    "text": "“Rømer read to the Company an account where he shows that the motion of light is not instantaneous.”",
+    "author": "Record of the Académie Royale des Sciences meeting of November 21, 1676"
   },
   "onThisDay": {
-    "title": "Zarya Opens the International Space Station",
-    "copy": "On November 20, 1998, a Russian Proton rocket lifted Zarya into orbit from Baikonur Cosmodrome. The U.S.-funded, Russian-built module became the first component of the International Space Station, providing the early control, power, communications, and propulsion functions needed for later modules. Zarya’s launch did not complete the station—but it turned an international design into an object assembled in orbit."
+    "title": "The Night Light Lost Its Instantaneity",
+    "copy": "On November 21, 1676, Ole Rømer told Paris’s Royal Academy of Sciences that the changing timing of Jupiter’s moon Io revealed a delay in light’s arrival. The result did not produce a perfectly accurate speed, but it transformed a philosophical question into an astronomical measurement: light took time to cross space."
   },
   "instrument": {
-    "title": "Zarya: The Orbital Utility Module",
-    "copy": "Zarya was not a scientific instrument in the narrow sense. It was the ISS’s first functional cargo block: a pressurized orbital module designed to provide early propulsion, orientation control, communications, electrical power, fuel storage, and docking capability. Its significance lay in making later station assembly possible."
+    "title": "The Telescope That Turned Io Into a Clock",
+    "copy": "At the Paris Observatory, telescopic observations of Io’s eclipses supplied the evidence. The instrument did not measure light directly; it recorded the timing of a distant celestial event whose apparent schedule changed with Earth’s position. That shift made the travel time of light visible in the heavens."
   },
-  "updated": "2026-11-20"
+  "updated": "2026-11-21"
 };

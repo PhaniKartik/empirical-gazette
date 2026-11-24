@@ -2523,19 +2523,58 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Charles Darwin",
+      "exactHistoricalDate": "November 24, 1859",
+      "headline": "The Book That Made Species Historical",
+      "deck": "John Murray published Darwin’s On the Origin of Species, a sustained argument for descent with modification and natural selection.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "The first edition of Charles Darwin’s On the Origin of Species, published in London by John Murray on November 24, 1859.",
+      "lore": "The first printing is generally catalogued as 1,250 copies, although accounts of the trade sale and the number immediately available to booksellers vary. Darwin had previously shared a related theory with Alfred Russel Wallace in a joint presentation to the Linnean Society in 1858; the 1859 book was his fuller exposition.",
+      "body": "<p>On November 24, 1859, London publisher John Murray released Charles Darwin’s <em>On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life</em>. The volume presented a sustained argument that species are related by descent and modified over time, with natural selection as the principal mechanism.</p><p>Darwin assembled evidence from variation, geographical distribution, geological succession, classification, domestication, anatomy, embryology, and the fossil record. Taken together, these comparisons provided a comprehensive explanatory case for understanding patterns in the living world through common descent and modification rather than through the separate creation of each species.</p><p>The publication demonstrated the power of a book to connect observations from many fields into one scientific argument. It did not resolve every difficulty in evolutionary theory. Darwin expressly acknowledged that much remained obscure and described natural selection as the main, but not exclusive, means of modification.</p><p>Its significance therefore lay not only in its conclusion, but in its method: a portable synthesis that tested a fixed view of species against evidence from nature, domestication, geology, and classification.</p>",
+      "wrongBelief": "Darwin identified as a view held by most naturalists the belief that each species had been independently created. He also described the belief that species were immutable as historically understandable but scientifically contestable.",
+      "evidence": "The publication demonstrated that Darwin had assembled comparative evidence from anatomy, embryology, biogeography, domestication, classification, and geology into a unified argument for common descent and modification. It did not, by itself, resolve every difficulty in evolutionary theory, and Darwin acknowledged that much remained obscure.",
+      "primarySource": "Charles Darwin, On the Origin of Species, first edition, published by John Murray, London, November 24, 1859.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-24",
+        "validationScore": 96.0,
+        "verifiedClaims": [
+          "Charles Darwin was the author and John Murray was the London publisher.",
+          "The first edition was published on November 24, 1859, in London, under the stated full title. ([darwin-online.org.uk](https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html))",
+          "The book argued for descent with modification and identified natural selection as the main, though not exclusive, means of modification. ([darwin-online.org.uk](https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html))",
+          "The article accurately describes Darwin’s use of evidence concerning variation, domestication, geographical distribution, geology, classification, anatomy, embryology, and fossils; these subjects are represented in the first edition’s contents and argument. ([darwin-online.org.uk](https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html))",
+          "The claim that the first printing is generally given as 1,250 copies is supported by the Darwin Correspondence Project. ([darwinproject.ac.uk](https://www.darwinproject.ac.uk/charles-darwin-and-his-publisher))",
+          "The article appropriately acknowledges that Darwin did not resolve every difficulty and that much remained obscure. Darwin explicitly made both qualifications. ([darwin-online.org.uk](https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html))",
+          "The descriptions of the book as a synthesis or portable scientific argument are interpretive but consistent with the dossier and do not materially exaggerate its historical significance."
+        ],
+        "warnings": [
+          "The quotation is accurately reproduced and appears in the first edition, but its attribution as coming from the “opening chapter” is imprecise: the passage appears in Darwin’s Introduction, immediately before Chapter I. ([darwin-online.org.uk](https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html))",
+          "The statement that Darwin and Alfred Russel Wallace had previously shared a related theory “in a joint presentation” is broadly acceptable but slightly misleading. Their independently developed papers were presented together to the Linnean Society on July 1, 1858; neither Darwin nor Wallace was present. ([linnean.org](https://www.linnean.org/the-society/building-and-collections?utm_source=openai))",
+          "The November 24, 1859 date is the recognized publication date, although Murray’s trade sale occurred on November 22 and the first edition sold out rapidly. The article’s wording is acceptable in context. ([darwin-online.org.uk](https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html))"
+        ],
+        "researchSources": [
+          "Charles Darwin, On the Origin of Species, first edition, published by John Murray, London, November 24, 1859. ([darwin-online.org.uk](https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html?utm_source=openai))",
+          "Charles Darwin, On the Origin of Species, passages stating that most naturalists regarded species as independently created and that species were not immutable. ([darwin-online.org.uk](https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html))",
+          "Darwin Correspondence Project, records concerning John Murray’s publication of the book and the rapid sale of the first edition. ([darwinproject.ac.uk](https://www.darwinproject.ac.uk/charles-darwin-and-his-publisher?utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“Rømer read to the Company an account where he shows that the motion of light is not instantaneous.”",
-    "author": "Record of the Académie Royale des Sciences meeting of November 21, 1676"
+    "text": "I am fully convinced that species are not immutable.",
+    "author": "Charles Darwin, On the Origin of Species, first edition, opening chapter."
   },
   "onThisDay": {
-    "title": "The Night Light Lost Its Instantaneity",
-    "copy": "On November 21, 1676, Ole Rømer told Paris’s Royal Academy of Sciences that the changing timing of Jupiter’s moon Io revealed a delay in light’s arrival. The result did not produce a perfectly accurate speed, but it transformed a philosophical question into an astronomical measurement: light took time to cross space."
+    "title": "The Book That Made Species Historical",
+    "copy": "On November 24, 1859, London publisher John Murray released Charles Darwin’s On the Origin of Species. Darwin’s book argued that the living world was not a fixed catalogue of separately created forms, but a branching history shaped by descent, variation, extinction, and natural selection. It did not answer every question about evolution, but it gave naturalists a powerful framework for interpreting evidence from fossils, geography, anatomy, and domestication."
   },
   "instrument": {
-    "title": "The Telescope That Turned Io Into a Clock",
-    "copy": "At the Paris Observatory, telescopic observations of Io’s eclipses supplied the evidence. The instrument did not measure light directly; it recorded the timing of a distant celestial event whose apparent schedule changed with Earth’s position. That shift made the travel time of light visible in the heavens."
+    "title": "The First Edition as a Scientific Instrument",
+    "copy": "Darwin’s first-edition volume functioned as an instrument of scientific synthesis: a portable argument that brought observations from many fields into a single explanatory structure. Its importance lay not in a laboratory device, but in how clearly the book connected independent lines of evidence while marking the uncertainties that remained."
   },
-  "updated": "2026-11-21"
+  "updated": "2026-11-24"
 };

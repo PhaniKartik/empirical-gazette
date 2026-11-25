@@ -2562,19 +2562,59 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "Albert Einstein",
+      "exactHistoricalDate": "25 November 1915",
+      "headline": "Einstein Writes the Equations of Curved Spacetime",
+      "deck": "At the Royal Prussian Academy of Sciences in Berlin, Einstein presented the paper containing the final form of his gravitational field equations.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "The Royal Prussian Academy’s 1915 proceedings preserved Einstein’s paper, its date, title, equations, and argument.",
+      "lore": "The crucial record of the event was a printed scientific proceeding rather than a laboratory device. The paper appeared as “Die Feldgleichungen der Gravitation” in the Academy’s 1915 proceedings, pages 844–847.",
+      "body": "<p>On 25 November 1915, Albert Einstein presented the Royal Prussian Academy of Sciences in Berlin with the paper containing the final form of his gravitational field equations. The document, titled “Die Feldgleichungen der Gravitation” (“The Field Equations of Gravitation”), was published in the Academy’s 1915 proceedings.</p><p>The equations supplied a generally covariant mathematical framework for describing gravitation through the geometry of spacetime. Einstein wrote that they were covariant under arbitrary substitutions of space-time variables, and the equations included the energy tensor of matter on their right-hand side, linking matter and energy with the gravitational field.</p><p>The submission marked the completion of the central mathematical structure of general relativity and provided a framework that superseded Newtonian gravity in situations where Newton’s theory was insufficient. Einstein’s separate paper on Mercury’s perihelion was published on the same date, but the field-equation paper established the completed mathematical form of the theory.</p><p>The event demonstrated that Einstein had formulated the mathematical structure of his gravitational theory. It was a theoretical submission, however, and did not by itself constitute an experimental test or observational confirmation.</p>",
+      "wrongBelief": "Einstein explicitly wrote, “We assume, as usual, that the divergence of the energy tensor of matter vanishes” in the general differential calculus. This records a specific working assumption in the paper, not a claim about every scientist’s broader beliefs.",
+      "evidence": "The Academy paper itself presents a generally covariant set of gravitational field equations and shows how the energy tensor of matter enters those equations. The event demonstrated that Einstein had formulated the mathematical structure of his gravitational theory. It did not, by itself, constitute an experimental test or observational confirmation; the paper was a theoretical submission.",
+      "primarySource": "Albert Einstein, “Die Feldgleichungen der Gravitation,” Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften zu Berlin, session of 25 November 1915, pp. 844–847. English translation reproduced in the Einstein Papers collection. Additional records include The Collected Papers of Albert Einstein, Volume 6, and the Einstein Papers Project historical account.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-25",
+        "validationScore": 98.0,
+        "verifiedClaims": [
+          "Albert Einstein was the author of “Die Feldgleichungen der Gravitation.”",
+          "The relevant Academy session occurred on 25 November 1915 in Berlin.",
+          "The paper appeared in the 1915 Academy proceedings on pages 844–847. ([echo-old.mpiwg-berlin.mpg.de](https://echo-old.mpiwg-berlin.mpg.de/ECHOdocuView?pn=1&url=%2Fpermanent%2Fecho%2Feinstein%2Fsitzungsberichte%2F6E3MAXK4%2Findex.meta&viewMode=index&utm_source=openai))",
+          "The paper presented generally covariant gravitational field equations and stated covariance under arbitrary substitutions of space-time variables. ([de.wikisource.org](https://de.wikisource.org/wiki/Die_Feldgleichungen_der_Gravitation?utm_source=openai))",
+          "The equations incorporated the energy tensor of matter on the right-hand side. ([jp-petit.org](https://www.jp-petit.org/papers/cosmo/1915-Einstein-25-nov-en.pdf?utm_source=openai))",
+          "Einstein’s Mercury-perihelion paper was published on 25 November 1915, while the field-equation paper was submitted on that date and published in the proceedings on 2 December 1915. ([assets.press.princeton.edu](https://assets.press.princeton.edu/books/einstein11/e_biblio.pdf?utm_source=openai))",
+          "The article appropriately distinguishes the theoretical formulation from later experimental or observational confirmation.",
+          "The quoted wording is supported by English translations of Einstein’s paper. ([books.tarbaweya.org](https://books.tarbaweya.org/static/documents/uploads/pdf/physics/EINSTEIN%20MAJOR%20PAPERS.pdf?utm_source=openai))",
+          "The statement concerning the assumed vanishing divergence of the matter energy tensor is supported by the paper’s text. ([jp-petit.org](https://www.jp-petit.org/papers/cosmo/1915-Einstein-25-nov-en.pdf?utm_source=openai))"
+        ],
+        "warnings": [
+          "The article correctly uses 25 November 1915 as the date of the Physical-Mathematical Class session and presentation/submission. The proceedings publication itself was dated 2 December 1915, so the wording should not be read as claiming same-day publication. ([assets.press.princeton.edu](https://assets.press.princeton.edu/books/einstein11/e_biblio.pdf?utm_source=openai))",
+          "The phrase “superseded Newtonian gravity” is acceptable because it is qualified by “in situations where Newton’s theory was insufficient,” but it is a broad interpretive summary rather than a statement demonstrated by this single paper."
+        ],
+        "researchSources": [
+          "Albert Einstein, \"Die Feldgleichungen der Gravitation,\" Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften zu Berlin, session of 25 November 1915, pp. 844–847. English translation reproduced in the Einstein Papers collection. ([jp-petit.org](https://www.jp-petit.org/papers/cosmo/1915-Einstein-25-nov-en.pdf))",
+          "The Collected Papers of Albert Einstein, Volume 6, entry for \"The Field Equations of Gravitation,\" dated 25 November 1915. ([assets.press.princeton.edu](https://assets.press.princeton.edu/books/einstein11/writings.pdf))",
+          "Einstein Papers Project, California Institute of Technology, historical account of the 25 November 1915 submission. ([einstein.caltech.edu](https://www.einstein.caltech.edu/news/one-hundred-years-of-einsteins-field-equations-and-of-the-explanation-of-mercurys-perihelion))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "I am fully convinced that species are not immutable.",
-    "author": "Charles Darwin, On the Origin of Species, first edition, opening chapter."
+    "text": "“field equations of gravitation that comply with the postulate of general relativity”",
+    "author": "Albert Einstein, “The Field Equations of Gravitation,” 25 November 1915, English translation of the Academy paper."
   },
   "onThisDay": {
-    "title": "The Book That Made Species Historical",
-    "copy": "On November 24, 1859, London publisher John Murray released Charles Darwin’s On the Origin of Species. Darwin’s book argued that the living world was not a fixed catalogue of separately created forms, but a branching history shaped by descent, variation, extinction, and natural selection. It did not answer every question about evolution, but it gave naturalists a powerful framework for interpreting evidence from fossils, geography, anatomy, and domestication."
+    "title": "Einstein Writes the Equations of Curved Spacetime",
+    "copy": "On 25 November 1915, Albert Einstein presented the Royal Prussian Academy of Sciences with the paper containing the final form of his gravitational field equations. The equations expressed gravity not as a force acting across empty space, but as a relationship between spacetime geometry and matter. The submission marked the completion of the central mathematical framework of general relativity, although its experimental confirmation would come later."
   },
   "instrument": {
-    "title": "The First Edition as a Scientific Instrument",
-    "copy": "Darwin’s first-edition volume functioned as an instrument of scientific synthesis: a portable argument that brought observations from many fields into a single explanatory structure. Its importance lay not in a laboratory device, but in how clearly the book connected independent lines of evidence while marking the uncertainties that remained."
+    "title": "The Academy Proceedings",
+    "copy": "The crucial record of the event was not a laboratory device but a printed scientific proceeding: the Royal Prussian Academy’s 1915 volume preserved Einstein’s paper, its date, title, equations, and argument. That document is the primary surviving scientific record of the 25 November presentation and submission."
   },
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
 };

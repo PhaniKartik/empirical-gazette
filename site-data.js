@@ -2602,19 +2602,54 @@ window.GAZETTE_DATA = {
         "imageSource": null,
         "imageUrl": null
       }
+    },
+    {
+      "scientist": "John Michell",
+      "exactHistoricalDate": "November 27, 1783",
+      "headline": "The Star That Could Not Be Seen",
+      "deck": "John Michell proposes that some stars could be so massive that their gravity would prevent their light from reaching Earth.",
+      "wikiImage": null,
+      "fallbackSvg": null,
+      "caption": "John Michell’s 1783 proposal for invisible “dark stars” anticipated a central feature of later black-hole theory.",
+      "lore": "Michell’s paper was communicated to the Royal Society through a letter to Henry Cavendish. It was dated May 26, 1783, and read at the Society on November 27, 1783.",
+      "body": "<p>On November 27, 1783, the Royal Society heard John Michell’s proposal for “dark stars”—objects so massive and compact that their gravity could prevent their light from reaching distant observers. Michell did not use the later term “black hole,” but his argument anticipated the possibility of an object whose gravity prevents light from escaping.</p><p>Michell presented the idea in a paper titled “On the means of discovering the distance, magnitude, &amp;c. of the fixed stars...” The paper was communicated through a letter to Henry Cavendish, dated May 26, 1783, and was later published in the Royal Society’s Philosophical Transactions, volume 74, pages 35–57.</p><blockquote>“since their light could not arrive at us; ... we could have no information from sight”</blockquote><p>Within Michell’s Newtonian assumptions, a sufficiently massive star could make itself invisible by preventing its light from reaching Earth. He also suggested that an unseen object might be inferred from the motion of a visible companion orbiting it.</p><p>The event was a theoretical proposal, not an observation of a dark star. It demonstrated that such an object could be imagined within the period’s assumptions about gravity and light, but it did not show that one had been detected. Michell’s proposed explanation of light’s behavior was later superseded by modern physics.</p>",
+      "wrongBelief": "Michell explicitly assumed that light consisted of particles attracted by gravity in the same manner as other bodies, writing that there was “no reasonable doubt” about this under the natural philosophy of his time.",
+      "evidence": "The documented evidence is Michell’s theoretical argument. It showed that, within his Newtonian assumptions, a star could be imagined whose gravity prevented its light from reaching observers, and that an unseen body might reveal itself through the motion of a luminous companion. It did not demonstrate that such an object had been observed.",
+      "primarySource": "John Michell, “On the means of discovering the distance, magnitude, &c. of the fixed stars...,” Philosophical Transactions of the Royal Society of London, volume 74, 1784, pages 35–57; read November 27, 1783. The Royal Society archive record is L&P/8/48.",
+      "editorialRecord": {
+        "publishedDate": "2026-11-27",
+        "validationScore": 95.0,
+        "verifiedClaims": [
+          "John Michell was the relevant scientist, and Henry Cavendish received the paper as a letter. ([en.wikisource.org](https://en.wikisource.org/wiki/On_the_Means_of_discovering_the_Distance,_Magnitude,_&c._of_the_Fixed_Stars))",
+          "The paper was dated May 26, 1783, and read to the Royal Society on November 27, 1783. ([en.wikisource.org](https://en.wikisource.org/wiki/On_the_Means_of_discovering_the_Distance,_Magnitude,_&c._of_the_Fixed_Stars))",
+          "Michell proposed that sufficiently large or non-luminous bodies could be invisible because their light could not reach observers, and that their existence might be inferred from the motion of luminous companions. ([en.wikisource.org](https://en.wikisource.org/wiki/On_the_Means_of_discovering_the_Distance,_Magnitude,_&c._of_the_Fixed_Stars))",
+          "The paper was published in Philosophical Transactions, volume 74, pages 35–57; the publication volume is dated 1784. ([jstor.org](https://www.jstor.org/stable/106576?utm_source=openai))",
+          "The article correctly distinguishes Michell’s theoretical proposal from an observation or detection and correctly notes that his particle-based Newtonian account of light was later superseded. ([en.wikisource.org](https://en.wikisource.org/wiki/On_the_Means_of_discovering_the_Distance,_Magnitude,_&c._of_the_Fixed_Stars))"
+        ],
+        "warnings": [
+          "The phrase “massive and compact” is somewhat modernizing and potentially misleading: Michell’s hypothetical dark stars were described as having densities at least equal to the Sun and diameters more than 500 times the Sun’s, not as compact objects in the modern black-hole sense. ([en.wikisource.org](https://en.wikisource.org/wiki/On_the_Means_of_discovering_the_Distance,_Magnitude,_&c._of_the_Fixed_Stars))",
+          "The instrument copy is broadly supportable, but “telescope and prism as stellar probes” is interpretive. Michell explicitly proposed using a prism to detect changes in starlight and discussed telescopic limits; he did not report an actual instrument-based test or detection. ([en.wikisource.org](https://en.wikisource.org/wiki/On_the_Means_of_discovering_the_Distance,_Magnitude,_&c._of_the_Fixed_Stars))"
+        ],
+        "researchSources": [
+          "John Michell, “On the means of discovering the distance, magnitude, &c. of the fixed stars...,” Philosophical Transactions of the Royal Society of London, volume 74, 1784, pages 35–57; read November 27, 1783. ([royalsociety.org](https://www.royalsociety.org/blog/2019/06/black-holes/))",
+          "Royal Society archive record for Michell’s paper, L&P/8/48, documenting its reading on November 27, 1783. ([catalogues.royalsociety.org](https://catalogues.royalsociety.org/CalmView/Record.aspx?id=L%26P%2F8%2F48&src=CalmView.Catalog&utm_source=openai))"
+        ],
+        "imageSource": null,
+        "imageUrl": null
+      }
     }
   ],
   "dailyQuote": {
-    "text": "“field equations of gravitation that comply with the postulate of general relativity”",
-    "author": "Albert Einstein, “The Field Equations of Gravitation,” 25 November 1915, English translation of the Academy paper."
+    "text": "“since their light could not arrive at us; ... we could have no information from sight”",
+    "author": "John Michell, “On the means of discovering the distance, magnitude, &c. of the fixed stars...,” read to the Royal Society on November 27, 1783."
   },
   "onThisDay": {
-    "title": "Einstein Writes the Equations of Curved Spacetime",
-    "copy": "On 25 November 1915, Albert Einstein presented the Royal Prussian Academy of Sciences with the paper containing the final form of his gravitational field equations. The equations expressed gravity not as a force acting across empty space, but as a relationship between spacetime geometry and matter. The submission marked the completion of the central mathematical framework of general relativity, although its experimental confirmation would come later."
+    "title": "The Star That Could Not Be Seen",
+    "copy": "On November 27, 1783, the Royal Society heard John Michell’s proposal for “dark stars”: objects so massive that their light could not escape their own gravity. The idea rested on eighteenth-century Newtonian physics and was not an observation, but it introduced a striking possibility—that the heavens might contain powerful bodies invisible to sight yet detectable through their effects on visible companions."
   },
   "instrument": {
-    "title": "The Academy Proceedings",
-    "copy": "The crucial record of the event was not a laboratory device but a printed scientific proceeding: the Royal Prussian Academy’s 1915 volume preserved Einstein’s paper, its date, title, equations, and argument. That document is the primary surviving scientific record of the 25 November presentation and submission."
+    "title": "The Telescope and Prism as Stellar Probes",
+    "copy": "Michell’s paper treated the telescope and prism as instruments for studying how gravity might affect starlight. His proposed astronomical test was never a successful detection of a dark star, but it reflected an important historical shift: instruments could be used not only to see celestial bodies directly, but also to infer unseen bodies from changes in light and orbital motion."
   },
-  "updated": "2026-11-25"
+  "updated": "2026-11-27"
 };
